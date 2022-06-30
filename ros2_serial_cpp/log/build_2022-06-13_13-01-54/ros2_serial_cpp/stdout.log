@@ -1,0 +1,24 @@
+[35m[1mScanning dependencies of target modelado[0m
+[ 50%] Built target driver_controller
+[ 75%] [32mBuilding CXX object CMakeFiles/modelado.dir/src/modelado.cpp.o[0m
+[100%] [32m[1mLinking CXX executable modelado[0m
+[100%] Built target modelado
+-- Install configuration: ""
+-- Up-to-date: /home/robogait/ros2_serial_cpp/install/ros2_serial_cpp/lib/ros2_serial_cpp/driver_controller
+-- Installing: /home/robogait/ros2_serial_cpp/install/ros2_serial_cpp/lib/ros2_serial_cpp/modelado
+-- Set runtime path of "/home/robogait/ros2_serial_cpp/install/ros2_serial_cpp/lib/ros2_serial_cpp/modelado" to ""
+-- Up-to-date: /home/robogait/ros2_serial_cpp/install/ros2_serial_cpp/share/ament_index/resource_index/package_run_dependencies/ros2_serial_cpp
+-- Installing: /home/robogait/ros2_serial_cpp/install/ros2_serial_cpp/share/ament_index/resource_index/parent_prefix_path/ros2_serial_cpp
+-- Up-to-date: /home/robogait/ros2_serial_cpp/install/ros2_serial_cpp/share/ros2_serial_cpp/environment/ament_prefix_path.sh
+-- Installing: /home/robogait/ros2_serial_cpp/install/ros2_serial_cpp/share/ros2_serial_cpp/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/robogait/ros2_serial_cpp/install/ros2_serial_cpp/share/ros2_serial_cpp/environment/path.sh
+-- Installing: /home/robogait/ros2_serial_cpp/install/ros2_serial_cpp/share/ros2_serial_cpp/environment/path.dsv
+-- Up-to-date: /home/robogait/ros2_serial_cpp/install/ros2_serial_cpp/share/ros2_serial_cpp/local_setup.bash
+-- Up-to-date: /home/robogait/ros2_serial_cpp/install/ros2_serial_cpp/share/ros2_serial_cpp/local_setup.sh
+-- Up-to-date: /home/robogait/ros2_serial_cpp/install/ros2_serial_cpp/share/ros2_serial_cpp/local_setup.zsh
+-- Installing: /home/robogait/ros2_serial_cpp/install/ros2_serial_cpp/share/ros2_serial_cpp/local_setup.dsv
+-- Installing: /home/robogait/ros2_serial_cpp/install/ros2_serial_cpp/share/ros2_serial_cpp/package.dsv
+-- Up-to-date: /home/robogait/ros2_serial_cpp/install/ros2_serial_cpp/share/ament_index/resource_index/packages/ros2_serial_cpp
+-- Up-to-date: /home/robogait/ros2_serial_cpp/install/ros2_serial_cpp/share/ros2_serial_cpp/cmake/ros2_serial_cppConfig.cmake
+-- Up-to-date: /home/robogait/ros2_serial_cpp/install/ros2_serial_cpp/share/ros2_serial_cpp/cmake/ros2_serial_cppConfig-version.cmake
+-- Up-to-date: /home/robogait/ros2_serial_cpp/install/ros2_serial_cpp/share/ros2_serial_cpp/package.xml

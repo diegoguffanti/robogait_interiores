@@ -1,0 +1,26 @@
+[0.013s] Invoking command in '/home/robogait/catkin_ws/build/pkg_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/ros2_ws/install/nav2_project:/home/robogait/nav2_ws/install/nav2_gazebo_spawner:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/catkin_ws/build/pkg_navigation -- -j8 -l8
+[0.061s] [35m[1mScanning dependencies of target robot_controller[0m
+[0.075s] [ 20%] Built target publisher_initial_pose
+[0.075s] [ 40%] Built target tf2_broadcaster
+[0.079s] [ 70%] Built target publisher_subscriber
+[0.079s] [ 80%] Built target robot_odom_tf2_listener
+[0.082s] [ 90%] [32mBuilding CXX object CMakeFiles/robot_controller.dir/src/robot_controller.cpp.o[0m
+[0.918s] [01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller.cpp:[m[K In member function ‘[01m[Kvoid generic::loop()[m[K’:
+[0.918s] [01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller.cpp:110:28:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Ktf2::Quaternion::operator-(tf2::Quaternion*)[m[K’
+[0.918s]   110 |         q3=q1.operator-(&q2[01;31m[K)[m[K;
+[0.918s]       |                            [01;31m[K^[m[K
+[0.918s] In file included from [01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller.cpp:16[m[K:
+[0.918s] [01m[K/opt/ros/foxy/include/tf2/LinearMath/Quaternion.h:277:2:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktf2::Quaternion tf2::Quaternion::operator-(const tf2::Quaternion&) const[m[K’
+[0.918s]   277 |  [01;36m[Koperator[m[K-(const Quaternion& q2) const
+[0.918s]       |  [01;36m[K^~~~~~~~[m[K
+[0.918s] [01m[K/opt/ros/foxy/include/tf2/LinearMath/Quaternion.h:277:30:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Ktf2::Quaternion*[m[K’ to ‘[01m[Kconst tf2::Quaternion&[m[K’
+[0.918s]   277 |  operator-([01;36m[Kconst Quaternion& q2[m[K) const
+[0.918s]       |            [01;36m[K~~~~~~~~~~~~~~~~~~^~[m[K
+[0.919s] [01m[K/opt/ros/foxy/include/tf2/LinearMath/Quaternion.h:285:34:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktf2::Quaternion tf2::Quaternion::operator-() const[m[K’
+[0.919s]   285 |  TF2SIMD_FORCE_INLINE Quaternion [01;36m[Koperator[m[K-() const
+[0.919s]       |                                  [01;36m[K^~~~~~~~[m[K
+[0.919s] [01m[K/opt/ros/foxy/include/tf2/LinearMath/Quaternion.h:285:34:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+[2.219s] make[2]: *** [CMakeFiles/robot_controller.dir/build.make:63: CMakeFiles/robot_controller.dir/src/robot_controller.cpp.o] Error 1
+[2.220s] make[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/robot_controller.dir/all] Error 2
+[2.220s] make: *** [Makefile:141: all] Error 2
+[2.221s] Invoked command in '/home/robogait/catkin_ws/build/pkg_navigation' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/ros2_ws/install/nav2_project:/home/robogait/nav2_ws/install/nav2_gazebo_spawner:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/catkin_ws/build/pkg_navigation -- -j8 -l8

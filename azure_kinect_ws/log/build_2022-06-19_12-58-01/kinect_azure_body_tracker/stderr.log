@@ -1,0 +1,20 @@
+In file included from [01m[K/home/robogait/azure_kinect_ws/src/kinect_azure_body_tracker/src/kinectAzure_body_tracker_node_full_processing.cpp:23[m[K:
+[01m[K/home/robogait/azure_kinect_ws/src/kinect_azure_body_tracker/src/csvProcessing.cpp:[m[K In function ‘[01m[Kbool predict_joints(char*, int, int, k4abt_tracker_t, k4a_capture_t)[m[K’:
+[01m[K/home/robogait/azure_kinect_ws/src/kinect_azure_body_tracker/src/csvProcessing.cpp:56:9:[m[K [01;31m[Kerror: [m[K‘[01m[KVERIFY[m[K’ was not declared in this scope
+   56 |         [01;31m[KVERIFY[m[K(k4abt_frame_get_body_skeleton(body_frame, i, &skeleton), "Get body from body frame failed!");
+      |         [01;31m[K^~~~~~[m[K
+[01m[K/home/robogait/azure_kinect_ws/src/kinect_azure_body_tracker/src/csvProcessing.cpp:57:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kbody_id[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   57 |         int [01;35m[Kbody_id[m[K = k4abt_frame_get_body_id(body_frame, i);
+      |             [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/robogait/azure_kinect_ws/src/kinect_azure_body_tracker/src/kinectAzure_body_tracker_node_full_processing.cpp:23[m[K:
+[01m[K/home/robogait/azure_kinect_ws/src/kinect_azure_body_tracker/src/csvProcessing.cpp:34:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Knum_bodies[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   34 |     uint32_t [01;35m[Knum_bodies[m[K = k4abt_frame_get_num_bodies(body_frame);
+      |              [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/robogait/azure_kinect_ws/src/kinect_azure_body_tracker/src/csvProcessing.cpp:17:44:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kframe_count[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   17 | bool predict_joints(char* myfile_name, [01;35m[Kint frame_count[m[K, int cabecera, k4abt_tracker_t tracker, k4a_capture_t capture_handle)
+      |                                        [01;35m[K~~~~^~~~~~~~~~~[m[K
+At global scope:
+[01m[Kcc1plus:[m[K [01;35m[Kwarning: [m[Kunrecognized command line option ‘[01m[K-Wno-dev[m[K’
+make[2]: *** [CMakeFiles/kinect_azure_body_tracker_node_full_processing.dir/build.make:63: CMakeFiles/kinect_azure_body_tracker_node_full_processing.dir/src/kinectAzure_body_tracker_node_full_processing.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:86: CMakeFiles/kinect_azure_body_tracker_node_full_processing.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

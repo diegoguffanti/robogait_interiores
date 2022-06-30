@@ -1,0 +1,12 @@
+[ 40%] Built target tf2_broadcaster
+[ 40%] Built target publisher_subscriber
+[ 40%] Built target tf2_broadcaster_person
+[ 45%] Built target tf2_broadcaster_camera
+[ 45%] Built target robot_controller
+[ 54%] Built target publisher_initial_pose
+[ 63%] Built target robot_odom_tf2_listener
+[ 72%] Built target robot_controller_position
+[35m[1mScanning dependencies of target camera_controller[0m
+[ 90%] Built target person_odom_tf2_listener
+[ 90%] Built target robot_controller_straight
+[ 95%] [32mBuilding CXX object CMakeFiles/camera_controller.dir/src/camera_controller.cpp.o[0m

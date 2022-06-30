@@ -1,0 +1,8 @@
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller.cpp:[m[K In member function ‘[01m[Kvoid generic::loop()[m[K’:
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller.cpp:118:9:[m[K [01;31m[Kerror: [m[K‘[01m[Km3_err[m[K’ was not declared in this scope; did you mean ‘[01m[Km_err[m[K’?
+  118 |         [01;31m[Km3_err[m[K.getRPY(roll_err, pitch_err, yaw_err);
+      |         [01;31m[K^~~~~~[m[K
+      |         [32m[Km_err[m[K
+make[2]: *** [CMakeFiles/robot_controller.dir/build.make:63: CMakeFiles/robot_controller.dir/src/robot_controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/robot_controller.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

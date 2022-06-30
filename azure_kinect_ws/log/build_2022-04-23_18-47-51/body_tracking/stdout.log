@@ -1,0 +1,37 @@
+[35m[1mScanning dependencies of target talker[0m
+[35m[1mScanning dependencies of target listener[0m
+[  4%] Built target body_tracking_node
+[ 13%] Built target body_tracking__rosidl_generator_c
+[ 15%] Built target body_tracking__cpp
+[ 22%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 22%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 24%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 22%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 26%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[35m[1mScanning dependencies of target body_tracking__rosidl_typesupport_fastrtps_cpp[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/body_tracking__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/body_tracking/msg/detail/dds_fastrtps/hip_coordinates__type_support.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/body_tracking__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/body_tracking/msg/detail/dds_fastrtps/num__type_support.cpp.o[0m
+[35m[1mScanning dependencies of target body_tracking__rosidl_typesupport_c[0m
+[35m[1mScanning dependencies of target body_tracking__rosidl_typesupport_cpp[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/body_tracking__rosidl_typesupport_c.dir/rosidl_typesupport_c/body_tracking/msg/num__type_support.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/body_tracking__rosidl_typesupport_c.dir/rosidl_typesupport_c/body_tracking/msg/hip_coordinates__type_support.cpp.o[0m
+[35m[1mScanning dependencies of target body_tracking__rosidl_typesupport_introspection_cpp[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/body_tracking__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/body_tracking/msg/num__type_support.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/body_tracking__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/body_tracking/msg/hip_coordinates__type_support.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/body_tracking__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/body_tracking/msg/detail/num__type_support.cpp.o[0m
+[ 48%] [32m[1mLinking CXX shared library libbody_tracking__rosidl_typesupport_c.so[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/body_tracking__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/body_tracking/msg/detail/hip_coordinates__type_support.cpp.o[0m
+[35m[1mScanning dependencies of target body_tracking__rosidl_typesupport_introspection_c[0m
+[ 53%] [32mBuilding C object CMakeFiles/body_tracking__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/body_tracking/msg/detail/num__type_support.c.o[0m
+[ 53%] Built target body_tracking__rosidl_typesupport_c
+[ 55%] [32mBuilding C object CMakeFiles/body_tracking__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/body_tracking/msg/detail/hip_coordinates__type_support.c.o[0m
+[ 57%] [32m[1mLinking C shared library libbody_tracking__rosidl_typesupport_introspection_c.so[0m
+[ 57%] Built target body_tracking__rosidl_typesupport_introspection_c
+[ 60%] [32m[1mLinking CXX shared library libbody_tracking__rosidl_typesupport_cpp.so[0m
+[ 62%] [32m[1mLinking CXX shared library libbody_tracking__rosidl_typesupport_introspection_cpp.so[0m
+[ 62%] Built target body_tracking__rosidl_typesupport_cpp
+[ 62%] Built target body_tracking__rosidl_typesupport_introspection_cpp
+[ 64%] [32m[1mLinking CXX shared library libbody_tracking__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 64%] Built target body_tracking__rosidl_typesupport_fastrtps_cpp

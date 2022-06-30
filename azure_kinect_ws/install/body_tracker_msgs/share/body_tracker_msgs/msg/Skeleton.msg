@@ -1,0 +1,1 @@
+/home/robogait/azure_kinect_ws/src/body_tracker_msgs/msg/Skeleton.msg

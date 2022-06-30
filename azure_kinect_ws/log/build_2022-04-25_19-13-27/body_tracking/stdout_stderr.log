@@ -1,0 +1,32 @@
+[35m[1mScanning dependencies of target prueba_talker[0m
+[  5%] Built target body_tracking__cpp
+[  7%] Built target body_tracking_node
+[ 15%] Built target body_tracking__rosidl_generator_c
+[ 25%] Built target listener
+[ 25%] Built target talker
+[ 33%] Built target body_tracking__rosidl_typesupport_introspection_cpp
+[ 35%] [32mBuilding CXX object CMakeFiles/prueba_talker.dir/src/main.cpp.o[0m
+[ 43%] Built target body_tracking__rosidl_typesupport_cpp
+[ 51%] Built target body_tracking__rosidl_typesupport_fastrtps_cpp
+[ 66%] Built target body_tracking__rosidl_typesupport_c
+[ 66%] Built target body_tracking__rosidl_typesupport_introspection_c
+[ 74%] Built target body_tracking__rosidl_typesupport_fastrtps_c
+[ 74%] Built target body_tracking
+[ 76%] Built target body_tracking__py
+[ 82%] Built target body_tracking__python
+[ 97%] Built target body_tracking__rosidl_typesupport_c__pyext
+[ 97%] Built target body_tracking__rosidl_typesupport_fastrtps_c__pyext
+[ 97%] Built target body_tracking__rosidl_typesupport_introspection_c__pyext
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:212:2:[m[K [01;31m[Kerror: [m[Knon-static data member declared with placeholder ‘[01m[Kauto[m[K’
+  212 |  [01;31m[Kauto[m[K message = body_tracking::msg::HipCoordinates();
+      |  [01;31m[K^~~~[m[K
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:74:11:[m[K [01;31m[Kerror: [m[K‘[01m[Ktotal_success_body_count[m[K’ was not declared in this scope
+   74 |           [01;31m[Ktotal_success_body_count[m[K += num_bodies;
+      |           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:127:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kbody[m[K’ was not declared in this scope
+  127 |   k4a_float3_t position = [01;31m[Kbody[m[K.skeleton.joints[coordenadaCadera].position;
+      |                           [01;31m[K^~~~[m[K
+make[2]: *** [CMakeFiles/prueba_talker.dir/build.make:63: CMakeFiles/prueba_talker.dir/src/main.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:325: CMakeFiles/prueba_talker.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

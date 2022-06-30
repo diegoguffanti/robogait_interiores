@@ -1,0 +1,4 @@
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller.cpp:[m[K In member function ‘[01m[Kvoid generic::callback_control_nav(geometry_msgs::msg::Twist_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller.cpp:86:75:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   86 |      void callback_control_nav([01;35m[Kconst geometry_msgs::msg::Twist::SharedPtr msg[m[K)
+      |                                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K

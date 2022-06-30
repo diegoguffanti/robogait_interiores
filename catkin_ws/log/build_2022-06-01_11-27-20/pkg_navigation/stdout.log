@@ -1,0 +1,46 @@
+[35m[1mScanning dependencies of target publisher_initial_pose[0m
+[ 66%] Built target tf2_broadcaster
+[ 66%] Built target publisher_subscriber
+[ 83%] [32mBuilding CXX object CMakeFiles/publisher_initial_pose.dir/src/publisher_initial_pose.cpp.o[0m
+[100%] [32m[1mLinking CXX executable publisher_initial_pose[0m
+[100%] Built target publisher_initial_pose
+-- Install configuration: ""
+-- Up-to-date: /home/robogait/catkin_ws/install/pkg_navigation/lib/pkg_navigation/publisher_subscriber
+-- Up-to-date: /home/robogait/catkin_ws/install/pkg_navigation/lib/pkg_navigation/tf2_broadcaster
+-- Installing: /home/robogait/catkin_ws/install/pkg_navigation/lib/pkg_navigation/publisher_initial_pose
+-- Set runtime path of "/home/robogait/catkin_ws/install/pkg_navigation/lib/pkg_navigation/publisher_initial_pose" to ""
+-- Up-to-date: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/launch
+-- Up-to-date: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/launch/map_server_launch.py
+-- Up-to-date: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/launch/map_server_launch_2.py
+-- Up-to-date: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/launch/localization_launch.py
+-- Up-to-date: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/launch/__pycache__
+-- Up-to-date: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/launch/__pycache__/turtlesim_mimic_launch.cpython-38.pyc
+-- Up-to-date: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/launch/online_async_launch.py
+-- Up-to-date: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/launch/mapping_launch.py
+-- Up-to-date: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/rviz
+-- Up-to-date: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/rviz/rviz_config.rviz
+-- Up-to-date: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/config
+-- Up-to-date: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/config/map_server_params.yaml
+-- Up-to-date: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/config/mapper_params_online_async.yaml
+-- Up-to-date: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/config/nav2.yaml
+-- Up-to-date: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/config/nav2_params.yaml
+-- Up-to-date: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/maps
+-- Up-to-date: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/maps/map_laboratory.pgm
+-- Up-to-date: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/maps/map.pgm
+-- Up-to-date: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/maps/map_laboratory.yaml
+-- Up-to-date: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/maps/map.yaml
+-- Up-to-date: /home/robogait/catkin_ws/install/pkg_navigation/share/ament_index/resource_index/package_run_dependencies/pkg_navigation
+-- Installing: /home/robogait/catkin_ws/install/pkg_navigation/share/ament_index/resource_index/parent_prefix_path/pkg_navigation
+-- Up-to-date: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/environment/ament_prefix_path.sh
+-- Installing: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/environment/path.sh
+-- Installing: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/environment/path.dsv
+-- Up-to-date: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/local_setup.bash
+-- Up-to-date: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/local_setup.sh
+-- Up-to-date: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/local_setup.zsh
+-- Installing: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/local_setup.dsv
+-- Installing: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/package.dsv
+-- Up-to-date: /home/robogait/catkin_ws/install/pkg_navigation/share/ament_index/resource_index/packages/pkg_navigation
+-- Up-to-date: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/cmake/pkg_navigationConfig.cmake
+-- Up-to-date: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/cmake/pkg_navigationConfig-version.cmake
+-- Up-to-date: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/package.xml

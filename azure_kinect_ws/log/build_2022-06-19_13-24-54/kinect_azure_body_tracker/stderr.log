@@ -1,0 +1,23 @@
+[01m[K/home/robogait/azure_kinect_ws/src/kinect_azure_body_tracker/src/kinectAzure_body_tracker_node_full_processing.cpp:[m[K In constructor ‘[01m[KMinimalPublisher::MinimalPublisher()[m[K’:
+[01m[K/home/robogait/azure_kinect_ws/src/kinect_azure_body_tracker/src/kinectAzure_body_tracker_node_full_processing.cpp:46:108:[m[K [01;31m[Kerror: [m[K‘[01m[KprocessingName[m[K’ was not declared in this scope; did you mean ‘[01m[KprocessedName[m[K’?
+   46 |   printf("Ha acabado la grabación, ahora paso a procesarla generando un archivo csv, almacenado en %s\n", [01;31m[KprocessingName[m[K);
+      |                                                                                                            [01;31m[K^~~~~~~~~~~~~~[m[K
+      |                                                                                                            [32m[KprocessedName[m[K
+[01m[K/home/robogait/azure_kinect_ws/src/kinect_azure_body_tracker/src/kinectAzure_body_tracker_node_full_processing.cpp:47:16:[m[K [01;31m[Kerror: [m[K‘[01m[KrecordingName[m[K’ was not declared in this scope; did you mean ‘[01m[KrecordName[m[K’?
+   47 |   processVideo([01;31m[KrecordingName[m[K, processingName);
+      |                [01;31m[K^~~~~~~~~~~~~[m[K
+      |                [32m[KrecordName[m[K
+[01m[K/home/robogait/azure_kinect_ws/src/kinect_azure_body_tracker/src/kinectAzure_body_tracker_node_full_processing.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::Init()[m[K’:
+[01m[K/home/robogait/azure_kinect_ws/src/kinect_azure_body_tracker/src/kinectAzure_body_tracker_node_full_processing.cpp:242:11:[m[K [01;31m[Kerror: [m[K‘[01m[KrecordingName[m[K’ was not declared in this scope; did you mean ‘[01m[KrecordName[m[K’?
+  242 |   sprintf([01;31m[KrecordingName[m[K, "%s%s.mkv", recordingPath, fileName);
+      |           [01;31m[K^~~~~~~~~~~~~[m[K
+      |           [32m[KrecordName[m[K
+[01m[K/home/robogait/azure_kinect_ws/src/kinect_azure_body_tracker/src/kinectAzure_body_tracker_node_full_processing.cpp:254:11:[m[K [01;31m[Kerror: [m[K‘[01m[KprocessingName[m[K’ was not declared in this scope; did you mean ‘[01m[KprocessedName[m[K’?
+  254 |   sprintf([01;31m[KprocessingName[m[K, "%s%s.csv", processingPath, fileName);
+      |           [01;31m[K^~~~~~~~~~~~~~[m[K
+      |           [32m[KprocessedName[m[K
+At global scope:
+[01m[Kcc1plus:[m[K [01;35m[Kwarning: [m[Kunrecognized command line option ‘[01m[K-Wno-dev[m[K’
+make[2]: *** [CMakeFiles/kinect_azure_body_tracker_node_full_processing.dir/build.make:63: CMakeFiles/kinect_azure_body_tracker_node_full_processing.dir/src/kinectAzure_body_tracker_node_full_processing.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:86: CMakeFiles/kinect_azure_body_tracker_node_full_processing.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,24 @@
+[0.007s] Invoking command in '/home/robogait/azure_kinect_ws/build/body_tracking': /usr/bin/cmake --build /home/robogait/azure_kinect_ws/build/body_tracking -- -j8 -l8
+[0.024s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.038s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.122s] Traceback (most recent call last):
+[0.122s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>
+[0.122s]     from ament_package.templates import get_environment_hook_template_path
+[0.122s] ModuleNotFoundError: No module named 'ament_package'
+[0.136s] CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):
+[0.136s]   execute_process(/usr/bin/python3
+[0.137s]   /opt/ros/foxy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py
+[0.137s]   /home/robogait/azure_kinect_ws/build/body_tracking/ament_cmake_package_templates/templates.cmake)
+[0.137s]   returned error code 1
+[0.137s] Call Stack (most recent call first):
+[0.137s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.137s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.137s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.137s]   CMakeLists.txt:20 (find_package)
+[0.137s] 
+[0.137s] 
+[0.137s] -- Configuring incomplete, errors occurred!
+[0.137s] See also "/home/robogait/azure_kinect_ws/build/body_tracking/CMakeFiles/CMakeOutput.log".
+[0.137s] See also "/home/robogait/azure_kinect_ws/build/body_tracking/CMakeFiles/CMakeError.log".
+[0.138s] make: *** [Makefile:924: cmake_check_build_system] Error 1
+[0.141s] Invoked command in '/home/robogait/azure_kinect_ws/build/body_tracking' returned '2': /usr/bin/cmake --build /home/robogait/azure_kinect_ws/build/body_tracking -- -j8 -l8

@@ -1,0 +1,2 @@
+Invoking command in '/home/robogait/azure_kinect_ws/build/body_tracking': /usr/bin/cmake --build /home/robogait/azure_kinect_ws/build/body_tracking -- -j8 -l8
+Invoked command in '/home/robogait/azure_kinect_ws/build/body_tracking' returned '2': /usr/bin/cmake --build /home/robogait/azure_kinect_ws/build/body_tracking -- -j8 -l8

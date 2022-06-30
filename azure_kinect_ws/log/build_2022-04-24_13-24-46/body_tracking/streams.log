@@ -1,0 +1,23 @@
+[0.010s] Invoking command in '/home/robogait/azure_kinect_ws/build/body_tracking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/azure_kinect_ws/build/body_tracking -- -j8 -l8
+[0.029s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.043s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.144s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.163s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.165s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.236s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.264s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.265s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.348s] -- Found body_tracking: 0.0.0 (/home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/cmake)
+[0.352s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.360s] CMake Error at /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:40 (message):
+[0.360s]   rosidl_target_interfaces() the second argument 'body_tracking' must be a
+[0.360s]   valid target name
+[0.360s] Call Stack (most recent call first):
+[0.360s]   CMakeLists.txt:55 (rosidl_target_interfaces)
+[0.360s] 
+[0.360s] 
+[0.361s] -- Configuring incomplete, errors occurred!
+[0.361s] See also "/home/robogait/azure_kinect_ws/build/body_tracking/CMakeFiles/CMakeOutput.log".
+[0.361s] See also "/home/robogait/azure_kinect_ws/build/body_tracking/CMakeFiles/CMakeError.log".
+[0.365s] make: *** [Makefile:924: cmake_check_build_system] Error 1
+[0.366s] Invoked command in '/home/robogait/azure_kinect_ws/build/body_tracking' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/azure_kinect_ws/build/body_tracking -- -j8 -l8

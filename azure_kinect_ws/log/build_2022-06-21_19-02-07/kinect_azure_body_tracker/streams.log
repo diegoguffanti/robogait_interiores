@@ -1,0 +1,42 @@
+[0.025s] Invoking command in '/home/robogait/azure_kinect_ws/build/kinect_azure_body_tracker': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/nav2_ws/install/nav2_gazebo_spawner:/home/robogait/ros2_serial/install/ourbotmanager:/home/robogait/ros2_ws/install/nav2_project:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/azure_kinect_ws/build/kinect_azure_body_tracker -- -j8 -l8
+[0.076s] [35m[1mScanning dependencies of target kinect_azure_body_tracker_recording_node_simplified[0m
+[0.113s] [ 16%] Built target kinect_azure_body_tracker_recording_node
+[0.117s] [ 33%] Built target kinect_azure_body_tracker_node_simplified
+[0.117s] [ 50%] Built target kinect_azure_body_tracker_node
+[0.118s] [ 66%] Built target kinect_azure_body_tracker_node_finite
+[0.121s] [ 83%] Built target kinect_azure_body_tracker_node_full_processing
+[0.129s] [ 91%] [32mBuilding CXX object CMakeFiles/kinect_azure_body_tracker_recording_node_simplified.dir/src/kinectAzure_body_tracker_node_plus_recording_simplified.cpp.o[0m
+[1.925s] [100%] [32m[1mLinking CXX executable kinect_azure_body_tracker_recording_node_simplified[0m
+[2.037s] [100%] Built target kinect_azure_body_tracker_recording_node_simplified
+[2.049s] Invoked command in '/home/robogait/azure_kinect_ws/build/kinect_azure_body_tracker' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/nav2_ws/install/nav2_gazebo_spawner:/home/robogait/ros2_serial/install/ourbotmanager:/home/robogait/ros2_ws/install/nav2_project:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/azure_kinect_ws/build/kinect_azure_body_tracker -- -j8 -l8
+[2.096s] Invoking command in '/home/robogait/azure_kinect_ws/build/kinect_azure_body_tracker': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/nav2_ws/install/nav2_gazebo_spawner:/home/robogait/ros2_serial/install/ourbotmanager:/home/robogait/ros2_ws/install/nav2_project:/opt/ros/foxy /usr/bin/cmake --install /home/robogait/azure_kinect_ws/build/kinect_azure_body_tracker
+[2.105s] -- Install configuration: ""
+[2.105s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/kinect_azure_body_tracker/lib/kinect_azure_body_tracker/kinect_azure_body_tracker_node
+[2.105s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/kinect_azure_body_tracker/lib/kinect_azure_body_tracker/kinect_azure_body_tracker_recording_node
+[2.105s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/kinect_azure_body_tracker/lib/kinect_azure_body_tracker/kinect_azure_body_tracker_node_simplified
+[2.105s] -- Installing: /home/robogait/azure_kinect_ws/install/kinect_azure_body_tracker/lib/kinect_azure_body_tracker/kinect_azure_body_tracker_recording_node_simplified
+[2.106s] -- Set runtime path of "/home/robogait/azure_kinect_ws/install/kinect_azure_body_tracker/lib/kinect_azure_body_tracker/kinect_azure_body_tracker_recording_node_simplified" to ""
+[2.106s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/kinect_azure_body_tracker/lib/kinect_azure_body_tracker/kinect_azure_body_tracker_node_full_processing
+[2.106s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/kinect_azure_body_tracker/lib/kinect_azure_body_tracker/kinect_azure_body_tracker_node_finite
+[2.107s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/kinect_azure_body_tracker/lib/kinect_azure_body_tracker/kinect_azure_body_tracker_node
+[2.107s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/kinect_azure_body_tracker/lib/kinect_azure_body_tracker/kinect_azure_body_tracker_recording_node
+[2.107s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/kinect_azure_body_tracker/lib/kinect_azure_body_tracker/kinect_azure_body_tracker_node_simplified
+[2.107s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/kinect_azure_body_tracker/lib/kinect_azure_body_tracker/kinect_azure_body_tracker_recording_node_simplified
+[2.108s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/kinect_azure_body_tracker/lib/kinect_azure_body_tracker/kinect_azure_body_tracker_node_full_processing
+[2.108s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/kinect_azure_body_tracker/lib/kinect_azure_body_tracker/kinect_azure_body_tracker_node_finite
+[2.108s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/kinect_azure_body_tracker/share/ament_index/resource_index/package_run_dependencies/kinect_azure_body_tracker
+[2.108s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/kinect_azure_body_tracker/share/ament_index/resource_index/parent_prefix_path/kinect_azure_body_tracker
+[2.108s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/kinect_azure_body_tracker/share/kinect_azure_body_tracker/environment/ament_prefix_path.sh
+[2.108s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/kinect_azure_body_tracker/share/kinect_azure_body_tracker/environment/ament_prefix_path.dsv
+[2.108s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/kinect_azure_body_tracker/share/kinect_azure_body_tracker/environment/path.sh
+[2.108s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/kinect_azure_body_tracker/share/kinect_azure_body_tracker/environment/path.dsv
+[2.108s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/kinect_azure_body_tracker/share/kinect_azure_body_tracker/local_setup.bash
+[2.108s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/kinect_azure_body_tracker/share/kinect_azure_body_tracker/local_setup.sh
+[2.108s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/kinect_azure_body_tracker/share/kinect_azure_body_tracker/local_setup.zsh
+[2.108s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/kinect_azure_body_tracker/share/kinect_azure_body_tracker/local_setup.dsv
+[2.109s] -- Installing: /home/robogait/azure_kinect_ws/install/kinect_azure_body_tracker/share/kinect_azure_body_tracker/package.dsv
+[2.109s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/kinect_azure_body_tracker/share/ament_index/resource_index/packages/kinect_azure_body_tracker
+[2.109s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/kinect_azure_body_tracker/share/kinect_azure_body_tracker/cmake/kinect_azure_body_trackerConfig.cmake
+[2.109s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/kinect_azure_body_tracker/share/kinect_azure_body_tracker/cmake/kinect_azure_body_trackerConfig-version.cmake
+[2.109s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/kinect_azure_body_tracker/share/kinect_azure_body_tracker/package.xml
+[2.111s] Invoked command in '/home/robogait/azure_kinect_ws/build/kinect_azure_body_tracker' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/nav2_ws/install/nav2_gazebo_spawner:/home/robogait/ros2_serial/install/ourbotmanager:/home/robogait/ros2_ws/install/nav2_project:/opt/ros/foxy /usr/bin/cmake --install /home/robogait/azure_kinect_ws/build/kinect_azure_body_tracker

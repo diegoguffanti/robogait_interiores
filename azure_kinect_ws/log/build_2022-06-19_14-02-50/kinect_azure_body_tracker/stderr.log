@@ -1,0 +1,9 @@
+In file included from [01m[K/home/robogait/azure_kinect_ws/src/kinect_azure_body_tracker/src/kinectAzure_body_tracker_node_full_processing.cpp:23[m[K:
+[01m[K/home/robogait/azure_kinect_ws/src/kinect_azure_body_tracker/src/csvProcessing.cpp:[m[K In function ‘[01m[Kbool process_mkv_offline(const char*, const char*, bool, k4abt_tracker_configuration_t)[m[K’:
+[01m[K/home/robogait/azure_kinect_ws/src/kinect_azure_body_tracker/src/csvProcessing.cpp:139:29:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 4 has type ‘[01m[Kstd::_Put_time<char>[m[K’ [[01;35m[K-Wformat=[m[K]
+  139 |        sprintf(csvName, "%s[01;35m[K%s[m[K.csv", output_path, [32m[Kstd::put_time(std::localtime(&in_time_t), "%Y_%m_%d_%X")[m[K);
+      |                            [01;35m[K~^[m[K                    [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                             [01;35m[K|[m[K                                 [32m[K|[m[K
+      |                             [01;35m[Kchar*[m[K                             [32m[Kstd::_Put_time<char>[m[K
+At global scope:
+[01m[Kcc1plus:[m[K [01;35m[Kwarning: [m[Kunrecognized command line option ‘[01m[K-Wno-dev[m[K’

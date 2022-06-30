@@ -1,0 +1,18 @@
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller.cpp:[m[K In member function ‘[01m[Kvoid generic::loop()[m[K’:
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller.cpp:110:28:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Ktf2::Quaternion::operator-(tf2::Quaternion*)[m[K’
+  110 |         q3=q1.operator-(&q2[01;31m[K)[m[K;
+      |                            [01;31m[K^[m[K
+In file included from [01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller.cpp:16[m[K:
+[01m[K/opt/ros/foxy/include/tf2/LinearMath/Quaternion.h:277:2:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktf2::Quaternion tf2::Quaternion::operator-(const tf2::Quaternion&) const[m[K’
+  277 |  [01;36m[Koperator[m[K-(const Quaternion& q2) const
+      |  [01;36m[K^~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/tf2/LinearMath/Quaternion.h:277:30:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Ktf2::Quaternion*[m[K’ to ‘[01m[Kconst tf2::Quaternion&[m[K’
+  277 |  operator-([01;36m[Kconst Quaternion& q2[m[K) const
+      |            [01;36m[K~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/opt/ros/foxy/include/tf2/LinearMath/Quaternion.h:285:34:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktf2::Quaternion tf2::Quaternion::operator-() const[m[K’
+  285 |  TF2SIMD_FORCE_INLINE Quaternion [01;36m[Koperator[m[K-() const
+      |                                  [01;36m[K^~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/tf2/LinearMath/Quaternion.h:285:34:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+make[2]: *** [CMakeFiles/robot_controller.dir/build.make:63: CMakeFiles/robot_controller.dir/src/robot_controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/robot_controller.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

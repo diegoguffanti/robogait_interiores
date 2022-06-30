@@ -1,0 +1,9 @@
+[35m[1mScanning dependencies of target driver_controller[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/driver_controller.dir/src/driver_controller.cpp.o[0m
+[01m[K/home/robogait/ros2_serial_cpp/src/driver_controller.cpp:[m[K In member function ‘[01m[Kvoid driver_controller::loop()[m[K’:
+[01m[K/home/robogait/ros2_serial_cpp/src/driver_controller.cpp:131:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<rclcpp::Clock>[m[K’ {aka ‘[01m[Kclass std::shared_ptr<rclcpp::Clock>[m[K’} has no member named ‘[01m[Know[m[K’
+  131 |    odom_msg.header.stamp=this->get_clock().[01;31m[Know[m[K().to_msg()
+      |                                            [01;31m[K^~~[m[K
+make[2]: *** [CMakeFiles/driver_controller.dir/build.make:63: CMakeFiles/driver_controller.dir/src/driver_controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/driver_controller.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

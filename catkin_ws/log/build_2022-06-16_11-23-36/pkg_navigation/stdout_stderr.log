@@ -1,0 +1,110 @@
+[35m[1mScanning dependencies of target robot_controller_position[0m
+[35m[1mScanning dependencies of target tf2_broadcaster_person[0m
+[ 14%] Built target robot_controller
+[ 28%] Built target robot_odom_tf2_listener
+[ 42%] Built target tf2_broadcaster
+[ 71%] Built target publisher_initial_pose
+[ 71%] Built target publisher_subscriber
+[ 78%] [32mBuilding CXX object CMakeFiles/robot_controller_position.dir/src/robot_controller_position.cpp.o[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/tf2_broadcaster_person.dir/src/tf2_broadcaster_person.cpp.o[0m
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller_position.cpp:182:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+  182 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller_position.cpp:35:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   35 | [01;36m[K{[m[K
+      | [01;36m[K^[m[K
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller_position.cpp:[m[K In member function ‘[01m[Kvoid generic::callback_odom(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller_position.cpp:76:10:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_pos_x[m[K’ was not declared in this scope
+   76 |          [01;31m[Krobot_pos_x[m[K=msg->pose.pose.position.x;
+      |          [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller_position.cpp:77:10:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_vel_x[m[K’ was not declared in this scope
+   77 |          [01;31m[Krobot_vel_x[m[K=msg->twist.twist.linear.x;
+      |          [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller_position.cpp:[m[K In member function ‘[01m[Kvoid generic::topic_callback_spine_bottom(body_tracker_msgs::msg::SpineBottom_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller_position.cpp:85:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kdistance_person[m[K’ was not declared in this scope
+   85 |        [01;31m[Kdistance_person[m[K=data;
+      |        [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller_position.cpp:[m[K In member function ‘[01m[Kvoid generic::controller()[m[K’:
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller_position.cpp:93:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kdistance_person[m[K’ was not declared in this scope
+   93 |          if([01;31m[Kdistance_person[m[K<4.0){
+      |             [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller_position.cpp:95:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kerror_p[m[K’ was not declared in this scope; did you mean ‘[01m[Kerror_t[m[K’?
+   95 |         [01;31m[Kerror_p[m[K=2.50-distance_person;
+      |         [01;31m[K^~~~~~~[m[K
+      |         [32m[Kerror_t[m[K
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller_position.cpp:99:52:[m[K [01;31m[Kerror: [m[K‘[01m[Kant_time[m[K’ was not declared in this scope
+   99 |               rclcpp::Duration t_spent = time_now -[01;31m[Kant_time[m[K;
+      |                                                    [01;31m[K^~~~~~~~[m[K
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller_position.cpp:102:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kerror_actual[m[K’ was not declared in this scope
+  102 |                [01;31m[Kerror_actual[m[K=error_p;
+      |                [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller_position.cpp:104:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kerror_d[m[K’ was not declared in this scope; did you mean ‘[01m[Kerror_t[m[K’?
+  104 |         [01;31m[Kerror_d[m[K=(error_actual-error_ant)/time_spent;
+      |         [01;31m[K^~~~~~~[m[K
+      |         [32m[Kerror_t[m[K
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller_position.cpp:104:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kerror_ant[m[K’ was not declared in this scope; did you mean ‘[01m[Kerror_t[m[K’?
+  104 |         error_d=(error_actual-[01;31m[Kerror_ant[m[K)/time_spent;
+      |                               [01;31m[K^~~~~~~~~[m[K
+      |                               [32m[Kerror_t[m[K
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller_position.cpp:106:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kerror_i[m[K’ was not declared in this scope; did you mean ‘[01m[Kerror_t[m[K’?
+  106 |         [01;31m[Kerror_i[m[K=error_i+(error_actual*time_spent);
+      |         [01;31m[K^~~~~~~[m[K
+      |         [32m[Kerror_t[m[K
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller_position.cpp:117:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kmax_speed[m[K’ was not declared in this scope
+  117 |         if(control>[01;31m[Kmax_speed[m[K){
+      |                    [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller_position.cpp:120:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kmax_speed[m[K’ was not declared in this scope
+  120 |         if(control<-[01;31m[Kmax_speed[m[K){
+      |                     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller_position.cpp:142:7:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+  142 |       [01;31m[K{[m[K
+      |       [01;31m[K^[m[K
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller_position.cpp:165:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdistance_person[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  165 |        float [01;35m[Kdistance_person[m[K,person_vel,distance_person_ant;
+      |              [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller_position.cpp:165:30:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kperson_vel[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  165 |        float distance_person,[01;35m[Kperson_vel[m[K,distance_person_ant;
+      |                              [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller_position.cpp:165:41:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdistance_person_ant[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  165 |        float distance_person,person_vel,[01;35m[Kdistance_person_ant[m[K;
+      |                                         [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller_position.cpp:166:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Krobot_pos_x[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  166 |        float [01;35m[Krobot_pos_x[m[K, robot_vel_x;
+      |              [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller_position.cpp:166:27:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Krobot_vel_x[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  166 |        float robot_pos_x, [01;35m[Krobot_vel_x[m[K;
+      |                           [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller_position.cpp:167:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Karray[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  167 |        float [01;35m[Karray[m[K[5];
+      |              [01;35m[K^~~~~[m[K
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller_position.cpp:169:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kerror_p[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  169 |        float [01;35m[Kerror_p[m[K,error_actual, error_ant,error_d, error_i;
+      |              [01;35m[K^~~~~~~[m[K
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller_position.cpp:169:22:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kerror_actual[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  169 |        float error_p,[01;35m[Kerror_actual[m[K, error_ant,error_d, error_i;
+      |                      [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller_position.cpp:169:36:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kerror_ant[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  169 |        float error_p,error_actual, [01;35m[Kerror_ant[m[K,error_d, error_i;
+      |                                    [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller_position.cpp:169:46:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kerror_d[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  169 |        float error_p,error_actual, error_ant,[01;35m[Kerror_d[m[K, error_i;
+      |                                              [01;35m[K^~~~~~~[m[K
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller_position.cpp:169:55:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kerror_i[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  169 |        float error_p,error_actual, error_ant,error_d, [01;35m[Kerror_i[m[K;
+      |                                                       [01;35m[K^~~~~~~[m[K
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller_position.cpp:170:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kmax_speed[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  170 |        float [01;35m[Kmax_speed[m[K=1.0;//1.5386;
+      |              [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller_position.cpp:172:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcounter_distances[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  172 |        int [01;35m[Kcounter_distances[m[K=0;
+      |            [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller_position.cpp:[m[K At global scope:
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller_position.cpp:182:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+  182 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/robot_controller_position.dir/build.make:63: CMakeFiles/robot_controller_position.dir/src/robot_controller_position.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:306: CMakeFiles/robot_controller_position.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[ 92%] [32m[1mLinking CXX executable tf2_broadcaster_person[0m
+[ 92%] Built target tf2_broadcaster_person
+make: *** [Makefile:141: all] Error 2

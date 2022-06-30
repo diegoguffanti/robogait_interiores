@@ -1,0 +1,183 @@
+[0.010s] Invoking command in '/home/robogait/azure_kinect_ws/build/body_tracking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/azure_kinect_ws/build/body_tracking -- -j8 -l8
+[0.028s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.042s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.042s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.148s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.167s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.169s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.240s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.269s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.269s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.352s] -- Found body_tracking: 0.0.0 (/home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/cmake)
+[0.356s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.364s] CMake Warning (dev) at CMakeLists.txt:39 (find_package):
+[0.364s]   Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+[0.364s]   Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+[0.364s]   command to set the policy and suppress this warning.
+[0.364s] 
+[0.364s]   CMake variable k4abt_ROOT is set to:
+[0.364s] 
+[0.364s]     /usr
+[0.364s] 
+[0.364s]   For compatibility, CMake is ignoring the variable.
+[0.364s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.364s] 
+[0.380s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[0.451s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[0.508s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.512s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.528s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[0.528s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[0.542s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.542s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[0.542s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[0.551s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.557s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.557s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.558s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/robogait/azure_kinect_ws/src/body_tracking/include>
+[0.558s] -- Configured cppcheck exclude dirs and/or files: 
+[0.558s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.558s] -- Configured cpplint exclude dirs and/or files: 
+[0.559s] -- Added test 'lint_cmake' to check CMake code style
+[0.560s] -- Added test 'uncrustify' to check C / C++ code style
+[0.560s] -- Configured uncrustify additional arguments: 
+[0.560s] -- Added test 'xmllint' to check XML markup files
+[0.562s] -- Configuring done
+[0.584s] -- Generating done
+[0.586s] -- Build files have been written to: /home/robogait/azure_kinect_ws/build/body_tracking
+[0.613s] [  5%] Built target listener
+[0.613s] [  7%] Built target body_tracking__cpp
+[0.613s] [ 12%] Built target body_tracking_node
+[0.614s] [ 20%] Built target body_tracking__rosidl_generator_c
+[0.615s] [ 25%] Built target talker
+[0.620s] [ 30%] Built target prueba_talker
+[0.628s] [ 38%] Built target body_tracking__rosidl_typesupport_cpp
+[0.629s] [ 46%] Built target body_tracking__rosidl_typesupport_introspection_c
+[0.629s] [ 53%] Built target body_tracking__rosidl_typesupport_introspection_cpp
+[0.630s] [ 61%] Built target body_tracking__rosidl_typesupport_c
+[0.633s] [ 69%] Built target body_tracking__rosidl_typesupport_fastrtps_cpp
+[0.649s] [ 76%] Built target body_tracking__rosidl_typesupport_fastrtps_c
+[0.662s] [ 76%] Built target body_tracking
+[0.674s] [ 79%] Built target body_tracking__py
+[0.690s] [ 84%] Built target body_tracking__python
+[0.707s] [100%] Built target body_tracking__rosidl_typesupport_introspection_c__pyext
+[0.707s] [100%] Built target body_tracking__rosidl_typesupport_c__pyext
+[0.707s] [100%] Built target body_tracking__rosidl_typesupport_fastrtps_c__pyext
+[0.715s] Invoked command in '/home/robogait/azure_kinect_ws/build/body_tracking' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/azure_kinect_ws/build/body_tracking -- -j8 -l8
+[0.759s] Invoking command in '/home/robogait/azure_kinect_ws/build/body_tracking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy /usr/bin/cmake --install /home/robogait/azure_kinect_ws/build/body_tracking
+[0.765s] -- Install configuration: ""
+[0.765s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/lib/body_tracking/prueba_talker
+[0.765s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/lib/body_tracking/prueba_talker
+[0.765s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/share/ament_index/resource_index/rosidl_interfaces/body_tracking
+[0.765s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/include/body_tracking
+[0.765s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/include/body_tracking/msg
+[0.765s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/include/body_tracking/msg/rosidl_generator_c__visibility_control.h
+[0.765s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/include/body_tracking/msg/detail
+[0.765s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/include/body_tracking/msg/detail/num__functions.c
+[0.765s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/include/body_tracking/msg/detail/hip_coordinates__functions.c
+[0.766s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/include/body_tracking/msg/detail/num__type_support.h
+[0.766s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/include/body_tracking/msg/detail/hip_coordinates__functions.h
+[0.766s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/include/body_tracking/msg/detail/num__functions.h
+[0.766s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/include/body_tracking/msg/detail/hip_coordinates__struct.h
+[0.766s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/include/body_tracking/msg/detail/num__struct.h
+[0.766s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/include/body_tracking/msg/detail/hip_coordinates__type_support.h
+[0.766s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/include/body_tracking/msg/hip_coordinates.h
+[0.766s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/include/body_tracking/msg/num.h
+[0.766s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/environment/library_path.sh
+[0.766s] -- Installing: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/environment/library_path.dsv
+[0.766s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/lib/libbody_tracking__rosidl_generator_c.so
+[0.766s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/include/body_tracking
+[0.766s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/include/body_tracking/msg
+[0.766s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/include/body_tracking/msg/detail
+[0.766s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/include/body_tracking/msg/detail/hip_coordinates__rosidl_typesupport_fastrtps_c.h
+[0.766s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/include/body_tracking/msg/detail/num__rosidl_typesupport_fastrtps_c.h
+[0.766s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/include/body_tracking/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.766s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/lib/libbody_tracking__rosidl_typesupport_fastrtps_c.so
+[0.766s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/include/body_tracking
+[0.766s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/include/body_tracking/msg
+[0.766s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/include/body_tracking/msg/detail
+[0.766s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/include/body_tracking/msg/detail/dds_fastrtps
+[0.767s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/include/body_tracking/msg/detail/hip_coordinates__rosidl_typesupport_fastrtps_cpp.hpp
+[0.767s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/include/body_tracking/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp
+[0.767s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/include/body_tracking/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.767s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/lib/libbody_tracking__rosidl_typesupport_fastrtps_cpp.so
+[0.767s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/include/body_tracking
+[0.767s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/include/body_tracking/msg
+[0.767s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/include/body_tracking/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.767s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/include/body_tracking/msg/detail
+[0.767s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/include/body_tracking/msg/detail/hip_coordinates__rosidl_typesupport_introspection_c.h
+[0.767s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/include/body_tracking/msg/detail/num__rosidl_typesupport_introspection_c.h
+[0.767s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/include/body_tracking/msg/detail/hip_coordinates__type_support.c
+[0.767s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/include/body_tracking/msg/detail/num__type_support.c
+[0.767s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/lib/libbody_tracking__rosidl_typesupport_introspection_c.so
+[0.767s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/lib/libbody_tracking__rosidl_typesupport_c.so
+[0.767s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/include/body_tracking
+[0.767s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/include/body_tracking/msg
+[0.767s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/include/body_tracking/msg/num.hpp
+[0.767s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/include/body_tracking/msg/detail
+[0.767s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/include/body_tracking/msg/detail/hip_coordinates__builder.hpp
+[0.767s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/include/body_tracking/msg/detail/num__builder.hpp
+[0.768s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/include/body_tracking/msg/detail/hip_coordinates__traits.hpp
+[0.768s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/include/body_tracking/msg/detail/num__traits.hpp
+[0.768s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/include/body_tracking/msg/detail/num__struct.hpp
+[0.768s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/include/body_tracking/msg/detail/hip_coordinates__struct.hpp
+[0.768s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/include/body_tracking/msg/hip_coordinates.hpp
+[0.768s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/include/body_tracking
+[0.768s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/include/body_tracking/msg
+[0.768s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/include/body_tracking/msg/detail
+[0.768s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/include/body_tracking/msg/detail/num__type_support.cpp
+[0.768s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/include/body_tracking/msg/detail/hip_coordinates__type_support.cpp
+[0.768s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/include/body_tracking/msg/detail/hip_coordinates__rosidl_typesupport_introspection_cpp.hpp
+[0.768s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/include/body_tracking/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp
+[0.768s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/lib/libbody_tracking__rosidl_typesupport_introspection_cpp.so
+[0.768s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/lib/libbody_tracking__rosidl_typesupport_cpp.so
+[0.768s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/environment/pythonpath.sh
+[0.768s] -- Installing: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/environment/pythonpath.dsv
+[0.768s] -- Installing: /home/robogait/azure_kinect_ws/install/body_tracking/lib/python3.8/site-packages/body_tracking/__init__.py
+[0.786s] Compiling '/home/robogait/azure_kinect_ws/install/body_tracking/lib/python3.8/site-packages/body_tracking/__init__.py'...
+[0.789s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/lib/python3.8/site-packages/body_tracking/msg
+[0.789s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/lib/python3.8/site-packages/body_tracking/msg/_hip_coordinates.py
+[0.789s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/lib/python3.8/site-packages/body_tracking/msg/_num_s.c
+[0.789s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/lib/python3.8/site-packages/body_tracking/msg/_hip_coordinates_s.c
+[0.789s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/lib/python3.8/site-packages/body_tracking/msg/__init__.py
+[0.789s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/lib/python3.8/site-packages/body_tracking/msg/_num.py
+[0.789s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/lib/python3.8/site-packages/body_tracking/body_tracking_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[0.789s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/lib/python3.8/site-packages/body_tracking/body_tracking_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[0.790s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/lib/python3.8/site-packages/body_tracking/body_tracking_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[0.790s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/lib/libbody_tracking__python.so
+[0.790s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/msg/HipCoordinates.idl
+[0.790s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/msg/HipCoordinates.msg
+[0.790s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/share/ament_index/resource_index/package_run_dependencies/body_tracking
+[0.790s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/share/ament_index/resource_index/parent_prefix_path/body_tracking
+[0.790s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/environment/ament_prefix_path.sh
+[0.790s] -- Installing: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/environment/ament_prefix_path.dsv
+[0.790s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/environment/path.sh
+[0.790s] -- Installing: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/environment/path.dsv
+[0.791s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/local_setup.bash
+[0.791s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/local_setup.sh
+[0.791s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/local_setup.zsh
+[0.791s] -- Installing: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/local_setup.dsv
+[0.791s] -- Installing: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/package.dsv
+[0.791s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/share/ament_index/resource_index/packages/body_tracking
+[0.791s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/cmake/body_tracking__rosidl_generator_cExport.cmake
+[0.791s] -- Installing: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/cmake/body_tracking__rosidl_generator_cExport-noconfig.cmake
+[0.791s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/cmake/body_tracking__rosidl_typesupport_introspection_cExport.cmake
+[0.791s] -- Installing: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/cmake/body_tracking__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.791s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/cmake/body_tracking__rosidl_typesupport_cExport.cmake
+[0.791s] -- Installing: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/cmake/body_tracking__rosidl_typesupport_cExport-noconfig.cmake
+[0.791s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/cmake/body_tracking__rosidl_generator_cppExport.cmake
+[0.792s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/cmake/body_tracking__rosidl_typesupport_introspection_cppExport.cmake
+[0.792s] -- Installing: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/cmake/body_tracking__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.792s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/cmake/body_tracking__rosidl_typesupport_cppExport.cmake
+[0.792s] -- Installing: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/cmake/body_tracking__rosidl_typesupport_cppExport-noconfig.cmake
+[0.792s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/cmake/rosidl_cmake-extras.cmake
+[0.792s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.792s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/cmake/ament_cmake_export_libraries-extras.cmake
+[0.792s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/cmake/ament_cmake_export_targets-extras.cmake
+[0.792s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.792s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.792s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.792s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/cmake/body_trackingConfig.cmake
+[0.792s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/cmake/body_trackingConfig-version.cmake
+[0.792s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/package.xml
+[0.794s] Invoked command in '/home/robogait/azure_kinect_ws/build/body_tracking' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy /usr/bin/cmake --install /home/robogait/azure_kinect_ws/build/body_tracking

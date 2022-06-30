@@ -1,0 +1,13 @@
+[ 50%] Built target publisher_initial_pose
+[ 50%] Built target robot_odom_tf2_listener
+[ 50%] Built target tf2_broadcaster_person
+[ 50%] Built target publisher_subscriber
+[ 50%] Built target robot_controller
+[ 60%] Built target tf2_broadcaster
+[ 70%] Built target robot_controller_position
+[ 80%] Built target robot_controller_straight
+make[2]: *** No rule to make target '/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller_center_person.cpp', needed by 'CMakeFiles/robot_controller_center_person.dir/src/robot_controller_center_person.cpp.o'.  Stop.
+make[1]: *** [CMakeFiles/Makefile2:393: CMakeFiles/robot_controller_center_person.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[ 90%] Built target person_odom_tf2_listener
+make: *** [Makefile:141: all] Error 2

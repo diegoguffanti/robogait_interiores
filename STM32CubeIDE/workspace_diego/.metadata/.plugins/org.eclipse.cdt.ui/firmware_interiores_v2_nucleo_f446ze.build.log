@@ -1,0 +1,69 @@
+13:12:57 **** Incremental Build of configuration Debug for project firmware_interiores_v2_nucleo_f446ze ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Drivers/CMSIS/Include -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c:304: warning: "PI" redefined
+  304 | #define PI 3.142857
+      | 
+In file included from ../Core/Src/main.c:33:
+../Core/Inc/WT901C.h:8: note: this is the location of the previous definition
+    8 | #define PI 3.14159265359
+      | 
+../Core/Src/main.c: In function 'reset_Odometry':
+../Core/Src/main.c:998:7: warning: unused variable 'set_4' [-Wunused-variable]
+  998 |  bool set_4=Reset_Encoder_Counters(address_huart2,(uint8_t)address_roboclaw2);
+      |       ^~~~~
+../Core/Src/main.c:997:7: warning: unused variable 'set_3' [-Wunused-variable]
+  997 |  bool set_3=Reset_Encoder_Counters(address_huart1,(uint8_t)address_roboclaw1);
+      |       ^~~~~
+../Core/Src/main.c:996:7: warning: unused variable 'set_2' [-Wunused-variable]
+  996 |  bool set_2=Drive_M1_M2_With_Signed_Speed(address_huart2,(uint8_t)address_roboclaw2, 0, 0);
+      |       ^~~~~
+../Core/Src/main.c:995:7: warning: unused variable 'set_1' [-Wunused-variable]
+  995 |  bool set_1=Drive_M1_M2_With_Signed_Speed(address_huart1,(uint8_t)address_roboclaw1, 0, 0);
+      |       ^~~~~
+../Core/Src/main.c: In function 'odometryUpdater':
+../Core/Src/main.c:1206:21: warning: passing argument 1 of 'CDC_Transmit_FS' from incompatible pointer type [-Wincompatible-pointer-types]
+ 1206 |     CDC_Transmit_FS(&buffer_txt, 9 * sizeof(float));
+      |                     ^~~~~~~~~~~
+      |                     |
+      |                     float (*)[9]
+In file included from ../Core/Src/main.c:25:
+../USB_DEVICE/App/usbd_cdc_if.h:108:34: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'float (*)[9]'
+  108 | uint8_t CDC_Transmit_FS(uint8_t* Buf, uint16_t Len);
+      |                         ~~~~~~~~~^~~
+../Core/Src/main.c: In function 'setSpeed':
+../Core/Src/main.c:1224:13: warning: variable 'set_1' set but not used [-Wunused-but-set-variable]
+ 1224 |  bool set_0,set_1;
+      |             ^~~~~
+../Core/Src/main.c:1224:7: warning: variable 'set_0' set but not used [-Wunused-but-set-variable]
+ 1224 |  bool set_0,set_1;
+      |       ^~~~~
+../Core/Src/main.c: In function 'Check_Status_Roboclaws':
+../Core/Src/main.c:1478:13: warning: variable 'set_1' set but not used [-Wunused-but-set-variable]
+ 1478 |  bool set_0,set_1;
+      |             ^~~~~
+../Core/Src/main.c:1478:7: warning: variable 'set_0' set but not used [-Wunused-but-set-variable]
+ 1478 |  bool set_0,set_1;
+      |       ^~~~~
+../Core/Src/main.c: In function 'Roboclaw1_State':
+../Core/Src/main.c:1495:13: warning: unused variable 'set_1' [-Wunused-variable]
+ 1495 |  bool set_0,set_1,set_2;
+      |             ^~~~~
+../Core/Src/main.c: In function 'Roboclaw2_State':
+../Core/Src/main.c:1543:13: warning: unused variable 'set_1' [-Wunused-variable]
+ 1543 |  bool set_0,set_1,set_2;
+      |             ^~~~~
+arm-none-eabi-gcc -o "firmware_interiores_v2_nucleo_f446ze.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/robogait/STM32CubeIDE/workspace_diego/firmware_interiores_v2_nucleo_f446ze/STM32F446ZETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="firmware_interiores_v2_nucleo_f446ze.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: firmware_interiores_v2_nucleo_f446ze.elf
+ 
+arm-none-eabi-size   firmware_interiores_v2_nucleo_f446ze.elf 
+arm-none-eabi-objdump -h -S  firmware_interiores_v2_nucleo_f446ze.elf  > "firmware_interiores_v2_nucleo_f446ze.list"
+   text	   data	    bss	    dec	    hex	filename
+  72120	    768	   9736	  82624	  142c0	firmware_interiores_v2_nucleo_f446ze.elf
+Finished building: default.size.stdout
+ 
+Finished building: firmware_interiores_v2_nucleo_f446ze.list
+ 
+
+13:12:58 Build Finished. 0 errors, 12 warnings. (took 513ms)
+

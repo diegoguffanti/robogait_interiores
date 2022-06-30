@@ -1,0 +1,32 @@
+[35m[1mScanning dependencies of target body_tracking_recording_node[0m
+[ 50%] Built target body_tracking_node
+[ 75%] [32mBuilding CXX object CMakeFiles/body_tracking_recording_node.dir/src/kinectAzure_body_tracker_node_plus_recording.cpp.o[0m
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/kinectAzure_body_tracker_node_plus_recording.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::close()[m[K’:
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/kinectAzure_body_tracker_node_plus_recording.cpp:352:10:[m[K [01;35m[Kwarning: [m[K'0' flag ignored with precision and ‘[01m[K%d[m[K’ gnu_printf format [[01;35m[K-Wformat=[m[K]
+  352 |   printf([01;35m[K"Recording time spent = %0.2ld\n"[m[K, t_diff);
+      |          [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+At global scope:
+[01m[Kcc1plus:[m[K [01;35m[Kwarning: [m[Kunrecognized command line option ‘[01m[K-Wno-dev[m[K’
+[100%] [32m[1mLinking CXX executable body_tracking_recording_node[0m
+[100%] Built target body_tracking_recording_node
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracking/lib/body_tracking/body_tracking_node
+-- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracking/lib/body_tracking/body_tracking_recording_node
+-- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracking/lib/body_tracking/body_tracking_node
+-- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracking/lib/body_tracking/body_tracking_recording_node
+-- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracking/share/ament_index/resource_index/package_run_dependencies/body_tracking
+-- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracking/share/ament_index/resource_index/parent_prefix_path/body_tracking
+-- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/environment/path.sh
+-- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/environment/path.dsv
+-- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/local_setup.bash
+-- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/local_setup.sh
+-- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/local_setup.zsh
+-- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/local_setup.dsv
+-- Symlinking: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/package.dsv
+-- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracking/share/ament_index/resource_index/packages/body_tracking
+-- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/cmake/body_trackingConfig.cmake
+-- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/cmake/body_trackingConfig-version.cmake
+-- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/package.xml

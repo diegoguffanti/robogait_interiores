@@ -1,0 +1,16 @@
+/home/robogait/azure_kinect_ws/build/kinect_azure_body_tracker/CMakeFiles/install/strip.dir
+/home/robogait/azure_kinect_ws/build/kinect_azure_body_tracker/CMakeFiles/install/local.dir
+/home/robogait/azure_kinect_ws/build/kinect_azure_body_tracker/CMakeFiles/install.dir
+/home/robogait/azure_kinect_ws/build/kinect_azure_body_tracker/CMakeFiles/kinect_azure_body_tracker_node_full_processing.dir
+/home/robogait/azure_kinect_ws/build/kinect_azure_body_tracker/CMakeFiles/kinect_azure_body_tracker_node_plus_recording_test.dir
+/home/robogait/azure_kinect_ws/build/kinect_azure_body_tracker/CMakeFiles/kinect_azure_body_tracker_node.dir
+/home/robogait/azure_kinect_ws/build/kinect_azure_body_tracker/CMakeFiles/kinect_azure_body_tracker_node_simplified.dir
+/home/robogait/azure_kinect_ws/build/kinect_azure_body_tracker/CMakeFiles/kinect_azure_body_tracker_recording_node.dir
+/home/robogait/azure_kinect_ws/build/kinect_azure_body_tracker/CMakeFiles/kinect_azure_body_tracker_recording_node_simplified.dir
+/home/robogait/azure_kinect_ws/build/kinect_azure_body_tracker/CMakeFiles/kinect_azure_body_tracker_node_finite.dir
+/home/robogait/azure_kinect_ws/build/kinect_azure_body_tracker/CMakeFiles/uninstall.dir
+/home/robogait/azure_kinect_ws/build/kinect_azure_body_tracker/CMakeFiles/test.dir
+/home/robogait/azure_kinect_ws/build/kinect_azure_body_tracker/CMakeFiles/edit_cache.dir
+/home/robogait/azure_kinect_ws/build/kinect_azure_body_tracker/CMakeFiles/rebuild_cache.dir
+/home/robogait/azure_kinect_ws/build/kinect_azure_body_tracker/CMakeFiles/kinect_azure_body_tracker_uninstall.dir
+/home/robogait/azure_kinect_ws/build/kinect_azure_body_tracker/CMakeFiles/list_install_components.dir

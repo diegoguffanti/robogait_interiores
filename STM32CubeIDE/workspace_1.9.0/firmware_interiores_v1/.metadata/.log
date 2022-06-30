@@ -1,0 +1,36 @@
+!SESSION 2022-05-04 15:36:04.016 -----------------------------------------------
+eclipse.buildId=Version 1.9.0
+java.version=11.0.11
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-05-04 15:36:21.730
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-05-04 15:36:21.783
+!MESSAGE Log4j initialized with config file /home/robogait/STM32CubeIDE/workspace_1.9.0/firmware_interiores_v1/.metadata/.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-05-04 15:36:23.488
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2022-05-04 15:44:52.616 -----------------------------------------------
+eclipse.buildId=Version 1.9.0
+java.version=11.0.11
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-05-04 15:45:01.818
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-05-04 15:45:01.876
+!MESSAGE Log4j initialized with config file /home/robogait/STM32CubeIDE/workspace_1.9.0/firmware_interiores_v1/.metadata/.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-05-04 15:45:03.998
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-05-04 15:46:37.029
+!MESSAGE Indexed '6283A1_AnalogFlicker' (36 sources, 111 headers) in 2.31 sec: 11,440 declarations; 62,137 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0027%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-05-04 15:48:12.746
+!MESSAGE Indexed 'firmware_interiores_v2_nucleo_f446ze' (40 sources, 125 headers) in 1.98 sec: 13,300 declarations; 79,447 references; 2 unresolved inclusions; 42 syntax errors; 147 unresolved names (0.16%)

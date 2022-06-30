@@ -1,0 +1,28 @@
+[0.014s] Invoking command in '/home/robogait/azure_kinect_ws/build/body_tracker_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/azure_kinect_ws/build/body_tracker_msgs -- -j8 -l8
+[0.030s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.044s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.150s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.183s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.187s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.232s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.250s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.296s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.329s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.330s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.331s] -- Looking for pthread.h
+[0.379s] -- Looking for pthread.h - found
+[0.379s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.425s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.425s] -- Looking for pthread_create in pthreads
+[0.462s] -- Looking for pthread_create in pthreads - not found
+[0.462s] -- Looking for pthread_create in pthread
+[0.506s] -- Looking for pthread_create in pthread - found
+[0.507s] -- Found Threads: TRUE  
+[0.596s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.615s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.652s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.653s] -- Added test 'lint_cmake' to check CMake code style
+[0.653s] -- Added test 'xmllint' to check XML markup files
+[0.655s] -- Configuring done
+[0.656s] -- Generating done
+[0.657s] -- Build files have been written to: /home/robogait/azure_kinect_ws/build/body_tracker_msgs

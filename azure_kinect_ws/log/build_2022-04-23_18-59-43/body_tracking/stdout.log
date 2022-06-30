@@ -1,0 +1,17 @@
+[  5%] Built target body_tracking_node
+[  8%] Built target body_tracking__cpp
+[ 10%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[ 18%] Built target body_tracking__rosidl_generator_c
+[ 24%] Built target talker
+[ 40%] Built target body_tracking__rosidl_typesupport_introspection_c
+[ 40%] Built target body_tracking__rosidl_typesupport_introspection_cpp
+[ 48%] Built target body_tracking__rosidl_typesupport_c
+[ 56%] Built target body_tracking__rosidl_typesupport_cpp
+[ 64%] Built target body_tracking__rosidl_typesupport_fastrtps_cpp
+[ 72%] Built target body_tracking__rosidl_typesupport_fastrtps_c
+[ 72%] Built target body_tracking
+[ 75%] Built target body_tracking__py
+[ 81%] Built target body_tracking__python
+[ 97%] Built target body_tracking__rosidl_typesupport_c__pyext
+[ 97%] Built target body_tracking__rosidl_typesupport_introspection_c__pyext
+[ 97%] Built target body_tracking__rosidl_typesupport_fastrtps_c__pyext

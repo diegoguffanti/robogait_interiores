@@ -1,0 +1,8 @@
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller_straight.cpp:[m[K In member function ‘[01m[Kvoid generic::callback_odom(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller_straight.cpp:87:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kyaw_error[m[K’ was not declared in this scope
+   87 |          cout << [01;31m[Kyaw_error[m[K << endl;
+      |                  [01;31m[K^~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/robot_controller_straight.dir/build.make:63: CMakeFiles/robot_controller_straight.dir/src/robot_controller_straight.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:364: CMakeFiles/robot_controller_straight.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,7 @@
+[01m[K/home/robogait/ros2_serial_cpp/src/modelado.cpp:[m[K In constructor ‘[01m[KMinimalSubscriber::MinimalSubscriber()[m[K’:
+[01m[K/home/robogait/ros2_serial_cpp/src/modelado.cpp:29:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kloop[m[K’ is not a member of ‘[01m[KMinimalSubscriber[m[K’
+   29 |       pub = thread(&MinimalSubscriber::[01;31m[Kloop[m[K, this);
+      |                                        [01;31m[K^~~~[m[K
+make[2]: *** [CMakeFiles/modelado.dir/build.make:63: CMakeFiles/modelado.dir/src/modelado.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/modelado.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,10 @@
+13:08:13 **** Build of configuration Debug for project firmware_interiores_v1 ****
+make -j8 all 
+arm-none-eabi-size   firmware_interiores_v1.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17052	     24	   1800	  18876	   49bc	firmware_interiores_v1.elf
+Finished building: default.size.stdout
+ 
+
+13:08:13 Build Finished. 0 errors, 0 warnings. (took 177ms)
+

@@ -1,0 +1,22 @@
+[0.013s] Invoking command in '/home/robogait/catkin_ws/build/pkg_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/ros2_ws/install/nav2_project:/home/robogait/nav2_ws/install/nav2_gazebo_spawner:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/catkin_ws/build/pkg_navigation -- -j8 -l8
+[0.060s] [35m[1mScanning dependencies of target robot_controller[0m
+[0.073s] [ 20%] Built target publisher_initial_pose
+[0.073s] [ 40%] Built target robot_odom_tf2_listener
+[0.078s] [ 60%] Built target publisher_subscriber
+[0.079s] [ 80%] [32mBuilding CXX object CMakeFiles/robot_controller.dir/src/robot_controller.cpp.o[0m
+[0.079s] [ 90%] Built target tf2_broadcaster
+[0.927s] [01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller.cpp:[m[K In member function ‘[01m[Kvoid generic::loop()[m[K’:
+[0.927s] [01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller.cpp:106:38:[m[K [01;31m[Kerror: [m[Kexpression cannot be used as a function
+[0.927s]   106 |         q1.setRPY(0, 0, 90(3.1415/180[01;31m[K)[m[K);
+[0.927s]       |                                      [01;31m[K^[m[K
+[0.927s] [01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller.cpp:108:38:[m[K [01;31m[Kerror: [m[Kexpression cannot be used as a function
+[0.927s]   108 |         q1.setRPY(0, 0, 30(3.1415/180[01;31m[K)[m[K);
+[0.927s]       |                                      [01;31m[K^[m[K
+[0.928s] [01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller.cpp:111:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kq[m[K’ was not declared in this scope; did you mean ‘[01m[Kq3[m[K’?
+[0.928s]   111 |         tf2::Matrix3x3 m1([01;31m[Kq[m[K);
+[0.928s]       |                           [01;31m[K^[m[K
+[0.928s]       |                           [32m[Kq3[m[K
+[2.255s] make[2]: *** [CMakeFiles/robot_controller.dir/build.make:63: CMakeFiles/robot_controller.dir/src/robot_controller.cpp.o] Error 1
+[2.255s] make[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/robot_controller.dir/all] Error 2
+[2.255s] make: *** [Makefile:141: all] Error 2
+[2.257s] Invoked command in '/home/robogait/catkin_ws/build/pkg_navigation' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/ros2_ws/install/nav2_project:/home/robogait/nav2_ws/install/nav2_gazebo_spawner:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/catkin_ws/build/pkg_navigation -- -j8 -l8

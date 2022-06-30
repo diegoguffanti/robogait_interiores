@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target publisher_initial_pose[0m
+[ 66%] Built target tf2_broadcaster
+[ 66%] [32mBuilding CXX object CMakeFiles/publisher_initial_pose.dir/src/publisher_initial_pose.cpp.o[0m
+[ 83%] Built target publisher_subscriber

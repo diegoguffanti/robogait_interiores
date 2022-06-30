@@ -1,0 +1,14 @@
+[01m[K/home/robogait/ros2_serial_cpp/src/modelado.cpp:[m[K In constructor ‘[01m[KMinimalSubscriber::MinimalSubscriber()[m[K’:
+[01m[K/home/robogait/ros2_serial_cpp/src/modelado.cpp:22:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub[m[K’ was not declared in this scope
+   22 |       [01;31m[Kpub[m[K = thread(&MinimalSubscriber::loop, this);
+      |       [01;31m[K^~~[m[K
+[01m[K/home/robogait/ros2_serial_cpp/src/modelado.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::loop()[m[K’:
+[01m[K/home/robogait/ros2_serial_cpp/src/modelado.cpp:41:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass rclcpp::Time[m[K’ has no member named ‘[01m[KtoSec[m[K’
+   41 |         double time_=this->get_clock()->now().[01;31m[KtoSec[m[K()
+      |                                               [01;31m[K^~~~~[m[K
+[01m[K/home/robogait/ros2_serial_cpp/src/modelado.cpp:41:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktime_[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   41 |         double [01;35m[Ktime_[m[K=this->get_clock()->now().toSec()
+      |                [01;35m[K^~~~~[m[K
+make[2]: *** [CMakeFiles/modelado.dir/build.make:63: CMakeFiles/modelado.dir/src/modelado.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/modelado.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

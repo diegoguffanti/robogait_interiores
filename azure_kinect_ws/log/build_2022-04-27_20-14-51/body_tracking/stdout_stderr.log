@@ -1,0 +1,46 @@
+[35m[1mScanning dependencies of target body_tracking_node[0m
+[  2%] Built target body_tracking__cpp
+[ 12%] Built target body_tracking__rosidl_generator_c
+[ 14%] [32mBuilding CXX object CMakeFiles/body_tracking_node.dir/src/kinectAzure_body_tracker_node.cpp.o[0m
+[ 24%] Built target body_tracking__rosidl_typesupport_introspection_cpp
+[ 34%] Built target body_tracking__rosidl_typesupport_cpp
+[ 43%] Built target body_tracking__rosidl_typesupport_fastrtps_cpp
+[ 53%] Built target body_tracking__rosidl_typesupport_introspection_c
+[ 63%] Built target body_tracking__rosidl_typesupport_c
+[ 73%] Built target body_tracking__rosidl_typesupport_fastrtps_c
+[ 73%] Built target body_tracking
+[ 75%] Built target body_tracking__py
+[ 82%] Built target body_tracking__python
+[ 97%] Built target body_tracking__rosidl_typesupport_c__pyext
+[ 97%] Built target body_tracking__rosidl_typesupport_fastrtps_c__pyext
+[ 97%] Built target body_tracking__rosidl_typesupport_introspection_c__pyext
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/kinectAzure_body_tracker_node.cpp:341:10:[m[K [01;31m[Kerror: [m[K‘[01m[KWallTime[m[K’ in namespace ‘[01m[Krclcpp[m[K’ does not name a type; did you mean ‘[01m[KWallTimer[m[K’?
+  341 |  rclcpp::[01;31m[KWallTime[m[K t_inicial;
+      |          [01;31m[K^~~~~~~~[m[K
+      |          [32m[KWallTimer[m[K
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/kinectAzure_body_tracker_node.cpp:342:10:[m[K [01;31m[Kerror: [m[K‘[01m[KWallTime[m[K’ in namespace ‘[01m[Krclcpp[m[K’ does not name a type; did you mean ‘[01m[KWallTimer[m[K’?
+  342 |  rclcpp::[01;31m[KWallTime[m[K t_muestra;
+      |          [01;31m[K^~~~~~~~[m[K
+      |          [32m[KWallTimer[m[K
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/kinectAzure_body_tracker_node.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::body_tracking()[m[K’:
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/kinectAzure_body_tracker_node.cpp:81:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kt_muestra[m[K’ was not declared in this scope
+   81 |           [01;31m[Kt_muestra[m[K = rclcpp::Node::now();
+      |           [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/kinectAzure_body_tracker_node.cpp:140:26:[m[K [01;31m[Kerror: [m[K‘[01m[Knum_bodies[m[K’ was not declared in this scope
+  140 |   skeleton_data.body_id= [01;31m[Knum_bodies[m[K;
+      |                          [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/kinectAzure_body_tracker_node.cpp:143:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kt_muestra[m[K’ was not declared in this scope
+  143 |   skeleton_data.tiempo = [01;31m[Kt_muestra[m[K.toSec() - t_inicial.toSec();
+      |                          [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/kinectAzure_body_tracker_node.cpp:143:46:[m[K [01;31m[Kerror: [m[K‘[01m[Kt_inicial[m[K’ was not declared in this scope
+  143 |   skeleton_data.tiempo = t_muestra.toSec() - [01;31m[Kt_inicial[m[K.toSec();
+      |                                              [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/kinectAzure_body_tracker_node.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::Init()[m[K’:
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/kinectAzure_body_tracker_node.cpp:299:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kt_inicial[m[K’ was not declared in this scope
+  299 |   [01;31m[Kt_inicial[m[K = rclcpp::Node::now();
+      |   [01;31m[K^~~~~~~~~[m[K
+At global scope:
+[01m[Kcc1plus:[m[K [01;35m[Kwarning: [m[Kunrecognized command line option ‘[01m[K-Wno-dev[m[K’
+make[2]: *** [CMakeFiles/body_tracking_node.dir/build.make:63: CMakeFiles/body_tracking_node.dir/src/kinectAzure_body_tracker_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:208: CMakeFiles/body_tracking_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

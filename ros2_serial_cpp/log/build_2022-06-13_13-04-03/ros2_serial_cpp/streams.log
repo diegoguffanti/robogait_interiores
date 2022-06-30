@@ -1,0 +1,28 @@
+[0.015s] Invoking command in '/home/robogait/ros2_serial_cpp/build/ros2_serial_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/nav2_ws/install/nav2_gazebo_spawner:/home/robogait/ros2_serial/install/ourbotmanager:/home/robogait/ros2_ws/install/nav2_project:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/ros2_serial_cpp/build/ros2_serial_cpp -- -j8 -l8
+[0.054s] [35m[1mScanning dependencies of target modelado[0m
+[0.071s] [ 50%] Built target driver_controller
+[0.073s] [ 75%] [32mBuilding CXX object CMakeFiles/modelado.dir/src/modelado.cpp.o[0m
+[3.883s] [100%] [32m[1mLinking CXX executable modelado[0m
+[4.065s] [100%] Built target modelado
+[4.075s] Invoked command in '/home/robogait/ros2_serial_cpp/build/ros2_serial_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/nav2_ws/install/nav2_gazebo_spawner:/home/robogait/ros2_serial/install/ourbotmanager:/home/robogait/ros2_ws/install/nav2_project:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/ros2_serial_cpp/build/ros2_serial_cpp -- -j8 -l8
+[4.117s] Invoking command in '/home/robogait/ros2_serial_cpp/build/ros2_serial_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/nav2_ws/install/nav2_gazebo_spawner:/home/robogait/ros2_serial/install/ourbotmanager:/home/robogait/ros2_ws/install/nav2_project:/opt/ros/foxy /usr/bin/cmake --install /home/robogait/ros2_serial_cpp/build/ros2_serial_cpp
+[4.124s] -- Install configuration: ""
+[4.124s] -- Up-to-date: /home/robogait/ros2_serial_cpp/install/ros2_serial_cpp/lib/ros2_serial_cpp/driver_controller
+[4.125s] -- Installing: /home/robogait/ros2_serial_cpp/install/ros2_serial_cpp/lib/ros2_serial_cpp/modelado
+[4.126s] -- Set runtime path of "/home/robogait/ros2_serial_cpp/install/ros2_serial_cpp/lib/ros2_serial_cpp/modelado" to ""
+[4.126s] -- Up-to-date: /home/robogait/ros2_serial_cpp/install/ros2_serial_cpp/share/ament_index/resource_index/package_run_dependencies/ros2_serial_cpp
+[4.126s] -- Up-to-date: /home/robogait/ros2_serial_cpp/install/ros2_serial_cpp/share/ament_index/resource_index/parent_prefix_path/ros2_serial_cpp
+[4.126s] -- Up-to-date: /home/robogait/ros2_serial_cpp/install/ros2_serial_cpp/share/ros2_serial_cpp/environment/ament_prefix_path.sh
+[4.126s] -- Up-to-date: /home/robogait/ros2_serial_cpp/install/ros2_serial_cpp/share/ros2_serial_cpp/environment/ament_prefix_path.dsv
+[4.126s] -- Up-to-date: /home/robogait/ros2_serial_cpp/install/ros2_serial_cpp/share/ros2_serial_cpp/environment/path.sh
+[4.127s] -- Up-to-date: /home/robogait/ros2_serial_cpp/install/ros2_serial_cpp/share/ros2_serial_cpp/environment/path.dsv
+[4.127s] -- Up-to-date: /home/robogait/ros2_serial_cpp/install/ros2_serial_cpp/share/ros2_serial_cpp/local_setup.bash
+[4.127s] -- Up-to-date: /home/robogait/ros2_serial_cpp/install/ros2_serial_cpp/share/ros2_serial_cpp/local_setup.sh
+[4.127s] -- Up-to-date: /home/robogait/ros2_serial_cpp/install/ros2_serial_cpp/share/ros2_serial_cpp/local_setup.zsh
+[4.127s] -- Up-to-date: /home/robogait/ros2_serial_cpp/install/ros2_serial_cpp/share/ros2_serial_cpp/local_setup.dsv
+[4.127s] -- Installing: /home/robogait/ros2_serial_cpp/install/ros2_serial_cpp/share/ros2_serial_cpp/package.dsv
+[4.127s] -- Up-to-date: /home/robogait/ros2_serial_cpp/install/ros2_serial_cpp/share/ament_index/resource_index/packages/ros2_serial_cpp
+[4.127s] -- Up-to-date: /home/robogait/ros2_serial_cpp/install/ros2_serial_cpp/share/ros2_serial_cpp/cmake/ros2_serial_cppConfig.cmake
+[4.127s] -- Up-to-date: /home/robogait/ros2_serial_cpp/install/ros2_serial_cpp/share/ros2_serial_cpp/cmake/ros2_serial_cppConfig-version.cmake
+[4.127s] -- Up-to-date: /home/robogait/ros2_serial_cpp/install/ros2_serial_cpp/share/ros2_serial_cpp/package.xml
+[4.128s] Invoked command in '/home/robogait/ros2_serial_cpp/build/ros2_serial_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/nav2_ws/install/nav2_gazebo_spawner:/home/robogait/ros2_serial/install/ourbotmanager:/home/robogait/ros2_ws/install/nav2_project:/opt/ros/foxy /usr/bin/cmake --install /home/robogait/ros2_serial_cpp/build/ros2_serial_cpp

@@ -1,0 +1,1 @@
+Invoking command in '/home/robogait/azure_kinect_ws/build/body_tracker_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy /usr/bin/cmake /home/robogait/azure_kinect_ws/src/body_tracker_msgs -DCMAKE_INSTALL_PREFIX=/home/robogait/azure_kinect_ws/install/body_tracker_msgs

@@ -1,0 +1,16 @@
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/tf2_broadcaster_camera.cpp:[m[K In member function ‘[01m[Kvoid FramePublisher::handle_camera_pose(std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >)[m[K’:
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/tf2_broadcaster_camera.cpp:61:39:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Ktf2::QuadWord::x[m[K’ from type ‘[01m[Kconst tf2Scalar& (tf2::QuadWord::)() const[m[K’ {aka ‘[01m[Kconst double& (tf2::QuadWord::)() const[m[K’} to type ‘[01m[Kgeometry_msgs::msg::Quaternion_<std::allocator<void> >::_x_type[m[K’ {aka ‘[01m[Kdouble[m[K’}
+   61 |     t.transform.rotation.x = q_camera.[01;31m[Kx[m[K;
+      |                                       [01;31m[K^[m[K
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/tf2_broadcaster_camera.cpp:62:39:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Ktf2::QuadWord::y[m[K’ from type ‘[01m[Kconst tf2Scalar& (tf2::QuadWord::)() const[m[K’ {aka ‘[01m[Kconst double& (tf2::QuadWord::)() const[m[K’} to type ‘[01m[Kgeometry_msgs::msg::Quaternion_<std::allocator<void> >::_y_type[m[K’ {aka ‘[01m[Kdouble[m[K’}
+   62 |     t.transform.rotation.y = q_camera.[01;31m[Ky[m[K;
+      |                                       [01;31m[K^[m[K
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/tf2_broadcaster_camera.cpp:63:39:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Ktf2::QuadWord::z[m[K’ from type ‘[01m[Kconst tf2Scalar& (tf2::QuadWord::)() const[m[K’ {aka ‘[01m[Kconst double& (tf2::QuadWord::)() const[m[K’} to type ‘[01m[Kgeometry_msgs::msg::Quaternion_<std::allocator<void> >::_z_type[m[K’ {aka ‘[01m[Kdouble[m[K’}
+   63 |     t.transform.rotation.z = q_camera.[01;31m[Kz[m[K;
+      |                                       [01;31m[K^[m[K
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/tf2_broadcaster_camera.cpp:64:39:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Ktf2::QuadWord::w[m[K’ from type ‘[01m[Kconst tf2Scalar& (tf2::QuadWord::)() const[m[K’ {aka ‘[01m[Kconst double& (tf2::QuadWord::)() const[m[K’} to type ‘[01m[Kgeometry_msgs::msg::Quaternion_<std::allocator<void> >::_w_type[m[K’ {aka ‘[01m[Kdouble[m[K’}
+   64 |     t.transform.rotation.w = q_camera.[01;31m[Kw[m[K;
+      |                                       [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/tf2_broadcaster_camera.dir/build.make:63: CMakeFiles/tf2_broadcaster_camera.dir/src/tf2_broadcaster_camera.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:123: CMakeFiles/tf2_broadcaster_camera.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

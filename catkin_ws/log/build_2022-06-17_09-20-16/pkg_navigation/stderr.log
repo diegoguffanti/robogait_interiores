@@ -1,0 +1,4 @@
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller_center_person.cpp:[m[K In member function ‘[01m[Kvoid generic::topic_callback_spine_bottom(body_tracker_msgs::msg::SpineBottom_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller_center_person.cpp:137:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ksp_h[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  137 |         float [01;35m[Ksp_h[m[K=0.0;
+      |               [01;35m[K^~~~[m[K

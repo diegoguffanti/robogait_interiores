@@ -1,0 +1,3 @@
+[ 16%] [32mBuilding CXX object CMakeFiles/kinect_azure_body_tracker_node_simplified.dir/src/kinectAzure_body_tracker_node_simplified.cpp.o[0m
+[ 50%] Built target kinect_azure_body_tracker_node
+[ 83%] Built target kinect_azure_body_tracker_recording_node

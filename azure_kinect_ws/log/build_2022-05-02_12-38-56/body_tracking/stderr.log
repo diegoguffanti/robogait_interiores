@@ -1,0 +1,7 @@
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/kinectAzure_body_tracker_node_plus_recording.cpp:11:10:[m[K [01;31m[Kfatal error: [m[Kk4a/k4arecord/record.h: No such file or directory
+   11 | #include [01;31m[K<k4a/k4arecord/record.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/body_tracking_recording_node.dir/build.make:63: CMakeFiles/body_tracking_recording_node.dir/src/kinectAzure_body_tracker_node_plus_recording.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/body_tracking_recording_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

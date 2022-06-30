@@ -1,0 +1,32 @@
+-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+-- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+-- Found tf2: 0.13.13 (/opt/ros/foxy/share/tf2/cmake)
+-- Found tf2_ros: 0.13.13 (/opt/ros/foxy/share/tf2_ros/cmake)
+-- Found turtlesim: 1.2.5 (/home/robogait/tutorials_ros2/install/turtlesim/share/turtlesim/cmake)
+-- Found body_tracker_msgs: 0.0.0 (/home/robogait/azure_kinect_ws/install/body_tracker_msgs/share/body_tracker_msgs/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/robogait/catkin_ws/build/pkg_navigation
+[35m[1mScanning dependencies of target robot_controller_position[0m
+[ 61%] Built target tf2_broadcaster_person
+[ 61%] Built target robot_controller
+[ 61%] Built target publisher_subscriber
+[ 66%] Built target person_odom_tf2_listener
+[ 61%] Built target robot_odom_tf2_listener
+[ 61%] Built target publisher_initial_pose
+[ 77%] Built target tf2_broadcaster
+[ 83%] [32mBuilding CXX object CMakeFiles/robot_controller_position.dir/src/robot_controller_position.cpp.o[0m
+[35m[1mScanning dependencies of target robot_controller_straight[0m
+[ 88%] [32mBuilding CXX object CMakeFiles/robot_controller_straight.dir/src/robot_controller_straight.cpp.o[0m
+[ 94%] [32m[1mLinking CXX executable robot_controller_position[0m
+[ 94%] Built target robot_controller_position

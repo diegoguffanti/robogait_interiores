@@ -1,0 +1,14 @@
+[0.014s] Invoking command in '/home/robogait/ros2_serial_cpp/build/ros2_serial_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/ros2_ws/install/nav2_project:/home/robogait/nav2_ws/install/nav2_gazebo_spawner:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/ros2_serial_cpp/build/ros2_serial_cpp -- -j8 -l8
+[0.054s] [35m[1mScanning dependencies of target driver_controller[0m
+[0.073s] [ 50%] [32mBuilding CXX object CMakeFiles/driver_controller.dir/src/driver_controller.cpp.o[0m
+[0.822s] [01m[K/home/robogait/ros2_serial_cpp/src/driver_controller.cpp:[m[K In function ‘[01m[Kvoid end(int)[m[K’:
+[0.823s] [01m[K/home/robogait/ros2_serial_cpp/src/driver_controller.cpp:23:2:[m[K [01;31m[Kerror: [m[K‘[01m[Ktx_buf[m[K’ was not declared in this scope
+[0.823s]    23 |  [01;31m[Ktx_buf[m[K[0] = 0.0; //Velocidad x requerida
+[0.823s]       |  [01;31m[K^~~~~~[m[K
+[0.824s] [01m[K/home/robogait/ros2_serial_cpp/src/driver_controller.cpp:25:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kserial_port[m[K’ was not declared in this scope
+[0.824s]    25 |  write([01;31m[Kserial_port[m[K, tx_buf, 2 * sizeof(float));
+[0.824s]       |        [01;31m[K^~~~~~~~~~~[m[K
+[1.906s] make[2]: *** [CMakeFiles/driver_controller.dir/build.make:63: CMakeFiles/driver_controller.dir/src/driver_controller.cpp.o] Error 1
+[1.906s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/driver_controller.dir/all] Error 2
+[1.906s] make: *** [Makefile:141: all] Error 2
+[1.908s] Invoked command in '/home/robogait/ros2_serial_cpp/build/ros2_serial_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/ros2_ws/install/nav2_project:/home/robogait/nav2_ws/install/nav2_gazebo_spawner:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/ros2_serial_cpp/build/ros2_serial_cpp -- -j8 -l8

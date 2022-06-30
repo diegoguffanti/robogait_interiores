@@ -1,0 +1,54 @@
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/camera_controller.cpp:98:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+   98 |        }
+      |         [01;31m[K^[m[K
+      |         [32m[K;[m[K
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/camera_controller.cpp:[m[K In member function ‘[01m[Kvoid generic::callback_camera_position(std_msgs::msg::Float32_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/camera_controller.cpp:66:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kcamera_position[m[K’ was not declared in this scope
+   66 |          [01;31m[Kcamera_position[m[K=msg->data;
+      |          [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/camera_controller.cpp:[m[K In member function ‘[01m[Kvoid generic::topic_callback_spine_bottom(body_tracker_msgs::msg::SpineBottom_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/camera_controller.cpp:75:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kangle_person[m[K’ was not declared in this scope
+   75 |         [01;31m[Kangle_person[m[K=atan(personx/personz);
+      |         [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/camera_controller.cpp:[m[K In member function ‘[01m[Kvoid generic::controller()[m[K’:
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/camera_controller.cpp:86:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kangle_person[m[K’ was not declared in this scope
+   86 |         float control=-[01;31m[Kangle_person[m[K;
+      |                        [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/camera_controller.cpp:90:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kmax_speed[m[K’ was not declared in this scope
+   90 |         if(control<-[01;31m[Kmax_speed[m[K){
+      |                     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/camera_controller.cpp:94:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcamera_msg[m[K’ was not declared in this scope
+   94 |         [01;31m[Kcamera_msg[m[K.data=control;
+      |         [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/camera_controller.cpp:[m[K In function ‘[01m[Kfloat mean_filter(float)[m[K’:
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/camera_controller.cpp:105:27:[m[K [01;31m[Kerror: [m[Kmissing template arguments before ‘[01m[K)[m[K’ token
+  105 |        size = sizeof(array[01;31m[K)[m[K / sizeof(array[0]);
+      |                           [01;31m[K^[m[K
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/camera_controller.cpp:105:43:[m[K [01;31m[Kerror: [m[Kmissing template arguments before ‘[01m[K[[m[K’ token
+  105 |        size = sizeof(array) / sizeof(array[01;31m[K[[m[K0]);
+      |                                           [01;31m[K^[m[K
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/camera_controller.cpp:107:22:[m[K [01;31m[Kerror: [m[Kmissing template arguments before ‘[01m[K[[m[K’ token
+  107 |        memmove(&array[01;31m[K[[m[K0], &array[1], (size - 1) * sizeof(array[0]));
+      |                      [01;31m[K^[m[K
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/camera_controller.cpp:107:33:[m[K [01;31m[Kerror: [m[Kmissing template arguments before ‘[01m[K[[m[K’ token
+  107 |        memmove(&array[0], &array[01;31m[K[[m[K1], (size - 1) * sizeof(array[0]));
+      |                                 [01;31m[K^[m[K
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/camera_controller.cpp:107:63:[m[K [01;31m[Kerror: [m[Kmissing template arguments before ‘[01m[K[[m[K’ token
+  107 |        memmove(&array[0], &array[1], (size - 1) * sizeof(array[01;31m[K[[m[K0]));
+      |                                                               [01;31m[K^[m[K
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/camera_controller.cpp:108:13:[m[K [01;31m[Kerror: [m[Kmissing template arguments before ‘[01m[K[[m[K’ token
+  108 |        array[01;31m[K[[m[Ksize - 1] = new_data;
+      |             [01;31m[K^[m[K
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/camera_controller.cpp:110:34:[m[K [01;31m[Kerror: [m[Kmissing template arguments before ‘[01m[K)[m[K’ token
+  110 |        for (const auto& e : array[01;31m[K)[m[K {
+      |                                  [01;31m[K^[m[K
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/camera_controller.cpp:118:15:[m[K [01;31m[Kerror: [m[Kmissing template arguments before ‘[01m[K[[m[K’ token
+  118 |   sum += array[01;31m[K[[m[Ki];
+      |               [01;31m[K^[m[K
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/camera_controller.cpp:[m[K At global scope:
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/camera_controller.cpp:130:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+  130 | [01;31m[K}[m[K;
+      | [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/camera_controller.dir/build.make:63: CMakeFiles/camera_controller.dir/src/camera_controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:422: CMakeFiles/camera_controller.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

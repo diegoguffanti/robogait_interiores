@@ -1,0 +1,23 @@
+[01m[K/home/robogait/azure_kinect_ws/src/kinect_azure_body_tracker/src/kinectAzure_body_tracker_node_simplified.cpp:200:52:[m[K [01;31m[Kerror: [m[Kconflicting specifiers in declaration of ‘[01m[Kt0[m[K’
+  200 |  static typedef std::chrono::high_resolution_clock [01;31m[Kt0[m[K;
+      |                                                    [01;31m[K^~[m[K
+[01m[K/home/robogait/azure_kinect_ws/src/kinect_azure_body_tracker/src/kinectAzure_body_tracker_node_simplified.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::body_tracking()[m[K’:
+[01m[K/home/robogait/azure_kinect_ws/src/kinect_azure_body_tracker/src/kinectAzure_body_tracker_node_simplified.cpp:136:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kt0[m[K’ was not declared in this scope; did you mean ‘[01m[Ktm[m[K’?
+  136 |   fs = t1 - [01;31m[Kt0[m[K;
+      |             [01;31m[K^~[m[K
+      |             [32m[Ktm[m[K
+[01m[K/home/robogait/azure_kinect_ws/src/kinect_azure_body_tracker/src/kinectAzure_body_tracker_node_simplified.cpp:137:23:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[KMinimalPublisher::fsec[m[K’ {aka ‘[01m[Kstd::chrono::duration<float>[m[K’} to ‘[01m[Kbody_tracker_msgs::msg::SpineBottom_<std::allocator<void> >::_tiempo_type[m[K’ {aka ‘[01m[Kdouble[m[K’} in assignment
+  137 |   pelvis_data.tiempo= [01;31m[Kfs[m[K;
+      |                       [01;31m[K^~[m[K
+      |                       [01;31m[K|[m[K
+      |                       [01;31m[KMinimalPublisher::fsec {aka std::chrono::duration<float>}[m[K
+[01m[K/home/robogait/azure_kinect_ws/src/kinect_azure_body_tracker/src/kinectAzure_body_tracker_node_simplified.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::Init()[m[K’:
+[01m[K/home/robogait/azure_kinect_ws/src/kinect_azure_body_tracker/src/kinectAzure_body_tracker_node_simplified.cpp:153:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kt0[m[K’ was not declared in this scope; did you mean ‘[01m[Ktm[m[K’?
+  153 |   [01;31m[Kt0[m[K = Time::now();
+      |   [01;31m[K^~[m[K
+      |   [32m[Ktm[m[K
+At global scope:
+[01m[Kcc1plus:[m[K [01;35m[Kwarning: [m[Kunrecognized command line option ‘[01m[K-Wno-dev[m[K’
+make[2]: *** [CMakeFiles/kinect_azure_body_tracker_node_simplified.dir/build.make:63: CMakeFiles/kinect_azure_body_tracker_node_simplified.dir/src/kinectAzure_body_tracker_node_simplified.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/kinect_azure_body_tracker_node_simplified.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

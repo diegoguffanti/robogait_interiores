@@ -1,0 +1,19 @@
+CMake Error at CMakeLists.txt:35 (include):
+  include could not find load file:
+
+    ../../build/kinectAzure_body_tracker/CMakeFiles/Export/share/kinect/cmake/Findk4abt.cmake
+
+
+CMake Error at CMakeLists.txt:36 (include):
+  include could not find load file:
+
+    ../../build/kinectAzure_body_tracker/CMakeFiles/Export/share/kinect/cmake/Findk4a.cmake
+
+
+CMake Error at /opt/ros/foxy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+  ament_target_dependencies() the passed package name 'K4ABT' was not found
+  before
+Call Stack (most recent call first):
+  CMakeLists.txt:54 (ament_target_dependencies)
+
+

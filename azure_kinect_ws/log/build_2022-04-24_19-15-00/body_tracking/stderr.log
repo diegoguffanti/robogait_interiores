@@ -1,0 +1,43 @@
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:43:65:[m[K [01;31m[Kerror: [m[K‘[01m[Kdevice[m[K’ was not declared in this scope
+   43 |   k4a_wait_result_t get_capture_result = k4a_device_get_capture([01;31m[Kdevice[m[K, &sensor_capture, K4A_WAIT_INFINITE);
+      |                                                                 [01;31m[K^~~~~~[m[K
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:46:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kframe_count[m[K’ was not declared in this scope
+   46 |       [01;31m[Kframe_count[m[K++;
+      |       [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:52:78:[m[K [01;31m[Kerror: [m[K‘[01m[Ktracker[m[K’ was not declared in this scope
+   52 |       k4a_wait_result_t queue_capture_result = k4abt_tracker_enqueue_capture([01;31m[Ktracker[m[K, sensor_capture, K4A_WAIT_INFINITE);
+      |                                                                              [01;31m[K^~~~~~~[m[K
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:59:11:[m[K [01;31m[Kerror: [m[Kbreak statement not within loop or switch
+   59 |           [01;31m[Kbreak[m[K;
+      |           [01;31m[K^~~~~[m[K
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:64:11:[m[K [01;31m[Kerror: [m[Kbreak statement not within loop or switch
+   64 |           [01;31m[Kbreak[m[K;
+      |           [01;31m[K^~~~~[m[K
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:73:11:[m[K [01;31m[Kerror: [m[K‘[01m[Ktotal_success_tracker_time[m[K’ was not declared in this scope
+   73 |           [01;31m[Ktotal_success_tracker_time[m[K += time_spent;
+      |           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:74:11:[m[K [01;31m[Kerror: [m[K‘[01m[Ksuccess_frame_count[m[K’ was not declared in this scope
+   74 |           [01;31m[Ksuccess_frame_count[m[K++;
+      |           [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:80:11:[m[K [01;31m[Kerror: [m[K‘[01m[Ktotal_success_body_count[m[K’ was not declared in this scope
+   80 |           [01;31m[Ktotal_success_body_count[m[K += num_bodies;
+      |           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:111:11:[m[K [01;31m[Kerror: [m[Kbreak statement not within loop or switch
+  111 |           [01;31m[Kbreak[m[K;
+      |           [01;31m[K^~~~~[m[K
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:116:11:[m[K [01;31m[Kerror: [m[Kbreak statement not within loop or switch
+  116 |           [01;31m[Kbreak[m[K;
+      |           [01;31m[K^~~~~[m[K
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:123:7:[m[K [01;31m[Kerror: [m[Kbreak statement not within loop or switch
+  123 |       [01;31m[Kbreak[m[K;
+      |       [01;31m[K^~~~~[m[K
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:128:7:[m[K [01;31m[Kerror: [m[Kbreak statement not within loop or switch
+  128 |       [01;31m[Kbreak[m[K;
+      |       [01;31m[K^~~~~[m[K
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:133:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kbody[m[K’ was not declared in this scope
+  133 |   k4a_float3_t position = [01;31m[Kbody[m[K.skeleton.joints[coordenadaCadera].position;
+      |                           [01;31m[K^~~~[m[K
+make[2]: *** [CMakeFiles/prueba_talker.dir/build.make:63: CMakeFiles/prueba_talker.dir/src/main.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:325: CMakeFiles/prueba_talker.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

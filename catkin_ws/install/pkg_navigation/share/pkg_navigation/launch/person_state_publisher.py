@@ -1,0 +1,1 @@
+/home/robogait/catkin_ws/src/pkg_navigation/launch/person_state_publisher.py

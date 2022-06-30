@@ -1,0 +1,6 @@
+[01m[K/home/robogait/azure_kinect_ws/src/kinect_azure_body_tracker/src/kinectAzure_body_tracker_node_simplified.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::body_tracking()[m[K’:
+[01m[K/home/robogait/azure_kinect_ws/src/kinect_azure_body_tracker/src/kinectAzure_body_tracker_node_simplified.cpp:51:9:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kt0[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+   51 |    auto [01;35m[Kt0[m[K = Time::now();
+      |         [01;35m[K^~[m[K
+At global scope:
+[01m[Kcc1plus:[m[K [01;35m[Kwarning: [m[Kunrecognized command line option ‘[01m[K-Wno-dev[m[K’

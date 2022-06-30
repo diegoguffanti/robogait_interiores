@@ -1,0 +1,7 @@
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller_straight.cpp:[m[K In member function ‘[01m[Kvoid generic::controller()[m[K’:
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller_straight.cpp:148:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kyaw[m[K’ was not declared in this scope
+  148 |         cmd_velrobot_msg.angular.z=-kp_yaw*[01;31m[Kyaw[m[K;
+      |                                            [01;31m[K^~~[m[K
+make[2]: *** [CMakeFiles/robot_controller_straight.dir/build.make:63: CMakeFiles/robot_controller_straight.dir/src/robot_controller_straight.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:364: CMakeFiles/robot_controller_straight.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

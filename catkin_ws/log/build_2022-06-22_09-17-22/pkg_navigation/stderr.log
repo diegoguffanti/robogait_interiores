@@ -1,0 +1,4 @@
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/camera_controller.cpp:[m[K In member function ‘[01m[Kvoid generic::controller()[m[K’:
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/camera_controller.cpp:102:28:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around comparison in operand of ‘[01m[K&[m[K’ [[01;35m[K-Wparentheses[m[K]
+  102 |          if([01;35m[Kdistance_person>0[m[K & distance_person<4.0){
+      |             [01;35m[K~~~~~~~~~~~~~~~^~[m[K

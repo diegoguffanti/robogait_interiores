@@ -1,0 +1,25 @@
+[01m[K/home/robogait/azure_kinect_ws/src/kinect_azure_body_tracker/src/kinectAzure_body_tracker_node_simplified.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::Init()[m[K’:
+[01m[K/home/robogait/azure_kinect_ws/src/kinect_azure_body_tracker/src/kinectAzure_body_tracker_node_simplified.cpp:151:38:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Time::nanoseconds(double&)[m[K’
+  151 |   rclcpp::Time::nanoseconds(t_inicial[01;31m[K)[m[K;
+      |                                      [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/clock.hpp:23[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/timer.hpp:27[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:27[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/robogait/azure_kinect_ws/src/kinect_azure_body_tracker/src/kinectAzure_body_tracker_node_simplified.cpp:16[m[K:
+[01m[K/opt/ros/foxy/include/rclcpp/time.hpp:184:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krcl_time_point_value_t rclcpp::Time::nanoseconds() const[m[K’
+  184 |   [01;36m[Knanoseconds[m[K() const;
+      |   [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/time.hpp:184:3:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+At global scope:
+[01m[Kcc1plus:[m[K [01;35m[Kwarning: [m[Kunrecognized command line option ‘[01m[K-Wno-dev[m[K’
+make[2]: *** [CMakeFiles/kinect_azure_body_tracker_node_simplified.dir/build.make:63: CMakeFiles/kinect_azure_body_tracker_node_simplified.dir/src/kinectAzure_body_tracker_node_simplified.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/kinect_azure_body_tracker_node_simplified.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

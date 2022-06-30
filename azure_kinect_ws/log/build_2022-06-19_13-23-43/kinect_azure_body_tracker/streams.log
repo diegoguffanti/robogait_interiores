@@ -1,0 +1,27 @@
+[0.021s] Invoking command in '/home/robogait/azure_kinect_ws/build/kinect_azure_body_tracker': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/nav2_ws/install/nav2_gazebo_spawner:/home/robogait/ros2_serial/install/ourbotmanager:/home/robogait/ros2_ws/install/nav2_project:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/azure_kinect_ws/build/kinect_azure_body_tracker -- -j8 -l8
+[0.067s] [35m[1mScanning dependencies of target kinect_azure_body_tracker_node_full_processing[0m
+[0.088s] [ 20%] Built target kinect_azure_body_tracker_node_simplified
+[0.089s] [ 60%] Built target kinect_azure_body_tracker_node
+[0.089s] [ 60%] Built target kinect_azure_body_tracker_recording_node_simplified
+[0.096s] [ 80%] Built target kinect_azure_body_tracker_recording_node
+[0.105s] [ 90%] [32mBuilding CXX object CMakeFiles/kinect_azure_body_tracker_node_full_processing.dir/src/kinectAzure_body_tracker_node_full_processing.cpp.o[0m
+[0.923s] [01m[K/home/robogait/azure_kinect_ws/src/kinect_azure_body_tracker/src/kinectAzure_body_tracker_node_full_processing.cpp:[m[K In constructor ‘[01m[KMinimalPublisher::MinimalPublisher()[m[K’:
+[0.923s] [01m[K/home/robogait/azure_kinect_ws/src/kinect_azure_body_tracker/src/kinectAzure_body_tracker_node_full_processing.cpp:46:94:[m[K [01;31m[Kerror: [m[K‘[01m[KprocessinPath[m[K’ was not declared in this scope; did you mean ‘[01m[KprocessingName[m[K’?
+[0.923s]    46 |   printf("Ha acabado la grabación, ahora paso a procesarla generando un archivo csv: %s\n", [01;31m[KprocessinPath[m[K);
+[0.923s]       |                                                                                              [01;31m[K^~~~~~~~~~~~~[m[K
+[0.923s]       |                                                                                              [32m[KprocessingName[m[K
+[0.932s] [01m[K/home/robogait/azure_kinect_ws/src/kinect_azure_body_tracker/src/kinectAzure_body_tracker_node_full_processing.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::Init()[m[K’:
+[0.932s] [01m[K/home/robogait/azure_kinect_ws/src/kinect_azure_body_tracker/src/kinectAzure_body_tracker_node_full_processing.cpp:242:38:[m[K [01;31m[Kerror: [m[K‘[01m[KrecordingPath[m[K’ was not declared in this scope; did you mean ‘[01m[KrecordingName[m[K’?
+[0.932s]   242 |   sprintf(recordingName, "%s%s.mkv", [01;31m[KrecordingPath[m[K, fileName);
+[0.932s]       |                                      [01;31m[K^~~~~~~~~~~~~[m[K
+[0.932s]       |                                      [32m[KrecordingName[m[K
+[0.933s] [01m[K/home/robogait/azure_kinect_ws/src/kinect_azure_body_tracker/src/kinectAzure_body_tracker_node_full_processing.cpp:254:39:[m[K [01;31m[Kerror: [m[K‘[01m[KprocessinPath[m[K’ was not declared in this scope; did you mean ‘[01m[KprocessingName[m[K’?
+[0.933s]   254 |   sprintf(processingName, "%s%s.csv", [01;31m[KprocessinPath[m[K, fileName);
+[0.933s]       |                                       [01;31m[K^~~~~~~~~~~~~[m[K
+[0.933s]       |                                       [32m[KprocessingName[m[K
+[1.450s] At global scope:
+[1.450s] [01m[Kcc1plus:[m[K [01;35m[Kwarning: [m[Kunrecognized command line option ‘[01m[K-Wno-dev[m[K’
+[1.456s] make[2]: *** [CMakeFiles/kinect_azure_body_tracker_node_full_processing.dir/build.make:63: CMakeFiles/kinect_azure_body_tracker_node_full_processing.dir/src/kinectAzure_body_tracker_node_full_processing.cpp.o] Error 1
+[1.457s] make[1]: *** [CMakeFiles/Makefile2:86: CMakeFiles/kinect_azure_body_tracker_node_full_processing.dir/all] Error 2
+[1.457s] make: *** [Makefile:141: all] Error 2
+[1.459s] Invoked command in '/home/robogait/azure_kinect_ws/build/kinect_azure_body_tracker' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/nav2_ws/install/nav2_gazebo_spawner:/home/robogait/ros2_serial/install/ourbotmanager:/home/robogait/ros2_ws/install/nav2_project:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/azure_kinect_ws/build/kinect_azure_body_tracker -- -j8 -l8

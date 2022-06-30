@@ -1,0 +1,71 @@
+[0.010s] Invoking command in '/home/robogait/azure_kinect_ws/build/body_tracking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/azure_kinect_ws/build/body_tracking -- -j8 -l8
+[0.041s] [35m[1mScanning dependencies of target prueba_talker[0m
+[0.048s] [  5%] Built target body_tracking_node
+[0.049s] [ 12%] Built target body_tracking__rosidl_generator_c
+[0.049s] [ 15%] Built target body_tracking__cpp
+[0.055s] [ 25%] Built target listener
+[0.055s] [ 25%] Built target talker
+[0.062s] [ 28%] [32mBuilding CXX object CMakeFiles/prueba_talker.dir/src/main.cpp.o[0m
+[0.067s] [ 35%] Built target body_tracking__rosidl_typesupport_fastrtps_cpp
+[0.067s] [ 53%] Built target body_tracking__rosidl_typesupport_introspection_cpp
+[0.067s] [ 53%] Built target body_tracking__rosidl_typesupport_cpp
+[0.067s] [ 58%] Built target body_tracking__rosidl_typesupport_introspection_c
+[0.067s] [ 66%] Built target body_tracking__rosidl_typesupport_c
+[0.085s] [ 74%] Built target body_tracking__rosidl_typesupport_fastrtps_c
+[0.097s] [ 74%] Built target body_tracking
+[0.111s] [ 76%] Built target body_tracking__py
+[0.130s] [ 82%] Built target body_tracking__python
+[0.148s] [ 97%] Built target body_tracking__rosidl_typesupport_introspection_c__pyext
+[0.148s] [ 97%] Built target body_tracking__rosidl_typesupport_fastrtps_c__pyext
+[0.148s] [ 97%] Built target body_tracking__rosidl_typesupport_c__pyext
+[0.788s] [01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:31:6:[m[K [01;31m[Kerror: [m[K‘[01m[Kdevice_config[m[K’ does not name a type
+[0.788s]    31 |      [01;31m[Kdevice_config[m[K.depth_mode = K4A_DEPTH_MODE_NFOV_UNBINNED;
+[0.788s]       |      [01;31m[K^~~~~~~~~~~~~[m[K
+[0.798s] [01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[0.798s] [01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:76:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kframe_count[m[K’ was not declared in this scope
+[0.798s]    76 |       [01;31m[Kframe_count[m[K++;
+[0.798s]       |       [01;31m[K^~~~~~~~~~~[m[K
+[0.799s] [01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:82:78:[m[K [01;31m[Kerror: [m[K‘[01m[Ktracker[m[K’ was not declared in this scope
+[0.799s]    82 |       k4a_wait_result_t queue_capture_result = k4abt_tracker_enqueue_capture([01;31m[Ktracker[m[K, sensor_capture, K4A_WAIT_INFINITE);
+[0.799s]       |                                                                              [01;31m[K^~~~~~~[m[K
+[0.799s] [01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:89:11:[m[K [01;31m[Kerror: [m[Kbreak statement not within loop or switch
+[0.799s]    89 |           [01;31m[Kbreak[m[K;
+[0.800s]       |           [01;31m[K^~~~~[m[K
+[0.800s] [01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:94:11:[m[K [01;31m[Kerror: [m[Kbreak statement not within loop or switch
+[0.800s]    94 |           [01;31m[Kbreak[m[K;
+[0.800s]       |           [01;31m[K^~~~~[m[K
+[0.804s] [01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:103:11:[m[K [01;31m[Kerror: [m[K‘[01m[Ktotal_success_tracker_time[m[K’ was not declared in this scope
+[0.804s]   103 |           [01;31m[Ktotal_success_tracker_time[m[K += time_spent;
+[0.804s]       |           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.807s] [01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:104:11:[m[K [01;31m[Kerror: [m[K‘[01m[Ksuccess_frame_count[m[K’ was not declared in this scope
+[0.807s]   104 |           [01;31m[Ksuccess_frame_count[m[K++;
+[0.807s]       |           [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.811s] [01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:110:11:[m[K [01;31m[Kerror: [m[K‘[01m[Ktotal_success_body_count[m[K’ was not declared in this scope
+[0.811s]   110 |           [01;31m[Ktotal_success_body_count[m[K += num_bodies;
+[0.811s]       |           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.811s] [01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:141:11:[m[K [01;31m[Kerror: [m[Kbreak statement not within loop or switch
+[0.811s]   141 |           [01;31m[Kbreak[m[K;
+[0.811s]       |           [01;31m[K^~~~~[m[K
+[0.811s] [01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:146:11:[m[K [01;31m[Kerror: [m[Kbreak statement not within loop or switch
+[0.812s]   146 |           [01;31m[Kbreak[m[K;
+[0.812s]       |           [01;31m[K^~~~~[m[K
+[0.812s] [01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:153:7:[m[K [01;31m[Kerror: [m[Kbreak statement not within loop or switch
+[0.812s]   153 |       [01;31m[Kbreak[m[K;
+[0.812s]       |       [01;31m[K^~~~~[m[K
+[0.812s] [01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:158:7:[m[K [01;31m[Kerror: [m[Kbreak statement not within loop or switch
+[0.812s]   158 |       [01;31m[Kbreak[m[K;
+[0.812s]       |       [01;31m[K^~~~~[m[K
+[0.812s] [01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:163:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kbody[m[K’ was not declared in this scope
+[0.812s]   163 |   k4a_float3_t position = [01;31m[Kbody[m[K.skeleton.joints[coordenadaCadera].position;
+[0.812s]       |                           [01;31m[K^~~~[m[K
+[0.820s] [01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[0.821s] [01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:221:25:[m[K [01;31m[Kerror: [m[K‘[01m[Ktracker[m[K’ was not declared in this scope
+[0.821s]   221 |  k4abt_tracker_shutdown([01;31m[Ktracker[m[K);
+[0.821s]       |                         [01;31m[K^~~~~~~[m[K
+[0.821s] [01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:223:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kdevice[m[K’ was not declared in this scope
+[0.821s]   223 |  k4a_device_stop_cameras([01;31m[Kdevice[m[K);
+[0.821s]       |                          [01;31m[K^~~~~~[m[K
+[1.359s] make[2]: *** [CMakeFiles/prueba_talker.dir/build.make:63: CMakeFiles/prueba_talker.dir/src/main.cpp.o] Error 1
+[1.359s] make[1]: *** [CMakeFiles/Makefile2:325: CMakeFiles/prueba_talker.dir/all] Error 2
+[1.359s] make: *** [Makefile:141: all] Error 2
+[1.362s] Invoked command in '/home/robogait/azure_kinect_ws/build/body_tracking' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/azure_kinect_ws/build/body_tracking -- -j8 -l8

@@ -1,0 +1,12 @@
+CMake Error at CMakeLists.txt:19 (find_package):
+  find_package called with invalid argument "rclcpp"
+
+
+CMake Error at /opt/ros/foxy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+  ament_target_dependencies() the passed package name 'rclcpp' was not found
+  before
+Call Stack (most recent call first):
+  CMakeLists.txt:53 (ament_target_dependencies)
+
+
+make: *** [Makefile:266: cmake_check_build_system] Error 1

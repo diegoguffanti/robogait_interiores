@@ -1,0 +1,11 @@
+/home/robogait/azure_kinect_ws/build/body_tracking/CMakeFiles/install/local.dir
+/home/robogait/azure_kinect_ws/build/body_tracking/CMakeFiles/install.dir
+/home/robogait/azure_kinect_ws/build/body_tracking/CMakeFiles/list_install_components.dir
+/home/robogait/azure_kinect_ws/build/body_tracking/CMakeFiles/rebuild_cache.dir
+/home/robogait/azure_kinect_ws/build/body_tracking/CMakeFiles/edit_cache.dir
+/home/robogait/azure_kinect_ws/build/body_tracking/CMakeFiles/test.dir
+/home/robogait/azure_kinect_ws/build/body_tracking/CMakeFiles/body_tracking_recording_node.dir
+/home/robogait/azure_kinect_ws/build/body_tracking/CMakeFiles/install/strip.dir
+/home/robogait/azure_kinect_ws/build/body_tracking/CMakeFiles/body_tracking_node.dir
+/home/robogait/azure_kinect_ws/build/body_tracking/CMakeFiles/body_tracking_uninstall.dir
+/home/robogait/azure_kinect_ws/build/body_tracking/CMakeFiles/uninstall.dir

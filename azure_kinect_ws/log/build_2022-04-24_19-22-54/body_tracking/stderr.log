@@ -1,0 +1,63 @@
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:[m[K In constructor ‘[01m[KMinimalPublisher::MinimalPublisher()[m[K’:
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:31:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_publisher_t[m[K’?
+   31 |   [01;31m[Kpublisher_[m[K = this->create_publisher<body_tracking::msg::HipCoordinates>("topic", 10);
+      |   [01;31m[K^~~~~~~~~~[m[K
+      |   [32m[Krcl_publisher_t[m[K
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:32:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+   32 |   [01;31m[Ktimer_[m[K = this->create_wall_timer(
+      |   [01;31m[K^~~~~~[m[K
+      |   [32m[Ktimer_t[m[K
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:76:65:[m[K [01;31m[Kerror: [m[K‘[01m[Kdevice[m[K’ was not declared in this scope
+   76 |   k4a_wait_result_t get_capture_result = k4a_device_get_capture([01;31m[Kdevice[m[K, &sensor_capture, K4A_WAIT_INFINITE);
+      |                                                                 [01;31m[K^~~~~~[m[K
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:79:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kframe_count[m[K’ was not declared in this scope
+   79 |       [01;31m[Kframe_count[m[K++;
+      |       [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:85:78:[m[K [01;31m[Kerror: [m[K‘[01m[Ktracker[m[K’ was not declared in this scope
+   85 |       k4a_wait_result_t queue_capture_result = k4abt_tracker_enqueue_capture([01;31m[Ktracker[m[K, sensor_capture, K4A_WAIT_INFINITE);
+      |                                                                              [01;31m[K^~~~~~~[m[K
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:92:11:[m[K [01;31m[Kerror: [m[Kbreak statement not within loop or switch
+   92 |           [01;31m[Kbreak[m[K;
+      |           [01;31m[K^~~~~[m[K
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:97:11:[m[K [01;31m[Kerror: [m[Kbreak statement not within loop or switch
+   97 |           [01;31m[Kbreak[m[K;
+      |           [01;31m[K^~~~~[m[K
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:106:11:[m[K [01;31m[Kerror: [m[K‘[01m[Ktotal_success_tracker_time[m[K’ was not declared in this scope
+  106 |           [01;31m[Ktotal_success_tracker_time[m[K += time_spent;
+      |           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:107:11:[m[K [01;31m[Kerror: [m[K‘[01m[Ksuccess_frame_count[m[K’ was not declared in this scope
+  107 |           [01;31m[Ksuccess_frame_count[m[K++;
+      |           [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:113:11:[m[K [01;31m[Kerror: [m[K‘[01m[Ktotal_success_body_count[m[K’ was not declared in this scope
+  113 |           [01;31m[Ktotal_success_body_count[m[K += num_bodies;
+      |           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:144:11:[m[K [01;31m[Kerror: [m[Kbreak statement not within loop or switch
+  144 |           [01;31m[Kbreak[m[K;
+      |           [01;31m[K^~~~~[m[K
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:149:11:[m[K [01;31m[Kerror: [m[Kbreak statement not within loop or switch
+  149 |           [01;31m[Kbreak[m[K;
+      |           [01;31m[K^~~~~[m[K
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:156:7:[m[K [01;31m[Kerror: [m[Kbreak statement not within loop or switch
+  156 |       [01;31m[Kbreak[m[K;
+      |       [01;31m[K^~~~~[m[K
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:161:7:[m[K [01;31m[Kerror: [m[Kbreak statement not within loop or switch
+  161 |       [01;31m[Kbreak[m[K;
+      |       [01;31m[K^~~~~[m[K
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:166:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kbody[m[K’ was not declared in this scope
+  166 |   k4a_float3_t position = [01;31m[Kbody[m[K.skeleton.joints[coordenadaCadera].position;
+      |                           [01;31m[K^~~~[m[K
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:172:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_publisher_t[m[K’?
+  172 |   [01;31m[Kpublisher_[m[K->publish(message);
+      |   [01;31m[K^~~~~~~~~~[m[K
+      |   [32m[Krcl_publisher_t[m[K
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:225:25:[m[K [01;31m[Kerror: [m[K‘[01m[Ktracker[m[K’ was not declared in this scope
+  225 |  k4abt_tracker_shutdown([01;31m[Ktracker[m[K);
+      |                         [01;31m[K^~~~~~~[m[K
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:227:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kdevice[m[K’ was not declared in this scope
+  227 |  k4a_device_stop_cameras([01;31m[Kdevice[m[K);
+      |                          [01;31m[K^~~~~~[m[K
+make[2]: *** [CMakeFiles/prueba_talker.dir/build.make:63: CMakeFiles/prueba_talker.dir/src/main.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:325: CMakeFiles/prueba_talker.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

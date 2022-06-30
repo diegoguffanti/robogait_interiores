@@ -1,0 +1,45 @@
+[35m[1mScanning dependencies of target prueba_talker[0m
+[  5%] Built target body_tracking__cpp
+[  7%] Built target body_tracking_node
+[ 15%] Built target body_tracking__rosidl_generator_c
+[ 20%] Built target listener
+[ 25%] Built target talker
+[ 33%] [32mBuilding CXX object CMakeFiles/prueba_talker.dir/src/main.cpp.o[0m
+[ 35%] Built target body_tracking__rosidl_typesupport_introspection_cpp
+[ 43%] Built target body_tracking__rosidl_typesupport_cpp
+[ 58%] Built target body_tracking__rosidl_typesupport_fastrtps_cpp
+[ 58%] Built target body_tracking__rosidl_typesupport_c
+[ 66%] Built target body_tracking__rosidl_typesupport_introspection_c
+[ 74%] Built target body_tracking__rosidl_typesupport_fastrtps_c
+[ 74%] Built target body_tracking
+[ 76%] Built target body_tracking__py
+[ 82%] Built target body_tracking__python
+[ 97%] Built target body_tracking__rosidl_typesupport_fastrtps_c__pyext
+[ 97%] Built target body_tracking__rosidl_typesupport_c__pyext
+[ 97%] Built target body_tracking__rosidl_typesupport_introspection_c__pyext
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:[m[K In constructor ‘[01m[KMinimalPublisher::MinimalPublisher()[m[K’:
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:36:59:[m[K [01;31m[Kerror: [m[K‘[01m[KCoordinates[m[K’ is not a member of ‘[01m[Kbody_tracking::msg[m[K’; did you mean ‘[01m[KHipCoordinates[m[K’?
+   36 |   publisher_ = this->create_publisher<body_tracking::msg::[01;31m[KCoordinates[m[K>("topic", 10);
+      |                                                           [01;31m[K^~~~~~~~~~~[m[K
+      |                                                           [32m[KHipCoordinates[m[K
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:36:59:[m[K [01;31m[Kerror: [m[K‘[01m[KCoordinates[m[K’ is not a member of ‘[01m[Kbody_tracking::msg[m[K’; did you mean ‘[01m[KHipCoordinates[m[K’?
+   36 |   publisher_ = this->create_publisher<body_tracking::msg::[01;31m[KCoordinates[m[K>("topic", 10);
+      |                                                           [01;31m[K^~~~~~~~~~~[m[K
+      |                                                           [32m[KHipCoordinates[m[K
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:36:83:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMinimalPublisher::create_publisher<<expression error> >(const char [6], int)[m[K’
+   36 |   publisher_ = this->create_publisher<body_tracking::msg::Coordinates>("topic", 10[01;31m[K)[m[K;
+      |                                                                                   [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:16[m[K:
+[01m[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+  184 |   [01;36m[Kcreate_publisher[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:36:83:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   36 |   publisher_ = this->create_publisher<body_tracking::msg::Coordinates>("topic", 10[01;31m[K)[m[K;
+      |                                                                                   [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/prueba_talker.dir/build.make:63: CMakeFiles/prueba_talker.dir/src/main.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:325: CMakeFiles/prueba_talker.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

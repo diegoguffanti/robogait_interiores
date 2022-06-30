@@ -1,0 +1,54 @@
+[35m[1mScanning dependencies of target robot_controller[0m
+[ 20%] Built target robot_odom_tf2_listener
+[ 60%] Built target publisher_initial_pose
+[ 60%] Built target publisher_subscriber
+[ 80%] [32mBuilding CXX object CMakeFiles/robot_controller.dir/src/robot_controller.cpp.o[0m
+[ 90%] Built target tf2_broadcaster
+[100%] [32m[1mLinking CXX executable robot_controller[0m
+[100%] Built target robot_controller
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/robogait/catkin_ws/install/pkg_navigation/lib/pkg_navigation/publisher_subscriber
+-- Up-to-date symlink: /home/robogait/catkin_ws/install/pkg_navigation/lib/pkg_navigation/tf2_broadcaster
+-- Up-to-date symlink: /home/robogait/catkin_ws/install/pkg_navigation/lib/pkg_navigation/publisher_initial_pose
+-- Up-to-date symlink: /home/robogait/catkin_ws/install/pkg_navigation/lib/pkg_navigation/robot_odom_tf2_listener
+-- Up-to-date symlink: /home/robogait/catkin_ws/install/pkg_navigation/lib/pkg_navigation/robot_controller
+-- Up-to-date symlink: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/launch/__pycache__/turtlesim_mimic_launch.cpython-38.pyc
+-- Up-to-date symlink: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/launch/realsense_pointcloud_launch.py
+-- Up-to-date symlink: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/launch/robogait_launch_states.py
+-- Up-to-date symlink: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/launch/robogait_map_server_launch.py
+-- Up-to-date symlink: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/launch/robogait_mapping_launch (copy).py
+-- Up-to-date symlink: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/launch/robogait_mapping_launch.py
+-- Up-to-date symlink: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/launch/robogait_online_async_launch.py
+-- Up-to-date symlink: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/launch/robogait_state_publisher.py
+-- Up-to-date symlink: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/launch/rviz_launch.py
+-- Up-to-date symlink: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/launch/teb_nav2_bringup_launch.py
+-- Up-to-date symlink: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/launch/teb_tb3_simulation_launch.py
+-- Up-to-date symlink: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/rviz/rviz_config.rviz
+-- Up-to-date symlink: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/rviz/rviz_config_map_server.rviz
+-- Up-to-date symlink: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/rviz/rviz_config_nav2_teb.rviz
+-- Up-to-date symlink: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/config/map_server_params.yaml
+-- Up-to-date symlink: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/config/mapper_params_online_async.yaml
+-- Up-to-date symlink: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/config/nav2.yaml
+-- Up-to-date symlink: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/config/nav2_params.yaml
+-- Up-to-date symlink: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/config/teb_params (copy).yaml
+-- Up-to-date symlink: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/config/teb_params.yaml
+-- Up-to-date symlink: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/maps/map.pgm
+-- Up-to-date symlink: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/maps/map.yaml
+-- Up-to-date symlink: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/maps/map_laboratory.pgm
+-- Up-to-date symlink: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/maps/map_laboratory.yaml
+-- Up-to-date symlink: /home/robogait/catkin_ws/install/pkg_navigation/share/ament_index/resource_index/package_run_dependencies/pkg_navigation
+-- Up-to-date symlink: /home/robogait/catkin_ws/install/pkg_navigation/share/ament_index/resource_index/parent_prefix_path/pkg_navigation
+-- Up-to-date symlink: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/environment/path.sh
+-- Up-to-date symlink: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/environment/path.dsv
+-- Up-to-date symlink: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/local_setup.bash
+-- Up-to-date symlink: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/local_setup.sh
+-- Up-to-date symlink: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/local_setup.zsh
+-- Up-to-date symlink: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/local_setup.dsv
+-- Symlinking: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/package.dsv
+-- Up-to-date symlink: /home/robogait/catkin_ws/install/pkg_navigation/share/ament_index/resource_index/packages/pkg_navigation
+-- Up-to-date symlink: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/cmake/pkg_navigationConfig.cmake
+-- Up-to-date symlink: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/cmake/pkg_navigationConfig-version.cmake
+-- Up-to-date symlink: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/package.xml

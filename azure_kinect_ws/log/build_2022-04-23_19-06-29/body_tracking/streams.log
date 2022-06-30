@@ -1,0 +1,67 @@
+[0.010s] Invoking command in '/home/robogait/azure_kinect_ws/build/body_tracking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/azure_kinect_ws/build/body_tracking -- -j8 -l8
+[0.047s] [ 10%] Built target body_tracking__rosidl_generator_c
+[0.047s] [ 13%] Built target body_tracking_node
+[0.047s] [ 16%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[0.048s] [ 18%] Built target body_tracking__cpp
+[0.048s] [ 21%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[0.063s] [ 29%] Built target body_tracking__rosidl_typesupport_c
+[0.064s] [ 37%] Built target body_tracking__rosidl_typesupport_introspection_c
+[0.065s] [ 45%] Built target body_tracking__rosidl_typesupport_introspection_cpp
+[0.065s] [ 54%] Built target body_tracking__rosidl_typesupport_cpp
+[0.066s] [ 62%] Built target body_tracking__rosidl_typesupport_fastrtps_cpp
+[0.083s] [ 70%] Built target body_tracking__rosidl_typesupport_fastrtps_c
+[0.096s] [ 70%] Built target body_tracking
+[0.109s] [ 72%] Built target body_tracking__py
+[0.128s] [ 78%] Built target body_tracking__python
+[0.146s] [ 83%] Built target body_tracking__rosidl_typesupport_fastrtps_c__pyext
+[0.148s] [ 89%] Built target body_tracking__rosidl_typesupport_introspection_c__pyext
+[0.149s] [ 94%] Built target body_tracking__rosidl_typesupport_c__pyext
+[0.849s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+[0.849s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[0.849s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[0.849s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[0.849s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[0.849s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[0.849s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[0.849s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[0.849s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[0.849s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[0.849s]                  from [01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/subscriber_member_function.cpp:3[m[K:
+[0.849s] [01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/subscriber_member_function.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::topic_callback(body_tracking::msg::HipCoordinates_<std::allocator<void> >::SharedPtr) const[m[K’:
+[0.849s] [01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/subscriber_member_function.cpp:22:106:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct body_tracking::msg::HipCoordinates_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct body_tracking::msg::HipCoordinates_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ky[m[K’
+[0.849s]    22 |     RCLCPP_INFO(this->get_logger(), "I heard hip coordinates: x->'%f' ; y->'%f' ; z->'%f'", msg->x, msg->[01;31m[Ky[m[K, msg->z);
+[0.849s]       |                                                                                                          [01;31m[K^[m[K
+[0.849s] [01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/subscriber_member_function.cpp:22:114:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct body_tracking::msg::HipCoordinates_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct body_tracking::msg::HipCoordinates_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kz[m[K’
+[0.850s]    22 |     RCLCPP_INFO(this->get_logger(), "I heard hip coordinates: x->'%f' ; y->'%f' ; z->'%f'", msg->x, msg->y, msg->[01;31m[Kz[m[K);
+[0.850s]       |                                                                                                                  [01;31m[K^[m[K
+[0.870s] [01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/publisher_member_function.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[0.870s] [01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/publisher_member_function.cpp:26:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct body_tracking::msg::HipCoordinates_<std::allocator<void> >[m[K’ has no member named ‘[01m[Ky[m[K’
+[0.871s]    26 |     message.[01;31m[Ky[m[K = 1;
+[0.871s]       |             [01;31m[K^[m[K
+[0.871s] [01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/publisher_member_function.cpp:27:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct body_tracking::msg::HipCoordinates_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kz[m[K’
+[0.871s]    27 |     message.[01;31m[Kz[m[K = 1;
+[0.871s]       |             [01;31m[K^[m[K
+[0.871s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+[0.871s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[0.871s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[0.871s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[0.871s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[0.871s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[0.871s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[0.871s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[0.871s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[0.871s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[0.871s]                  from [01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/publisher_member_function.cpp:4[m[K:
+[0.871s] [01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/publisher_member_function.cpp:28:115:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct body_tracking::msg::HipCoordinates_<std::allocator<void> >[m[K’ has no member named ‘[01m[Ky[m[K’
+[0.871s]    28 |     RCLCPP_INFO(this->get_logger(), "Publishing hip coordinates: x->'%f' ; y->'%f' ; z->'%f'", message.x, message.[01;31m[Ky[m[K, message.z);
+[0.871s]       |                                                                                                                   [01;31m[K^[m[K
+[0.872s] [01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/publisher_member_function.cpp:28:126:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct body_tracking::msg::HipCoordinates_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kz[m[K’
+[0.872s]    28 |     RCLCPP_INFO(this->get_logger(), "Publishing hip coordinates: x->'%f' ; y->'%f' ; z->'%f'", message.x, message.y, message.[01;31m[Kz[m[K);
+[0.872s]       |                                                                                                                              [01;31m[K^[m[K
+[1.484s] make[2]: *** [CMakeFiles/talker.dir/build.make:63: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+[1.484s] make[1]: *** [CMakeFiles/Makefile2:323: CMakeFiles/talker.dir/all] Error 2
+[1.484s] make[1]: *** Waiting for unfinished jobs....
+[1.808s] make[2]: *** [CMakeFiles/listener.dir/build.make:63: CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o] Error 1
+[1.808s] make[1]: *** [CMakeFiles/Makefile2:296: CMakeFiles/listener.dir/all] Error 2
+[1.808s] make: *** [Makefile:141: all] Error 2
+[1.810s] Invoked command in '/home/robogait/azure_kinect_ws/build/body_tracking' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/azure_kinect_ws/build/body_tracking -- -j8 -l8

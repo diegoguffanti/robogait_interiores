@@ -1,0 +1,6 @@
+/usr/bin/ld: cannot find -lhip_coordinates
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/prueba_talker.dir/build.make:131: prueba_talker] Error 1
+make[1]: *** [CMakeFiles/Makefile2:325: CMakeFiles/prueba_talker.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [Makefile:141: all] Error 2

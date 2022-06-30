@@ -1,0 +1,17 @@
+/home/robogait/ros2_serial_cpp/install/ros2_serial_cpp/lib/ros2_serial_cpp/driver_controller
+/home/robogait/ros2_serial_cpp/install/ros2_serial_cpp/lib/ros2_serial_cpp/modelado
+/home/robogait/ros2_serial_cpp/install/ros2_serial_cpp/share/ament_index/resource_index/package_run_dependencies/ros2_serial_cpp
+/home/robogait/ros2_serial_cpp/install/ros2_serial_cpp/share/ament_index/resource_index/parent_prefix_path/ros2_serial_cpp
+/home/robogait/ros2_serial_cpp/install/ros2_serial_cpp/share/ros2_serial_cpp/environment/ament_prefix_path.sh
+/home/robogait/ros2_serial_cpp/install/ros2_serial_cpp/share/ros2_serial_cpp/environment/ament_prefix_path.dsv
+/home/robogait/ros2_serial_cpp/install/ros2_serial_cpp/share/ros2_serial_cpp/environment/path.sh
+/home/robogait/ros2_serial_cpp/install/ros2_serial_cpp/share/ros2_serial_cpp/environment/path.dsv
+/home/robogait/ros2_serial_cpp/install/ros2_serial_cpp/share/ros2_serial_cpp/local_setup.bash
+/home/robogait/ros2_serial_cpp/install/ros2_serial_cpp/share/ros2_serial_cpp/local_setup.sh
+/home/robogait/ros2_serial_cpp/install/ros2_serial_cpp/share/ros2_serial_cpp/local_setup.zsh
+/home/robogait/ros2_serial_cpp/install/ros2_serial_cpp/share/ros2_serial_cpp/local_setup.dsv
+/home/robogait/ros2_serial_cpp/install/ros2_serial_cpp/share/ros2_serial_cpp/package.dsv
+/home/robogait/ros2_serial_cpp/install/ros2_serial_cpp/share/ament_index/resource_index/packages/ros2_serial_cpp
+/home/robogait/ros2_serial_cpp/install/ros2_serial_cpp/share/ros2_serial_cpp/cmake/ros2_serial_cppConfig.cmake
+/home/robogait/ros2_serial_cpp/install/ros2_serial_cpp/share/ros2_serial_cpp/cmake/ros2_serial_cppConfig-version.cmake
+/home/robogait/ros2_serial_cpp/install/ros2_serial_cpp/share/ros2_serial_cpp/package.xml

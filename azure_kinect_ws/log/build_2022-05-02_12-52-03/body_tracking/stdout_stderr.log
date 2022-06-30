@@ -1,0 +1,19 @@
+[35m[1mScanning dependencies of target body_tracking_recording_node[0m
+[ 50%] Built target body_tracking_node
+[ 75%] [32mBuilding CXX object CMakeFiles/body_tracking_recording_node.dir/src/kinectAzure_body_tracker_node_plus_recording.cpp.o[0m
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/kinectAzure_body_tracker_node_plus_recording.cpp:356:2:[m[K [01;31m[Kerror: [m[K‘[01m[Ktime[m[K’ does not name a type
+  356 |  [01;31m[Ktime[m[K t_inicial, t_muestra;
+      |  [01;31m[K^~~~[m[K
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/kinectAzure_body_tracker_node_plus_recording.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::body_tracking()[m[K’:
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/kinectAzure_body_tracker_node_plus_recording.cpp:83:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kt_muestra[m[K’ was not declared in this scope
+   83 |           [01;31m[Kt_muestra[m[K = clock.now();
+      |           [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/kinectAzure_body_tracker_node_plus_recording.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::Init()[m[K’:
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/kinectAzure_body_tracker_node_plus_recording.cpp:303:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kt_inicial[m[K’ was not declared in this scope
+  303 |   [01;31m[Kt_inicial[m[K = clock.now();
+      |   [01;31m[K^~~~~~~~~[m[K
+At global scope:
+[01m[Kcc1plus:[m[K [01;35m[Kwarning: [m[Kunrecognized command line option ‘[01m[K-Wno-dev[m[K’
+make[2]: *** [CMakeFiles/body_tracking_recording_node.dir/build.make:63: CMakeFiles/body_tracking_recording_node.dir/src/kinectAzure_body_tracker_node_plus_recording.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/body_tracking_recording_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

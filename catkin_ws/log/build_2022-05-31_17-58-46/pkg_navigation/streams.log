@@ -1,0 +1,70 @@
+[0.012s] Invoking command in '/home/robogait/catkin_ws/build/pkg_navigation': /usr/bin/cmake /home/robogait/catkin_ws/src/pkg_navigation -DCMAKE_INSTALL_PREFIX=/home/robogait/catkin_ws/install/pkg_navigation
+[0.124s] -- The C compiler identification is GNU 9.4.0
+[0.222s] -- The CXX compiler identification is GNU 9.4.0
+[0.228s] -- Check for working C compiler: /usr/bin/cc
+[0.298s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.299s] -- Detecting C compiler ABI info
+[0.359s] -- Detecting C compiler ABI info - done
+[0.366s] -- Detecting C compile features
+[0.367s] -- Detecting C compile features - done
+[0.368s] -- Check for working CXX compiler: /usr/bin/c++
+[0.441s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.442s] -- Detecting CXX compiler ABI info
+[0.509s] -- Detecting CXX compiler ABI info - done
+[0.516s] -- Detecting CXX compile features
+[0.517s] -- Detecting CXX compile features - done
+[0.521s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.546s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.546s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.685s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.736s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.744s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.816s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.838s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.901s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.951s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.953s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.954s] -- Looking for pthread.h
+[1.027s] -- Looking for pthread.h - found
+[1.027s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.097s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.097s] -- Looking for pthread_create in pthreads
+[1.161s] -- Looking for pthread_create in pthreads - not found
+[1.161s] -- Looking for pthread_create in pthread
+[1.225s] -- Looking for pthread_create in pthread - found
+[1.226s] -- Found Threads: TRUE  
+[1.338s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[1.362s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[1.407s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[1.453s] -- Found tf2: 0.13.13 (/opt/ros/foxy/share/tf2/cmake)
+[1.463s] -- Found tf2_ros: 0.13.13 (/opt/ros/foxy/share/tf2_ros/cmake)
+[1.684s] -- Found turtlesim: 1.2.5 (/home/robogait/tutorials_ros2/install/turtlesim/share/turtlesim/cmake)
+[1.752s] Error parsing '/home/robogait/catkin_ws/src/pkg_navigation/package.xml':
+[1.822s] Traceback (most recent call last):
+[1.823s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 143, in <module>
+[1.823s]     main()
+[1.823s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 52, in main
+[1.823s]     raise e
+[1.823s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 48, in main
+[1.823s]     package = parse_package_string(
+[1.823s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 772, in parse_package_string
+[1.823s]     raise InvalidPackage('Error(s):%s' % (''.join(['\n- %s' % e for e in errors])), filename)
+[1.823s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/robogait/catkin_ws/src/pkg_navigation/package.xml':
+[1.823s] Error(s):
+[1.823s] - The manifest of package "pkg_navigation" (with format version 3) must not contain the following tags: pkg_navigation_depend
+[1.838s] CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:94 (message):
+[1.838s]   execute_process(/usr/bin/python3
+[1.838s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[1.838s]   /home/robogait/catkin_ws/src/pkg_navigation/package.xml
+[1.838s]   /home/robogait/catkin_ws/build/pkg_navigation/ament_cmake_core/package.cmake)
+[1.838s]   returned error code 1
+[1.838s] Call Stack (most recent call first):
+[1.838s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[1.838s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package.cmake:63 (ament_package_xml)
+[1.838s]   CMakeLists.txt:74 (ament_package)
+[1.838s] 
+[1.839s] 
+[1.839s] -- Configuring incomplete, errors occurred!
+[1.839s] See also "/home/robogait/catkin_ws/build/pkg_navigation/CMakeFiles/CMakeOutput.log".
+[1.840s] See also "/home/robogait/catkin_ws/build/pkg_navigation/CMakeFiles/CMakeError.log".
+[1.846s] Invoked command in '/home/robogait/catkin_ws/build/pkg_navigation' returned '1': /usr/bin/cmake /home/robogait/catkin_ws/src/pkg_navigation -DCMAKE_INSTALL_PREFIX=/home/robogait/catkin_ws/install/pkg_navigation

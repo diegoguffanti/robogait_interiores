@@ -1,0 +1,23 @@
+[35m[1mScanning dependencies of target body_tracking_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/body_tracking_node.dir/src/kinectAzure_body_tracker_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable body_tracking_node[0m
+[100%] Built target body_tracking_node
+-- Install configuration: ""
+-- Installing: /home/robogait/azure_kinect_ws/install/body_tracking/lib/body_tracking/body_tracking_node
+-- Set runtime path of "/home/robogait/azure_kinect_ws/install/body_tracking/lib/body_tracking/body_tracking_node" to ""
+-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/lib/body_tracking/body_tracking_node
+-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/share/ament_index/resource_index/package_run_dependencies/body_tracking
+-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/share/ament_index/resource_index/parent_prefix_path/body_tracking
+-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/environment/ament_prefix_path.sh
+-- Installing: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/environment/path.sh
+-- Installing: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/environment/path.dsv
+-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/local_setup.bash
+-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/local_setup.sh
+-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/local_setup.zsh
+-- Installing: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/local_setup.dsv
+-- Installing: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/package.dsv
+-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/share/ament_index/resource_index/packages/body_tracking
+-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/cmake/body_trackingConfig.cmake
+-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/cmake/body_trackingConfig-version.cmake
+-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/package.xml

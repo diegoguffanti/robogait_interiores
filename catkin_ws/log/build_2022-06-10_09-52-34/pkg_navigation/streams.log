@@ -1,0 +1,28 @@
+[0.013s] Invoking command in '/home/robogait/catkin_ws/build/pkg_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/ros2_ws/install/nav2_project:/home/robogait/nav2_ws/install/nav2_gazebo_spawner:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/catkin_ws/build/pkg_navigation -- -j8 -l8
+[0.038s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.057s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.161s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.165s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.188s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.190s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.274s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.303s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.305s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.388s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.407s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[0.448s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[0.489s] -- Found tf2: 0.13.13 (/opt/ros/foxy/share/tf2/cmake)
+[0.494s] -- Found tf2_ros: 0.13.13 (/opt/ros/foxy/share/tf2_ros/cmake)
+[0.677s] -- Found turtlesim: 1.2.5 (/home/robogait/tutorials_ros2/install/turtlesim/share/turtlesim/cmake)
+[0.717s] CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/symlink_install/ament_cmake_symlink_install_targets.cmake:67 (message):
+[0.717s]   ament_cmake_symlink_install_targets() 'sDESTINATION' is not a target
+[0.717s] Call Stack (most recent call first):
+[0.717s]   /opt/ros/foxy/share/ament_cmake_core/cmake/symlink_install/install.cmake:37 (ament_cmake_symlink_install_targets)
+[0.717s]   CMakeLists.txt:91 (install)
+[0.717s] 
+[0.717s] 
+[0.718s] -- Configuring incomplete, errors occurred!
+[0.718s] See also "/home/robogait/catkin_ws/build/pkg_navigation/CMakeFiles/CMakeOutput.log".
+[0.718s] See also "/home/robogait/catkin_ws/build/pkg_navigation/CMakeFiles/CMakeError.log".
+[0.722s] make: *** [Makefile:398: cmake_check_build_system] Error 1
+[0.724s] Invoked command in '/home/robogait/catkin_ws/build/pkg_navigation' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/ros2_ws/install/nav2_project:/home/robogait/nav2_ws/install/nav2_gazebo_spawner:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/catkin_ws/build/pkg_navigation -- -j8 -l8

@@ -1,0 +1,26 @@
+[0.013s] Invoking command in '/home/robogait/ros2_serial_cpp/build/ros2_serial_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/ros2_serial_cpp/build/ros2_serial_cpp -- -j8 -l8
+[0.053s] [35m[1mScanning dependencies of target driver_controller[0m
+[0.074s] [ 50%] [32mBuilding CXX object CMakeFiles/driver_controller.dir/src/driver_controller.cpp.o[0m
+[4.623s] [100%] [32m[1mLinking CXX executable driver_controller[0m
+[4.831s] [100%] Built target driver_controller
+[4.839s] Invoked command in '/home/robogait/ros2_serial_cpp/build/ros2_serial_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/ros2_serial_cpp/build/ros2_serial_cpp -- -j8 -l8
+[4.868s] Invoking command in '/home/robogait/ros2_serial_cpp/build/ros2_serial_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy /usr/bin/cmake --install /home/robogait/ros2_serial_cpp/build/ros2_serial_cpp
+[4.875s] -- Install configuration: ""
+[4.875s] -- Installing: /home/robogait/ros2_serial_cpp/install/ros2_serial_cpp/lib/ros2_serial_cpp/driver_controller
+[4.877s] -- Set runtime path of "/home/robogait/ros2_serial_cpp/install/ros2_serial_cpp/lib/ros2_serial_cpp/driver_controller" to ""
+[4.877s] -- Up-to-date: /home/robogait/ros2_serial_cpp/install/ros2_serial_cpp/share/ament_index/resource_index/package_run_dependencies/ros2_serial_cpp
+[4.877s] -- Up-to-date: /home/robogait/ros2_serial_cpp/install/ros2_serial_cpp/share/ament_index/resource_index/parent_prefix_path/ros2_serial_cpp
+[4.877s] -- Up-to-date: /home/robogait/ros2_serial_cpp/install/ros2_serial_cpp/share/ros2_serial_cpp/environment/ament_prefix_path.sh
+[4.877s] -- Up-to-date: /home/robogait/ros2_serial_cpp/install/ros2_serial_cpp/share/ros2_serial_cpp/environment/ament_prefix_path.dsv
+[4.877s] -- Up-to-date: /home/robogait/ros2_serial_cpp/install/ros2_serial_cpp/share/ros2_serial_cpp/environment/path.sh
+[4.877s] -- Up-to-date: /home/robogait/ros2_serial_cpp/install/ros2_serial_cpp/share/ros2_serial_cpp/environment/path.dsv
+[4.877s] -- Up-to-date: /home/robogait/ros2_serial_cpp/install/ros2_serial_cpp/share/ros2_serial_cpp/local_setup.bash
+[4.878s] -- Up-to-date: /home/robogait/ros2_serial_cpp/install/ros2_serial_cpp/share/ros2_serial_cpp/local_setup.sh
+[4.878s] -- Up-to-date: /home/robogait/ros2_serial_cpp/install/ros2_serial_cpp/share/ros2_serial_cpp/local_setup.zsh
+[4.878s] -- Up-to-date: /home/robogait/ros2_serial_cpp/install/ros2_serial_cpp/share/ros2_serial_cpp/local_setup.dsv
+[4.878s] -- Installing: /home/robogait/ros2_serial_cpp/install/ros2_serial_cpp/share/ros2_serial_cpp/package.dsv
+[4.878s] -- Up-to-date: /home/robogait/ros2_serial_cpp/install/ros2_serial_cpp/share/ament_index/resource_index/packages/ros2_serial_cpp
+[4.878s] -- Up-to-date: /home/robogait/ros2_serial_cpp/install/ros2_serial_cpp/share/ros2_serial_cpp/cmake/ros2_serial_cppConfig.cmake
+[4.878s] -- Up-to-date: /home/robogait/ros2_serial_cpp/install/ros2_serial_cpp/share/ros2_serial_cpp/cmake/ros2_serial_cppConfig-version.cmake
+[4.878s] -- Up-to-date: /home/robogait/ros2_serial_cpp/install/ros2_serial_cpp/share/ros2_serial_cpp/package.xml
+[4.879s] Invoked command in '/home/robogait/ros2_serial_cpp/build/ros2_serial_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy /usr/bin/cmake --install /home/robogait/ros2_serial_cpp/build/ros2_serial_cpp

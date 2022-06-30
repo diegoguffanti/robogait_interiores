@@ -1,0 +1,11 @@
+[35m[1mScanning dependencies of target tf2_broadcaster_camera[0m
+[ 30%] Built target robot_controller
+[ 30%] Built target robot_odom_tf2_listener
+[ 50%] Built target tf2_broadcaster
+[ 50%] Built target robot_controller_position
+[ 30%] Built target tf2_broadcaster_person
+[ 60%] Built target publisher_initial_pose
+[ 70%] Built target publisher_subscriber
+[ 75%] [32mBuilding CXX object CMakeFiles/tf2_broadcaster_camera.dir/src/tf2_broadcaster_camera.cpp.o[0m
+[ 85%] Built target robot_controller_straight
+[ 95%] Built target person_odom_tf2_listener

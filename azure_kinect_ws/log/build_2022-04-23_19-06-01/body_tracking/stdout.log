@@ -1,0 +1,93 @@
+-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found body_tracking: 0.0.0 (/home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/cmake)
+-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/robogait/azure_kinect_ws/src/body_tracking/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/robogait/azure_kinect_ws/build/body_tracking
+[  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[  8%] Built target body_tracking_node
+[ 13%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[35m[1mScanning dependencies of target body_tracking__rosidl_generator_c[0m
+[ 16%] Built target body_tracking__cpp
+[ 18%] [32mBuilding C object CMakeFiles/body_tracking__rosidl_generator_c.dir/rosidl_generator_c/body_tracking/msg/detail/hip_coordinates__functions.c.o[0m
+[ 27%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 27%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 27%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 29%] [32m[1mLinking C shared library libbody_tracking__rosidl_generator_c.so[0m
+[ 29%] Built target body_tracking__rosidl_generator_c
+[ 35%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 35%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[35m[1mScanning dependencies of target body_tracking__rosidl_typesupport_c[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/body_tracking__rosidl_typesupport_c.dir/rosidl_typesupport_c/body_tracking/msg/hip_coordinates__type_support.cpp.o[0m
+[ 40%] [32m[1mLinking CXX shared library libbody_tracking__rosidl_typesupport_c.so[0m
+[35m[1mScanning dependencies of target body_tracking__rosidl_typesupport_cpp[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/body_tracking__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/body_tracking/msg/hip_coordinates__type_support.cpp.o[0m
+[35m[1mScanning dependencies of target body_tracking__rosidl_typesupport_introspection_cpp[0m
+[ 43%] Built target body_tracking__rosidl_typesupport_c
+[35m[1mScanning dependencies of target body_tracking__rosidl_typesupport_fastrtps_cpp[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/body_tracking__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/body_tracking/msg/detail/hip_coordinates__type_support.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/body_tracking__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/body_tracking/msg/detail/dds_fastrtps/hip_coordinates__type_support.cpp.o[0m
+[35m[1mScanning dependencies of target body_tracking__rosidl_typesupport_introspection_c[0m
+[ 51%] [32mBuilding C object CMakeFiles/body_tracking__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/body_tracking/msg/detail/hip_coordinates__type_support.c.o[0m
+[ 54%] [32m[1mLinking C shared library libbody_tracking__rosidl_typesupport_introspection_c.so[0m
+[ 54%] Built target body_tracking__rosidl_typesupport_introspection_c
+[ 56%] [32m[1mLinking CXX shared library libbody_tracking__rosidl_typesupport_cpp.so[0m
+[ 56%] Built target body_tracking__rosidl_typesupport_cpp
+[ 59%] [32m[1mLinking CXX shared library libbody_tracking__rosidl_typesupport_introspection_cpp.so[0m
+[ 59%] Built target body_tracking__rosidl_typesupport_introspection_cpp
+[ 62%] [32m[1mLinking CXX shared library libbody_tracking__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 62%] Built target body_tracking__rosidl_typesupport_fastrtps_cpp
+[ 64%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[35m[1mScanning dependencies of target body_tracking__rosidl_typesupport_fastrtps_c[0m
+[ 67%] [32mBuilding CXX object CMakeFiles/body_tracking__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/body_tracking/msg/detail/hip_coordinates__type_support_c.cpp.o[0m
+[ 70%] [32m[1mLinking CXX shared library libbody_tracking__rosidl_typesupport_fastrtps_c.so[0m
+[ 70%] Built target body_tracking__rosidl_typesupport_fastrtps_c
+[ 70%] Built target body_tracking
+[ 72%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 72%] Built target body_tracking__py
+[35m[1mScanning dependencies of target body_tracking__python[0m
+[ 75%] [32mBuilding C object CMakeFiles/body_tracking__python.dir/rosidl_generator_py/body_tracking/msg/_hip_coordinates_s.c.o[0m
+[ 78%] [32m[1mLinking C shared library rosidl_generator_py/body_tracking/libbody_tracking__python.so[0m
+[ 78%] Built target body_tracking__python
+[35m[1mScanning dependencies of target body_tracking__rosidl_typesupport_introspection_c__pyext[0m
+[35m[1mScanning dependencies of target body_tracking__rosidl_typesupport_fastrtps_c__pyext[0m
+[35m[1mScanning dependencies of target body_tracking__rosidl_typesupport_c__pyext[0m
+[ 81%] [32mBuilding C object CMakeFiles/body_tracking__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/body_tracking/_body_tracking_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 83%] [32mBuilding C object CMakeFiles/body_tracking__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/body_tracking/_body_tracking_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 86%] [32mBuilding C object CMakeFiles/body_tracking__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/body_tracking/_body_tracking_s.ep.rosidl_typesupport_c.c.o[0m
+[ 89%] [32m[1mLinking C shared library rosidl_generator_py/body_tracking/body_tracking_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[ 94%] [32m[1mLinking C shared library rosidl_generator_py/body_tracking/body_tracking_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[ 94%] [32m[1mLinking CXX shared library rosidl_generator_py/body_tracking/body_tracking_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[ 94%] Built target body_tracking__rosidl_typesupport_introspection_c__pyext
+[ 94%] Built target body_tracking__rosidl_typesupport_c__pyext
+[ 94%] Built target body_tracking__rosidl_typesupport_fastrtps_c__pyext

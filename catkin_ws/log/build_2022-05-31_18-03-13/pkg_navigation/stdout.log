@@ -1,0 +1,25 @@
+-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/robogait/catkin_ws/build/pkg_navigation
+-- Install configuration: ""
+-- Installing: /home/robogait/catkin_ws/install/pkg_navigation/share/ament_index/resource_index/package_run_dependencies/pkg_navigation
+-- Installing: /home/robogait/catkin_ws/install/pkg_navigation/share/ament_index/resource_index/parent_prefix_path/pkg_navigation
+-- Installing: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/environment/ament_prefix_path.sh
+-- Installing: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/environment/ament_prefix_path.dsv
+-- Installing: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/environment/path.sh
+-- Installing: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/environment/path.dsv
+-- Installing: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/local_setup.bash
+-- Installing: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/local_setup.sh
+-- Installing: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/local_setup.zsh
+-- Installing: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/local_setup.dsv
+-- Installing: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/package.dsv
+-- Installing: /home/robogait/catkin_ws/install/pkg_navigation/share/ament_index/resource_index/packages/pkg_navigation
+-- Installing: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/cmake/pkg_navigationConfig.cmake
+-- Installing: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/cmake/pkg_navigationConfig-version.cmake
+-- Installing: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/package.xml

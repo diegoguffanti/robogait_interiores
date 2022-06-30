@@ -1,0 +1,25 @@
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/kinectAzure_body_tracker_node_plus_recording.cpp:356:2:[m[K [01;31m[Kerror: [m[K‘[01m[Kk4a_record_t[m[K’ does not name a type; did you mean ‘[01m[Kk4a_result_t[m[K’?
+  356 |  [01;31m[Kk4a_record_t[m[K recording_handle;
+      |  [01;31m[K^~~~~~~~~~~~[m[K
+      |  [32m[Kk4a_result_t[m[K
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/kinectAzure_body_tracker_node_plus_recording.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::Init()[m[K’:
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/kinectAzure_body_tracker_node_plus_recording.cpp:326:68:[m[K [01;31m[Kerror: [m[K‘[01m[Krecording_handle[m[K’ was not declared in this scope
+  326 | 4a_record_create("~/output_test.mkv", device, device_config, [01;31m[Krecording_handle[m[K)){
+      |                                                              [01;31m[K^~~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/kinectAzure_body_tracker_node_plus_recording.cpp:326:6:[m[K [01;31m[Kerror: [m[K‘[01m[Kk4a_record_create[m[K’ was not declared in this scope
+  326 |   if([01;31m[Kk4a_record_create[m[K("~/output_test.mkv", device, device_config, recording_handle)){
+      |      [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/kinectAzure_body_tracker_node_plus_recording.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::close()[m[K’:
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/kinectAzure_body_tracker_node_plus_recording.cpp:338:20:[m[K [01;31m[Kerror: [m[K‘[01m[Krecording_handle[m[K’ was not declared in this scope
+  338 |   k4a_record_close([01;31m[Krecording_handle[m[K);
+      |                    [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/kinectAzure_body_tracker_node_plus_recording.cpp:338:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kk4a_record_close[m[K’ was not declared in this scope; did you mean ‘[01m[Kk4a_device_close[m[K’?
+  338 |   [01;31m[Kk4a_record_close[m[K(recording_handle);
+      |   [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |   [32m[Kk4a_device_close[m[K
+At global scope:
+[01m[Kcc1plus:[m[K [01;35m[Kwarning: [m[Kunrecognized command line option ‘[01m[K-Wno-dev[m[K’
+make[2]: *** [CMakeFiles/body_tracking_recording_node.dir/build.make:63: CMakeFiles/body_tracking_recording_node.dir/src/kinectAzure_body_tracker_node_plus_recording.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/body_tracking_recording_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,27 @@
+[0.023s] Invoking command in '/home/robogait/azure_kinect_ws/build/body_tracking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/nav2_ws/install/nav2_gazebo_spawner:/home/robogait/ros2_serial/install/ourbotmanager:/home/robogait/ros2_ws/install/nav2_project:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/azure_kinect_ws/build/body_tracking -- -j8 -l8
+[0.086s] [ 50%] Built target body_tracking_recording_node
+[0.089s] [100%] Built target body_tracking_node
+[0.107s] Invoked command in '/home/robogait/azure_kinect_ws/build/body_tracking' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/nav2_ws/install/nav2_gazebo_spawner:/home/robogait/ros2_serial/install/ourbotmanager:/home/robogait/ros2_ws/install/nav2_project:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/azure_kinect_ws/build/body_tracking -- -j8 -l8
+[0.154s] Invoking command in '/home/robogait/azure_kinect_ws/build/body_tracking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/nav2_ws/install/nav2_gazebo_spawner:/home/robogait/ros2_serial/install/ourbotmanager:/home/robogait/ros2_ws/install/nav2_project:/opt/ros/foxy /usr/bin/cmake --install /home/robogait/azure_kinect_ws/build/body_tracking
+[0.163s] -- Install configuration: ""
+[0.163s] -- Execute custom install script
+[0.163s] -- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracking/lib/body_tracking/body_tracking_node
+[0.164s] -- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracking/lib/body_tracking/body_tracking_recording_node
+[0.164s] -- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracking/lib/body_tracking/body_tracking_node
+[0.164s] -- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracking/lib/body_tracking/body_tracking_recording_node
+[0.164s] -- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracking/share/ament_index/resource_index/package_run_dependencies/body_tracking
+[0.164s] -- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracking/share/ament_index/resource_index/parent_prefix_path/body_tracking
+[0.164s] -- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/environment/ament_prefix_path.sh
+[0.164s] -- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/environment/ament_prefix_path.dsv
+[0.164s] -- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/environment/path.sh
+[0.165s] -- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/environment/path.dsv
+[0.165s] -- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/local_setup.bash
+[0.165s] -- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/local_setup.sh
+[0.165s] -- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/local_setup.zsh
+[0.165s] -- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/local_setup.dsv
+[0.165s] -- Symlinking: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/package.dsv
+[0.174s] -- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracking/share/ament_index/resource_index/packages/body_tracking
+[0.174s] -- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/cmake/body_trackingConfig.cmake
+[0.174s] -- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/cmake/body_trackingConfig-version.cmake
+[0.174s] -- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/package.xml
+[0.176s] Invoked command in '/home/robogait/azure_kinect_ws/build/body_tracking' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/nav2_ws/install/nav2_gazebo_spawner:/home/robogait/ros2_serial/install/ourbotmanager:/home/robogait/ros2_ws/install/nav2_project:/opt/ros/foxy /usr/bin/cmake --install /home/robogait/azure_kinect_ws/build/body_tracking

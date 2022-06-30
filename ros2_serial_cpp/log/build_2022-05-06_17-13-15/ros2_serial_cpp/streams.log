@@ -1,0 +1,78 @@
+[0.009s] Invoking command in '/home/robogait/ros2_serial_cpp/build/ros2_serial_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy /usr/bin/cmake /home/robogait/ros2_serial_cpp -DCMAKE_INSTALL_PREFIX=/home/robogait/ros2_serial_cpp/install/ros2_serial_cpp
+[0.116s] -- The C compiler identification is GNU 9.4.0
+[0.209s] -- The CXX compiler identification is GNU 9.4.0
+[0.213s] -- Check for working C compiler: /usr/bin/cc
+[0.283s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.283s] -- Detecting C compiler ABI info
+[0.364s] -- Detecting C compiler ABI info - done
+[0.374s] -- Detecting C compile features
+[0.375s] -- Detecting C compile features - done
+[0.377s] -- Check for working CXX compiler: /usr/bin/c++
+[0.430s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.431s] -- Detecting CXX compiler ABI info
+[0.492s] -- Detecting CXX compiler ABI info - done
+[0.499s] -- Detecting CXX compile features
+[0.500s] -- Detecting CXX compile features - done
+[0.503s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.520s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.520s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.645s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.681s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.686s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.733s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.751s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.802s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.842s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.843s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.844s] -- Looking for pthread.h
+[0.910s] -- Looking for pthread.h - found
+[0.910s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.965s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.965s] -- Looking for pthread_create in pthreads
+[1.009s] -- Looking for pthread_create in pthreads - not found
+[1.009s] -- Looking for pthread_create in pthread
+[1.069s] -- Looking for pthread_create in pthread - found
+[1.070s] -- Found Threads: TRUE  
+[1.168s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[1.190s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[1.234s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.282s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.284s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.284s] -- Configured cppcheck include dirs: 
+[1.284s] -- Configured cppcheck exclude dirs and/or files: 
+[1.285s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.285s] -- Configured cpplint exclude dirs and/or files: 
+[1.286s] -- Added test 'lint_cmake' to check CMake code style
+[1.289s] -- Added test 'uncrustify' to check C / C++ code style
+[1.289s] -- Configured uncrustify additional arguments: 
+[1.289s] -- Added test 'xmllint' to check XML markup files
+[1.291s] -- Configuring done
+[1.296s] -- Generating done
+[1.297s] -- Build files have been written to: /home/robogait/ros2_serial_cpp/build/ros2_serial_cpp
+[1.304s] Invoked command in '/home/robogait/ros2_serial_cpp/build/ros2_serial_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy /usr/bin/cmake /home/robogait/ros2_serial_cpp -DCMAKE_INSTALL_PREFIX=/home/robogait/ros2_serial_cpp/install/ros2_serial_cpp
+[1.305s] Invoking command in '/home/robogait/ros2_serial_cpp/build/ros2_serial_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/ros2_serial_cpp/build/ros2_serial_cpp -- -j8 -l8
+[1.330s] [35m[1mScanning dependencies of target driver_controller[0m
+[1.389s] [ 50%] [32mBuilding CXX object CMakeFiles/driver_controller.dir/src/driver_controller.cpp.o[0m
+[4.545s] [100%] [32m[1mLinking CXX executable driver_controller[0m
+[4.704s] [100%] Built target driver_controller
+[4.712s] Invoked command in '/home/robogait/ros2_serial_cpp/build/ros2_serial_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/ros2_serial_cpp/build/ros2_serial_cpp -- -j8 -l8
+[4.733s] Invoking command in '/home/robogait/ros2_serial_cpp/build/ros2_serial_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy /usr/bin/cmake --install /home/robogait/ros2_serial_cpp/build/ros2_serial_cpp
+[4.739s] -- Install configuration: ""
+[4.739s] -- Installing: /home/robogait/ros2_serial_cpp/install/ros2_serial_cpp/lib/ros2_serial_cpp/driver_controller
+[4.740s] -- Set runtime path of "/home/robogait/ros2_serial_cpp/install/ros2_serial_cpp/lib/ros2_serial_cpp/driver_controller" to ""
+[4.740s] -- Installing: /home/robogait/ros2_serial_cpp/install/ros2_serial_cpp/share/ament_index/resource_index/package_run_dependencies/ros2_serial_cpp
+[4.740s] -- Installing: /home/robogait/ros2_serial_cpp/install/ros2_serial_cpp/share/ament_index/resource_index/parent_prefix_path/ros2_serial_cpp
+[4.740s] -- Installing: /home/robogait/ros2_serial_cpp/install/ros2_serial_cpp/share/ros2_serial_cpp/environment/ament_prefix_path.sh
+[4.740s] -- Installing: /home/robogait/ros2_serial_cpp/install/ros2_serial_cpp/share/ros2_serial_cpp/environment/ament_prefix_path.dsv
+[4.740s] -- Installing: /home/robogait/ros2_serial_cpp/install/ros2_serial_cpp/share/ros2_serial_cpp/environment/path.sh
+[4.740s] -- Installing: /home/robogait/ros2_serial_cpp/install/ros2_serial_cpp/share/ros2_serial_cpp/environment/path.dsv
+[4.740s] -- Installing: /home/robogait/ros2_serial_cpp/install/ros2_serial_cpp/share/ros2_serial_cpp/local_setup.bash
+[4.740s] -- Installing: /home/robogait/ros2_serial_cpp/install/ros2_serial_cpp/share/ros2_serial_cpp/local_setup.sh
+[4.740s] -- Installing: /home/robogait/ros2_serial_cpp/install/ros2_serial_cpp/share/ros2_serial_cpp/local_setup.zsh
+[4.741s] -- Installing: /home/robogait/ros2_serial_cpp/install/ros2_serial_cpp/share/ros2_serial_cpp/local_setup.dsv
+[4.741s] -- Installing: /home/robogait/ros2_serial_cpp/install/ros2_serial_cpp/share/ros2_serial_cpp/package.dsv
+[4.741s] -- Installing: /home/robogait/ros2_serial_cpp/install/ros2_serial_cpp/share/ament_index/resource_index/packages/ros2_serial_cpp
+[4.741s] -- Installing: /home/robogait/ros2_serial_cpp/install/ros2_serial_cpp/share/ros2_serial_cpp/cmake/ros2_serial_cppConfig.cmake
+[4.741s] -- Installing: /home/robogait/ros2_serial_cpp/install/ros2_serial_cpp/share/ros2_serial_cpp/cmake/ros2_serial_cppConfig-version.cmake
+[4.741s] -- Installing: /home/robogait/ros2_serial_cpp/install/ros2_serial_cpp/share/ros2_serial_cpp/package.xml
+[4.742s] Invoked command in '/home/robogait/ros2_serial_cpp/build/ros2_serial_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy /usr/bin/cmake --install /home/robogait/ros2_serial_cpp/build/ros2_serial_cpp

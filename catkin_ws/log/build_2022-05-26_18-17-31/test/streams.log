@@ -1,0 +1,23 @@
+[0.012s] Invoking command in '/home/robogait/catkin_ws/build/test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/nav2_ws/install/nav2_gazebo_spawner:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/catkin_ws/build/test -- -j8 -l8
+[0.054s] [35m[1mScanning dependencies of target publisher_cpp[0m
+[0.075s] [ 50%] [32mBuilding CXX object CMakeFiles/publisher_cpp.dir/src/publisher_cpp.cpp.o[0m
+[0.822s] [01m[K/home/robogait/catkin_ws/src/test/src/publisher_cpp.cpp:[m[K In constructor ‘[01m[KMinimalPublisher::MinimalPublisher()[m[K’:
+[0.822s] [01m[K/home/robogait/catkin_ws/src/test/src/publisher_cpp.cpp:34:7:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_subscription_t[m[K’?
+[0.822s]    34 |       [01;31m[Ksubscription_[m[K = this->create_subscription<geometry_msgs::msg::Twist>(
+[0.822s]       |       [01;31m[K^~~~~~~~~~~~~[m[K
+[0.822s]       |       [32m[Krcl_subscription_t[m[K
+[0.822s] [01m[K/home/robogait/catkin_ws/src/test/src/publisher_cpp.cpp:35:34:[m[K [01;31m[Kerror: [m[K‘[01m[KMinimalSubscriber[m[K’ has not been declared
+[0.822s]    35 |       "/cmd_vel", 10, std::bind(&[01;31m[KMinimalSubscriber[m[K::topic_callback, this, _1));
+[0.822s]       |                                  [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[0.822s] [01m[K/home/robogait/catkin_ws/src/test/src/publisher_cpp.cpp:35:75:[m[K [01;31m[Kerror: [m[K‘[01m[K_1[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::placeholders::_1[m[K’?
+[0.822s]    35 | el", 10, std::bind(&MinimalSubscriber::topic_callback, this, [01;31m[K_1[m[K));
+[0.822s]       |                                                              [01;31m[K^~[m[K
+[0.822s]       |                                                              [32m[Kstd::placeholders::_1[m[K
+[0.822s] In file included from [01m[K/home/robogait/catkin_ws/src/test/src/publisher_cpp.cpp:2[m[K:
+[0.822s] [01m[K/usr/include/c++/9/functional:211:34:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::placeholders::_1[m[K’ declared here
+[0.822s]   211 |     extern const _Placeholder<1> [01;36m[K_1[m[K;
+[0.823s]       |                                  [01;36m[K^~[m[K
+[1.472s] make[2]: *** [CMakeFiles/publisher_cpp.dir/build.make:63: CMakeFiles/publisher_cpp.dir/src/publisher_cpp.cpp.o] Error 1
+[1.472s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/publisher_cpp.dir/all] Error 2
+[1.472s] make: *** [Makefile:141: all] Error 2
+[1.474s] Invoked command in '/home/robogait/catkin_ws/build/test' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/nav2_ws/install/nav2_gazebo_spawner:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/catkin_ws/build/test -- -j8 -l8

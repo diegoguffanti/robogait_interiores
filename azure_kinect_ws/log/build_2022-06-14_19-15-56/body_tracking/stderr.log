@@ -1,0 +1,6 @@
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/kinectAzure_body_tracker_node_plus_recording.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::close()[m[K’:
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/kinectAzure_body_tracker_node_plus_recording.cpp:352:10:[m[K [01;35m[Kwarning: [m[K'0' flag ignored with precision and ‘[01m[K%d[m[K’ gnu_printf format [[01;35m[K-Wformat=[m[K]
+  352 |   printf([01;35m[K"Recording time spent = %0.2ld\n"[m[K, t_diff);
+      |          [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+At global scope:
+[01m[Kcc1plus:[m[K [01;35m[Kwarning: [m[Kunrecognized command line option ‘[01m[K-Wno-dev[m[K’

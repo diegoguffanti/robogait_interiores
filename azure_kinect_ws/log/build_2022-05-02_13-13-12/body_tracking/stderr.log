@@ -1,0 +1,9 @@
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/kinectAzure_body_tracker_node_plus_recording.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::Run()[m[K’:
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/kinectAzure_body_tracker_node_plus_recording.cpp:41:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kskeleton_data[m[K’ was not declared in this scope
+   41 |   while (rclcpp::ok() && ([01;31m[Kskeleton_data[m[K.tiempo < 10.0)){
+      |                           [01;31m[K^~~~~~~~~~~~~[m[K
+At global scope:
+[01m[Kcc1plus:[m[K [01;35m[Kwarning: [m[Kunrecognized command line option ‘[01m[K-Wno-dev[m[K’
+make[2]: *** [CMakeFiles/body_tracking_recording_node.dir/build.make:63: CMakeFiles/body_tracking_recording_node.dir/src/kinectAzure_body_tracker_node_plus_recording.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/body_tracking_recording_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,55 @@
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:29:40:[m[K [01;31m[Kerror: [m[K‘[01m[KCoordinates[m[K’ is not a member of ‘[01m[Kbody_tracking::msg[m[K’; did you mean ‘[01m[KHipCoordinates[m[K’?
+   29 |  rclcpp::Publisher<body_tracking::msg::[01;31m[KCoordinates[m[K>::SharedPtr publisher_;
+      |                                        [01;31m[K^~~~~~~~~~~[m[K
+      |                                        [32m[KHipCoordinates[m[K
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:29:40:[m[K [01;31m[Kerror: [m[K‘[01m[KCoordinates[m[K’ is not a member of ‘[01m[Kbody_tracking::msg[m[K’; did you mean ‘[01m[KHipCoordinates[m[K’?
+   29 |  rclcpp::Publisher<body_tracking::msg::[01;31m[KCoordinates[m[K>::SharedPtr publisher_;
+      |                                        [01;31m[K^~~~~~~~~~~[m[K
+      |                                        [32m[KHipCoordinates[m[K
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:29:51:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   29 |  rclcpp::Publisher<body_tracking::msg::Coordinates[01;31m[K>[m[K::SharedPtr publisher_;
+      |                                                   [01;31m[K^[m[K
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:29:54:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   29 |  rclcpp::Publisher<body_tracking::msg::Coordinates>::[01;31m[KSharedPtr[m[K publisher_;
+      |                                                      [01;31m[K^~~~~~~~~[m[K
+      |                                                               [32m[K;[m[K
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:29:64:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ does not name a type; did you mean ‘[01m[Krcl_publisher_t[m[K’?
+   29 |  rclcpp::Publisher<body_tracking::msg::Coordinates>::SharedPtr [01;31m[Kpublisher_[m[K;
+      |                                                                [01;31m[K^~~~~~~~~~[m[K
+      |                                                                [32m[Krcl_publisher_t[m[K
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:[m[K In constructor ‘[01m[KMinimalPublisher::MinimalPublisher()[m[K’:
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:36:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_publisher_t[m[K’?
+   36 |   [01;31m[Kpublisher_[m[K = this->create_publisher<body_tracking::msg::Coordinates>("topic", 10);
+      |   [01;31m[K^~~~~~~~~~[m[K
+      |   [32m[Krcl_publisher_t[m[K
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:36:59:[m[K [01;31m[Kerror: [m[K‘[01m[KCoordinates[m[K’ is not a member of ‘[01m[Kbody_tracking::msg[m[K’; did you mean ‘[01m[KHipCoordinates[m[K’?
+   36 |   publisher_ = this->create_publisher<body_tracking::msg::[01;31m[KCoordinates[m[K>("topic", 10);
+      |                                                           [01;31m[K^~~~~~~~~~~[m[K
+      |                                                           [32m[KHipCoordinates[m[K
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:36:59:[m[K [01;31m[Kerror: [m[K‘[01m[KCoordinates[m[K’ is not a member of ‘[01m[Kbody_tracking::msg[m[K’; did you mean ‘[01m[KHipCoordinates[m[K’?
+   36 |   publisher_ = this->create_publisher<body_tracking::msg::[01;31m[KCoordinates[m[K>("topic", 10);
+      |                                                           [01;31m[K^~~~~~~~~~~[m[K
+      |                                                           [32m[KHipCoordinates[m[K
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:36:83:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMinimalPublisher::create_publisher<<expression error> >(const char [6], int)[m[K’
+   36 |   publisher_ = this->create_publisher<body_tracking::msg::Coordinates>("topic", 10[01;31m[K)[m[K;
+      |                                                                                   [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:16[m[K:
+[01m[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+  184 |   [01;36m[Kcreate_publisher[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:36:83:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   36 |   publisher_ = this->create_publisher<body_tracking::msg::Coordinates>("topic", 10[01;31m[K)[m[K;
+      |                                                                                   [01;31m[K^[m[K
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:131:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_publisher_t[m[K’?
+  131 |   [01;31m[Kpublisher_[m[K->publish(message);
+      |   [01;31m[K^~~~~~~~~~[m[K
+      |   [32m[Krcl_publisher_t[m[K
+make[2]: *** [CMakeFiles/prueba_talker.dir/build.make:63: CMakeFiles/prueba_talker.dir/src/main.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:325: CMakeFiles/prueba_talker.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [Makefile:141: all] Error 2

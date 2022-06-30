@@ -1,0 +1,48 @@
+[0.010s] Invoking command in '/home/robogait/azure_kinect_ws/build/body_tracking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/azure_kinect_ws/build/body_tracking -- -j8 -l8
+[0.040s] [35m[1mScanning dependencies of target prueba_talker[0m
+[0.047s] [  5%] Built target body_tracking_node
+[0.048s] [ 10%] Built target listener
+[0.048s] [ 12%] [32mBuilding C object CMakeFiles/prueba_talker.dir/src/main.c.o[0m
+[0.048s] [ 17%] Built target body_tracking__cpp
+[0.048s] [ 23%] Built target body_tracking__rosidl_generator_c
+[0.048s] [ 28%] Built target talker
+[0.063s] [ 43%] Built target body_tracking__rosidl_typesupport_introspection_c
+[0.063s] [ 43%] Built target body_tracking__rosidl_typesupport_c
+[0.076s] [ 46%] [32m[1mLinking C executable prueba_talker[0m
+[0.076s] [ 58%] Built target body_tracking__rosidl_typesupport_cpp
+[0.076s] [ 61%] Built target body_tracking__rosidl_typesupport_introspection_cpp
+[0.078s] [ 69%] Built target body_tracking__rosidl_typesupport_fastrtps_cpp
+[0.092s] /usr/bin/ld: CMakeFiles/prueba_talker.dir/src/main.c.o: in function `print_body_index_map_middle_line':
+[0.092s] main.c:(.text+0x12a): undefined reference to `k4a_image_get_buffer'
+[0.092s] /usr/bin/ld: main.c:(.text+0x13a): undefined reference to `k4a_image_get_stride_bytes'
+[0.092s] /usr/bin/ld: main.c:(.text+0x148): undefined reference to `k4a_image_get_width_pixels'
+[0.092s] /usr/bin/ld: main.c:(.text+0x177): undefined reference to `k4a_image_get_height_pixels'
+[0.092s] /usr/bin/ld: main.c:(.text+0x18f): undefined reference to `k4a_image_get_width_pixels'
+[0.092s] /usr/bin/ld: main.c:(.text+0x1ea): undefined reference to `k4a_image_get_width_pixels'
+[0.092s] /usr/bin/ld: CMakeFiles/prueba_talker.dir/src/main.c.o: in function `main':
+[0.092s] main.c:(.text+0x27a): undefined reference to `k4a_device_get_installed_count'
+[0.092s] /usr/bin/ld: main.c:(.text+0x2ad): undefined reference to `k4a_device_open'
+[0.092s] /usr/bin/ld: main.c:(.text+0x2e0): undefined reference to `k4a_device_start_cameras'
+[0.092s] /usr/bin/ld: main.c:(.text+0x31e): undefined reference to `k4a_device_get_calibration'
+[0.092s] /usr/bin/ld: main.c:(.text+0x3b1): undefined reference to `k4abt_tracker_create'
+[0.092s] /usr/bin/ld: main.c:(.text+0x417): undefined reference to `k4a_device_get_capture'
+[0.092s] /usr/bin/ld: main.c:(.text+0x474): undefined reference to `k4abt_tracker_enqueue_capture'
+[0.092s] /usr/bin/ld: main.c:(.text+0x489): undefined reference to `k4a_capture_release'
+[0.092s] /usr/bin/ld: main.c:(.text+0x4e6): undefined reference to `k4abt_tracker_pop_result'
+[0.092s] /usr/bin/ld: main.c:(.text+0x577): undefined reference to `k4abt_frame_get_num_bodies'
+[0.093s] /usr/bin/ld: main.c:(.text+0x5d3): undefined reference to `k4abt_frame_get_body_skeleton'
+[0.093s] /usr/bin/ld: main.c:(.text+0x604): undefined reference to `k4abt_frame_get_body_id'
+[0.093s] /usr/bin/ld: main.c:(.text+0x676): undefined reference to `k4abt_frame_get_body_index_map'
+[0.093s] /usr/bin/ld: main.c:(.text+0x6a5): undefined reference to `k4a_image_release'
+[0.093s] /usr/bin/ld: main.c:(.text+0x6c2): undefined reference to `k4abt_frame_release'
+[0.093s] /usr/bin/ld: main.c:(.text+0x7c4): undefined reference to `k4abt_tracker_shutdown'
+[0.093s] /usr/bin/ld: main.c:(.text+0x7d3): undefined reference to `k4abt_tracker_destroy'
+[0.093s] /usr/bin/ld: main.c:(.text+0x7e2): undefined reference to `k4a_device_stop_cameras'
+[0.093s] /usr/bin/ld: main.c:(.text+0x7f1): undefined reference to `k4a_device_close'
+[0.093s] collect2: error: ld returned 1 exit status
+[0.093s] make[2]: *** [CMakeFiles/prueba_talker.dir/build.make:84: prueba_talker] Error 1
+[0.093s] make[1]: *** [CMakeFiles/Makefile2:325: CMakeFiles/prueba_talker.dir/all] Error 2
+[0.093s] make[1]: *** Waiting for unfinished jobs....
+[0.094s] [ 76%] Built target body_tracking__rosidl_typesupport_fastrtps_c
+[0.095s] make: *** [Makefile:141: all] Error 2
+[0.098s] Invoked command in '/home/robogait/azure_kinect_ws/build/body_tracking' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/azure_kinect_ws/build/body_tracking -- -j8 -l8

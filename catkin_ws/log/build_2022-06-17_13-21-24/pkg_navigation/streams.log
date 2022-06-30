@@ -1,0 +1,25 @@
+[0.014s] Invoking command in '/home/robogait/catkin_ws/build/pkg_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/nav2_ws/install/nav2_gazebo_spawner:/home/robogait/ros2_serial/install/ourbotmanager:/home/robogait/ros2_ws/install/nav2_project:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/catkin_ws/build/pkg_navigation -- -j8 -l8
+[0.066s] [35m[1mScanning dependencies of target robot_controller[0m
+[0.091s] [ 22%] Built target publisher_initial_pose
+[0.091s] [ 33%] Built target robot_controller_position
+[0.091s] [ 22%] Built target publisher_subscriber
+[0.091s] [ 44%] Built target person_odom_tf2_listener
+[0.091s] [ 55%] Built target tf2_broadcaster
+[0.091s] [ 66%] Built target robot_odom_tf2_listener
+[0.091s] [ 77%] Built target tf2_broadcaster_person
+[0.100s] [ 83%] [32mBuilding CXX object CMakeFiles/robot_controller.dir/src/robot_controller.cpp.o[0m
+[0.123s] [ 94%] Built target robot_controller_straight
+[0.920s] [01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller.cpp:[m[K In member function ‘[01m[Kvoid generic::loop()[m[K’:
+[0.920s] [01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller.cpp:135:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kcontrol_yaw[m[K’ was not declared in this scope
+[0.920s]   135 |         cmd_velrobot_msg.angular.z=[01;31m[Kcontrol_yaw[m[K;
+[0.921s]       |                                    [01;31m[K^~~~~~~~~~~[m[K
+[0.926s] [01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller.cpp:142:59:[m[K [01;31m[Kerror: [m[K‘[01m[Kyaw_robot[m[K’ was not declared in this scope
+[0.926s]   142 |         cout<<"Angle goal: "<<angle_goal<<" yaw_robot: "<<[01;31m[Kyaw_robot[m[K*(180/3.14159)<<" yaw_error: "<<yaw_error*(180/3.14159)<<endl;
+[0.926s]       |                                                           [01;31m[K^~~~~~~~~[m[K
+[0.927s] [01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller.cpp:142:100:[m[K [01;31m[Kerror: [m[K‘[01m[Kyaw_error[m[K’ was not declared in this scope
+[0.927s]   142 |         cout<<"Angle goal: "<<angle_goal<<" yaw_robot: "<<yaw_robot*(180/3.14159)<<" yaw_error: "<<[01;31m[Kyaw_error[m[K*(180/3.14159)<<endl;
+[0.927s]       |                                                                                                    [01;31m[K^~~~~~~~~[m[K
+[2.780s] make[2]: *** [CMakeFiles/robot_controller.dir/build.make:63: CMakeFiles/robot_controller.dir/src/robot_controller.cpp.o] Error 1
+[2.780s] make[1]: *** [CMakeFiles/Makefile2:256: CMakeFiles/robot_controller.dir/all] Error 2
+[2.780s] make: *** [Makefile:141: all] Error 2
+[2.782s] Invoked command in '/home/robogait/catkin_ws/build/pkg_navigation' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/nav2_ws/install/nav2_gazebo_spawner:/home/robogait/ros2_serial/install/ourbotmanager:/home/robogait/ros2_ws/install/nav2_project:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/catkin_ws/build/pkg_navigation -- -j8 -l8

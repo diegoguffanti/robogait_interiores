@@ -1,0 +1,7 @@
+[35m[1mScanning dependencies of target kinect_azure_body_tracker_recording_node_simplified[0m
+[ 16%] Built target kinect_azure_body_tracker_node_full_processing
+[ 25%] [32mBuilding CXX object CMakeFiles/kinect_azure_body_tracker_recording_node_simplified.dir/src/kinectAzure_body_tracker_node_plus_recording_simplified.cpp.o[0m
+[ 41%] Built target kinect_azure_body_tracker_node
+[ 58%] Built target kinect_azure_body_tracker_recording_node
+[ 75%] Built target kinect_azure_body_tracker_node_simplified
+[ 91%] Built target kinect_azure_body_tracker_node_finite

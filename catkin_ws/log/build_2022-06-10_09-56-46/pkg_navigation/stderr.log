@@ -1,0 +1,23 @@
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller.cpp:[m[K In constructor ‘[01m[Kgeneric::generic()[m[K’:
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller.cpp:48:113:[m[K [01;31m[Kerror: [m[K‘[01m[Kcallback_local_plan[m[K’ is not a member of ‘[01m[Kgeneric[m[K’
+   48 |   subscription_local_plan = this->create_subscription<nav_msgs::msg::Path>("local_plan",10, std::bind(&generic::[01;31m[Kcallback_local_plan[m[K, this, _1));
+      |                                                                                                                 [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller.cpp:49:115:[m[K [01;31m[Kerror: [m[K‘[01m[Kcallback_global_plan[m[K’ is not a member of ‘[01m[Kgeneric[m[K’
+   49 |   subscription_global_plan = this->create_subscription<nav_msgs::msg::Path>("global_plan",10, std::bind(&generic::[01;31m[Kcallback_global_plan[m[K, this, _1));
+      |                                                                                                                   [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller.cpp:50:117:[m[K [01;31m[Kerror: [m[K‘[01m[Kcallback_goal_pose[m[K’ is not a member of ‘[01m[Kgeneric[m[K’
+   50 |   subscription_goal= this->create_subscription<geometry_msgs::msg::PoseStamped>("goal_pose",10, std::bind(&generic::[01;31m[Kcallback_goal_pose[m[K, this, _1));
+      |                                                                                                                     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller.cpp:51:128:[m[K [01;31m[Kerror: [m[K‘[01m[Kcallback_odom_filtered[m[K’ is not a member of ‘[01m[Kgeneric[m[K’
+   51 |   subscription_robot_odom_filtered= this->create_subscription<nav_msgs::msg::Odometry>("odom_filtered",10, std::bind(&generic::[01;31m[Kcallback_odom_filtered[m[K, this, _1));
+      |                                                                                                                                [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller.cpp:[m[K In member function ‘[01m[Kvoid generic::topic_callback(geometry_msgs::msg::Twist_<std::allocator<void> >::SharedPtr) const[m[K’:
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller.cpp:63:33:[m[K [01;31m[Kerror: [m[Kassignment of member ‘[01m[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >::x[m[K’ in read-only object
+   63 |        [01;31m[Kcmd_keyboard_msg.linear.x=msg->linear.x[m[K;
+      |        [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller.cpp:64:34:[m[K [01;31m[Kerror: [m[Kassignment of member ‘[01m[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >::z[m[K’ in read-only object
+   64 |        [01;31m[Kcmd_keyboard_msg.angular.z=msg->angular.z[m[K;
+      |        [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/robot_controller.dir/build.make:63: CMakeFiles/robot_controller.dir/src/robot_controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/robot_controller.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

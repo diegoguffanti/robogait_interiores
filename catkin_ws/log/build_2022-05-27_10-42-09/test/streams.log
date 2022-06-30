@@ -1,0 +1,24 @@
+[0.012s] Invoking command in '/home/robogait/catkin_ws/build/test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/nav2_ws/install/nav2_gazebo_spawner:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/catkin_ws/build/test -- -j8 -l8
+[0.037s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.054s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.156s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.160s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.183s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.185s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.270s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.300s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.301s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.387s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[0.460s] -- Found tf2_ros: 0.13.13 (/opt/ros/foxy/share/tf2_ros/cmake)
+[0.697s] CMake Error at /opt/ros/foxy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[0.697s]   ament_target_dependencies() the passed package name 'tf2_broadcaster' was
+[0.697s]   not found before
+[0.697s] Call Stack (most recent call first):
+[0.697s]   CMakeLists.txt:30 (ament_target_dependencies)
+[0.697s] 
+[0.698s] 
+[0.698s] -- Configuring incomplete, errors occurred!
+[0.698s] See also "/home/robogait/catkin_ws/build/test/CMakeFiles/CMakeOutput.log".
+[0.698s] See also "/home/robogait/catkin_ws/build/test/CMakeFiles/CMakeError.log".
+[0.703s] make: *** [Makefile:266: cmake_check_build_system] Error 1
+[0.705s] Invoked command in '/home/robogait/catkin_ws/build/test' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/nav2_ws/install/nav2_gazebo_spawner:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/catkin_ws/build/test -- -j8 -l8

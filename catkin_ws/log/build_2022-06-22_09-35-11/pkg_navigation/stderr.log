@@ -1,0 +1,7 @@
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/camera_controller.cpp:[m[K In member function ‘[01m[Kvoid generic::controller()[m[K’:
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/camera_controller.cpp:90:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kmax_speed[m[K’ was not declared in this scope
+   90 |         if(control<-[01;31m[Kmax_speed[m[K){
+      |                     [01;31m[K^~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/camera_controller.dir/build.make:63: CMakeFiles/camera_controller.dir/src/camera_controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:422: CMakeFiles/camera_controller.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

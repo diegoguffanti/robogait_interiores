@@ -1,0 +1,55 @@
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:25:33:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+   25 | class MinimalPublisher : public [01;31m[Krclcpp[m[K::Node
+      |                                 [01;31m[K^~~~~~[m[K
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:25:41:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[KNode[m[K’
+   25 | class MinimalPublisher : public rclcpp::[01;31m[KNode[m[K
+      |                                         [01;31m[K^~~~[m[K
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:27:1:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kpublic[m[K’
+   27 | [01;31m[Kpublic[m[K:
+      | [01;31m[K^~~~~~[m[K
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:27:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ before ‘[01m[Kpublic[m[K’
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:26:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   26 | [01;36m[K{[m[K
+      | [01;36m[K^[m[K
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:36:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kprivate[m[K’
+   36 | [01;31m[Kprivate[m[K:
+      | [01;31m[K^~~~~~~[m[K
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:178:2:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ does not name a type
+  178 |  [01;31m[Krclcpp[m[K::TimerBase::SharedPtr timer_;
+      |  [01;31m[K^~~~~~[m[K
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:179:2:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ does not name a type
+  179 |  [01;31m[Krclcpp[m[K::Publisher<body_tracking::msg::HipCoordinates>::SharedPtr publisher_;
+      |  [01;31m[K^~~~~~[m[K
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:180:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+  180 | [01;31m[K}[m[K;
+      | [01;31m[K^[m[K
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:186:2:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+  186 |  [01;31m[Krclcpp[m[K::init(argc, argv);
+      |  [01;31m[K^~~~~~[m[K
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:220:2:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+  220 |  [01;31m[Krclcpp[m[K::spin(std::make_shared<MinimalPublisher>());
+      |  [01;31m[K^~~~~~[m[K
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:231:2:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+  231 |  [01;31m[Krclcpp[m[K::shutdown();
+      |  [01;31m[K^~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/bits/shared_ptr_base.h:56[m[K,
+                 from [01m[K/usr/include/c++/9/bits/shared_ptr.h:52[m[K,
+                 from [01m[K/usr/include/c++/9/memory:81[m[K,
+                 from [01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:14[m[K:
+/usr/include/c++/9/ext/aligned_buffer.h: In instantiation of ‘[01m[Kstruct __gnu_cxx::__aligned_buffer<MinimalPublisher>[m[K’:
+[01m[K/usr/include/c++/9/bits/shared_ptr_base.h:535:35:[m[K   required from ‘[01m[Kclass std::_Sp_counted_ptr_inplace<MinimalPublisher, std::allocator<MinimalPublisher>, __gnu_cxx::_S_atomic>::_Impl[m[K’
+[01m[K/usr/include/c++/9/bits/shared_ptr_base.h:596:13:[m[K   required from ‘[01m[Kclass std::_Sp_counted_ptr_inplace<MinimalPublisher, std::allocator<MinimalPublisher>, __gnu_cxx::_S_atomic>[m[K’
+[01m[K/usr/include/c++/9/bits/shared_ptr_base.h:676:43:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = MinimalPublisher; _Alloc = std::allocator<MinimalPublisher>; _Args = {}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[01m[K/usr/include/c++/9/bits/shared_ptr_base.h:1344:71:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<MinimalPublisher>; _Args = {}; _Tp = MinimalPublisher; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[01m[K/usr/include/c++/9/bits/shared_ptr.h:359:59:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<MinimalPublisher>; _Args = {}; _Tp = MinimalPublisher][m[K’
+[01m[K/usr/include/c++/9/bits/shared_ptr.h:701:14:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = MinimalPublisher; _Alloc = std::allocator<MinimalPublisher>; _Args = {}][m[K’
+[01m[K/usr/include/c++/9/bits/shared_ptr.h:717:39:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = MinimalPublisher; _Args = {}][m[K’
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:220:50:[m[K   required from here
+[01m[K/usr/include/c++/9/ext/aligned_buffer.h:91:28:[m[K [01;31m[Kerror: [m[Kinvalid application of ‘[01m[Ksizeof[m[K’ to incomplete type ‘[01m[KMinimalPublisher[m[K’
+   91 |     : std::aligned_storage<[01;31m[Ksizeof(_Tp)[m[K, __alignof__(_Tp)>
+      |                            [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/9/ext/aligned_buffer.h:91:28:[m[K [01;31m[Kerror: [m[Kinvalid application of ‘[01m[Ksizeof[m[K’ to incomplete type ‘[01m[KMinimalPublisher[m[K’
+make[2]: *** [CMakeFiles/prueba_talker.dir/build.make:63: CMakeFiles/prueba_talker.dir/src/main.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:325: CMakeFiles/prueba_talker.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

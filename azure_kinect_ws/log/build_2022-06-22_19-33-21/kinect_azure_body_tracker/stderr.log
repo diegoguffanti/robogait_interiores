@@ -1,0 +1,21 @@
+[01m[K/home/robogait/azure_kinect_ws/src/kinect_azure_body_tracker/src/kinectAzure_body_tracker_node_plus_recording_simplified.cpp:27:16:[m[K [01;35m[Kwarning: [m[Kmissing terminating " character
+   27 | #define path   [01;35m[K"[m[K/home/robogait/kinectRecordings/recordedMKVs/
+      |                [01;35m[K^[m[K
+[01m[K/home/robogait/azure_kinect_ws/src/kinect_azure_body_tracker/src/kinectAzure_body_tracker_node_plus_recording_simplified.cpp:27:16:[m[K [01;31m[Kerror: [m[Kmissing terminating " character
+   27 | #define path   [01;31m[K"/home/robogait/kinectRecordings/recordedMKVs/[m[K
+      |                [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robogait/azure_kinect_ws/src/kinect_azure_body_tracker/src/kinectAzure_body_tracker_node_plus_recording_simplified.cpp:27:16:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[Kpath[m[K’
+   27 | #define path   [01;36m[K"/home/robogait/kinectRecordings/recordedMKVs/[m[K
+      |                [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robogait/azure_kinect_ws/src/kinect_azure_body_tracker/src/kinectAzure_body_tracker_node_plus_recording_simplified.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::Init()[m[K’:
+[01m[K/home/robogait/azure_kinect_ws/src/kinect_azure_body_tracker/src/kinectAzure_body_tracker_node_plus_recording_simplified.cpp:190:42:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K,[m[K’ token
+  190 |   sprintf(recordingName, "%s%s.mkv", path[01;31m[K,[m[K ss.str().c_str());
+      |                                          [01;31m[K^[m[K
+[01m[K/home/robogait/azure_kinect_ws/src/kinect_azure_body_tracker/src/kinectAzure_body_tracker_node_plus_recording_simplified.cpp:198:53:[m[K [01;31m[Kerror: [m[K‘[01m[Kruta[m[K’ was not declared in this scope
+  198 |    printf("\tEmpezamos a grabar en el archivo %s\n",[01;31m[Kruta[m[K);
+      |                                                     [01;31m[K^~~~[m[K
+At global scope:
+[01m[Kcc1plus:[m[K [01;35m[Kwarning: [m[Kunrecognized command line option ‘[01m[K-Wno-dev[m[K’
+make[2]: *** [CMakeFiles/kinect_azure_body_tracker_recording_node_simplified.dir/build.make:63: CMakeFiles/kinect_azure_body_tracker_recording_node_simplified.dir/src/kinectAzure_body_tracker_node_plus_recording_simplified.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:225: CMakeFiles/kinect_azure_body_tracker_recording_node_simplified.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

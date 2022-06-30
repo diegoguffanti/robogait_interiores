@@ -1,0 +1,16 @@
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/tf2_broadcaster_camera.cpp:[m[K In member function ‘[01m[Kvoid FramePublisher::handle_camera_pose(std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >)[m[K’:
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/tf2_broadcaster_camera.cpp:60:38:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Ktf2::Quaternion[m[K’
+   60 |     t.transform.rotation.x = q_camera[01;31m[K->[m[Kx;
+      |                                      [01;31m[K^~[m[K
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/tf2_broadcaster_camera.cpp:61:38:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Ktf2::Quaternion[m[K’
+   61 |     t.transform.rotation.y = q_camera[01;31m[K->[m[Ky;
+      |                                      [01;31m[K^~[m[K
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/tf2_broadcaster_camera.cpp:62:38:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Ktf2::Quaternion[m[K’
+   62 |     t.transform.rotation.z = q_camera[01;31m[K->[m[Kz;
+      |                                      [01;31m[K^~[m[K
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/tf2_broadcaster_camera.cpp:63:38:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Ktf2::Quaternion[m[K’
+   63 |     t.transform.rotation.w = q_camera[01;31m[K->[m[Kw;
+      |                                      [01;31m[K^~[m[K
+make[2]: *** [CMakeFiles/tf2_broadcaster_camera.dir/build.make:63: CMakeFiles/tf2_broadcaster_camera.dir/src/tf2_broadcaster_camera.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:123: CMakeFiles/tf2_broadcaster_camera.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,24 @@
+[0.010s] Invoking command in '/home/robogait/azure_kinect_ws/build/body_tracking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/azure_kinect_ws/build/body_tracking -- -j8 -l8
+[0.041s] [35m[1mScanning dependencies of target prueba_talker[0m
+[0.047s] [  5%] Built target body_tracking_node
+[0.048s] [ 12%] Built target body_tracking__rosidl_generator_c
+[0.049s] [ 15%] Built target body_tracking__cpp
+[0.052s] [ 25%] Built target talker
+[0.052s] [ 25%] Built target listener
+[0.064s] [ 33%] Built target body_tracking__rosidl_typesupport_introspection_cpp
+[0.064s] [ 35%] [32mBuilding C object CMakeFiles/prueba_talker.dir/src/main.c.o[0m
+[0.065s] [ 43%] Built target body_tracking__rosidl_typesupport_c
+[0.066s] [ 51%] Built target body_tracking__rosidl_typesupport_introspection_c
+[0.068s] [ 58%] Built target body_tracking__rosidl_typesupport_cpp
+[0.069s] [ 66%] Built target body_tracking__rosidl_typesupport_fastrtps_cpp
+[0.075s] In file included from [01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.c:16[m[K:
+[0.075s] [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:143:10:[m[K [01;31m[Kfatal error: [m[Kcsignal: No such file or directory
+[0.075s]   143 | #include [01;31m[K<csignal>[m[K
+[0.075s]       |          [01;31m[K^~~~~~~~~[m[K
+[0.075s] compilation terminated.
+[0.075s] make[2]: *** [CMakeFiles/prueba_talker.dir/build.make:63: CMakeFiles/prueba_talker.dir/src/main.c.o] Error 1
+[0.076s] make[1]: *** [CMakeFiles/Makefile2:325: CMakeFiles/prueba_talker.dir/all] Error 2
+[0.076s] make[1]: *** Waiting for unfinished jobs....
+[0.085s] [ 74%] Built target body_tracking__rosidl_typesupport_fastrtps_c
+[0.086s] make: *** [Makefile:141: all] Error 2
+[0.087s] Invoked command in '/home/robogait/azure_kinect_ws/build/body_tracking' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/azure_kinect_ws/build/body_tracking -- -j8 -l8

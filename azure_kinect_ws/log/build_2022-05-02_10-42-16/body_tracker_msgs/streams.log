@@ -1,0 +1,35 @@
+[0.014s] Invoking command in '/home/robogait/azure_kinect_ws/build/body_tracker_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/azure_kinect_ws/build/body_tracker_msgs -- -j8 -l8
+[0.030s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.045s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.148s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.168s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.170s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.242s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.271s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.272s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.356s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.376s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.414s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.414s] -- Added test 'lint_cmake' to check CMake code style
+[0.415s] -- Added test 'xmllint' to check XML markup files
+[0.416s] -- Configuring done
+[0.418s] -- Generating done
+[0.418s] -- Build files have been written to: /home/robogait/azure_kinect_ws/build/body_tracker_msgs
+[0.434s] Invoked command in '/home/robogait/azure_kinect_ws/build/body_tracker_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/azure_kinect_ws/build/body_tracker_msgs -- -j8 -l8
+[0.456s] Invoking command in '/home/robogait/azure_kinect_ws/build/body_tracker_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy /usr/bin/cmake --install /home/robogait/azure_kinect_ws/build/body_tracker_msgs
+[0.461s] -- Install configuration: ""
+[0.461s] -- Installing: /home/robogait/azure_kinect_ws/install/body_tracker_msgs/share/ament_index/resource_index/package_run_dependencies/body_tracker_msgs
+[0.461s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracker_msgs/share/ament_index/resource_index/parent_prefix_path/body_tracker_msgs
+[0.461s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracker_msgs/share/body_tracker_msgs/environment/ament_prefix_path.sh
+[0.462s] -- Installing: /home/robogait/azure_kinect_ws/install/body_tracker_msgs/share/body_tracker_msgs/environment/ament_prefix_path.dsv
+[0.462s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracker_msgs/share/body_tracker_msgs/environment/path.sh
+[0.462s] -- Installing: /home/robogait/azure_kinect_ws/install/body_tracker_msgs/share/body_tracker_msgs/environment/path.dsv
+[0.462s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracker_msgs/share/body_tracker_msgs/local_setup.bash
+[0.462s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracker_msgs/share/body_tracker_msgs/local_setup.sh
+[0.462s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracker_msgs/share/body_tracker_msgs/local_setup.zsh
+[0.462s] -- Installing: /home/robogait/azure_kinect_ws/install/body_tracker_msgs/share/body_tracker_msgs/local_setup.dsv
+[0.462s] -- Installing: /home/robogait/azure_kinect_ws/install/body_tracker_msgs/share/body_tracker_msgs/package.dsv
+[0.462s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracker_msgs/share/ament_index/resource_index/packages/body_tracker_msgs
+[0.462s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracker_msgs/share/body_tracker_msgs/cmake/body_tracker_msgsConfig.cmake
+[0.462s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracker_msgs/share/body_tracker_msgs/cmake/body_tracker_msgsConfig-version.cmake
+[0.462s] -- Installing: /home/robogait/azure_kinect_ws/install/body_tracker_msgs/share/body_tracker_msgs/package.xml

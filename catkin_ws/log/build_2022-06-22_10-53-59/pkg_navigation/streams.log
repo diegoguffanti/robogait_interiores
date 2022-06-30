@@ -1,0 +1,71 @@
+[0.015s] Invoking command in '/home/robogait/catkin_ws/build/pkg_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/nav2_ws/install/nav2_gazebo_spawner:/home/robogait/ros2_serial/install/ourbotmanager:/home/robogait/ros2_ws/install/nav2_project:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/catkin_ws/build/pkg_navigation -- -j8 -l8
+[0.086s] [  9%] Built target tf2_broadcaster
+[0.087s] [ 18%] Built target tf2_broadcaster_camera
+[0.087s] [ 27%] Built target publisher_subscriber
+[0.087s] [ 36%] Built target robot_odom_tf2_listener
+[0.087s] [ 45%] Built target publisher_initial_pose
+[0.087s] [ 54%] Built target tf2_broadcaster_person
+[0.090s] [ 63%] Built target robot_controller_position
+[0.091s] [ 72%] Built target robot_controller
+[0.100s] [35m[1mScanning dependencies of target camera_controller[0m
+[0.117s] [ 90%] Built target person_odom_tf2_listener
+[0.117s] [ 90%] Built target robot_controller_straight
+[0.122s] [ 95%] [32mBuilding CXX object CMakeFiles/camera_controller.dir/src/camera_controller.cpp.o[0m
+[4.568s] [100%] [32m[1mLinking CXX executable camera_controller[0m
+[4.858s] [100%] Built target camera_controller
+[4.875s] Invoked command in '/home/robogait/catkin_ws/build/pkg_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/nav2_ws/install/nav2_gazebo_spawner:/home/robogait/ros2_serial/install/ourbotmanager:/home/robogait/ros2_ws/install/nav2_project:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/catkin_ws/build/pkg_navigation -- -j8 -l8
+[4.978s] Invoking command in '/home/robogait/catkin_ws/build/pkg_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/nav2_ws/install/nav2_gazebo_spawner:/home/robogait/ros2_serial/install/ourbotmanager:/home/robogait/ros2_ws/install/nav2_project:/opt/ros/foxy /usr/bin/cmake --install /home/robogait/catkin_ws/build/pkg_navigation
+[4.987s] -- Install configuration: ""
+[4.988s] -- Execute custom install script
+[4.988s] -- Up-to-date symlink: /home/robogait/catkin_ws/install/pkg_navigation/lib/pkg_navigation/publisher_subscriber
+[4.988s] -- Up-to-date symlink: /home/robogait/catkin_ws/install/pkg_navigation/lib/pkg_navigation/tf2_broadcaster
+[4.988s] -- Up-to-date symlink: /home/robogait/catkin_ws/install/pkg_navigation/lib/pkg_navigation/publisher_initial_pose
+[4.989s] -- Up-to-date symlink: /home/robogait/catkin_ws/install/pkg_navigation/lib/pkg_navigation/robot_odom_tf2_listener
+[4.989s] -- Up-to-date symlink: /home/robogait/catkin_ws/install/pkg_navigation/lib/pkg_navigation/robot_controller
+[4.989s] -- Up-to-date symlink: /home/robogait/catkin_ws/install/pkg_navigation/lib/pkg_navigation/robot_controller_position
+[4.989s] -- Up-to-date symlink: /home/robogait/catkin_ws/install/pkg_navigation/lib/pkg_navigation/tf2_broadcaster_person
+[4.989s] -- Up-to-date symlink: /home/robogait/catkin_ws/install/pkg_navigation/lib/pkg_navigation/tf2_broadcaster_camera
+[4.989s] -- Up-to-date symlink: /home/robogait/catkin_ws/install/pkg_navigation/lib/pkg_navigation/person_odom_tf2_listener
+[4.990s] -- Up-to-date symlink: /home/robogait/catkin_ws/install/pkg_navigation/lib/pkg_navigation/robot_controller_straight
+[4.990s] -- Up-to-date symlink: /home/robogait/catkin_ws/install/pkg_navigation/lib/pkg_navigation/camera_controller
+[4.990s] -- Up-to-date symlink: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/launch/__pycache__/turtlesim_mimic_launch.cpython-38.pyc
+[4.990s] -- Up-to-date symlink: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/launch/realsense_pointcloud_launch.py
+[4.990s] -- Up-to-date symlink: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/launch/robogait_launch_states.py
+[4.990s] -- Up-to-date symlink: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/launch/robogait_map_server_launch.py
+[4.991s] -- Up-to-date symlink: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/launch/robogait_mapping_launch.py
+[4.991s] -- Up-to-date symlink: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/launch/robogait_mapping_launch_test.py
+[4.991s] -- Up-to-date symlink: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/launch/robogait_online_async_launch.py
+[4.991s] -- Up-to-date symlink: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/launch/robogait_state_publisher.py
+[4.991s] -- Up-to-date symlink: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/launch/rviz_launch.py
+[4.991s] -- Up-to-date symlink: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/launch/state_publisher_with_person.py
+[4.991s] -- Up-to-date symlink: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/launch/teb_nav2_bringup_launch.py
+[4.991s] -- Up-to-date symlink: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/launch/teb_tb3_simulation_launch.py
+[4.991s] -- Up-to-date symlink: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/rviz/rviz_config.rviz
+[4.992s] -- Up-to-date symlink: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/rviz/rviz_config_map_server.rviz
+[4.992s] -- Up-to-date symlink: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/rviz/rviz_config_nav2_teb.rviz
+[4.992s] -- Up-to-date symlink: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/config/map_server_params.yaml
+[4.992s] -- Up-to-date symlink: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/config/mapper_params_online_async.yaml
+[4.992s] -- Up-to-date symlink: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/config/nav2.yaml
+[4.992s] -- Up-to-date symlink: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/config/nav2_params.yaml
+[4.992s] -- Up-to-date symlink: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/config/teb_params (copy).yaml
+[4.992s] -- Up-to-date symlink: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/config/teb_params.yaml
+[4.993s] -- Up-to-date symlink: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/maps/map.pgm
+[4.993s] -- Up-to-date symlink: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/maps/map.yaml
+[4.993s] -- Up-to-date symlink: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/maps/map_laboratory.pgm
+[4.993s] -- Up-to-date symlink: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/maps/map_laboratory.yaml
+[4.993s] -- Up-to-date symlink: /home/robogait/catkin_ws/install/pkg_navigation/share/ament_index/resource_index/package_run_dependencies/pkg_navigation
+[4.993s] -- Up-to-date symlink: /home/robogait/catkin_ws/install/pkg_navigation/share/ament_index/resource_index/parent_prefix_path/pkg_navigation
+[4.993s] -- Up-to-date symlink: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/environment/ament_prefix_path.sh
+[4.994s] -- Up-to-date symlink: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/environment/ament_prefix_path.dsv
+[4.994s] -- Up-to-date symlink: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/environment/path.sh
+[4.994s] -- Up-to-date symlink: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/environment/path.dsv
+[4.994s] -- Up-to-date symlink: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/local_setup.bash
+[4.994s] -- Up-to-date symlink: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/local_setup.sh
+[4.995s] -- Up-to-date symlink: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/local_setup.zsh
+[4.997s] -- Up-to-date symlink: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/local_setup.dsv
+[4.997s] -- Symlinking: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/package.dsv
+[5.008s] -- Up-to-date symlink: /home/robogait/catkin_ws/install/pkg_navigation/share/ament_index/resource_index/packages/pkg_navigation
+[5.009s] -- Up-to-date symlink: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/cmake/pkg_navigationConfig.cmake
+[5.009s] -- Up-to-date symlink: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/cmake/pkg_navigationConfig-version.cmake
+[5.009s] -- Up-to-date symlink: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/package.xml
+[5.011s] Invoked command in '/home/robogait/catkin_ws/build/pkg_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/nav2_ws/install/nav2_gazebo_spawner:/home/robogait/ros2_serial/install/ourbotmanager:/home/robogait/ros2_ws/install/nav2_project:/opt/ros/foxy /usr/bin/cmake --install /home/robogait/catkin_ws/build/pkg_navigation

@@ -1,0 +1,21 @@
+Tenemos la info en /home/robogait/azure_kinect_ws/src/body_tracking || /home/robogait/azure_kinect_ws/src/body_tracking;/opt/ros/foxy/share/fastrtps_cmake_module/cmake/Modules
+CMake Error at /home/robogait/Downloads/Alejandro/957f926c473ddd8e6ee4bfca5227b5c1/Findk4a.cmake:79 (add_library):
+  add_library cannot create imported target "k4a::k4a" because another target
+  with the same name already exists.
+Call Stack (most recent call first):
+  CMakeLists.txt:39 (include)
+
+
+CMake Warning (dev) at CMakeLists.txt:41 (find_package):
+  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  CMake variable k4abt_ROOT is set to:
+
+    /usr
+
+  For compatibility, CMake is ignoring the variable.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+make: *** [Makefile:924: cmake_check_build_system] Error 1

@@ -1,0 +1,1 @@
+/home/robogait/azure_kinect_ws/build/body_tracker_msgs/rosidl_generator_cpp/body_tracker_msgs/msg/detail/skeleton__traits.hpp

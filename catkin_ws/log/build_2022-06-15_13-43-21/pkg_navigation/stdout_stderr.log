@@ -1,0 +1,15 @@
+[35m[1mScanning dependencies of target robot_controller_position[0m
+[ 16%] Built target publisher_subscriber
+[ 33%] Built target publisher_initial_pose
+[ 50%] Built target tf2_broadcaster
+[ 66%] Built target robot_controller
+[ 83%] Built target robot_odom_tf2_listener
+[ 91%] [32mBuilding CXX object CMakeFiles/robot_controller_position.dir/src/robot_controller_position.cpp.o[0m
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller_position.cpp:[m[K In member function ‘[01m[Kvoid generic::topic_callback_spine_bottom(body_tracker_msgs::msg::SpineBottom_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller_position.cpp:85:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kstart_time[m[K’ was not declared in this scope; did you mean ‘[01m[Kant_time[m[K’?
+   85 |        rclcpp::Duration time_spent = time_now -[01;31m[Kstart_time[m[K;
+      |                                                [01;31m[K^~~~~~~~~~[m[K
+      |                                                [32m[Kant_time[m[K
+make[2]: *** [CMakeFiles/robot_controller_position.dir/build.make:63: CMakeFiles/robot_controller_position.dir/src/robot_controller_position.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:277: CMakeFiles/robot_controller_position.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

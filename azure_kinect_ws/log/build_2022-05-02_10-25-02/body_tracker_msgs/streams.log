@@ -1,0 +1,27 @@
+[0.012s] Invoking command in '/home/robogait/azure_kinect_ws/build/body_tracker_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy /usr/bin/cmake /home/robogait/azure_kinect_ws/src/body_tracker_msgs -DCMAKE_INSTALL_PREFIX=/home/robogait/azure_kinect_ws/install/body_tracker_msgs
+[0.096s] -- The C compiler identification is GNU 9.4.0
+[0.162s] -- The CXX compiler identification is GNU 9.4.0
+[0.165s] -- Check for working C compiler: /usr/bin/cc
+[0.209s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.209s] -- Detecting C compiler ABI info
+[0.252s] -- Detecting C compiler ABI info - done
+[0.259s] -- Detecting C compile features
+[0.259s] -- Detecting C compile features - done
+[0.261s] -- Check for working CXX compiler: /usr/bin/c++
+[0.309s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.310s] -- Detecting CXX compiler ABI info
+[0.359s] -- Detecting CXX compiler ABI info - done
+[0.366s] -- Detecting CXX compile features
+[0.366s] -- Detecting CXX compile features - done
+[0.368s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.384s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.384s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.493s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.547s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.549s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.549s] -- Added test 'lint_cmake' to check CMake code style
+[0.550s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[0.551s] -- Added test 'xmllint' to check XML markup files
+[0.552s] -- Configuring done
+[0.553s] -- Generating done
+[0.554s] -- Build files have been written to: /home/robogait/azure_kinect_ws/build/body_tracker_msgs

@@ -1,0 +1,12 @@
+[01m[K/home/robogait/azure_kinect_ws/src/kinect_azure_body_tracker/src/kinectAzure_body_tracker_node_plus_recording_test.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::close()[m[K’:
+[01m[K/home/robogait/azure_kinect_ws/src/kinect_azure_body_tracker/src/kinectAzure_body_tracker_node_plus_recording_test.cpp:207:3:[m[K [01;31m[Kerror: [m[K‘[01m[KFPS_recording[m[K’ was not declared in this scope
+  207 |   [01;31m[KFPS_recording[m[K = total_frames_recording / elapsed_time;
+      |   [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/robogait/azure_kinect_ws/src/kinect_azure_body_tracker/src/kinectAzure_body_tracker_node_plus_recording_test.cpp:207:19:[m[K [01;31m[Kerror: [m[K‘[01m[Ktotal_frames_recording[m[K’ was not declared in this scope
+  207 |   FPS_recording = [01;31m[Ktotal_frames_recording[m[K / elapsed_time;
+      |                   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+At global scope:
+[01m[Kcc1plus:[m[K [01;35m[Kwarning: [m[Kunrecognized command line option ‘[01m[K-Wno-dev[m[K’
+make[2]: *** [CMakeFiles/kinect_azure_body_tracker_node_plus_recording_test.dir/build.make:63: CMakeFiles/kinect_azure_body_tracker_node_plus_recording_test.dir/src/kinectAzure_body_tracker_node_plus_recording_test.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:117: CMakeFiles/kinect_azure_body_tracker_node_plus_recording_test.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,124 @@
+[0.013s] Invoking command in '/home/robogait/catkin_ws/build/pkg_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/ros2_ws/install/nav2_project:/home/robogait/nav2_ws/install/nav2_gazebo_spawner:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/catkin_ws/build/pkg_navigation -- -j8 -l8
+[0.037s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.056s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.165s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.169s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.192s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.194s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.278s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.307s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.308s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.391s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.411s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[0.451s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[0.492s] -- Found tf2: 0.13.13 (/opt/ros/foxy/share/tf2/cmake)
+[0.497s] -- Found tf2_ros: 0.13.13 (/opt/ros/foxy/share/tf2_ros/cmake)
+[0.681s] -- Found turtlesim: 1.2.5 (/home/robogait/tutorials_ros2/install/turtlesim/share/turtlesim/cmake)
+[0.763s] -- Configuring done
+[0.783s] -- Generating done
+[0.784s] -- Build files have been written to: /home/robogait/catkin_ws/build/pkg_navigation
+[0.808s] [35m[1mScanning dependencies of target robot_controller[0m
+[0.824s] [ 20%] Built target publisher_initial_pose
+[0.824s] [ 40%] Built target publisher_subscriber
+[0.827s] [ 60%] Built target robot_odom_tf2_listener
+[0.832s] [ 80%] Built target tf2_broadcaster
+[0.838s] [ 90%] [32mBuilding CXX object CMakeFiles/robot_controller.dir/src/robot_controller.cpp.o[0m
+[1.570s] [01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller.cpp:22:29:[m[K [01;31m[Kerror: [m[K‘[01m[KPath[m[K’ is not a member of ‘[01m[Knav_msgs::msg[m[K’
+[1.570s]    22 | Subscription<nav_msgs::msg::[01;31m[KPath[m[K>::SharedPtr subscription_local_plan;
+[1.570s]       |                             [01;31m[K^~~~[m[K
+[1.571s] [01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller.cpp:22:29:[m[K [01;31m[Kerror: [m[K‘[01m[KPath[m[K’ is not a member of ‘[01m[Knav_msgs::msg[m[K’
+[1.571s] [01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller.cpp:22:33:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.571s]    22 | Subscription<nav_msgs::msg::Path[01;31m[K>[m[K::SharedPtr subscription_local_plan;
+[1.571s]       |                                 [01;31m[K^[m[K
+[1.571s] [01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller.cpp:22:33:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[1.571s] [01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller.cpp:22:36:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[1.571s]    22 | Subscription<nav_msgs::msg::Path>::[01;31m[KSharedPtr[m[K subscription_local_plan;
+[1.571s]       |                                    [01;31m[K^~~~~~~~~[m[K
+[1.571s]       |                                             [32m[K;[m[K
+[1.574s] [01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller.cpp:22:46:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_local_plan[m[K’ does not name a type
+[1.574s]    22 | Subscription<nav_msgs::msg::Path>::SharedPtr [01;31m[Ksubscription_local_plan[m[K;
+[1.574s]       |                                              [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.574s] [01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller.cpp:23:29:[m[K [01;31m[Kerror: [m[K‘[01m[KPath[m[K’ is not a member of ‘[01m[Knav_msgs::msg[m[K’
+[1.574s]    23 | Subscription<nav_msgs::msg::[01;31m[KPath[m[K>::SharedPtr subscription_global_plan;
+[1.574s]       |                             [01;31m[K^~~~[m[K
+[1.574s] [01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller.cpp:23:29:[m[K [01;31m[Kerror: [m[K‘[01m[KPath[m[K’ is not a member of ‘[01m[Knav_msgs::msg[m[K’
+[1.574s] [01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller.cpp:23:33:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.574s]    23 | Subscription<nav_msgs::msg::Path[01;31m[K>[m[K::SharedPtr subscription_global_plan;
+[1.574s]       |                                 [01;31m[K^[m[K
+[1.575s] [01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller.cpp:23:33:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[1.575s] [01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller.cpp:23:36:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[1.575s]    23 | Subscription<nav_msgs::msg::Path>::[01;31m[KSharedPtr[m[K subscription_global_plan;
+[1.575s]       |                                    [01;31m[K^~~~~~~~~[m[K
+[1.575s]       |                                             [32m[K;[m[K
+[1.575s] [01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller.cpp:23:36:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kint generic::SharedPtr[m[K’
+[1.575s] [01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller.cpp:22:36:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint generic::SharedPtr[m[K’
+[1.575s]    22 | Subscription<nav_msgs::msg::Path>::[01;36m[KSharedPtr[m[K subscription_local_plan;
+[1.575s]       |                                    [01;36m[K^~~~~~~~~[m[K
+[1.578s] [01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller.cpp:23:46:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_global_plan[m[K’ does not name a type
+[1.578s]    23 | Subscription<nav_msgs::msg::Path>::SharedPtr [01;31m[Ksubscription_global_plan[m[K;
+[1.578s]       |                                              [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.578s] [01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller.cpp:24:34:[m[K [01;31m[Kerror: [m[K‘[01m[KPoseStamped[m[K’ is not a member of ‘[01m[Kgeometry_msgs::msg[m[K’
+[1.578s]    24 | Subscription<geometry_msgs::msg::[01;31m[KPoseStamped[m[K>::SharedPtr subscription_goal;
+[1.578s]       |                                  [01;31m[K^~~~~~~~~~~[m[K
+[1.578s] [01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller.cpp:24:34:[m[K [01;31m[Kerror: [m[K‘[01m[KPoseStamped[m[K’ is not a member of ‘[01m[Kgeometry_msgs::msg[m[K’
+[1.578s] [01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller.cpp:24:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.578s]    24 | Subscription<geometry_msgs::msg::PoseStamped[01;31m[K>[m[K::SharedPtr subscription_goal;
+[1.578s]       |                                             [01;31m[K^[m[K
+[1.578s] [01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller.cpp:24:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[1.578s] [01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller.cpp:24:48:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[1.578s]    24 | Subscription<geometry_msgs::msg::PoseStamped>::[01;31m[KSharedPtr[m[K subscription_goal;
+[1.578s]       |                                                [01;31m[K^~~~~~~~~[m[K
+[1.578s]       |                                                         [32m[K;[m[K
+[1.578s] [01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller.cpp:24:48:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kint generic::SharedPtr[m[K’
+[1.578s] [01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller.cpp:22:36:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint generic::SharedPtr[m[K’
+[1.578s]    22 | Subscription<nav_msgs::msg::Path>::[01;36m[KSharedPtr[m[K subscription_local_plan;
+[1.578s]       |                                    [01;36m[K^~~~~~~~~[m[K
+[1.580s] [01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller.cpp:24:58:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_goal[m[K’ does not name a type
+[1.580s]    24 | Subscription<geometry_msgs::msg::PoseStamped>::SharedPtr [01;31m[Ksubscription_goal[m[K;
+[1.580s]       |                                                          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[1.598s] [01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller.cpp:[m[K In constructor ‘[01m[Kgeneric::generic()[m[K’:
+[1.598s] [01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller.cpp:42:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_local_plan[m[K’ was not declared in this scope
+[1.598s]    42 |   [01;31m[Ksubscription_local_plan[m[K = this->create_subscription<nav_msgs::msg::Path>("local_plan",10, std::bind(&generic::callback_local_plan, this, _1));
+[1.598s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.598s] [01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller.cpp:42:70:[m[K [01;31m[Kerror: [m[K‘[01m[KPath[m[K’ is not a member of ‘[01m[Knav_msgs::msg[m[K’
+[1.598s]    42 |   subscription_local_plan = this->create_subscription<nav_msgs::msg::[01;31m[KPath[m[K>("local_plan",10, std::bind(&generic::callback_local_plan, this, _1));
+[1.598s]       |                                                                      [01;31m[K^~~~[m[K
+[1.599s] [01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller.cpp:42:70:[m[K [01;31m[Kerror: [m[K‘[01m[KPath[m[K’ is not a member of ‘[01m[Knav_msgs::msg[m[K’
+[1.599s] [01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller.cpp:42:113:[m[K [01;31m[Kerror: [m[K‘[01m[Kcallback_local_plan[m[K’ is not a member of ‘[01m[Kgeneric[m[K’
+[1.599s]    42 |   subscription_local_plan = this->create_subscription<nav_msgs::msg::Path>("local_plan",10, std::bind(&generic::[01;31m[Kcallback_local_plan[m[K, this, _1));
+[1.599s]       |                                                                                                                 [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.602s] [01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller.cpp:43:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_global_plan[m[K’ was not declared in this scope
+[1.602s]    43 |   [01;31m[Ksubscription_global_plan[m[K = this->create_subscription<nav_msgs::msg::Path>("global_plan",10, std::bind(&generic::callback_global_plan, this, _1));
+[1.602s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.602s] [01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller.cpp:43:71:[m[K [01;31m[Kerror: [m[K‘[01m[KPath[m[K’ is not a member of ‘[01m[Knav_msgs::msg[m[K’
+[1.602s]    43 |   subscription_global_plan = this->create_subscription<nav_msgs::msg::[01;31m[KPath[m[K>("global_plan",10, std::bind(&generic::callback_global_plan, this, _1));
+[1.602s]       |                                                                       [01;31m[K^~~~[m[K
+[1.602s] [01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller.cpp:43:71:[m[K [01;31m[Kerror: [m[K‘[01m[KPath[m[K’ is not a member of ‘[01m[Knav_msgs::msg[m[K’
+[1.602s] [01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller.cpp:43:115:[m[K [01;31m[Kerror: [m[K‘[01m[Kcallback_global_plan[m[K’ is not a member of ‘[01m[Kgeneric[m[K’
+[1.602s]    43 |   subscription_global_plan = this->create_subscription<nav_msgs::msg::Path>("global_plan",10, std::bind(&generic::[01;31m[Kcallback_global_plan[m[K, this, _1));
+[1.602s]       |                                                                                                                   [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[1.604s] [01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller.cpp:44:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_goal[m[K’ was not declared in this scope; did you mean ‘[01m[Ksubscription_keyboard[m[K’?
+[1.604s]    44 |   [01;31m[Ksubscription_goal[m[K= this->create_subscription<geometry_msgs::msg::PoseStamped>("goal_pose",10, std::bind(&generic::callback_goal_pose, this, _1));
+[1.604s]       |   [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[1.604s]       |   [32m[Ksubscription_keyboard[m[K
+[1.604s] [01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller.cpp:44:68:[m[K [01;31m[Kerror: [m[K‘[01m[KPoseStamped[m[K’ is not a member of ‘[01m[Kgeometry_msgs::msg[m[K’
+[1.604s]    44 |   subscription_goal= this->create_subscription<geometry_msgs::msg::[01;31m[KPoseStamped[m[K>("goal_pose",10, std::bind(&generic::callback_goal_pose, this, _1));
+[1.604s]       |                                                                    [01;31m[K^~~~~~~~~~~[m[K
+[1.604s] [01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller.cpp:44:68:[m[K [01;31m[Kerror: [m[K‘[01m[KPoseStamped[m[K’ is not a member of ‘[01m[Kgeometry_msgs::msg[m[K’
+[1.604s] [01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller.cpp:44:117:[m[K [01;31m[Kerror: [m[K‘[01m[Kcallback_goal_pose[m[K’ is not a member of ‘[01m[Kgeneric[m[K’
+[1.604s]    44 |   subscription_goal= this->create_subscription<geometry_msgs::msg::PoseStamped>("goal_pose",10, std::bind(&generic::[01;31m[Kcallback_goal_pose[m[K, this, _1));
+[1.604s]       |                                                                                                                     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[1.604s] [01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller.cpp:45:128:[m[K [01;31m[Kerror: [m[K‘[01m[Kcallback_odom_filtered[m[K’ is not a member of ‘[01m[Kgeneric[m[K’
+[1.604s]    45 |   subscription_robot_odom_filtered= this->create_subscription<nav_msgs::msg::Odometry>("odom_filtered",10, std::bind(&generic::[01;31m[Kcallback_odom_filtered[m[K, this, _1));
+[1.604s]       |                                                                                                                                [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.612s] [01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller.cpp:[m[K In member function ‘[01m[Kvoid generic::topic_callback(geometry_msgs::msg::Twist_<std::allocator<void> >::SharedPtr) const[m[K’:
+[1.612s] [01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller.cpp:57:33:[m[K [01;31m[Kerror: [m[Kassignment of member ‘[01m[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >::x[m[K’ in read-only object
+[1.612s]    57 |        [01;31m[Kcmd_keyboard_msg.linear.x=msg->linear.x[m[K;
+[1.612s]       |        [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[1.612s] [01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller.cpp:58:34:[m[K [01;31m[Kerror: [m[Kassignment of member ‘[01m[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >::z[m[K’ in read-only object
+[1.612s]    58 |        [01;31m[Kcmd_keyboard_msg.angular.z=msg->angular.z[m[K;
+[1.613s]       |        [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+[2.581s] make[2]: *** [CMakeFiles/robot_controller.dir/build.make:63: CMakeFiles/robot_controller.dir/src/robot_controller.cpp.o] Error 1
+[2.581s] make[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/robot_controller.dir/all] Error 2
+[2.581s] make: *** [Makefile:141: all] Error 2
+[2.584s] Invoked command in '/home/robogait/catkin_ws/build/pkg_navigation' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/ros2_ws/install/nav2_project:/home/robogait/nav2_ws/install/nav2_gazebo_spawner:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/catkin_ws/build/pkg_navigation -- -j8 -l8

@@ -1,0 +1,16 @@
+/home/robogait/catkin_ws/install/test/lib/test/publisher_subscriber
+/home/robogait/catkin_ws/install/test/share/ament_index/resource_index/package_run_dependencies/test
+/home/robogait/catkin_ws/install/test/share/ament_index/resource_index/parent_prefix_path/test
+/home/robogait/catkin_ws/install/test/share/test/environment/ament_prefix_path.sh
+/home/robogait/catkin_ws/install/test/share/test/environment/ament_prefix_path.dsv
+/home/robogait/catkin_ws/install/test/share/test/environment/path.sh
+/home/robogait/catkin_ws/install/test/share/test/environment/path.dsv
+/home/robogait/catkin_ws/install/test/share/test/local_setup.bash
+/home/robogait/catkin_ws/install/test/share/test/local_setup.sh
+/home/robogait/catkin_ws/install/test/share/test/local_setup.zsh
+/home/robogait/catkin_ws/install/test/share/test/local_setup.dsv
+/home/robogait/catkin_ws/install/test/share/test/package.dsv
+/home/robogait/catkin_ws/install/test/share/ament_index/resource_index/packages/test
+/home/robogait/catkin_ws/install/test/share/test/cmake/testConfig.cmake
+/home/robogait/catkin_ws/install/test/share/test/cmake/testConfig-version.cmake
+/home/robogait/catkin_ws/install/test/share/test/package.xml

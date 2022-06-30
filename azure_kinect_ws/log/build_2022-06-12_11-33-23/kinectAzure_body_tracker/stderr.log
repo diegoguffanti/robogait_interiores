@@ -1,0 +1,1 @@
+CMake Error: The current CMakeCache.txt directory /home/robogait/azure_kinect_ws/build/kinectAzure_body_tracker/CMakeCache.txt is different than the directory /home/robogait/azure_kinect_ws/build/body_tracking where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt

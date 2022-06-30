@@ -1,0 +1,8 @@
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller_position.cpp:[m[K In constructor ‘[01m[Kgeneric::generic()[m[K’:
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller_position.cpp:56:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_keyboard[m[K’ was not declared in this scope; did you mean ‘[01m[Ksubscription_robot_odom[m[K’?
+   56 |   [01;31m[Ksubscription_keyboard[m[K= this->create_subscription<geometry_msgs::msg::Twist>("keyboard_cmd_vel",10, std::bind(&generic::callback_keyboard, this, _1));
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+      |   [32m[Ksubscription_robot_odom[m[K
+make[2]: *** [CMakeFiles/robot_controller_position.dir/build.make:63: CMakeFiles/robot_controller_position.dir/src/robot_controller_position.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:310: CMakeFiles/robot_controller_position.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

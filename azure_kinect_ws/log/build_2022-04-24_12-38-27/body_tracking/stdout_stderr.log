@@ -1,0 +1,10 @@
+[35m[1mScanning dependencies of target prueba_talker[0m
+make[2]: *** No rule to make target '/home/robogait/azure_kinect_ws/src/body_tracking/src/main.c', needed by 'CMakeFiles/prueba_talker.dir/src/main.c.o'.  Stop.
+make[1]: *** [CMakeFiles/Makefile2:325: CMakeFiles/prueba_talker.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[  2%] Built target body_tracking__cpp
+[ 10%] Built target body_tracking_node
+[ 15%] Built target body_tracking__rosidl_generator_c
+[ 20%] Built target talker
+[ 25%] Built target listener
+make: *** [Makefile:141: all] Error 2

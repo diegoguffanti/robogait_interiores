@@ -1,0 +1,11 @@
+// generated from rosidl_generator_cpp/resource/idl.hpp.em
+// generated code does not contain a copyright notice
+
+#ifndef BODY_TRACKING__MSG__NUM_HPP_
+#define BODY_TRACKING__MSG__NUM_HPP_
+
+#include "body_tracking/msg/detail/num__struct.hpp"
+#include "body_tracking/msg/detail/num__builder.hpp"
+#include "body_tracking/msg/detail/num__traits.hpp"
+
+#endif  // BODY_TRACKING__MSG__NUM_HPP_

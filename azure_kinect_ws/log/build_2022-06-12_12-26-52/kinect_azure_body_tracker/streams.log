@@ -1,0 +1,29 @@
+[0.020s] Invoking command in '/home/robogait/azure_kinect_ws/build/kinect_azure_body_tracker': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/ros2_ws/install/nav2_project:/home/robogait/nav2_ws/install/nav2_gazebo_spawner:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/azure_kinect_ws/build/kinect_azure_body_tracker -- -j8 -l8
+[0.064s] [35m[1mScanning dependencies of target kinect_azure_body_tracker_node_simplified[0m
+[0.089s] [ 33%] Built target kinect_azure_body_tracker_node
+[0.092s] [ 66%] Built target kinect_azure_body_tracker_recording_node
+[0.105s] [ 83%] [32mBuilding CXX object CMakeFiles/kinect_azure_body_tracker_node_simplified.dir/src/kinectAzure_body_tracker_node_simplified.cpp.o[0m
+[0.905s] [01m[K/home/robogait/azure_kinect_ws/src/kinect_azure_body_tracker/src/kinectAzure_body_tracker_node_simplified.cpp:200:46:[m[K [01;31m[Kerror: [m[K‘[01m[Know[m[K’ in ‘[01m[Kusing high_resolution_clock = struct std::chrono::_V2::system_clock[m[K’ {aka ‘[01m[Kstruct std::chrono::_V2::system_clock[m[K’} does not name a type
+[0.905s]   200 |  typedef std::chrono::high_resolution_clock::[01;31m[Know[m[K t0;
+[0.905s]       |                                              [01;31m[K^~~[m[K
+[0.909s] [01m[K/home/robogait/azure_kinect_ws/src/kinect_azure_body_tracker/src/kinectAzure_body_tracker_node_simplified.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::body_tracking()[m[K’:
+[0.909s] [01m[K/home/robogait/azure_kinect_ws/src/kinect_azure_body_tracker/src/kinectAzure_body_tracker_node_simplified.cpp:136:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kt0[m[K’ was not declared in this scope; did you mean ‘[01m[Ktm[m[K’?
+[0.909s]   136 |   fs = t1 - [01;31m[Kt0[m[K;
+[0.909s]       |             [01;31m[K^~[m[K
+[0.909s]       |             [32m[Ktm[m[K
+[0.909s] [01m[K/home/robogait/azure_kinect_ws/src/kinect_azure_body_tracker/src/kinectAzure_body_tracker_node_simplified.cpp:137:23:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[KMinimalPublisher::fsec[m[K’ {aka ‘[01m[Kstd::chrono::duration<float>[m[K’} to ‘[01m[Kbody_tracker_msgs::msg::SpineBottom_<std::allocator<void> >::_tiempo_type[m[K’ {aka ‘[01m[Kdouble[m[K’} in assignment
+[0.909s]   137 |   pelvis_data.tiempo= [01;31m[Kfs[m[K;
+[0.909s]       |                       [01;31m[K^~[m[K
+[0.909s]       |                       [01;31m[K|[m[K
+[0.909s]       |                       [01;31m[KMinimalPublisher::fsec {aka std::chrono::duration<float>}[m[K
+[0.915s] [01m[K/home/robogait/azure_kinect_ws/src/kinect_azure_body_tracker/src/kinectAzure_body_tracker_node_simplified.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::Init()[m[K’:
+[0.915s] [01m[K/home/robogait/azure_kinect_ws/src/kinect_azure_body_tracker/src/kinectAzure_body_tracker_node_simplified.cpp:153:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kt0[m[K’ was not declared in this scope; did you mean ‘[01m[Ktm[m[K’?
+[0.915s]   153 |   [01;31m[Kt0[m[K = Time::now();
+[0.915s]       |   [01;31m[K^~[m[K
+[0.915s]       |   [32m[Ktm[m[K
+[1.448s] At global scope:
+[1.448s] [01m[Kcc1plus:[m[K [01;35m[Kwarning: [m[Kunrecognized command line option ‘[01m[K-Wno-dev[m[K’
+[1.457s] make[2]: *** [CMakeFiles/kinect_azure_body_tracker_node_simplified.dir/build.make:63: CMakeFiles/kinect_azure_body_tracker_node_simplified.dir/src/kinectAzure_body_tracker_node_simplified.cpp.o] Error 1
+[1.457s] make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/kinect_azure_body_tracker_node_simplified.dir/all] Error 2
+[1.457s] make: *** [Makefile:141: all] Error 2
+[1.460s] Invoked command in '/home/robogait/azure_kinect_ws/build/kinect_azure_body_tracker' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/ros2_ws/install/nav2_project:/home/robogait/nav2_ws/install/nav2_gazebo_spawner:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/azure_kinect_ws/build/kinect_azure_body_tracker -- -j8 -l8

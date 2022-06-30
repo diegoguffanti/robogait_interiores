@@ -1,0 +1,52 @@
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/kinectAzure_body_tracker_node.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::body_tracking()[m[K’:
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/kinectAzure_body_tracker_node.cpp:81:49:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Krclcpp::Clock[m[K’ and ‘[01m[Kstd::chrono::_V2::system_clock[m[K’)
+   81 |           t_muestra = std::chrono::system_clock([01;31m[K)[m[K;
+      |                                                 [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/timer.hpp:27[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:27[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/kinectAzure_body_tracker_node.cpp:16[m[K:
+[01m[K/opt/ros/foxy/include/rclcpp/clock.hpp:53:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Clock& rclcpp::Clock::operator=(const rclcpp::Clock&)[m[K’
+   53 | class [01;36m[KClock[m[K
+      |       [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/clock.hpp:53:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::chrono::_V2::system_clock[m[K’ to ‘[01m[Kconst rclcpp::Clock&[m[K’
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/kinectAzure_body_tracker_node.cpp:140:26:[m[K [01;31m[Kerror: [m[K‘[01m[Knum_bodies[m[K’ was not declared in this scope
+  140 |   skeleton_data.body_id= [01;31m[Knum_bodies[m[K;
+      |                          [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/kinectAzure_body_tracker_node.cpp:143:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass rclcpp::Clock[m[K’ has no member named ‘[01m[KtoSec[m[K’
+  143 |   skeleton_data.tiempo = t_muestra.[01;31m[KtoSec[m[K() - t_inicial.toSec();
+      |                                    [01;31m[K^~~~~[m[K
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/kinectAzure_body_tracker_node.cpp:143:56:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass rclcpp::Clock[m[K’ has no member named ‘[01m[KtoSec[m[K’
+  143 |   skeleton_data.tiempo = t_muestra.toSec() - t_inicial.[01;31m[KtoSec[m[K();
+      |                                                        [01;31m[K^~~~~[m[K
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/kinectAzure_body_tracker_node.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::Init()[m[K’:
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/kinectAzure_body_tracker_node.cpp:299:41:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Krclcpp::Clock[m[K’ and ‘[01m[Kstd::chrono::_V2::system_clock[m[K’)
+  299 |   t_inicial = std::chrono::system_clock([01;31m[K)[m[K;
+      |                                         [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/timer.hpp:27[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:27[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/kinectAzure_body_tracker_node.cpp:16[m[K:
+[01m[K/opt/ros/foxy/include/rclcpp/clock.hpp:53:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Clock& rclcpp::Clock::operator=(const rclcpp::Clock&)[m[K’
+   53 | class [01;36m[KClock[m[K
+      |       [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/clock.hpp:53:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::chrono::_V2::system_clock[m[K’ to ‘[01m[Kconst rclcpp::Clock&[m[K’
+At global scope:
+[01m[Kcc1plus:[m[K [01;35m[Kwarning: [m[Kunrecognized command line option ‘[01m[K-Wno-dev[m[K’
+make[2]: *** [CMakeFiles/body_tracking_node.dir/build.make:63: CMakeFiles/body_tracking_node.dir/src/kinectAzure_body_tracker_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:208: CMakeFiles/body_tracking_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

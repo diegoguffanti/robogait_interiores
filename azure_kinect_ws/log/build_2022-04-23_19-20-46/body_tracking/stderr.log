@@ -1,0 +1,32 @@
+/usr/bin/ld: CMakeFiles/prueba_talker.dir/src/main.c.o: in function `print_body_index_map_middle_line':
+main.c:(.text+0x12a): undefined reference to `k4a_image_get_buffer'
+/usr/bin/ld: main.c:(.text+0x13a): undefined reference to `k4a_image_get_stride_bytes'
+/usr/bin/ld: main.c:(.text+0x148): undefined reference to `k4a_image_get_width_pixels'
+/usr/bin/ld: main.c:(.text+0x177): undefined reference to `k4a_image_get_height_pixels'
+/usr/bin/ld: main.c:(.text+0x18f): undefined reference to `k4a_image_get_width_pixels'
+/usr/bin/ld: main.c:(.text+0x1ea): undefined reference to `k4a_image_get_width_pixels'
+/usr/bin/ld: CMakeFiles/prueba_talker.dir/src/main.c.o: in function `main':
+main.c:(.text+0x27a): undefined reference to `k4a_device_get_installed_count'
+/usr/bin/ld: main.c:(.text+0x2ad): undefined reference to `k4a_device_open'
+/usr/bin/ld: main.c:(.text+0x2e0): undefined reference to `k4a_device_start_cameras'
+/usr/bin/ld: main.c:(.text+0x31e): undefined reference to `k4a_device_get_calibration'
+/usr/bin/ld: main.c:(.text+0x3b1): undefined reference to `k4abt_tracker_create'
+/usr/bin/ld: main.c:(.text+0x417): undefined reference to `k4a_device_get_capture'
+/usr/bin/ld: main.c:(.text+0x474): undefined reference to `k4abt_tracker_enqueue_capture'
+/usr/bin/ld: main.c:(.text+0x489): undefined reference to `k4a_capture_release'
+/usr/bin/ld: main.c:(.text+0x4e6): undefined reference to `k4abt_tracker_pop_result'
+/usr/bin/ld: main.c:(.text+0x577): undefined reference to `k4abt_frame_get_num_bodies'
+/usr/bin/ld: main.c:(.text+0x5d3): undefined reference to `k4abt_frame_get_body_skeleton'
+/usr/bin/ld: main.c:(.text+0x604): undefined reference to `k4abt_frame_get_body_id'
+/usr/bin/ld: main.c:(.text+0x676): undefined reference to `k4abt_frame_get_body_index_map'
+/usr/bin/ld: main.c:(.text+0x6a5): undefined reference to `k4a_image_release'
+/usr/bin/ld: main.c:(.text+0x6c2): undefined reference to `k4abt_frame_release'
+/usr/bin/ld: main.c:(.text+0x7c4): undefined reference to `k4abt_tracker_shutdown'
+/usr/bin/ld: main.c:(.text+0x7d3): undefined reference to `k4abt_tracker_destroy'
+/usr/bin/ld: main.c:(.text+0x7e2): undefined reference to `k4a_device_stop_cameras'
+/usr/bin/ld: main.c:(.text+0x7f1): undefined reference to `k4a_device_close'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/prueba_talker.dir/build.make:84: prueba_talker] Error 1
+make[1]: *** [CMakeFiles/Makefile2:325: CMakeFiles/prueba_talker.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [Makefile:141: all] Error 2

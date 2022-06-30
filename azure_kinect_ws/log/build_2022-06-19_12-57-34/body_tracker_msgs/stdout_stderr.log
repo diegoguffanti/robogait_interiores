@@ -1,0 +1,9 @@
+[ 13%] Built target body_tracker_msgs__rosidl_generator_c
+[ 16%] Built target body_tracker_msgs__cpp
+[ 30%] Built target body_tracker_msgs__rosidl_typesupport_introspection_c
+[ 44%] Built target body_tracker_msgs__rosidl_typesupport_c
+[ 58%] Built target body_tracker_msgs__rosidl_typesupport_fastrtps_cpp
+[ 86%] Built target body_tracker_msgs__rosidl_typesupport_introspection_cpp
+[ 86%] Built target body_tracker_msgs__rosidl_typesupport_cpp
+[100%] Built target body_tracker_msgs__rosidl_typesupport_fastrtps_c
+[100%] Built target body_tracker_msgs

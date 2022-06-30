@@ -1,0 +1,50 @@
+-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+-- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+-- Found tf2: 0.13.13 (/opt/ros/foxy/share/tf2/cmake)
+-- Found tf2_ros: 0.13.13 (/opt/ros/foxy/share/tf2_ros/cmake)
+-- Found turtlesim: 1.2.5 (/home/robogait/tutorials_ros2/install/turtlesim/share/turtlesim/cmake)
+-- Found body_tracker_msgs: 0.0.0 (/home/robogait/azure_kinect_ws/install/body_tracker_msgs/share/body_tracker_msgs/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/robogait/catkin_ws/build/pkg_navigation
+[35m[1mScanning dependencies of target robot_controller_position[0m
+[ 33%] Built target robot_odom_tf2_listener
+[ 33%] Built target publisher_subscriber
+[ 50%] Built target tf2_broadcaster
+[ 66%] Built target publisher_initial_pose
+[ 83%] Built target robot_controller
+[ 91%] [32mBuilding CXX object CMakeFiles/robot_controller_position.dir/src/robot_controller_position.cpp.o[0m
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller_position.cpp:[m[K In constructor ‘[01m[Kgeneric::generic()[m[K’:
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller_position.cpp:56:110:[m[K [01;31m[Kerror: [m[K‘[01m[Kcallback_odom[m[K’ is not a member of ‘[01m[Kgeneric[m[K’
+   56 |   subscription_robot_odom= this->create_subscription<nav_msgs::msg::Odometry>("odom",10, std::bind(&generic::[01;31m[Kcallback_odom[m[K, this, _1));
+      |                                                                                                              [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller_position.cpp:58:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_spine_bottom[m[K’ was not declared in this scope; did you mean ‘[01m[Ksubscription_robot_odom[m[K’?
+   58 |   [01;31m[Ksubscription_spine_bottom[m[K = this->create_subscription<body_tracker_msgs::msg::SpineBottom>("body_tracker_simplified", 10, bind(&MinimalSubscriber::topic_callback_spine_bottom, this, _1));
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |   [32m[Ksubscription_robot_odom[m[K
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller_position.cpp:58:131:[m[K [01;31m[Kerror: [m[K‘[01m[KMinimalSubscriber[m[K’ has not been declared
+   58 |   subscription_spine_bottom = this->create_subscription<body_tracker_msgs::msg::SpineBottom>("body_tracker_simplified", 10, bind(&[01;31m[KMinimalSubscriber[m[K::topic_callback_spine_bottom, this, _1));
+      |                                                                                                                                   [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller_position.cpp:[m[K In member function ‘[01m[Kvoid generic::controller()[m[K’:
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller_position.cpp:86:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kperson_vel[m[K’ was not declared in this scope
+   86 |        float control=[01;31m[Kperson_vel[m[K+(0.5*error);
+      |                      [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller_position.cpp:95:66:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_posx[m[K’ was not declared in this scope
+   95 |        cout<< "Control: "<<control<<" Error: "<<error<<" Pos: "<<[01;31m[Krobot_posx[m[K<<" Vel: "<<robot_velx<<endl;
+      |                                                                  [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller_position.cpp:95:88:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_velx[m[K’ was not declared in this scope
+   95 |        cout<< "Control: "<<control<<" Error: "<<error<<" Pos: "<<robot_posx<<" Vel: "<<[01;31m[Krobot_velx[m[K<<endl;
+      |                                                                                        [01;31m[K^~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/robot_controller_position.dir/build.make:63: CMakeFiles/robot_controller_position.dir/src/robot_controller_position.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:277: CMakeFiles/robot_controller_position.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

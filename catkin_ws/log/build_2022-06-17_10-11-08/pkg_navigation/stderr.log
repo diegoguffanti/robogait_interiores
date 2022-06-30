@@ -1,0 +1,8 @@
+make[2]: *** No rule to make target '/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller_center_person.cpp', needed by 'CMakeFiles/robot_controller_center_person.dir/src/robot_controller_center_person.cpp.o'.  Stop.
+make[1]: *** [CMakeFiles/Makefile2:393: CMakeFiles/robot_controller_center_person.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller.cpp:[m[K In member function ‘[01m[Kvoid generic::lane_controller()[m[K’:
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller.cpp:96:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kyaw_error[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   96 |        float [01;35m[Kyaw_error[m[K= (float)calculate_yaw_error(q_goal,q_robot);
+      |              [01;35m[K^~~~~~~~~[m[K
+make: *** [Makefile:141: all] Error 2

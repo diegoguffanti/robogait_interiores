@@ -1,0 +1,4 @@
+make[2]: *** No rule to make target '/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller_center_person.cpp', needed by 'CMakeFiles/robot_controller_center_person.dir/src/robot_controller_center_person.cpp.o'.  Stop.
+make[1]: *** [CMakeFiles/Makefile2:393: CMakeFiles/robot_controller_center_person.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,9 @@
+Tenemos la info en /home/robogait/azure_kinect_ws/src/body_tracking || /home/robogait/azure_kinect_ws/src/body_tracking;/opt/ros/foxy/share/fastrtps_cmake_module/cmake/Modules
+CMake Error at /opt/ros/foxy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+  ament_target_dependencies() the passed package name 'K4ABT' was not found
+  before
+Call Stack (most recent call first):
+  CMakeLists.txt:79 (ament_target_dependencies)
+
+
+make: *** [Makefile:924: cmake_check_build_system] Error 1

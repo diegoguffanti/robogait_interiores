@@ -1,0 +1,42 @@
+[35m[1mScanning dependencies of target kinect_azure_body_tracker_node_full_processing[0m
+[ 20%] Built target kinect_azure_body_tracker_node
+[ 40%] Built target kinect_azure_body_tracker_node_simplified
+[ 60%] Built target kinect_azure_body_tracker_recording_node_simplified
+[ 70%] [32mBuilding CXX object CMakeFiles/kinect_azure_body_tracker_node_full_processing.dir/src/kinectAzure_body_tracker_node_full_processing.cpp.o[0m
+[ 90%] Built target kinect_azure_body_tracker_recording_node
+In file included from [01m[K/home/robogait/azure_kinect_ws/src/kinect_azure_body_tracker/src/kinectAzure_body_tracker_node_full_processing.cpp:23[m[K:
+[01m[K/home/robogait/azure_kinect_ws/src/kinect_azure_body_tracker/src/csvProcessing.cpp:[m[K In function ‘[01m[Kbool predict_joints(char*, int, int, k4abt_tracker_t, k4a_capture_t)[m[K’:
+[01m[K/home/robogait/azure_kinect_ws/src/kinect_azure_body_tracker/src/csvProcessing.cpp:17:44:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kframe_count[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   17 | bool predict_joints(char* myfile_name, [01;35m[Kint frame_count[m[K, int cabecera, k4abt_tracker_t tracker, k4a_capture_t capture_handle)
+      |                                        [01;35m[K~~~~^~~~~~~~~~~[m[K
+At global scope:
+[01m[Kcc1plus:[m[K [01;35m[Kwarning: [m[Kunrecognized command line option ‘[01m[K-Wno-dev[m[K’
+[100%] [32m[1mLinking CXX executable kinect_azure_body_tracker_node_full_processing[0m
+[100%] Built target kinect_azure_body_tracker_node_full_processing
+-- Install configuration: ""
+-- Up-to-date: /home/robogait/azure_kinect_ws/install/kinect_azure_body_tracker/lib/kinect_azure_body_tracker/kinect_azure_body_tracker_node
+-- Up-to-date: /home/robogait/azure_kinect_ws/install/kinect_azure_body_tracker/lib/kinect_azure_body_tracker/kinect_azure_body_tracker_recording_node
+-- Up-to-date: /home/robogait/azure_kinect_ws/install/kinect_azure_body_tracker/lib/kinect_azure_body_tracker/kinect_azure_body_tracker_node_simplified
+-- Up-to-date: /home/robogait/azure_kinect_ws/install/kinect_azure_body_tracker/lib/kinect_azure_body_tracker/kinect_azure_body_tracker_recording_node_simplified
+-- Installing: /home/robogait/azure_kinect_ws/install/kinect_azure_body_tracker/lib/kinect_azure_body_tracker/kinect_azure_body_tracker_node_full_processing
+-- Set runtime path of "/home/robogait/azure_kinect_ws/install/kinect_azure_body_tracker/lib/kinect_azure_body_tracker/kinect_azure_body_tracker_node_full_processing" to ""
+-- Up-to-date: /home/robogait/azure_kinect_ws/install/kinect_azure_body_tracker/lib/kinect_azure_body_tracker/kinect_azure_body_tracker_node
+-- Up-to-date: /home/robogait/azure_kinect_ws/install/kinect_azure_body_tracker/lib/kinect_azure_body_tracker/kinect_azure_body_tracker_recording_node
+-- Up-to-date: /home/robogait/azure_kinect_ws/install/kinect_azure_body_tracker/lib/kinect_azure_body_tracker/kinect_azure_body_tracker_node_simplified
+-- Up-to-date: /home/robogait/azure_kinect_ws/install/kinect_azure_body_tracker/lib/kinect_azure_body_tracker/kinect_azure_body_tracker_recording_node_simplified
+-- Up-to-date: /home/robogait/azure_kinect_ws/install/kinect_azure_body_tracker/lib/kinect_azure_body_tracker/kinect_azure_body_tracker_node_full_processing
+-- Up-to-date: /home/robogait/azure_kinect_ws/install/kinect_azure_body_tracker/share/ament_index/resource_index/package_run_dependencies/kinect_azure_body_tracker
+-- Up-to-date: /home/robogait/azure_kinect_ws/install/kinect_azure_body_tracker/share/ament_index/resource_index/parent_prefix_path/kinect_azure_body_tracker
+-- Up-to-date: /home/robogait/azure_kinect_ws/install/kinect_azure_body_tracker/share/kinect_azure_body_tracker/environment/ament_prefix_path.sh
+-- Up-to-date: /home/robogait/azure_kinect_ws/install/kinect_azure_body_tracker/share/kinect_azure_body_tracker/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/robogait/azure_kinect_ws/install/kinect_azure_body_tracker/share/kinect_azure_body_tracker/environment/path.sh
+-- Up-to-date: /home/robogait/azure_kinect_ws/install/kinect_azure_body_tracker/share/kinect_azure_body_tracker/environment/path.dsv
+-- Up-to-date: /home/robogait/azure_kinect_ws/install/kinect_azure_body_tracker/share/kinect_azure_body_tracker/local_setup.bash
+-- Up-to-date: /home/robogait/azure_kinect_ws/install/kinect_azure_body_tracker/share/kinect_azure_body_tracker/local_setup.sh
+-- Up-to-date: /home/robogait/azure_kinect_ws/install/kinect_azure_body_tracker/share/kinect_azure_body_tracker/local_setup.zsh
+-- Up-to-date: /home/robogait/azure_kinect_ws/install/kinect_azure_body_tracker/share/kinect_azure_body_tracker/local_setup.dsv
+-- Installing: /home/robogait/azure_kinect_ws/install/kinect_azure_body_tracker/share/kinect_azure_body_tracker/package.dsv
+-- Up-to-date: /home/robogait/azure_kinect_ws/install/kinect_azure_body_tracker/share/ament_index/resource_index/packages/kinect_azure_body_tracker
+-- Up-to-date: /home/robogait/azure_kinect_ws/install/kinect_azure_body_tracker/share/kinect_azure_body_tracker/cmake/kinect_azure_body_trackerConfig.cmake
+-- Up-to-date: /home/robogait/azure_kinect_ws/install/kinect_azure_body_tracker/share/kinect_azure_body_tracker/cmake/kinect_azure_body_trackerConfig-version.cmake
+-- Up-to-date: /home/robogait/azure_kinect_ws/install/kinect_azure_body_tracker/share/kinect_azure_body_tracker/package.xml

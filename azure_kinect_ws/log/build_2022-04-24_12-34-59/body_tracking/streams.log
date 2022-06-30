@@ -1,0 +1,23 @@
+[0.010s] Invoking command in '/home/robogait/azure_kinect_ws/build/body_tracking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/azure_kinect_ws/build/body_tracking -- -j8 -l8
+[0.040s] [35m[1mScanning dependencies of target prueba_talker[0m
+[0.048s] [  5%] Built target listener
+[0.048s] [ 12%] Built target body_tracking__cpp
+[0.048s] [ 12%] Built target body_tracking_node
+[0.048s] [ 20%] Built target body_tracking__rosidl_generator_c
+[0.049s] [ 25%] Built target talker
+[0.058s] [ 28%] [32mBuilding C object CMakeFiles/prueba_talker.dir/src/main.c.o[0m
+[0.064s] [ 35%] Built target body_tracking__rosidl_typesupport_cpp
+[0.066s] [ 43%] Built target body_tracking__rosidl_typesupport_fastrtps_cpp
+[0.066s] [ 64%] Built target body_tracking__rosidl_typesupport_introspection_cpp
+[0.066s] [ 64%] Built target body_tracking__rosidl_typesupport_c
+[0.066s] [ 66%] Built target body_tracking__rosidl_typesupport_introspection_c
+[0.072s] [01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.c:13:10:[m[K [01;31m[Kfatal error: [m[Kchrono.h: No such file or directory
+[0.072s]    13 | #include [01;31m[K<chrono.h>[m[K
+[0.072s]       |          [01;31m[K^~~~~~~~~~[m[K
+[0.072s] compilation terminated.
+[0.072s] make[2]: *** [CMakeFiles/prueba_talker.dir/build.make:63: CMakeFiles/prueba_talker.dir/src/main.c.o] Error 1
+[0.072s] make[1]: *** [CMakeFiles/Makefile2:325: CMakeFiles/prueba_talker.dir/all] Error 2
+[0.072s] make[1]: *** Waiting for unfinished jobs....
+[0.082s] [ 74%] Built target body_tracking__rosidl_typesupport_fastrtps_c
+[0.083s] make: *** [Makefile:141: all] Error 2
+[0.084s] Invoked command in '/home/robogait/azure_kinect_ws/build/body_tracking' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/azure_kinect_ws/build/body_tracking -- -j8 -l8

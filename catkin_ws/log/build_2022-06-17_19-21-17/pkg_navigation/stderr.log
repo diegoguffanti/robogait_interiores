@@ -1,0 +1,4 @@
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller.cpp:[m[K In member function ‘[01m[Kvoid generic::lane_controller()[m[K’:
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller.cpp:121:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcontrol_yaw[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  121 |        float [01;35m[Kcontrol_yaw[m[K=kp_yaw*yaw_error;
+      |              [01;35m[K^~~~~~~~~~~[m[K

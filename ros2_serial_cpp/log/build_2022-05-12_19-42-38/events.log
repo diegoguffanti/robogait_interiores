@@ -1,0 +1,81 @@
+[0.000000] (-) TimerEvent: {}
+[0.000228] (ros2_serial_cpp) JobQueued: {'identifier': 'ros2_serial_cpp', 'dependencies': OrderedDict()}
+[0.000852] (ros2_serial_cpp) JobStarted: {'identifier': 'ros2_serial_cpp'}
+[0.008127] (ros2_serial_cpp) JobProgress: {'identifier': 'ros2_serial_cpp', 'progress': 'cmake'}
+[0.008552] (ros2_serial_cpp) JobProgress: {'identifier': 'ros2_serial_cpp', 'progress': 'build'}
+[0.009004] (ros2_serial_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robogait/ros2_serial_cpp/build/ros2_serial_cpp', '--', '-j8', '-l8'], 'cwd': '/home/robogait/ros2_serial_cpp/build/ros2_serial_cpp', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'robogait'), ('LC_TIME', 'es_ES.UTF-8'), ('SSH_AGENT_PID', '1686'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/robogait/tutorials_ws/install/turtlesim/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/robogait'), ('OLDPWD', '/home/robogait'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('MANAGERPID', '1486'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/robogait/ros2_serial_cpp/install:/home/robogait/serial_cpp/install:/home/robogait/ros2_serial/install:/home/robogait/rplidar/install:/home/robogait/tutorials_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'robogait'), ('JOURNAL_STREAM', '8:49265'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'robogait'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/robogait/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/robogait-NUC11TNKv7:@/tmp/.ICE-unix/1724,unix/robogait-NUC11TNKv7:/tmp/.ICE-unix/1724'), ('INVOCATION_ID', '294eac83f3024def986e87e77fa286da'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9016917c_51f1_4004_8d3d_4e36ee577297'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.131'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/robogait/ros2_serial_cpp/install/ros2_serial_cpp:/home/robogait/ros2_serial/install/ourbotmanager:/home/robogait/serial_cpp/install/serial_pubsub:/home/robogait/rplidar/install/sllidar_ros2:/home/robogait/rplidar/install/rplidar_ros2:/home/robogait/tutorials_ws/install/turtlesim:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robogait/ros2_serial_cpp/build/ros2_serial_cpp'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/robogait/ros2_serial/install/ourbotmanager/lib/python3.8/site-packages:/home/robogait/tutorials_ws/install/turtlesim/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/robogait/ros2_serial_cpp/install/ros2_serial_cpp:/home/robogait/serial_cpp/install/serial_pubsub:/home/robogait/rplidar/install/sllidar_ros2:/home/robogait/rplidar/install/rplidar_ros2:/home/robogait/tutorials_ws/install/turtlesim:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy')]), 'shell': False}
+[0.029948] (ros2_serial_cpp) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.045146] (ros2_serial_cpp) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.099975] (-) TimerEvent: {}
+[0.156481] (ros2_serial_cpp) StdoutLine: {'line': b'-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.184578] (ros2_serial_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.187250] (ros2_serial_cpp) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.200111] (-) TimerEvent: {}
+[0.270965] (ros2_serial_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.300169] (-) TimerEvent: {}
+[0.305878] (ros2_serial_cpp) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.307359] (ros2_serial_cpp) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.398449] (ros2_serial_cpp) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[0.400238] (-) TimerEvent: {}
+[0.419427] (ros2_serial_cpp) StdoutLine: {'line': b'-- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)\n'}
+[0.462876] (ros2_serial_cpp) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[0.500406] (-) TimerEvent: {}
+[0.506057] (ros2_serial_cpp) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[0.548856] (ros2_serial_cpp) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[0.561291] (ros2_serial_cpp) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.561366] (ros2_serial_cpp) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.561407] (ros2_serial_cpp) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.567453] (ros2_serial_cpp) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[0.567525] (ros2_serial_cpp) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[0.568576] (ros2_serial_cpp) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.570449] (ros2_serial_cpp) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.571413] (ros2_serial_cpp) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[0.577537] (ros2_serial_cpp) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.577616] (ros2_serial_cpp) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.578494] (ros2_serial_cpp) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.580283] (ros2_serial_cpp) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.586231] (ros2_serial_cpp) StdoutLine: {'line': b'-- Generating done\n'}
+[0.587102] (ros2_serial_cpp) StdoutLine: {'line': b'-- Build files have been written to: /home/robogait/ros2_serial_cpp/build/ros2_serial_cpp\n'}
+[0.600530] (-) TimerEvent: {}
+[0.605391] (ros2_serial_cpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target driver_controller\x1b[0m\n'}
+[0.620438] (ros2_serial_cpp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/driver_controller.dir/src/driver_controller.cpp.o\x1b[0m\n'}
+[0.700715] (-) TimerEvent: {}
+[0.801081] (-) TimerEvent: {}
+[0.901427] (-) TimerEvent: {}
+[1.001767] (-) TimerEvent: {}
+[1.102104] (-) TimerEvent: {}
+[1.202466] (-) TimerEvent: {}
+[1.302834] (-) TimerEvent: {}
+[1.386022] (ros2_serial_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogait/ros2_serial_cpp/src/driver_controller.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kdriver_controller::driver_controller()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.386189] (ros2_serial_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogait/ros2_serial_cpp/src/driver_controller.cpp:84:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_imu\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.386236] (ros2_serial_cpp) StderrLine: {'line': b'   84 |   \x1b[01;31m\x1b[Kpublisher_imu\x1b[m\x1b[K = this->create_publisher<sensor_msgs::msg::Imu>("imu", 10);\n'}
+[1.386272] (ros2_serial_cpp) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.386306] (ros2_serial_cpp) StderrLine: {'line': b'      |   \x1b[32m\x1b[Kpublisher_\x1b[m\x1b[K\n'}
+[1.392822] (ros2_serial_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogait/ros2_serial_cpp/src/driver_controller.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid driver_controller::loop()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.392944] (ros2_serial_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogait/ros2_serial_cpp/src/driver_controller.cpp:143:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing _angular_velocity_type = struct geometry_msgs::msg::Vector3_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct geometry_msgs::msg::Vector3_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kw\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.392996] (ros2_serial_cpp) StderrLine: {'line': b'  143 |    imu_msg.angular_velocity.\x1b[01;31m\x1b[Kw\x1b[m\x1b[K=rx_buf[7];\n'}
+[1.393039] (ros2_serial_cpp) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.393081] (ros2_serial_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogait/ros2_serial_cpp/src/driver_controller.cpp:148:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing _linear_acceleration_type = struct geometry_msgs::msg::Vector3_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct geometry_msgs::msg::Vector3_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kw\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.393125] (ros2_serial_cpp) StderrLine: {'line': b'  148 |    imu_msg.linear_acceleration.\x1b[01;31m\x1b[Kw\x1b[m\x1b[K=rx_buf[8];\n'}
+[1.393182] (ros2_serial_cpp) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.394309] (ros2_serial_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogait/ros2_serial_cpp/src/driver_controller.cpp:149:4:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_imu\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.394378] (ros2_serial_cpp) StderrLine: {'line': b'  149 |    \x1b[01;31m\x1b[Kpublisher_imu\x1b[m\x1b[K->publish(imu_msg);\n'}
+[1.394418] (ros2_serial_cpp) StderrLine: {'line': b'      |    \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.394453] (ros2_serial_cpp) StderrLine: {'line': b'      |    \x1b[32m\x1b[Kpublisher_\x1b[m\x1b[K\n'}
+[1.402978] (-) TimerEvent: {}
+[1.503273] (-) TimerEvent: {}
+[1.603627] (-) TimerEvent: {}
+[1.703986] (-) TimerEvent: {}
+[1.804332] (-) TimerEvent: {}
+[1.904686] (-) TimerEvent: {}
+[2.005047] (-) TimerEvent: {}
+[2.105396] (-) TimerEvent: {}
+[2.205742] (-) TimerEvent: {}
+[2.306093] (-) TimerEvent: {}
+[2.406472] (-) TimerEvent: {}
+[2.450351] (ros2_serial_cpp) StderrLine: {'line': b'make[2]: *** [CMakeFiles/driver_controller.dir/build.make:63: CMakeFiles/driver_controller.dir/src/driver_controller.cpp.o] Error 1\n'}
+[2.450543] (ros2_serial_cpp) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/driver_controller.dir/all] Error 2\n'}
+[2.450811] (ros2_serial_cpp) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[2.452293] (ros2_serial_cpp) CommandEnded: {'returncode': 2}
+[2.475228] (ros2_serial_cpp) JobEnded: {'identifier': 'ros2_serial_cpp', 'rc': 2}
+[2.485929] (-) EventReactorShutdown: {}

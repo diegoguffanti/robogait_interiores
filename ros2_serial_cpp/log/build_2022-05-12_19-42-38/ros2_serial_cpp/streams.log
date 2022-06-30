@@ -1,0 +1,50 @@
+[0.010s] Invoking command in '/home/robogait/ros2_serial_cpp/build/ros2_serial_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/ros2_serial_cpp/build/ros2_serial_cpp -- -j8 -l8
+[0.029s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.044s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.156s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.184s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.186s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.270s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.305s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.307s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.398s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.419s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[0.462s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[0.505s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.548s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.560s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.561s] -- Configured cppcheck include dirs: 
+[0.561s] -- Configured cppcheck exclude dirs and/or files: 
+[0.567s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.567s] -- Configured cpplint exclude dirs and/or files: 
+[0.568s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.570s] -- Added test 'lint_cmake' to check CMake code style
+[0.571s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[0.577s] -- Added test 'uncrustify' to check C / C++ code style
+[0.577s] -- Configured uncrustify additional arguments: 
+[0.578s] -- Added test 'xmllint' to check XML markup files
+[0.579s] -- Configuring done
+[0.585s] -- Generating done
+[0.586s] -- Build files have been written to: /home/robogait/ros2_serial_cpp/build/ros2_serial_cpp
+[0.605s] [35m[1mScanning dependencies of target driver_controller[0m
+[0.620s] [ 50%] [32mBuilding CXX object CMakeFiles/driver_controller.dir/src/driver_controller.cpp.o[0m
+[1.385s] [01m[K/home/robogait/ros2_serial_cpp/src/driver_controller.cpp:[m[K In constructor ‘[01m[Kdriver_controller::driver_controller()[m[K’:
+[1.385s] [01m[K/home/robogait/ros2_serial_cpp/src/driver_controller.cpp:84:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_imu[m[K’ was not declared in this scope; did you mean ‘[01m[Kpublisher_[m[K’?
+[1.385s]    84 |   [01;31m[Kpublisher_imu[m[K = this->create_publisher<sensor_msgs::msg::Imu>("imu", 10);
+[1.385s]       |   [01;31m[K^~~~~~~~~~~~~[m[K
+[1.385s]       |   [32m[Kpublisher_[m[K
+[1.392s] [01m[K/home/robogait/ros2_serial_cpp/src/driver_controller.cpp:[m[K In member function ‘[01m[Kvoid driver_controller::loop()[m[K’:
+[1.392s] [01m[K/home/robogait/ros2_serial_cpp/src/driver_controller.cpp:143:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _angular_velocity_type = struct geometry_msgs::msg::Vector3_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Vector3_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kw[m[K’
+[1.392s]   143 |    imu_msg.angular_velocity.[01;31m[Kw[m[K=rx_buf[7];
+[1.392s]       |                             [01;31m[K^[m[K
+[1.392s] [01m[K/home/robogait/ros2_serial_cpp/src/driver_controller.cpp:148:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _linear_acceleration_type = struct geometry_msgs::msg::Vector3_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Vector3_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kw[m[K’
+[1.392s]   148 |    imu_msg.linear_acceleration.[01;31m[Kw[m[K=rx_buf[8];
+[1.392s]       |                                [01;31m[K^[m[K
+[1.393s] [01m[K/home/robogait/ros2_serial_cpp/src/driver_controller.cpp:149:4:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_imu[m[K’ was not declared in this scope; did you mean ‘[01m[Kpublisher_[m[K’?
+[1.394s]   149 |    [01;31m[Kpublisher_imu[m[K->publish(imu_msg);
+[1.394s]       |    [01;31m[K^~~~~~~~~~~~~[m[K
+[1.394s]       |    [32m[Kpublisher_[m[K
+[2.450s] make[2]: *** [CMakeFiles/driver_controller.dir/build.make:63: CMakeFiles/driver_controller.dir/src/driver_controller.cpp.o] Error 1
+[2.450s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/driver_controller.dir/all] Error 2
+[2.450s] make: *** [Makefile:141: all] Error 2
+[2.452s] Invoked command in '/home/robogait/ros2_serial_cpp/build/ros2_serial_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/ros2_serial_cpp/build/ros2_serial_cpp -- -j8 -l8

@@ -1,0 +1,6 @@
+[35m[1mScanning dependencies of target prueba_talker[0m
+[  2%] Built target body_tracking__cpp
+[ 10%] Built target body_tracking_node
+[ 15%] Built target body_tracking__rosidl_generator_c
+[ 20%] Built target talker
+[ 25%] Built target listener

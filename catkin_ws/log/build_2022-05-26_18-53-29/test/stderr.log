@@ -1,0 +1,10 @@
+[01m[K/home/robogait/catkin_ws/src/test/src/publisher_cpp.cpp:[m[K In constructor ‘[01m[Kgeneric::generic()[m[K’:
+[01m[K/home/robogait/catkin_ws/src/test/src/publisher_cpp.cpp:36:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub[m[K’ was not declared in this scope
+   36 |       [01;31m[Kpub[m[K = thread(&driver_controller::loop, this);
+      |       [01;31m[K^~~[m[K
+[01m[K/home/robogait/catkin_ws/src/test/src/publisher_cpp.cpp:36:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kdriver_controller[m[K’ was not declared in this scope
+   36 |       pub = thread(&[01;31m[Kdriver_controller[m[K::loop, this);
+      |                     [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/publisher_cpp.dir/build.make:63: CMakeFiles/publisher_cpp.dir/src/publisher_cpp.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/publisher_cpp.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

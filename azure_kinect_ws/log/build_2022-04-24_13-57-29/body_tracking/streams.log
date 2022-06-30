@@ -1,0 +1,61 @@
+[0.010s] Invoking command in '/home/robogait/azure_kinect_ws/build/body_tracking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/azure_kinect_ws/build/body_tracking -- -j8 -l8
+[0.028s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.044s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.044s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.149s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.168s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.170s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.240s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.268s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.269s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.351s] -- Found body_tracking: 0.0.0 (/home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/cmake)
+[0.370s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.392s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[0.486s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[0.587s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.621s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.637s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[0.637s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[0.651s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.651s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[0.651s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[0.673s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.678s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.679s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.680s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/robogait/azure_kinect_ws/src/body_tracking/include>
+[0.680s] -- Configured cppcheck exclude dirs and/or files: 
+[0.680s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.681s] -- Configured cpplint exclude dirs and/or files: 
+[0.681s] -- Added test 'lint_cmake' to check CMake code style
+[0.681s] -- Added test 'uncrustify' to check C / C++ code style
+[0.682s] -- Configured uncrustify additional arguments: 
+[0.682s] -- Added test 'xmllint' to check XML markup files
+[0.684s] -- Configuring done
+[0.711s] -- Generating done
+[0.713s] -- Build files have been written to: /home/robogait/azure_kinect_ws/build/body_tracking
+[0.733s] [35m[1mScanning dependencies of target prueba_talker[0m
+[0.740s] [  2%] [32mBuilding CXX object CMakeFiles/prueba_talker.dir/src/main.cpp.o[0m
+[0.740s] [  7%] Built target body_tracking_node
+[0.741s] [ 10%] Built target body_tracking__cpp
+[0.743s] [ 17%] Built target body_tracking__rosidl_generator_c
+[0.745s] [ 23%] Built target listener
+[0.745s] [ 28%] Built target talker
+[0.759s] [ 35%] Built target body_tracking__rosidl_typesupport_introspection_cpp
+[0.759s] [ 43%] Built target body_tracking__rosidl_typesupport_introspection_c
+[0.760s] [ 51%] Built target body_tracking__rosidl_typesupport_cpp
+[0.762s] [ 58%] Built target body_tracking__rosidl_typesupport_c
+[0.763s] [ 66%] Built target body_tracking__rosidl_typesupport_fastrtps_cpp
+[0.781s] [ 74%] Built target body_tracking__rosidl_typesupport_fastrtps_c
+[0.794s] [ 74%] Built target body_tracking
+[0.807s] [ 76%] Built target body_tracking__py
+[0.824s] [ 82%] Built target body_tracking__python
+[0.842s] [ 97%] Built target body_tracking__rosidl_typesupport_c__pyext
+[0.842s] [ 97%] Built target body_tracking__rosidl_typesupport_fastrtps_c__pyext
+[0.842s] [ 97%] Built target body_tracking__rosidl_typesupport_introspection_c__pyext
+[0.910s] [100%] [32m[1mLinking CXX executable prueba_talker[0m
+[0.925s] /usr/bin/ld: cannot find -lrclcpp
+[0.925s] collect2: error: ld returned 1 exit status
+[0.926s] make[2]: *** [CMakeFiles/prueba_talker.dir/build.make:84: prueba_talker] Error 1
+[0.927s] make[1]: *** [CMakeFiles/Makefile2:325: CMakeFiles/prueba_talker.dir/all] Error 2
+[0.927s] make: *** [Makefile:141: all] Error 2
+[0.928s] Invoked command in '/home/robogait/azure_kinect_ws/build/body_tracking' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/azure_kinect_ws/build/body_tracking -- -j8 -l8

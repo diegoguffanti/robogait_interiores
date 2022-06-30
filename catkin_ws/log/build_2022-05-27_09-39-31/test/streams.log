@@ -1,0 +1,39 @@
+[0.011s] Invoking command in '/home/robogait/catkin_ws/build/test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/nav2_ws/install/nav2_gazebo_spawner:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy /usr/bin/cmake /home/robogait/catkin_ws/src/test -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robogait/catkin_ws/install/test
+[0.024s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.043s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.146s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.151s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.173s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.175s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.260s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.291s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.292s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.381s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[0.493s] -- Configuring done
+[0.498s] -- Generating done
+[0.498s] -- Build files have been written to: /home/robogait/catkin_ws/build/test
+[0.504s] Invoked command in '/home/robogait/catkin_ws/build/test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/nav2_ws/install/nav2_gazebo_spawner:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy /usr/bin/cmake /home/robogait/catkin_ws/src/test -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robogait/catkin_ws/install/test
+[0.505s] Invoking command in '/home/robogait/catkin_ws/build/test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/nav2_ws/install/nav2_gazebo_spawner:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/catkin_ws/build/test -- -j8 -l8
+[0.561s] [ 50%] [32m[1mLinking CXX executable publisher_subscriber[0m
+[0.747s] [100%] Built target publisher_subscriber
+[0.757s] Invoked command in '/home/robogait/catkin_ws/build/test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/nav2_ws/install/nav2_gazebo_spawner:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/catkin_ws/build/test -- -j8 -l8
+[0.803s] Invoking command in '/home/robogait/catkin_ws/build/test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/nav2_ws/install/nav2_gazebo_spawner:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy /usr/bin/cmake --install /home/robogait/catkin_ws/build/test
+[0.813s] -- Install configuration: ""
+[0.813s] -- Execute custom install script
+[0.814s] -- Symlinking: /home/robogait/catkin_ws/install/test/lib/test/publisher_subscriber
+[0.824s] -- Symlinking: /home/robogait/catkin_ws/install/test/share/ament_index/resource_index/package_run_dependencies/test
+[0.834s] -- Symlinking: /home/robogait/catkin_ws/install/test/share/ament_index/resource_index/parent_prefix_path/test
+[0.841s] -- Symlinking: /home/robogait/catkin_ws/install/test/share/test/environment/ament_prefix_path.sh
+[0.848s] -- Symlinking: /home/robogait/catkin_ws/install/test/share/test/environment/ament_prefix_path.dsv
+[0.856s] -- Symlinking: /home/robogait/catkin_ws/install/test/share/test/environment/path.sh
+[0.865s] -- Symlinking: /home/robogait/catkin_ws/install/test/share/test/environment/path.dsv
+[0.872s] -- Symlinking: /home/robogait/catkin_ws/install/test/share/test/local_setup.bash
+[0.880s] -- Symlinking: /home/robogait/catkin_ws/install/test/share/test/local_setup.sh
+[0.887s] -- Symlinking: /home/robogait/catkin_ws/install/test/share/test/local_setup.zsh
+[0.895s] -- Symlinking: /home/robogait/catkin_ws/install/test/share/test/local_setup.dsv
+[0.903s] -- Symlinking: /home/robogait/catkin_ws/install/test/share/test/package.dsv
+[0.912s] -- Symlinking: /home/robogait/catkin_ws/install/test/share/ament_index/resource_index/packages/test
+[0.919s] -- Symlinking: /home/robogait/catkin_ws/install/test/share/test/cmake/testConfig.cmake
+[0.926s] -- Symlinking: /home/robogait/catkin_ws/install/test/share/test/cmake/testConfig-version.cmake
+[0.934s] -- Symlinking: /home/robogait/catkin_ws/install/test/share/test/package.xml
+[0.944s] Invoked command in '/home/robogait/catkin_ws/build/test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/nav2_ws/install/nav2_gazebo_spawner:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy /usr/bin/cmake --install /home/robogait/catkin_ws/build/test

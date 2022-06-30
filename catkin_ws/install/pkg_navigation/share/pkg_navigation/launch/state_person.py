@@ -1,0 +1,1 @@
+/home/robogait/catkin_ws/src/pkg_navigation/launch/state_person.py

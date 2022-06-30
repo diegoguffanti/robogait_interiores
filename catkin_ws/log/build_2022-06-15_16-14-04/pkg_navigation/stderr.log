@@ -1,0 +1,14 @@
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller_position.cpp:[m[K In member function ‘[01m[Kvoid generic::topic_callback_spine_bottom(body_tracker_msgs::msg::SpineBottom_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller_position.cpp:95:15:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kavg_filtered[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+   95 |         float [01;35m[Kavg_filtered[m[K=mean_filter(person_vel);
+      |               [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller_position.cpp:[m[K In member function ‘[01m[Kvoid generic::callback_keyboard(geometry_msgs::msg::Twist_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller_position.cpp:134:65:[m[K [01;31m[Kerror: [m[K‘[01m[Kant_time[m[K’ was not declared in this scope
+  134 |        std::chrono::duration<double> elapsed_seconds = time_now-[01;31m[Kant_time[m[K;
+      |                                                                 [01;31m[K^~~~~~~~[m[K
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller_position.cpp:126:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  126 |        void callback_keyboard([01;35m[Kconst geometry_msgs::msg::Twist::SharedPtr msg[m[K)
+      |                               [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+make[2]: *** [CMakeFiles/robot_controller_position.dir/build.make:63: CMakeFiles/robot_controller_position.dir/src/robot_controller_position.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:277: CMakeFiles/robot_controller_position.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

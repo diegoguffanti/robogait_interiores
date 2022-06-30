@@ -1,0 +1,52 @@
+[0.010s] Invoking command in '/home/robogait/azure_kinect_ws/build/body_tracking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/azure_kinect_ws/build/body_tracking -- -j8 -l8
+[0.041s] [35m[1mScanning dependencies of target body_tracking_node[0m
+[0.048s] [  2%] Built target body_tracking__cpp
+[0.048s] [ 12%] Built target body_tracking__rosidl_generator_c
+[0.058s] [ 14%] [32mBuilding CXX object CMakeFiles/body_tracking_node.dir/src/kinectAzure_body_tracker_node.cpp.o[0m
+[0.065s] [ 24%] Built target body_tracking__rosidl_typesupport_c
+[0.065s] [ 34%] Built target body_tracking__rosidl_typesupport_introspection_c
+[0.065s] [ 43%] Built target body_tracking__rosidl_typesupport_cpp
+[0.067s] [ 53%] Built target body_tracking__rosidl_typesupport_introspection_cpp
+[0.067s] [ 63%] Built target body_tracking__rosidl_typesupport_fastrtps_cpp
+[0.085s] [ 73%] Built target body_tracking__rosidl_typesupport_fastrtps_c
+[0.099s] [ 73%] Built target body_tracking
+[0.113s] [ 75%] Built target body_tracking__py
+[0.132s] [ 82%] Built target body_tracking__python
+[0.150s] [ 97%] Built target body_tracking__rosidl_typesupport_c__pyext
+[0.150s] [ 97%] Built target body_tracking__rosidl_typesupport_fastrtps_c__pyext
+[0.150s] [ 97%] Built target body_tracking__rosidl_typesupport_introspection_c__pyext
+[0.812s] [01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/kinectAzure_body_tracker_node.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::body_tracking()[m[K’:
+[0.812s] [01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/kinectAzure_body_tracker_node.cpp:81:37:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Krclcpp::Clock[m[K’ and ‘[01m[Krclcpp::Time[m[K’)
+[0.812s]    81 |           t_muestra = t_muestra.now([01;31m[K)[m[K;
+[0.812s]       |                                     [01;31m[K^[m[K
+[0.812s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/timer.hpp:27[m[K,
+[0.812s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:27[m[K,
+[0.812s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[0.812s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[0.812s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[0.812s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[0.812s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[0.812s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[0.812s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[0.812s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[0.812s]                  from [01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/kinectAzure_body_tracker_node.cpp:16[m[K:
+[0.812s] [01m[K/opt/ros/foxy/include/rclcpp/clock.hpp:53:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Clock& rclcpp::Clock::operator=(const rclcpp::Clock&)[m[K’
+[0.812s]    53 | class [01;36m[KClock[m[K
+[0.812s]       |       [01;36m[K^~~~~[m[K
+[0.812s] [01m[K/opt/ros/foxy/include/rclcpp/clock.hpp:53:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Krclcpp::Time[m[K’ to ‘[01m[Kconst rclcpp::Clock&[m[K’
+[0.813s] [01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/kinectAzure_body_tracker_node.cpp:143:36:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator-[m[K’ (operand types are ‘[01m[Krclcpp::Clock[m[K’ and ‘[01m[Kfloat[m[K’)
+[0.813s]   143 |   skeleton_data.tiempo = [32m[Kt_muestra[m[K [01;31m[K-[m[K [34m[Kt_inicial[m[K;
+[0.813s]       |                          [32m[K~~~~~~~~~[m[K [01;31m[K^[m[K [34m[K~~~~~~~~~[m[K
+[0.813s]       |                          [32m[K|[m[K           [34m[K|[m[K
+[0.813s]       |                          [32m[K|[m[K           [34m[Kfloat[m[K
+[0.813s]       |                          [32m[Krclcpp::Clock[m[K
+[0.818s] [01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/kinectAzure_body_tracker_node.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::Init()[m[K’:
+[0.818s] [01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/kinectAzure_body_tracker_node.cpp:299:34:[m[K [01;31m[Kerror: [m[Kcannot call member function ‘[01m[Krclcpp::Time rclcpp::Clock::now()[m[K’ without object
+[0.818s]   299 |   t_inicial = rclcpp::Clock::now([01;31m[K)[m[K;
+[0.818s]       |                                  [01;31m[K^[m[K
+[1.358s] At global scope:
+[1.358s] [01m[Kcc1plus:[m[K [01;35m[Kwarning: [m[Kunrecognized command line option ‘[01m[K-Wno-dev[m[K’
+[1.371s] make[2]: *** [CMakeFiles/body_tracking_node.dir/build.make:63: CMakeFiles/body_tracking_node.dir/src/kinectAzure_body_tracker_node.cpp.o] Error 1
+[1.371s] make[1]: *** [CMakeFiles/Makefile2:208: CMakeFiles/body_tracking_node.dir/all] Error 2
+[1.371s] make: *** [Makefile:141: all] Error 2
+[1.372s] Invoked command in '/home/robogait/azure_kinect_ws/build/body_tracking' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/azure_kinect_ws/build/body_tracking -- -j8 -l8

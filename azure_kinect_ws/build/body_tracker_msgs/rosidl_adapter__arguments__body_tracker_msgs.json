@@ -1,0 +1,8 @@
+{
+  "package_name": "body_tracker_msgs",
+  "non_idl_tuples": [
+    "/home/robogait/azure_kinect_ws/src/body_tracker_msgs:msg/HipCoordinates.msg",
+    "/home/robogait/azure_kinect_ws/src/body_tracker_msgs:msg/Skeleton.msg",
+    "/home/robogait/azure_kinect_ws/src/body_tracker_msgs:msg/SpineBottom.msg"
+  ]
+}

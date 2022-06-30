@@ -1,0 +1,53 @@
+[0.010s] Invoking command in '/home/robogait/azure_kinect_ws/build/body_tracking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/azure_kinect_ws/build/body_tracking -- -j8 -l8
+[0.040s] [35m[1mScanning dependencies of target talker[0m
+[0.041s] [35m[1mScanning dependencies of target listener[0m
+[0.045s] [  4%] Built target body_tracking_node
+[0.047s] [ 13%] Built target body_tracking__rosidl_generator_c
+[0.047s] [ 15%] Built target body_tracking__cpp
+[0.055s] [ 22%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[0.056s] [ 22%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[0.056s] [ 24%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[0.056s] [ 22%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[0.056s] [ 26%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[0.057s] [ 28%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[0.065s] [ 31%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[0.164s] [01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/publisher_member_function.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Kbody_tracking/msg/hip_coordinates.hpp: No such file or directory
+[0.164s]     5 | #include [01;31m[K"body_tracking/msg/hip_coordinates.hpp"[m[K
+[0.164s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.164s] compilation terminated.
+[0.168s] make[2]: *** [CMakeFiles/talker.dir/build.make:63: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+[0.168s] make[1]: *** [CMakeFiles/Makefile2:323: CMakeFiles/talker.dir/all] Error 2
+[0.168s] make[1]: *** Waiting for unfinished jobs....
+[0.172s] [01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/subscriber_member_function.cpp:4:10:[m[K [01;31m[Kfatal error: [m[Kbody_tracking/msg/hip_coordinates.hpp: No such file or directory
+[0.172s]     4 | #include [01;31m[K"body_tracking/msg/hip_coordinates.hpp"[m[K
+[0.172s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.172s] compilation terminated.
+[0.173s] make[2]: *** [CMakeFiles/listener.dir/build.make:63: CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o] Error 1
+[0.173s] make[1]: *** [CMakeFiles/Makefile2:296: CMakeFiles/listener.dir/all] Error 2
+[0.239s] [35m[1mScanning dependencies of target body_tracking__rosidl_typesupport_fastrtps_cpp[0m
+[0.250s] [ 33%] [32mBuilding CXX object CMakeFiles/body_tracking__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/body_tracking/msg/detail/dds_fastrtps/hip_coordinates__type_support.cpp.o[0m
+[0.250s] [ 35%] [32mBuilding CXX object CMakeFiles/body_tracking__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/body_tracking/msg/detail/dds_fastrtps/num__type_support.cpp.o[0m
+[0.258s] [35m[1mScanning dependencies of target body_tracking__rosidl_typesupport_c[0m
+[0.259s] [35m[1mScanning dependencies of target body_tracking__rosidl_typesupport_cpp[0m
+[0.269s] [ 37%] [32mBuilding CXX object CMakeFiles/body_tracking__rosidl_typesupport_c.dir/rosidl_typesupport_c/body_tracking/msg/num__type_support.cpp.o[0m
+[0.270s] [ 40%] [32mBuilding CXX object CMakeFiles/body_tracking__rosidl_typesupport_c.dir/rosidl_typesupport_c/body_tracking/msg/hip_coordinates__type_support.cpp.o[0m
+[0.271s] [35m[1mScanning dependencies of target body_tracking__rosidl_typesupport_introspection_cpp[0m
+[0.273s] [ 42%] [32mBuilding CXX object CMakeFiles/body_tracking__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/body_tracking/msg/num__type_support.cpp.o[0m
+[0.278s] [ 44%] [32mBuilding CXX object CMakeFiles/body_tracking__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/body_tracking/msg/hip_coordinates__type_support.cpp.o[0m
+[0.292s] [ 46%] [32mBuilding CXX object CMakeFiles/body_tracking__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/body_tracking/msg/detail/num__type_support.cpp.o[0m
+[0.300s] [ 48%] [32m[1mLinking CXX shared library libbody_tracking__rosidl_typesupport_c.so[0m
+[0.307s] [ 51%] [32mBuilding CXX object CMakeFiles/body_tracking__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/body_tracking/msg/detail/hip_coordinates__type_support.cpp.o[0m
+[0.307s] [35m[1mScanning dependencies of target body_tracking__rosidl_typesupport_introspection_c[0m
+[0.321s] [ 53%] [32mBuilding C object CMakeFiles/body_tracking__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/body_tracking/msg/detail/num__type_support.c.o[0m
+[0.361s] [ 53%] Built target body_tracking__rosidl_typesupport_c
+[0.374s] [ 55%] [32mBuilding C object CMakeFiles/body_tracking__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/body_tracking/msg/detail/hip_coordinates__type_support.c.o[0m
+[0.407s] [ 57%] [32m[1mLinking C shared library libbody_tracking__rosidl_typesupport_introspection_c.so[0m
+[0.438s] [ 57%] Built target body_tracking__rosidl_typesupport_introspection_c
+[0.556s] [ 60%] [32m[1mLinking CXX shared library libbody_tracking__rosidl_typesupport_cpp.so[0m
+[0.568s] [ 62%] [32m[1mLinking CXX shared library libbody_tracking__rosidl_typesupport_introspection_cpp.so[0m
+[0.582s] [ 62%] Built target body_tracking__rosidl_typesupport_cpp
+[0.595s] [ 62%] Built target body_tracking__rosidl_typesupport_introspection_cpp
+[0.609s] [ 64%] [32m[1mLinking CXX shared library libbody_tracking__rosidl_typesupport_fastrtps_cpp.so[0m
+[0.663s] [ 64%] Built target body_tracking__rosidl_typesupport_fastrtps_cpp
+[0.664s] make: *** [Makefile:141: all] Error 2
+[0.665s] Invoked command in '/home/robogait/azure_kinect_ws/build/body_tracking' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/azure_kinect_ws/build/body_tracking -- -j8 -l8

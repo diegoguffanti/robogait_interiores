@@ -1,0 +1,88 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from body_tracking/msg/Skeleton.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point32.idl"
+
+module body_tracking {
+  module msg {
+    struct Skeleton {
+      int32 body_id;
+
+      double tiempo;
+
+      @verbatim (language="comment", text=
+        "Joints" "\n"
+        "1")
+      geometry_msgs::msg::Point32 joint_position_head;
+
+      @verbatim (language="comment", text=
+        "2")
+      geometry_msgs::msg::Point32 joint_position_neck;
+
+      @verbatim (language="comment", text=
+        "3")
+      geometry_msgs::msg::Point32 joint_position_shoulder;
+
+      @verbatim (language="comment", text=
+        "4")
+      geometry_msgs::msg::Point32 joint_position_spine_top;
+
+      @verbatim (language="comment", text=
+        "5")
+      geometry_msgs::msg::Point32 joint_position_spine_mid;
+
+      @verbatim (language="comment", text=
+        "6")
+      geometry_msgs::msg::Point32 joint_position_spine_bottom;
+
+      @verbatim (language="comment", text=
+        "7")
+      geometry_msgs::msg::Point32 joint_position_left_shoulder;
+
+      @verbatim (language="comment", text=
+        "8")
+      geometry_msgs::msg::Point32 joint_position_left_elbow;
+
+      @verbatim (language="comment", text=
+        "9")
+      geometry_msgs::msg::Point32 joint_position_left_hand;
+
+      @verbatim (language="comment", text=
+        "10")
+      geometry_msgs::msg::Point32 joint_position_right_shoulder;
+
+      @verbatim (language="comment", text=
+        "11")
+      geometry_msgs::msg::Point32 joint_position_right_elbow;
+
+      @verbatim (language="comment", text=
+        "12")
+      geometry_msgs::msg::Point32 joint_position_right_hand;
+
+      @verbatim (language="comment", text=
+        "13")
+      geometry_msgs::msg::Point32 joint_position_right_hip;
+
+      @verbatim (language="comment", text=
+        "14")
+      geometry_msgs::msg::Point32 joint_position_right_knee;
+
+      @verbatim (language="comment", text=
+        "15")
+      geometry_msgs::msg::Point32 joint_position_right_ankle;
+
+      @verbatim (language="comment", text=
+        "16")
+      geometry_msgs::msg::Point32 joint_position_left_hip;
+
+      @verbatim (language="comment", text=
+        "17")
+      geometry_msgs::msg::Point32 joint_position_left_knee;
+
+      @verbatim (language="comment", text=
+        "18")
+      geometry_msgs::msg::Point32 joint_position_left_ankle;
+    };
+  };
+};

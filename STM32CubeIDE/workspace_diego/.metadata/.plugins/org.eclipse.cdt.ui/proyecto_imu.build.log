@@ -1,0 +1,10 @@
+09:50:09 **** Incremental Build of configuration Debug for project proyecto_imu ****
+make -j8 all 
+arm-none-eabi-size   proyecto_imu.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17100	     28	   3180	  20308	   4f54	proyecto_imu.elf
+Finished building: default.size.stdout
+ 
+
+09:50:09 Build Finished. 0 errors, 0 warnings. (took 175ms)
+

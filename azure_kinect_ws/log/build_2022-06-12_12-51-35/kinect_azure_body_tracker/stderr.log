@@ -1,0 +1,9 @@
+[01m[K/home/robogait/azure_kinect_ws/src/kinect_azure_body_tracker/src/kinectAzure_body_tracker_node_simplified.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::body_tracking()[m[K’:
+[01m[K/home/robogait/azure_kinect_ws/src/kinect_azure_body_tracker/src/kinectAzure_body_tracker_node_simplified.cpp:137:30:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%ld[m[K’ expects argument of type ‘[01m[Klong int[m[K’, but argument 2 has type ‘[01m[Kdouble[m[K’ [[01;35m[K-Wformat=[m[K]
+  137 |   printf("Han transcurrido [01;35m[K%ld[m[K nanosecs\n", [32m[Kelapsed_time[m[K);
+      |                            [01;35m[K~~^[m[K              [32m[K~~~~~~~~~~~~[m[K
+      |                              [01;35m[K|[m[K              [32m[K|[m[K
+      |                              [01;35m[Klong int[m[K       [32m[Kdouble[m[K
+      |                            [32m[K%f[m[K
+At global scope:
+[01m[Kcc1plus:[m[K [01;35m[Kwarning: [m[Kunrecognized command line option ‘[01m[K-Wno-dev[m[K’

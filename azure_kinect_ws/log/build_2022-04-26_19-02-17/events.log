@@ -1,0 +1,146 @@
+[0.000000] (-) TimerEvent: {}
+[0.000101] (body_tracking) JobQueued: {'identifier': 'body_tracking', 'dependencies': OrderedDict()}
+[0.000600] (body_tracking) JobStarted: {'identifier': 'body_tracking'}
+[0.005247] (body_tracking) JobProgress: {'identifier': 'body_tracking', 'progress': 'cmake'}
+[0.006063] (body_tracking) JobProgress: {'identifier': 'body_tracking', 'progress': 'build'}
+[0.006081] (body_tracking) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robogait/azure_kinect_ws/build/body_tracking', '--', '-j8', '-l8'], 'cwd': '/home/robogait/azure_kinect_ws/build/body_tracking', 'env': OrderedDict([('SUDO_GID', '1000'), ('MAIL', '/var/mail/root'), ('LC_TIME', 'es_ES.UTF-8'), ('USER', 'root'), ('HOME', '/root'), ('LC_MONETARY', 'es_ES.UTF-8'), ('COLORTERM', 'truecolor'), ('SUDO_UID', '1000'), ('LOGNAME', 'root'), ('TERM', 'xterm-256color'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/usr/bin/colcon build --packages-select body_tracking'), ('LC_NAME', 'es_ES.UTF-8'), ('SHELL', '/bin/bash'), ('SUDO_USER', 'robogait'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/robogait/azure_kinect_ws/build/body_tracking'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1')]), 'shell': False}
+[0.041096] (body_tracking) StdoutLine: {'line': b'[  5%] Built target body_tracking__cpp\n'}
+[0.041345] (body_tracking) StdoutLine: {'line': b'[  7%] Built target body_tracking_node\n'}
+[0.043254] (body_tracking) StdoutLine: {'line': b'[ 15%] Built target body_tracking__rosidl_generator_c\n'}
+[0.043772] (body_tracking) StdoutLine: {'line': b'[ 20%] Built target talker\n'}
+[0.046585] (body_tracking) StdoutLine: {'line': b'[ 25%] Built target listener\n'}
+[0.051813] (body_tracking) StdoutLine: {'line': b'[ 30%] Built target prueba_talker\n'}
+[0.055575] (body_tracking) StdoutLine: {'line': b'[ 38%] Built target body_tracking__rosidl_typesupport_introspection_cpp\n'}
+[0.056283] (body_tracking) StdoutLine: {'line': b'[ 46%] Built target body_tracking__rosidl_typesupport_cpp\n'}
+[0.056496] (body_tracking) StdoutLine: {'line': b'[ 53%] Built target body_tracking__rosidl_typesupport_introspection_c\n'}
+[0.057741] (body_tracking) StdoutLine: {'line': b'[ 61%] Built target body_tracking__rosidl_typesupport_fastrtps_cpp\n'}
+[0.057881] (body_tracking) StdoutLine: {'line': b'[ 69%] Built target body_tracking__rosidl_typesupport_c\n'}
+[0.072408] (body_tracking) StdoutLine: {'line': b'[ 76%] Built target body_tracking__rosidl_typesupport_fastrtps_c\n'}
+[0.083229] (body_tracking) StdoutLine: {'line': b'[ 76%] Built target body_tracking\n'}
+[0.094311] (body_tracking) StdoutLine: {'line': b'[ 79%] Built target body_tracking__py\n'}
+[0.099547] (-) TimerEvent: {}
+[0.110321] (body_tracking) StdoutLine: {'line': b'[ 84%] Built target body_tracking__python\n'}
+[0.127358] (body_tracking) StdoutLine: {'line': b'[ 94%] Built target body_tracking__rosidl_typesupport_introspection_c__pyext\n'}
+[0.127576] (body_tracking) StdoutLine: {'line': b'[ 94%] Built target body_tracking__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.128000] (body_tracking) StdoutLine: {'line': b'[100%] Built target body_tracking__rosidl_typesupport_c__pyext\n'}
+[0.135701] (body_tracking) CommandEnded: {'returncode': 0}
+[0.161791] (body_tracking) JobProgress: {'identifier': 'body_tracking', 'progress': 'install'}
+[0.168544] (body_tracking) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/robogait/azure_kinect_ws/build/body_tracking'], 'cwd': '/home/robogait/azure_kinect_ws/build/body_tracking', 'env': OrderedDict([('SUDO_GID', '1000'), ('MAIL', '/var/mail/root'), ('LC_TIME', 'es_ES.UTF-8'), ('USER', 'root'), ('HOME', '/root'), ('LC_MONETARY', 'es_ES.UTF-8'), ('COLORTERM', 'truecolor'), ('SUDO_UID', '1000'), ('LOGNAME', 'root'), ('TERM', 'xterm-256color'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/usr/bin/colcon build --packages-select body_tracking'), ('LC_NAME', 'es_ES.UTF-8'), ('SHELL', '/bin/bash'), ('SUDO_USER', 'robogait'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/robogait/azure_kinect_ws/build/body_tracking'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1')]), 'shell': False}
+[0.174242] (body_tracking) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.174333] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/lib/body_tracking/prueba_talker\n'}
+[0.174414] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/lib/body_tracking/prueba_talker\n'}
+[0.174520] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/share/ament_index/resource_index/rosidl_interfaces/body_tracking\n'}
+[0.174673] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/include/body_tracking\n'}
+[0.174783] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/include/body_tracking/msg\n'}
+[0.174831] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/include/body_tracking/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.174877] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/include/body_tracking/msg/detail\n'}
+[0.174923] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/include/body_tracking/msg/detail/num__functions.c\n'}
+[0.174969] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/include/body_tracking/msg/detail/hip_coordinates__functions.c\n'}
+[0.175014] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/include/body_tracking/msg/detail/num__type_support.h\n'}
+[0.175059] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/include/body_tracking/msg/detail/hip_coordinates__functions.h\n'}
+[0.175105] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/include/body_tracking/msg/detail/num__functions.h\n'}
+[0.175145] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/include/body_tracking/msg/detail/hip_coordinates__struct.h\n'}
+[0.175207] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/include/body_tracking/msg/detail/num__struct.h\n'}
+[0.175249] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/include/body_tracking/msg/detail/hip_coordinates__type_support.h\n'}
+[0.175289] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/include/body_tracking/msg/hip_coordinates.h\n'}
+[0.175328] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/include/body_tracking/msg/num.h\n'}
+[0.175367] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/environment/library_path.sh\n'}
+[0.175433] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/environment/library_path.dsv\n'}
+[0.175474] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/lib/libbody_tracking__rosidl_generator_c.so\n'}
+[0.175537] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/include/body_tracking\n'}
+[0.175573] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/include/body_tracking/msg\n'}
+[0.175611] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/include/body_tracking/msg/detail\n'}
+[0.175651] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/include/body_tracking/msg/detail/hip_coordinates__rosidl_typesupport_fastrtps_c.h\n'}
+[0.175690] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/include/body_tracking/msg/detail/num__rosidl_typesupport_fastrtps_c.h\n'}
+[0.175729] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/include/body_tracking/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.175769] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/lib/libbody_tracking__rosidl_typesupport_fastrtps_c.so\n'}
+[0.175840] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/include/body_tracking\n'}
+[0.175875] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/include/body_tracking/msg\n'}
+[0.175910] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/include/body_tracking/msg/detail\n'}
+[0.175945] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/include/body_tracking/msg/detail/dds_fastrtps\n'}
+[0.175982] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/include/body_tracking/msg/detail/hip_coordinates__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.176023] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/include/body_tracking/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.176062] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/include/body_tracking/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.176102] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/lib/libbody_tracking__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.176142] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/include/body_tracking\n'}
+[0.176181] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/include/body_tracking/msg\n'}
+[0.176221] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/include/body_tracking/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.176261] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/include/body_tracking/msg/detail\n'}
+[0.176301] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/include/body_tracking/msg/detail/hip_coordinates__rosidl_typesupport_introspection_c.h\n'}
+[0.176340] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/include/body_tracking/msg/detail/num__rosidl_typesupport_introspection_c.h\n'}
+[0.176379] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/include/body_tracking/msg/detail/hip_coordinates__type_support.c\n'}
+[0.176418] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/include/body_tracking/msg/detail/num__type_support.c\n'}
+[0.176456] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/lib/libbody_tracking__rosidl_typesupport_introspection_c.so\n'}
+[0.176510] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/lib/libbody_tracking__rosidl_typesupport_c.so\n'}
+[0.176597] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/include/body_tracking\n'}
+[0.176634] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/include/body_tracking/msg\n'}
+[0.176732] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/include/body_tracking/msg/num.hpp\n'}
+[0.176772] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/include/body_tracking/msg/detail\n'}
+[0.176813] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/include/body_tracking/msg/detail/hip_coordinates__builder.hpp\n'}
+[0.176859] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/include/body_tracking/msg/detail/num__builder.hpp\n'}
+[0.176895] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/include/body_tracking/msg/detail/hip_coordinates__traits.hpp\n'}
+[0.176932] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/include/body_tracking/msg/detail/num__traits.hpp\n'}
+[0.176972] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/include/body_tracking/msg/detail/num__struct.hpp\n'}
+[0.177013] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/include/body_tracking/msg/detail/hip_coordinates__struct.hpp\n'}
+[0.177048] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/include/body_tracking/msg/hip_coordinates.hpp\n'}
+[0.177082] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/include/body_tracking\n'}
+[0.177116] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/include/body_tracking/msg\n'}
+[0.177150] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/include/body_tracking/msg/detail\n'}
+[0.177184] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/include/body_tracking/msg/detail/num__type_support.cpp\n'}
+[0.177219] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/include/body_tracking/msg/detail/hip_coordinates__type_support.cpp\n'}
+[0.177255] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/include/body_tracking/msg/detail/hip_coordinates__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.177294] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/include/body_tracking/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.177330] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/lib/libbody_tracking__rosidl_typesupport_introspection_cpp.so\n'}
+[0.177366] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/lib/libbody_tracking__rosidl_typesupport_cpp.so\n'}
+[0.177401] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/environment/pythonpath.sh\n'}
+[0.177435] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/environment/pythonpath.dsv\n'}
+[0.177469] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/lib/python3.8/site-packages/body_tracking/__init__.py\n'}
+[0.195389] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/lib/python3.8/site-packages/body_tracking/msg\n'}
+[0.195508] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/lib/python3.8/site-packages/body_tracking/msg/_hip_coordinates.py\n'}
+[0.195567] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/lib/python3.8/site-packages/body_tracking/msg/_num_s.c\n'}
+[0.195619] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/lib/python3.8/site-packages/body_tracking/msg/_hip_coordinates_s.c\n'}
+[0.195667] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/lib/python3.8/site-packages/body_tracking/msg/__init__.py\n'}
+[0.195729] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/lib/python3.8/site-packages/body_tracking/msg/_num.py\n'}
+[0.195788] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/lib/python3.8/site-packages/body_tracking/body_tracking_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[0.196260] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/lib/python3.8/site-packages/body_tracking/body_tracking_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[0.196604] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/lib/python3.8/site-packages/body_tracking/body_tracking_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[0.196882] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/lib/libbody_tracking__python.so\n'}
+[0.196990] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/msg/HipCoordinates.idl\n'}
+[0.197076] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/msg/HipCoordinates.msg\n'}
+[0.197119] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/share/ament_index/resource_index/package_run_dependencies/body_tracking\n'}
+[0.197159] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/share/ament_index/resource_index/parent_prefix_path/body_tracking\n'}
+[0.197223] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/environment/ament_prefix_path.sh\n'}
+[0.197275] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/environment/ament_prefix_path.dsv\n'}
+[0.197314] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/environment/path.sh\n'}
+[0.197353] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/environment/path.dsv\n'}
+[0.197392] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/local_setup.bash\n'}
+[0.197431] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/local_setup.sh\n'}
+[0.197470] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/local_setup.zsh\n'}
+[0.197524] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/local_setup.dsv\n'}
+[0.197586] (body_tracking) StdoutLine: {'line': b'-- Installing: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/package.dsv\n'}
+[0.197623] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/share/ament_index/resource_index/packages/body_tracking\n'}
+[0.197663] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/cmake/body_tracking__rosidl_generator_cExport.cmake\n'}
+[0.197702] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/cmake/body_tracking__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.197758] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/cmake/body_tracking__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.197798] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/cmake/body_tracking__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.197845] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/cmake/body_tracking__rosidl_typesupport_cExport.cmake\n'}
+[0.197884] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/cmake/body_tracking__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.197940] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/cmake/body_tracking__rosidl_generator_cppExport.cmake\n'}
+[0.197993] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/cmake/body_tracking__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.198046] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/cmake/body_tracking__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.198099] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/cmake/body_tracking__rosidl_typesupport_cppExport.cmake\n'}
+[0.198152] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/cmake/body_tracking__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.198216] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/cmake/rosidl_cmake-extras.cmake\n'}
+[0.198256] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.198297] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.198336] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.198388] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.198449] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.198486] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.198521] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/cmake/body_trackingConfig.cmake\n'}
+[0.198559] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/cmake/body_trackingConfig-version.cmake\n'}
+[0.198593] (body_tracking) StdoutLine: {'line': b'-- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/package.xml\n'}
+[0.199629] (-) TimerEvent: {}
+[0.199897] (body_tracking) CommandEnded: {'returncode': 0}
+[0.240996] (body_tracking) JobEnded: {'identifier': 'body_tracking', 'rc': 0}
+[0.241561] (-) EventReactorShutdown: {}

@@ -1,0 +1,25 @@
+[0.010s] Invoking command in '/home/robogait/azure_kinect_ws/build/body_tracking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/azure_kinect_ws/build/body_tracking -- -j8 -l8
+[0.041s] [35m[1mScanning dependencies of target prueba_talker[0m
+[0.047s] [  5%] Built target body_tracking_node
+[0.049s] [ 12%] Built target body_tracking__rosidl_generator_c
+[0.049s] [ 15%] [32mBuilding CXX object CMakeFiles/prueba_talker.dir/src/main.cpp.o[0m
+[0.049s] [ 17%] Built target body_tracking__cpp
+[0.050s] [ 20%] [32m[1mLinking CXX executable talker[0m
+[0.054s] [ 23%] [32m[1mLinking CXX executable listener[0m
+[0.068s] [ 38%] Built target body_tracking__rosidl_typesupport_introspection_c
+[0.068s] [ 46%] Built target body_tracking__rosidl_typesupport_introspection_cpp
+[0.068s] [ 38%] Built target body_tracking__rosidl_typesupport_c
+[0.068s] [ 53%] Built target body_tracking__rosidl_typesupport_cpp
+[0.077s] [ 61%] Built target body_tracking__rosidl_typesupport_fastrtps_cpp
+[0.088s] [01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:17:10:[m[K [01;31m[Kfatal error: [m[Kbody_tracking/msg/hip_coordinates.hpp: No such file or directory
+[0.088s]    17 | #include [01;31m[K"body_tracking/msg/hip_coordinates.hpp"[m[K
+[0.088s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.088s] compilation terminated.
+[0.090s] make[2]: *** [CMakeFiles/prueba_talker.dir/build.make:63: CMakeFiles/prueba_talker.dir/src/main.cpp.o] Error 1
+[0.090s] make[1]: *** [CMakeFiles/Makefile2:325: CMakeFiles/prueba_talker.dir/all] Error 2
+[0.090s] make[1]: *** Waiting for unfinished jobs....
+[0.096s] [ 69%] Built target body_tracking__rosidl_typesupport_fastrtps_c
+[0.176s] [ 71%] Built target talker
+[0.213s] [ 74%] Built target listener
+[0.214s] make: *** [Makefile:141: all] Error 2
+[0.216s] Invoked command in '/home/robogait/azure_kinect_ws/build/body_tracking' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/azure_kinect_ws/build/body_tracking -- -j8 -l8

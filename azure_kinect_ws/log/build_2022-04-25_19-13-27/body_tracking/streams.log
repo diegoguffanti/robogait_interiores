@@ -1,0 +1,34 @@
+[0.010s] Invoking command in '/home/robogait/azure_kinect_ws/build/body_tracking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/azure_kinect_ws/build/body_tracking -- -j8 -l8
+[0.040s] [35m[1mScanning dependencies of target prueba_talker[0m
+[0.047s] [  5%] Built target body_tracking__cpp
+[0.047s] [  7%] Built target body_tracking_node
+[0.048s] [ 15%] Built target body_tracking__rosidl_generator_c
+[0.054s] [ 25%] Built target listener
+[0.054s] [ 25%] Built target talker
+[0.063s] [ 33%] Built target body_tracking__rosidl_typesupport_introspection_cpp
+[0.063s] [ 35%] [32mBuilding CXX object CMakeFiles/prueba_talker.dir/src/main.cpp.o[0m
+[0.064s] [ 43%] Built target body_tracking__rosidl_typesupport_cpp
+[0.065s] [ 51%] Built target body_tracking__rosidl_typesupport_fastrtps_cpp
+[0.065s] [ 66%] Built target body_tracking__rosidl_typesupport_c
+[0.065s] [ 66%] Built target body_tracking__rosidl_typesupport_introspection_c
+[0.081s] [ 74%] Built target body_tracking__rosidl_typesupport_fastrtps_c
+[0.094s] [ 74%] Built target body_tracking
+[0.106s] [ 76%] Built target body_tracking__py
+[0.124s] [ 82%] Built target body_tracking__python
+[0.141s] [ 97%] Built target body_tracking__rosidl_typesupport_c__pyext
+[0.141s] [ 97%] Built target body_tracking__rosidl_typesupport_fastrtps_c__pyext
+[0.141s] [ 97%] Built target body_tracking__rosidl_typesupport_introspection_c__pyext
+[0.793s] [01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:212:2:[m[K [01;31m[Kerror: [m[Knon-static data member declared with placeholder ‘[01m[Kauto[m[K’
+[0.793s]   212 |  [01;31m[Kauto[m[K message = body_tracking::msg::HipCoordinates();
+[0.793s]       |  [01;31m[K^~~~[m[K
+[0.806s] [01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[0.806s] [01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:74:11:[m[K [01;31m[Kerror: [m[K‘[01m[Ktotal_success_body_count[m[K’ was not declared in this scope
+[0.806s]    74 |           [01;31m[Ktotal_success_body_count[m[K += num_bodies;
+[0.806s]       |           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.807s] [01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:127:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kbody[m[K’ was not declared in this scope
+[0.807s]   127 |   k4a_float3_t position = [01;31m[Kbody[m[K.skeleton.joints[coordenadaCadera].position;
+[0.807s]       |                           [01;31m[K^~~~[m[K
+[1.353s] make[2]: *** [CMakeFiles/prueba_talker.dir/build.make:63: CMakeFiles/prueba_talker.dir/src/main.cpp.o] Error 1
+[1.353s] make[1]: *** [CMakeFiles/Makefile2:325: CMakeFiles/prueba_talker.dir/all] Error 2
+[1.353s] make: *** [Makefile:141: all] Error 2
+[1.355s] Invoked command in '/home/robogait/azure_kinect_ws/build/body_tracking' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/azure_kinect_ws/build/body_tracking -- -j8 -l8

@@ -1,0 +1,15 @@
+[0.013s] Invoking command in '/home/robogait/catkin_ws/build/pkg_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/ros2_ws/install/nav2_project:/home/robogait/nav2_ws/install/nav2_gazebo_spawner:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/catkin_ws/build/pkg_navigation -- -j8 -l8
+[0.057s] [35m[1mScanning dependencies of target robot_controller[0m
+[0.075s] [ 20%] Built target tf2_broadcaster
+[0.077s] [ 50%] Built target publisher_initial_pose
+[0.077s] [ 50%] [32mBuilding CXX object CMakeFiles/robot_controller.dir/src/robot_controller.cpp.o[0m
+[0.080s] [ 70%] Built target publisher_subscriber
+[0.080s] [ 90%] Built target robot_odom_tf2_listener
+[0.915s] [01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller.cpp:[m[K In member function ‘[01m[Kvoid generic::loop()[m[K’:
+[0.915s] [01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller.cpp:110:15:[m[K [01;31m[Kerror: [m[K‘[01m[KQuaternion[m[K’ does not name a type
+[0.915s]   110 |         const [01;31m[KQuaternion[m[K q2;
+[0.915s]       |               [01;31m[K^~~~~~~~~~[m[K
+[2.208s] make[2]: *** [CMakeFiles/robot_controller.dir/build.make:63: CMakeFiles/robot_controller.dir/src/robot_controller.cpp.o] Error 1
+[2.208s] make[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/robot_controller.dir/all] Error 2
+[2.208s] make: *** [Makefile:141: all] Error 2
+[2.210s] Invoked command in '/home/robogait/catkin_ws/build/pkg_navigation' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/ros2_ws/install/nav2_project:/home/robogait/nav2_ws/install/nav2_gazebo_spawner:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/catkin_ws/build/pkg_navigation -- -j8 -l8

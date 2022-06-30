@@ -1,0 +1,488 @@
+[0.013s] Invoking command in '/home/robogait/ros2_serial_cpp/build/ros2_serial_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/nav2_ws/install/nav2_gazebo_spawner:/home/robogait/ros2_serial/install/ourbotmanager:/home/robogait/ros2_ws/install/nav2_project:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/ros2_serial_cpp/build/ros2_serial_cpp -- -j8 -l8
+[0.056s] [35m[1mScanning dependencies of target modelado[0m
+[0.072s] [ 50%] Built target driver_controller
+[0.074s] [ 75%] [32mBuilding CXX object CMakeFiles/modelado.dir/src/modelado.cpp.o[0m
+[0.839s] [01m[K/home/robogait/ros2_serial_cpp/src/modelado.cpp:[m[K In constructor ‘[01m[KMinimalSubscriber::MinimalSubscriber()[m[K’:
+[0.840s] [01m[K/home/robogait/ros2_serial_cpp/src/modelado.cpp:22:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub[m[K’ was not declared in this scope
+[0.840s]    22 |       [01;31m[Kpub[m[K = thread(&MinimalSubscriber::loop, this);
+[0.840s]       |       [01;31m[K^~~[m[K
+[0.843s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[0.843s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[0.844s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[0.844s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[0.844s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[0.844s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[0.844s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[0.844s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[0.844s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[0.844s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[0.844s]                  from [01m[K/home/robogait/ros2_serial_cpp/src/modelado.cpp:6[m[K:
+[0.844s] [01m[K/home/robogait/ros2_serial_cpp/src/modelado.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::loop()[m[K’:
+[0.844s] [01m[K/home/robogait/ros2_serial_cpp/src/modelado.cpp:44:61:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator<<[m[K’ (operand types are ‘[01m[Kstd::basic_ostream<char>[m[K’ and ‘[01m[Krclcpp::Duration[m[K’)
+[0.844s]    44 |         RCLCPP_INFO_STREAM(this->get_logger(), " now (s): " [01;31m[K<<[m[K [32m[Ktime_spent[m[K);
+[0.844s]       |                                                             [01;31m[K^~[m[K [32m[K~~~~~~~~~~[m[K
+[0.844s]       |                                                                [32m[K|[m[K
+[0.844s]       |                                                                [32m[Krclcpp::Duration[m[K
+[0.844s] In file included from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[0.844s]                  from [01m[K/home/robogait/ros2_serial_cpp/src/modelado.cpp:1[m[K:
+[0.844s] [01m[K/usr/include/c++/9/ostream:108:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__ostream_type& (*)(std::basic_ostream<_CharT, _Traits>::__ostream_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+[0.844s]   108 |       [01;36m[Koperator[m[K<<(__ostream_type& (*__pf)(__ostream_type&))
+[0.844s]       |       [01;36m[K^~~~~~~~[m[K
+[0.844s] [01m[K/usr/include/c++/9/ostream:108:36:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Krclcpp::Duration[m[K’ to ‘[01m[Kstd::basic_ostream<char>::__ostream_type& (*)(std::basic_ostream<char>::__ostream_type&)[m[K’ {aka ‘[01m[Kstd::basic_ostream<char>& (*)(std::basic_ostream<char>&)[m[K’}
+[0.844s]   108 |       operator<<([01;36m[K__ostream_type& (*__pf)(__ostream_type&)[m[K)
+[0.844s]       |                  [01;36m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.844s] [01m[K/usr/include/c++/9/ostream:117:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__ios_type& (*)(std::basic_ostream<_CharT, _Traits>::__ios_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>; std::basic_ostream<_CharT, _Traits>::__ios_type = std::basic_ios<char>][m[K’
+[0.844s]   117 |       [01;36m[Koperator[m[K<<(__ios_type& (*__pf)(__ios_type&))
+[0.844s]       |       [01;36m[K^~~~~~~~[m[K
+[0.844s] [01m[K/usr/include/c++/9/ostream:117:32:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Krclcpp::Duration[m[K’ to ‘[01m[Kstd::basic_ostream<char>::__ios_type& (*)(std::basic_ostream<char>::__ios_type&)[m[K’ {aka ‘[01m[Kstd::basic_ios<char>& (*)(std::basic_ios<char>&)[m[K’}
+[0.845s]   117 |       operator<<([01;36m[K__ios_type& (*__pf)(__ios_type&)[m[K)
+[0.845s]       |                  [01;36m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[0.845s] [01m[K/usr/include/c++/9/ostream:127:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::ios_base& (*)(std::ios_base&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+[0.845s]   127 |       [01;36m[Koperator[m[K<<(ios_base& (*__pf) (ios_base&))
+[0.845s]       |       [01;36m[K^~~~~~~~[m[K
+[0.845s] [01m[K/usr/include/c++/9/ostream:127:30:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Krclcpp::Duration[m[K’ to ‘[01m[Kstd::ios_base& (*)(std::ios_base&)[m[K’
+[0.845s]   127 |       operator<<([01;36m[Kios_base& (*__pf) (ios_base&)[m[K)
+[0.845s]       |                  [01;36m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[0.845s] [01m[K/usr/include/c++/9/ostream:166:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+[0.845s]   166 |       [01;36m[Koperator[m[K<<(long __n)
+[0.845s]       |       [01;36m[K^~~~~~~~[m[K
+[0.845s] [01m[K/usr/include/c++/9/ostream:166:23:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Krclcpp::Duration[m[K’ to ‘[01m[Klong int[m[K’
+[0.845s]   166 |       operator<<([01;36m[Klong __n[m[K)
+[0.845s]       |                  [01;36m[K~~~~~^~~[m[K
+[0.845s] [01m[K/usr/include/c++/9/ostream:170:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+[0.845s]   170 |       [01;36m[Koperator[m[K<<(unsigned long __n)
+[0.845s]       |       [01;36m[K^~~~~~~~[m[K
+[0.845s] [01m[K/usr/include/c++/9/ostream:170:32:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Krclcpp::Duration[m[K’ to ‘[01m[Klong unsigned int[m[K’
+[0.845s]   170 |       operator<<([01;36m[Kunsigned long __n[m[K)
+[0.845s]       |                  [01;36m[K~~~~~~~~~~~~~~^~~[m[K
+[0.845s] [01m[K/usr/include/c++/9/ostream:174:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(bool) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+[0.845s]   174 |       [01;36m[Koperator[m[K<<(bool __n)
+[0.845s]       |       [01;36m[K^~~~~~~~[m[K
+[0.845s] [01m[K/usr/include/c++/9/ostream:174:23:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Krclcpp::Duration[m[K’ to ‘[01m[Kbool[m[K’
+[0.845s]   174 |       operator<<([01;36m[Kbool __n[m[K)
+[0.845s]       |                  [01;36m[K~~~~~^~~[m[K
+[0.845s] In file included from [01m[K/usr/include/c++/9/ostream:702[m[K,
+[0.845s]                  from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[0.846s]                  from [01m[K/home/robogait/ros2_serial_cpp/src/modelado.cpp:1[m[K:
+[0.846s] [01m[K/usr/include/c++/9/bits/ostream.tcc:91:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(short int) [with _CharT = char; _Traits = std::char_traits<char>][m[K’
+[0.846s]    91 |     [01;36m[Kbasic_ostream<_CharT, _Traits>[m[K::
+[0.846s]       |     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.846s] [01m[K/usr/include/c++/9/bits/ostream.tcc:92:22:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Krclcpp::Duration[m[K’ to ‘[01m[Kshort int[m[K’
+[0.846s]    92 |     operator<<([01;36m[Kshort __n[m[K)
+[0.846s]       |                [01;36m[K~~~~~~^~~[m[K
+[0.846s] In file included from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[0.846s]                  from [01m[K/home/robogait/ros2_serial_cpp/src/modelado.cpp:1[m[K:
+[0.846s] [01m[K/usr/include/c++/9/ostream:181:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(short unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+[0.846s]   181 |       [01;36m[Koperator[m[K<<(unsigned short __n)
+[0.846s]       |       [01;36m[K^~~~~~~~[m[K
+[0.846s] [01m[K/usr/include/c++/9/ostream:181:33:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Krclcpp::Duration[m[K’ to ‘[01m[Kshort unsigned int[m[K’
+[0.846s]   181 |       operator<<([01;36m[Kunsigned short __n[m[K)
+[0.846s]       |                  [01;36m[K~~~~~~~~~~~~~~~^~~[m[K
+[0.846s] In file included from [01m[K/usr/include/c++/9/ostream:702[m[K,
+[0.846s]                  from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[0.846s]                  from [01m[K/home/robogait/ros2_serial_cpp/src/modelado.cpp:1[m[K:
+[0.846s] [01m[K/usr/include/c++/9/bits/ostream.tcc:105:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(int) [with _CharT = char; _Traits = std::char_traits<char>][m[K’
+[0.846s]   105 |     [01;36m[Kbasic_ostream<_CharT, _Traits>[m[K::
+[0.846s]       |     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.846s] [01m[K/usr/include/c++/9/bits/ostream.tcc:106:20:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Krclcpp::Duration[m[K’ to ‘[01m[Kint[m[K’
+[0.846s]   106 |     operator<<([01;36m[Kint __n[m[K)
+[0.846s]       |                [01;36m[K~~~~^~~[m[K
+[0.846s] In file included from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[0.846s]                  from [01m[K/home/robogait/ros2_serial_cpp/src/modelado.cpp:1[m[K:
+[0.846s] [01m[K/usr/include/c++/9/ostream:192:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+[0.846s]   192 |       [01;36m[Koperator[m[K<<(unsigned int __n)
+[0.847s]       |       [01;36m[K^~~~~~~~[m[K
+[0.847s] [01m[K/usr/include/c++/9/ostream:192:31:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Krclcpp::Duration[m[K’ to ‘[01m[Kunsigned int[m[K’
+[0.847s]   192 |       operator<<([01;36m[Kunsigned int __n[m[K)
+[0.847s]       |                  [01;36m[K~~~~~~~~~~~~~^~~[m[K
+[0.847s] [01m[K/usr/include/c++/9/ostream:201:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+[0.847s]   201 |       [01;36m[Koperator[m[K<<(long long __n)
+[0.847s]       |       [01;36m[K^~~~~~~~[m[K
+[0.847s] [01m[K/usr/include/c++/9/ostream:201:28:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Krclcpp::Duration[m[K’ to ‘[01m[Klong long int[m[K’
+[0.847s]   201 |       operator<<([01;36m[Klong long __n[m[K)
+[0.847s]       |                  [01;36m[K~~~~~~~~~~^~~[m[K
+[0.847s] [01m[K/usr/include/c++/9/ostream:205:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+[0.847s]   205 |       [01;36m[Koperator[m[K<<(unsigned long long __n)
+[0.847s]       |       [01;36m[K^~~~~~~~[m[K
+[0.847s] [01m[K/usr/include/c++/9/ostream:205:37:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Krclcpp::Duration[m[K’ to ‘[01m[Klong long unsigned int[m[K’
+[0.847s]   205 |       operator<<([01;36m[Kunsigned long long __n[m[K)
+[0.847s]       |                  [01;36m[K~~~~~~~~~~~~~~~~~~~^~~[m[K
+[0.847s] [01m[K/usr/include/c++/9/ostream:220:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(double) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+[0.847s]   220 |       [01;36m[Koperator[m[K<<(double __f)
+[0.847s]       |       [01;36m[K^~~~~~~~[m[K
+[0.847s] [01m[K/usr/include/c++/9/ostream:220:25:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Krclcpp::Duration[m[K’ to ‘[01m[Kdouble[m[K’
+[0.847s]   220 |       operator<<([01;36m[Kdouble __f[m[K)
+[0.847s]       |                  [01;36m[K~~~~~~~^~~[m[K
+[0.847s] [01m[K/usr/include/c++/9/ostream:224:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(float) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+[0.847s]   224 |       [01;36m[Koperator[m[K<<(float __f)
+[0.847s]       |       [01;36m[K^~~~~~~~[m[K
+[0.847s] [01m[K/usr/include/c++/9/ostream:224:24:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Krclcpp::Duration[m[K’ to ‘[01m[Kfloat[m[K’
+[0.847s]   224 |       operator<<([01;36m[Kfloat __f[m[K)
+[0.847s]       |                  [01;36m[K~~~~~~^~~[m[K
+[0.848s] [01m[K/usr/include/c++/9/ostream:232:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long double) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+[0.848s]   232 |       [01;36m[Koperator[m[K<<(long double __f)
+[0.848s]       |       [01;36m[K^~~~~~~~[m[K
+[0.848s] [01m[K/usr/include/c++/9/ostream:232:30:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Krclcpp::Duration[m[K’ to ‘[01m[Klong double[m[K’
+[0.848s]   232 |       operator<<([01;36m[Klong double __f[m[K)
+[0.848s]       |                  [01;36m[K~~~~~~~~~~~~^~~[m[K
+[0.848s] [01m[K/usr/include/c++/9/ostream:245:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(const void*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+[0.848s]   245 |       [01;36m[Koperator[m[K<<(const void* __p)
+[0.848s]       |       [01;36m[K^~~~~~~~[m[K
+[0.848s] [01m[K/usr/include/c++/9/ostream:245:30:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Krclcpp::Duration[m[K’ to ‘[01m[Kconst void*[m[K’
+[0.848s]   245 |       operator<<([01;36m[Kconst void* __p[m[K)
+[0.848s]       |                  [01;36m[K~~~~~~~~~~~~^~~[m[K
+[0.848s] In file included from [01m[K/usr/include/c++/9/ostream:702[m[K,
+[0.848s]                  from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[0.848s]                  from [01m[K/home/robogait/ros2_serial_cpp/src/modelado.cpp:1[m[K:
+[0.848s] [01m[K/usr/include/c++/9/bits/ostream.tcc:119:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__streambuf_type*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__streambuf_type = std::basic_streambuf<char>][m[K’
+[0.848s]   119 |     [01;36m[Kbasic_ostream<_CharT, _Traits>[m[K::
+[0.848s]       |     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.848s] [01m[K/usr/include/c++/9/bits/ostream.tcc:120:34:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Krclcpp::Duration[m[K’ to ‘[01m[Kstd::basic_ostream<char>::__streambuf_type*[m[K’ {aka ‘[01m[Kstd::basic_streambuf<char>*[m[K’}
+[0.848s]   120 |     operator<<([01;36m[K__streambuf_type* __sbin[m[K)
+[0.848s]       |                [01;36m[K~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[0.848s] In file included from [01m[K/usr/include/c++/9/string:55[m[K,
+[0.848s]                  from [01m[K/usr/include/c++/9/bits/locale_classes.h:40[m[K,
+[0.848s]                  from [01m[K/usr/include/c++/9/bits/ios_base.h:41[m[K,
+[0.848s]                  from [01m[K/usr/include/c++/9/ios:42[m[K,
+[0.848s]                  from [01m[K/usr/include/c++/9/ostream:38[m[K,
+[0.848s]                  from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[0.848s]                  from [01m[K/home/robogait/ros2_serial_cpp/src/modelado.cpp:1[m[K:
+[0.849s] [01m[K/usr/include/c++/9/bits/basic_string.h:6419:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)[m[K’
+[0.849s]  6419 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __os,
+[0.849s]       |     [01;36m[K^~~~~~~~[m[K
+[0.849s] [01m[K/usr/include/c++/9/bits/basic_string.h:6419:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[0.849s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[0.849s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[0.849s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[0.849s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[0.849s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[0.849s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[0.849s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[0.849s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[0.849s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[0.849s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[0.849s]                  from [01m[K/home/robogait/ros2_serial_cpp/src/modelado.cpp:6[m[K:
+[0.849s] [01m[K/home/robogait/ros2_serial_cpp/src/modelado.cpp:44:64:[m[K [01;36m[Knote: [m[K  ‘[01m[Krclcpp::Duration[m[K’ is not derived from ‘[01m[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Alloc>[m[K’
+[0.849s]    44 |         RCLCPP_INFO_STREAM(this->get_logger(), " now (s): " << [01;36m[Ktime_spent[m[K);
+[0.849s]       |                                                                [01;36m[K^~~~~~~~~~[m[K
+[0.849s] In file included from [01m[K/usr/include/c++/9/bits/ios_base.h:46[m[K,
+[0.849s]                  from [01m[K/usr/include/c++/9/ios:42[m[K,
+[0.849s]                  from [01m[K/usr/include/c++/9/ostream:38[m[K,
+[0.849s]                  from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[0.849s]                  from [01m[K/home/robogait/ros2_serial_cpp/src/modelado.cpp:1[m[K:
+[0.849s] [01m[K/usr/include/c++/9/system_error:217:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::error_code&)[m[K’
+[0.849s]   217 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __os, const error_code& __e)
+[0.849s]       |     [01;36m[K^~~~~~~~[m[K
+[0.849s] [01m[K/usr/include/c++/9/system_error:217:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[0.849s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[0.850s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[0.850s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[0.850s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[0.850s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[0.850s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[0.850s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[0.850s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[0.850s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[0.850s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[0.850s]                  from [01m[K/home/robogait/ros2_serial_cpp/src/modelado.cpp:6[m[K:
+[0.850s] [01m[K/home/robogait/ros2_serial_cpp/src/modelado.cpp:44:64:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Ktime_spent[m[K’ (type ‘[01m[Krclcpp::Duration[m[K’) to type ‘[01m[Kconst std::error_code&[m[K’
+[0.850s]    44 |         RCLCPP_INFO_STREAM(this->get_logger(), " now (s): " << [01;36m[Ktime_spent[m[K);
+[0.850s]       |                                                                [01;36m[K^~~~~~~~~~[m[K
+[0.850s] In file included from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[0.850s]                  from [01m[K/home/robogait/ros2_serial_cpp/src/modelado.cpp:1[m[K:
+[0.850s] [01m[K/usr/include/c++/9/ostream:506:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, _CharT)[m[K’
+[0.850s]   506 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __out, _CharT __c)
+[0.850s]       |     [01;36m[K^~~~~~~~[m[K
+[0.850s] [01m[K/usr/include/c++/9/ostream:506:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[0.850s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[0.850s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[0.850s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[0.850s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[0.850s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[0.850s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[0.850s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[0.850s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[0.850s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[0.850s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[0.850s]                  from [01m[K/home/robogait/ros2_serial_cpp/src/modelado.cpp:6[m[K:
+[0.851s] [01m[K/home/robogait/ros2_serial_cpp/src/modelado.cpp:44:64:[m[K [01;36m[Knote: [m[K  deduced conflicting types for parameter ‘[01m[K_CharT[m[K’ (‘[01m[Kchar[m[K’ and ‘[01m[Krclcpp::Duration[m[K’)
+[0.851s]    44 |         RCLCPP_INFO_STREAM(this->get_logger(), " now (s): " << [01;36m[Ktime_spent[m[K);
+[0.851s]       |                                                                [01;36m[K^~~~~~~~~~[m[K
+[0.851s] In file included from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[0.851s]                  from [01m[K/home/robogait/ros2_serial_cpp/src/modelado.cpp:1[m[K:
+[0.851s] [01m[K/usr/include/c++/9/ostream:511:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, char)[m[K’
+[0.851s]   511 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __out, char __c)
+[0.851s]       |     [01;36m[K^~~~~~~~[m[K
+[0.851s] [01m[K/usr/include/c++/9/ostream:511:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[0.851s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[0.851s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[0.851s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[0.851s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[0.851s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[0.851s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[0.851s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[0.851s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[0.851s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[0.851s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[0.851s]                  from [01m[K/home/robogait/ros2_serial_cpp/src/modelado.cpp:6[m[K:
+[0.851s] [01m[K/home/robogait/ros2_serial_cpp/src/modelado.cpp:44:64:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Ktime_spent[m[K’ (type ‘[01m[Krclcpp::Duration[m[K’) to type ‘[01m[Kchar[m[K’
+[0.851s]    44 |         RCLCPP_INFO_STREAM(this->get_logger(), " now (s): " << [01;36m[Ktime_spent[m[K);
+[0.851s]       |                                                                [01;36m[K^~~~~~~~~~[m[K
+[0.851s] In file included from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[0.851s]                  from [01m[K/home/robogait/ros2_serial_cpp/src/modelado.cpp:1[m[K:
+[0.851s] [01m[K/usr/include/c++/9/ostream:517:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, char)[m[K’
+[0.851s]   517 |     [01;36m[Koperator[m[K<<(basic_ostream<char, _Traits>& __out, char __c)
+[0.851s]       |     [01;36m[K^~~~~~~~[m[K
+[0.851s] [01m[K/usr/include/c++/9/ostream:517:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[0.851s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[0.851s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[0.851s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[0.852s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[0.852s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[0.852s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[0.852s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[0.852s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[0.852s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[0.852s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[0.852s]                  from [01m[K/home/robogait/ros2_serial_cpp/src/modelado.cpp:6[m[K:
+[0.852s] [01m[K/home/robogait/ros2_serial_cpp/src/modelado.cpp:44:64:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Ktime_spent[m[K’ (type ‘[01m[Krclcpp::Duration[m[K’) to type ‘[01m[Kchar[m[K’
+[0.852s]    44 |         RCLCPP_INFO_STREAM(this->get_logger(), " now (s): " << [01;36m[Ktime_spent[m[K);
+[0.852s]       |                                                                [01;36m[K^~~~~~~~~~[m[K
+[0.852s] In file included from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[0.852s]                  from [01m[K/home/robogait/ros2_serial_cpp/src/modelado.cpp:1[m[K:
+[0.852s] [01m[K/usr/include/c++/9/ostream:523:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, signed char)[m[K’
+[0.852s]   523 |     [01;36m[Koperator[m[K<<(basic_ostream<char, _Traits>& __out, signed char __c)
+[0.852s]       |     [01;36m[K^~~~~~~~[m[K
+[0.852s] [01m[K/usr/include/c++/9/ostream:523:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[0.852s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[0.852s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[0.852s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[0.852s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[0.852s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[0.852s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[0.852s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[0.852s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[0.852s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[0.852s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[0.852s]                  from [01m[K/home/robogait/ros2_serial_cpp/src/modelado.cpp:6[m[K:
+[0.852s] [01m[K/home/robogait/ros2_serial_cpp/src/modelado.cpp:44:64:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Ktime_spent[m[K’ (type ‘[01m[Krclcpp::Duration[m[K’) to type ‘[01m[Ksigned char[m[K’
+[0.852s]    44 |         RCLCPP_INFO_STREAM(this->get_logger(), " now (s): " << [01;36m[Ktime_spent[m[K);
+[0.852s]       |                                                                [01;36m[K^~~~~~~~~~[m[K
+[0.852s] In file included from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[0.853s]                  from [01m[K/home/robogait/ros2_serial_cpp/src/modelado.cpp:1[m[K:
+[0.853s] [01m[K/usr/include/c++/9/ostream:528:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, unsigned char)[m[K’
+[0.853s]   528 |     [01;36m[Koperator[m[K<<(basic_ostream<char, _Traits>& __out, unsigned char __c)
+[0.853s]       |     [01;36m[K^~~~~~~~[m[K
+[0.853s] [01m[K/usr/include/c++/9/ostream:528:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[0.853s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[0.853s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[0.853s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[0.853s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[0.853s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[0.853s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[0.853s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[0.853s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[0.853s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[0.853s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[0.853s]                  from [01m[K/home/robogait/ros2_serial_cpp/src/modelado.cpp:6[m[K:
+[0.853s] [01m[K/home/robogait/ros2_serial_cpp/src/modelado.cpp:44:64:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Ktime_spent[m[K’ (type ‘[01m[Krclcpp::Duration[m[K’) to type ‘[01m[Kunsigned char[m[K’
+[0.853s]    44 |         RCLCPP_INFO_STREAM(this->get_logger(), " now (s): " << [01;36m[Ktime_spent[m[K);
+[0.853s]       |                                                                [01;36m[K^~~~~~~~~~[m[K
+[0.853s] In file included from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[0.853s]                  from [01m[K/home/robogait/ros2_serial_cpp/src/modelado.cpp:1[m[K:
+[0.853s] [01m[K/usr/include/c++/9/ostream:548:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const _CharT*)[m[K’
+[0.853s]   548 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __out, const _CharT* __s)
+[0.853s]       |     [01;36m[K^~~~~~~~[m[K
+[0.853s] [01m[K/usr/include/c++/9/ostream:548:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[0.853s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[0.853s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[0.853s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[0.853s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[0.853s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[0.853s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[0.854s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[0.854s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[0.854s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[0.854s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[0.854s]                  from [01m[K/home/robogait/ros2_serial_cpp/src/modelado.cpp:6[m[K:
+[0.854s] [01m[K/home/robogait/ros2_serial_cpp/src/modelado.cpp:44:64:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst _CharT*[m[K’ and ‘[01m[Krclcpp::Duration[m[K’
+[0.854s]    44 |         RCLCPP_INFO_STREAM(this->get_logger(), " now (s): " << [01;36m[Ktime_spent[m[K);
+[0.854s]       |                                                                [01;36m[K^~~~~~~~~~[m[K
+[0.854s] In file included from [01m[K/usr/include/c++/9/ostream:702[m[K,
+[0.854s]                  from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[0.854s]                  from [01m[K/home/robogait/ros2_serial_cpp/src/modelado.cpp:1[m[K:
+[0.854s] [01m[K/usr/include/c++/9/bits/ostream.tcc:321:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const char*)[m[K’
+[0.854s]   321 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __out, const char* __s)
+[0.854s]       |     [01;36m[K^~~~~~~~[m[K
+[0.854s] [01m[K/usr/include/c++/9/bits/ostream.tcc:321:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[0.854s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[0.854s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[0.854s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[0.854s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[0.854s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[0.854s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[0.854s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[0.854s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[0.854s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[0.854s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[0.854s]                  from [01m[K/home/robogait/ros2_serial_cpp/src/modelado.cpp:6[m[K:
+[0.854s] [01m[K/home/robogait/ros2_serial_cpp/src/modelado.cpp:44:64:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Ktime_spent[m[K’ (type ‘[01m[Krclcpp::Duration[m[K’) to type ‘[01m[Kconst char*[m[K’
+[0.854s]    44 |         RCLCPP_INFO_STREAM(this->get_logger(), " now (s): " << [01;36m[Ktime_spent[m[K);
+[0.854s]       |                                                                [01;36m[K^~~~~~~~~~[m[K
+[0.854s] In file included from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[0.854s]                  from [01m[K/home/robogait/ros2_serial_cpp/src/modelado.cpp:1[m[K:
+[0.855s] [01m[K/usr/include/c++/9/ostream:565:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const char*)[m[K’
+[0.855s]   565 |     [01;36m[Koperator[m[K<<(basic_ostream<char, _Traits>& __out, const char* __s)
+[0.855s]       |     [01;36m[K^~~~~~~~[m[K
+[0.855s] [01m[K/usr/include/c++/9/ostream:565:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[0.855s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[0.855s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[0.855s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[0.855s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[0.855s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[0.855s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[0.855s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[0.855s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[0.855s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[0.855s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[0.855s]                  from [01m[K/home/robogait/ros2_serial_cpp/src/modelado.cpp:6[m[K:
+[0.855s] [01m[K/home/robogait/ros2_serial_cpp/src/modelado.cpp:44:64:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Ktime_spent[m[K’ (type ‘[01m[Krclcpp::Duration[m[K’) to type ‘[01m[Kconst char*[m[K’
+[0.855s]    44 |         RCLCPP_INFO_STREAM(this->get_logger(), " now (s): " << [01;36m[Ktime_spent[m[K);
+[0.855s]       |                                                                [01;36m[K^~~~~~~~~~[m[K
+[0.855s] In file included from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[0.855s]                  from [01m[K/home/robogait/ros2_serial_cpp/src/modelado.cpp:1[m[K:
+[0.855s] [01m[K/usr/include/c++/9/ostream:578:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const signed char*)[m[K’
+[0.855s]   578 |     [01;36m[Koperator[m[K<<(basic_ostream<char, _Traits>& __out, const signed char* __s)
+[0.855s]       |     [01;36m[K^~~~~~~~[m[K
+[0.855s] [01m[K/usr/include/c++/9/ostream:578:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[0.855s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[0.855s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[0.855s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[0.855s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[0.855s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[0.855s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[0.855s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[0.856s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[0.856s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[0.856s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[0.856s]                  from [01m[K/home/robogait/ros2_serial_cpp/src/modelado.cpp:6[m[K:
+[0.856s] [01m[K/home/robogait/ros2_serial_cpp/src/modelado.cpp:44:64:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Ktime_spent[m[K’ (type ‘[01m[Krclcpp::Duration[m[K’) to type ‘[01m[Kconst signed char*[m[K’
+[0.856s]    44 |         RCLCPP_INFO_STREAM(this->get_logger(), " now (s): " << [01;36m[Ktime_spent[m[K);
+[0.856s]       |                                                                [01;36m[K^~~~~~~~~~[m[K
+[0.856s] In file included from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[0.856s]                  from [01m[K/home/robogait/ros2_serial_cpp/src/modelado.cpp:1[m[K:
+[0.856s] [01m[K/usr/include/c++/9/ostream:583:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const unsigned char*)[m[K’
+[0.856s]   583 |     [01;36m[Koperator[m[K<<(basic_ostream<char, _Traits>& __out, const unsigned char* __s)
+[0.856s]       |     [01;36m[K^~~~~~~~[m[K
+[0.856s] [01m[K/usr/include/c++/9/ostream:583:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[0.856s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[0.856s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[0.856s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[0.856s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[0.856s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[0.856s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[0.856s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[0.856s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[0.856s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[0.856s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[0.856s]                  from [01m[K/home/robogait/ros2_serial_cpp/src/modelado.cpp:6[m[K:
+[0.856s] [01m[K/home/robogait/ros2_serial_cpp/src/modelado.cpp:44:64:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Ktime_spent[m[K’ (type ‘[01m[Krclcpp::Duration[m[K’) to type ‘[01m[Kconst unsigned char*[m[K’
+[0.856s]    44 |         RCLCPP_INFO_STREAM(this->get_logger(), " now (s): " << [01;36m[Ktime_spent[m[K);
+[0.856s]       |                                                                [01;36m[K^~~~~~~~~~[m[K
+[0.856s] In file included from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[0.856s]                  from [01m[K/home/robogait/ros2_serial_cpp/src/modelado.cpp:1[m[K:
+[0.856s] [01m[K/usr/include/c++/9/ostream:691:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Ostream, class _Tp> typename std::enable_if<std::__and_<std::__not_<std::is_lvalue_reference<_Tp> >, std::__is_convertible_to_basic_ostream<_Ostream>, std::__is_insertable<typename std::__is_convertible_to_basic_ostream<_Tp>::__ostream_type, const _Tp&, void> >::value, typename std::__is_convertible_to_basic_ostream<_Tp>::__ostream_type>::type std::operator<<(_Ostream&&, const _Tp&)[m[K’
+[0.856s]   691 |     [01;36m[Koperator[m[K<<(_Ostream&& __os, const _Tp& __x)
+[0.857s]       |     [01;36m[K^~~~~~~~[m[K
+[0.857s] [01m[K/usr/include/c++/9/ostream:691:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[0.857s] /usr/include/c++/9/ostream: In substitution of ‘[01m[Ktemplate<class _Ostream, class _Tp> typename std::enable_if<std::__and_<std::__not_<std::is_lvalue_reference<_Tp> >, std::__is_convertible_to_basic_ostream<_Ostream>, std::__is_insertable<typename std::__is_convertible_to_basic_ostream<_Tp>::__ostream_type, const _Tp&, void> >::value, typename std::__is_convertible_to_basic_ostream<_Tp>::__ostream_type>::type std::operator<<(_Ostream&&, const _Tp&) [with _Ostream = std::basic_ostream<char>&; _Tp = rclcpp::Duration][m[K’:
+[0.857s] [01m[K/home/robogait/ros2_serial_cpp/src/modelado.cpp:44:9:[m[K   required from here
+[0.857s] [01m[K/usr/include/c++/9/ostream:691:5:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, std::basic_ostream<char>&>[m[K’
+[0.857s] In file included from [01m[K/usr/include/c++/9/memory:81[m[K,
+[0.857s]                  from [01m[K/home/robogait/ros2_serial_cpp/src/modelado.cpp:3[m[K:
+[0.857s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:66:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Ch, class _Tr, class _Tp, __gnu_cxx::_Lock_policy _Lp> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::__shared_ptr<_Tp, _Lp>&)[m[K’
+[0.857s]    66 |     [01;36m[Koperator[m[K<<(std::basic_ostream<_Ch, _Tr>& __os,
+[0.857s]       |     [01;36m[K^~~~~~~~[m[K
+[0.857s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:66:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[0.857s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[0.857s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[0.857s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[0.857s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[0.857s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[0.857s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[0.857s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[0.857s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[0.857s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[0.857s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[0.857s]                  from [01m[K/home/robogait/ros2_serial_cpp/src/modelado.cpp:6[m[K:
+[0.857s] [01m[K/home/robogait/ros2_serial_cpp/src/modelado.cpp:44:64:[m[K [01;36m[Knote: [m[K  ‘[01m[Krclcpp::Duration[m[K’ is not derived from ‘[01m[Kconst std::__shared_ptr<_Tp, _Lp>[m[K’
+[0.857s]    44 |         RCLCPP_INFO_STREAM(this->get_logger(), " now (s): " << [01;36m[Ktime_spent[m[K);
+[0.857s]       |                                                                [01;36m[K^~~~~~~~~~[m[K
+[0.857s] In file included from [01m[K/usr/include/c++/9/future:39[m[K,
+[0.857s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:18[m[K,
+[0.857s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[0.857s]                  from [01m[K/home/robogait/ros2_serial_cpp/src/modelado.cpp:6[m[K:
+[0.857s] [01m[K/usr/include/c++/9/thread:322:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::thread::id)[m[K’
+[0.857s]   322 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __out, thread::id __id)
+[0.857s]       |     [01;36m[K^~~~~~~~[m[K
+[0.858s] [01m[K/usr/include/c++/9/thread:322:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[0.858s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[0.858s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[0.858s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[0.858s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[0.858s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[0.858s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[0.858s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[0.858s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[0.858s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[0.858s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[0.858s]                  from [01m[K/home/robogait/ros2_serial_cpp/src/modelado.cpp:6[m[K:
+[0.858s] [01m[K/home/robogait/ros2_serial_cpp/src/modelado.cpp:44:64:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Ktime_spent[m[K’ (type ‘[01m[Krclcpp::Duration[m[K’) to type ‘[01m[Kstd::thread::id[m[K’
+[0.858s]    44 |         RCLCPP_INFO_STREAM(this->get_logger(), " now (s): " << [01;36m[Ktime_spent[m[K);
+[0.858s]       |                                                                [01;36m[K^~~~~~~~~~[m[K
+[0.858s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:34[m[K,
+[0.858s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[0.858s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[0.858s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[0.858s]                  from [01m[K/home/robogait/ros2_serial_cpp/src/modelado.cpp:6[m[K:
+[0.858s] [01m[K/opt/ros/foxy/include/rclcpp/future_return_code.hpp:38:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::ostream& rclcpp::operator<<(std::ostream&, const rclcpp::FutureReturnCode&)[m[K’
+[0.858s]    38 | [01;36m[Koperator[m[K<<(std::ostream & os, const FutureReturnCode & future_return_code);
+[0.858s]       | [01;36m[K^~~~~~~~[m[K
+[0.858s] [01m[K/opt/ros/foxy/include/rclcpp/future_return_code.hpp:38:56:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Krclcpp::Duration[m[K’ to ‘[01m[Kconst rclcpp::FutureReturnCode&[m[K’
+[0.858s]    38 | operator<<(std::ostream & os, [01;36m[Kconst FutureReturnCode & future_return_code[m[K);
+[0.858s]       |                               [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[0.858s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/parameter.hpp:26[m[K,
+[0.858s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_parameters_interface.hpp:28[m[K,
+[0.858s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:51[m[K,
+[0.858s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[0.859s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[0.859s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[0.859s]                  from [01m[K/home/robogait/ros2_serial_cpp/src/modelado.cpp:6[m[K:
+[0.859s] [01m[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:53:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::ostream& rclcpp::operator<<(std::ostream&, rclcpp::ParameterType)[m[K’
+[0.859s]    53 | [01;36m[Koperator[m[K<<(std::ostream & os, ParameterType type);
+[0.859s]       | [01;36m[K^~~~~~~~[m[K
+[0.859s] [01m[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:53:45:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Krclcpp::Duration[m[K’ to ‘[01m[Krclcpp::ParameterType[m[K’
+[0.859s]    53 | operator<<(std::ostream & os, [01;36m[KParameterType type[m[K);
+[0.859s]       |                               [01;36m[K~~~~~~~~~~~~~~^~~~[m[K
+[0.859s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_parameters_interface.hpp:28[m[K,
+[0.859s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:51[m[K,
+[0.859s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[0.859s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[0.859s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[0.859s]                  from [01m[K/home/robogait/ros2_serial_cpp/src/modelado.cpp:6[m[K:
+[0.859s] [01m[K/opt/ros/foxy/include/rclcpp/parameter.hpp:226:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::ostream& rclcpp::operator<<(std::ostream&, const rclcpp::Parameter&)[m[K’
+[0.859s]   226 | [01;36m[Koperator[m[K<<(std::ostream & os, const rclcpp::Parameter & pv);
+[0.859s]       | [01;36m[K^~~~~~~~[m[K
+[0.859s] [01m[K/opt/ros/foxy/include/rclcpp/parameter.hpp:226:57:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Krclcpp::Duration[m[K’ to ‘[01m[Kconst rclcpp::Parameter&[m[K’
+[0.859s]   226 | operator<<(std::ostream & os, [01;36m[Kconst rclcpp::Parameter & pv[m[K);
+[0.859s]       |                               [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[0.859s] [01m[K/opt/ros/foxy/include/rclcpp/parameter.hpp:230:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::ostream& rclcpp::operator<<(std::ostream&, const std::vector<rclcpp::Parameter>&)[m[K’
+[0.859s]   230 | [01;36m[Koperator[m[K<<(std::ostream & os, const std::vector<Parameter> & parameters);
+[0.859s]       | [01;36m[K^~~~~~~~[m[K
+[0.859s] [01m[K/opt/ros/foxy/include/rclcpp/parameter.hpp:230:62:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Krclcpp::Duration[m[K’ to ‘[01m[Kconst std::vector<rclcpp::Parameter>&[m[K’
+[0.859s]   230 | operator<<(std::ostream & os, [01;36m[Kconst std::vector<Parameter> & parameters[m[K);
+[0.859s]       |                               [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[2.030s] make[2]: *** [CMakeFiles/modelado.dir/build.make:63: CMakeFiles/modelado.dir/src/modelado.cpp.o] Error 1
+[2.030s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/modelado.dir/all] Error 2
+[2.030s] make: *** [Makefile:141: all] Error 2
+[2.032s] Invoked command in '/home/robogait/ros2_serial_cpp/build/ros2_serial_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/nav2_ws/install/nav2_gazebo_spawner:/home/robogait/ros2_serial/install/ourbotmanager:/home/robogait/ros2_ws/install/nav2_project:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/ros2_serial_cpp/build/ros2_serial_cpp -- -j8 -l8

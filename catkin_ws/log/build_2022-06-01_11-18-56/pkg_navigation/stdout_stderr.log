@@ -1,0 +1,11 @@
+[35m[1mScanning dependencies of target publisher_initial_pose[0m
+[ 66%] Built target tf2_broadcaster
+[ 66%] [32mBuilding CXX object CMakeFiles/publisher_initial_pose.dir/src/publisher_initial_pose.cpp.o[0m
+[ 83%] Built target publisher_subscriber
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/publisher_initial_pose.cpp:8:10:[m[K [01;31m[Kfatal error: [m[Kgeometry_msgs/msg/PoseWithCovarianceStamped.hpp: No such file or directory
+    8 | #include [01;31m[K"geometry_msgs/msg/PoseWithCovarianceStamped.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/publisher_initial_pose.dir/build.make:63: CMakeFiles/publisher_initial_pose.dir/src/publisher_initial_pose.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/publisher_initial_pose.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

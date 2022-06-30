@@ -1,0 +1,8 @@
+/usr/bin/ld: CMakeFiles/body_tracking_recording_node.dir/src/kinectAzure_body_tracker_node_plus_recording.cpp.o: in function `MinimalPublisher::Init()':
+kinectAzure_body_tracker_node_plus_recording.cpp:(.text._ZN16MinimalPublisher4InitEv[_ZN16MinimalPublisher4InitEv]+0x252): undefined reference to `k4a_record_create'
+/usr/bin/ld: CMakeFiles/body_tracking_recording_node.dir/src/kinectAzure_body_tracker_node_plus_recording.cpp.o: in function `MinimalPublisher::close()':
+kinectAzure_body_tracker_node_plus_recording.cpp:(.text._ZN16MinimalPublisher5closeEv[_ZN16MinimalPublisher5closeEv]+0x77): undefined reference to `k4a_record_close'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/body_tracking_recording_node.dir/build.make:141: body_tracking_recording_node] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/body_tracking_recording_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

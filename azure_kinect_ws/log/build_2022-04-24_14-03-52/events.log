@@ -1,0 +1,69 @@
+[0.000000] (-) TimerEvent: {}
+[0.000338] (body_tracking) JobQueued: {'identifier': 'body_tracking', 'dependencies': OrderedDict()}
+[0.000445] (body_tracking) JobStarted: {'identifier': 'body_tracking'}
+[0.008057] (body_tracking) JobProgress: {'identifier': 'body_tracking', 'progress': 'cmake'}
+[0.008329] (body_tracking) JobProgress: {'identifier': 'body_tracking', 'progress': 'build'}
+[0.008809] (body_tracking) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robogait/azure_kinect_ws/build/body_tracking', '--', '-j8', '-l8'], 'cwd': '/home/robogait/azure_kinect_ws/build/body_tracking', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'robogait'), ('LC_TIME', 'es_ES.UTF-8'), ('SSH_AGENT_PID', '1685'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/robogait/azure_kinect_ws/install/body_tracking/lib:/home/robogait/tutorials_ws/install/turtlesim/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/robogait'), ('OLDPWD', '/usr/lib/cmake'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('MANAGERPID', '1488'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/robogait/azure_kinect_ws/install:/home/robogait/serial_cpp/install:/home/robogait/ros2_serial/install:/home/robogait/rplidar/install:/home/robogait/tutorials_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'robogait'), ('JOURNAL_STREAM', '8:52361'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'robogait'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/robogait/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/robogait-NUC11TNKv7:@/tmp/.ICE-unix/1723,unix/robogait-NUC11TNKv7:/tmp/.ICE-unix/1723'), ('INVOCATION_ID', '5a7102b0b6194049890e2181dddd96c5'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/269b53c7_b546_443c_abbe_365da80520e1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.121'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/robogait/azure_kinect_ws/install/body_tracking:/home/robogait/ros2_serial/install/ourbotmanager:/home/robogait/serial_cpp/install/serial_pubsub:/home/robogait/rplidar/install/sllidar_ros2:/home/robogait/rplidar/install/rplidar_ros2:/home/robogait/tutorials_ws/install/turtlesim:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robogait/azure_kinect_ws/build/body_tracking'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/robogait/azure_kinect_ws/install/body_tracking/lib/python3.8/site-packages:/home/robogait/ros2_serial/install/ourbotmanager/lib/python3.8/site-packages:/home/robogait/tutorials_ws/install/turtlesim/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/robogait/azure_kinect_ws/install/body_tracking:/home/robogait/serial_cpp/install/serial_pubsub:/home/robogait/rplidar/install/sllidar_ros2:/home/robogait/rplidar/install/rplidar_ros2:/home/robogait/tutorials_ws/install/turtlesim:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy')]), 'shell': False}
+[0.040914] (body_tracking) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target prueba_talker\x1b[0m\n'}
+[0.047278] (body_tracking) StdoutLine: {'line': b'[  5%] Built target body_tracking_node\n'}
+[0.047676] (body_tracking) StdoutLine: {'line': b'[ 10%] Built target body_tracking__cpp\n'}
+[0.047768] (body_tracking) StdoutLine: {'line': b'[ 15%] Built target body_tracking__rosidl_generator_c\n'}
+[0.049276] (body_tracking) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object CMakeFiles/prueba_talker.dir/src/main.cpp.o\x1b[0m\n'}
+[0.050897] (body_tracking) StdoutLine: {'line': b'[ 23%] Built target talker\n'}
+[0.052455] (body_tracking) StdoutLine: {'line': b'[ 28%] Built target listener\n'}
+[0.064661] (body_tracking) StdoutLine: {'line': b'[ 35%] Built target body_tracking__rosidl_typesupport_cpp\n'}
+[0.065310] (body_tracking) StdoutLine: {'line': b'[ 43%] Built target body_tracking__rosidl_typesupport_introspection_cpp\n'}
+[0.066037] (body_tracking) StdoutLine: {'line': b'[ 51%] Built target body_tracking__rosidl_typesupport_introspection_c\n'}
+[0.067312] (body_tracking) StdoutLine: {'line': b'[ 58%] Built target body_tracking__rosidl_typesupport_fastrtps_cpp\n'}
+[0.067433] (body_tracking) StdoutLine: {'line': b'[ 66%] Built target body_tracking__rosidl_typesupport_c\n'}
+[0.083611] (body_tracking) StdoutLine: {'line': b'[ 74%] Built target body_tracking__rosidl_typesupport_fastrtps_c\n'}
+[0.096978] (body_tracking) StdoutLine: {'line': b'[ 74%] Built target body_tracking\n'}
+[0.099480] (-) TimerEvent: {}
+[0.110031] (body_tracking) StdoutLine: {'line': b'[ 76%] Built target body_tracking__py\n'}
+[0.128228] (body_tracking) StdoutLine: {'line': b'[ 79%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/body_tracking/libbody_tracking__python.so\x1b[0m\n'}
+[0.154932] (body_tracking) StdoutLine: {'line': b'[ 82%] Built target body_tracking__python\n'}
+[0.162495] (body_tracking) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target body_tracking__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[0.171255] (body_tracking) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/body_tracking__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/body_tracking/_body_tracking_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[0.171674] (body_tracking) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/body_tracking/body_tracking_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[0.172480] (body_tracking) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/body_tracking/body_tracking_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[0.193164] (body_tracking) StdoutLine: {'line': b'[ 94%] Built target body_tracking__rosidl_typesupport_c__pyext\n'}
+[0.193395] (body_tracking) StdoutLine: {'line': b'[ 94%] Built target body_tracking__rosidl_typesupport_introspection_c__pyext\n'}
+[0.199587] (-) TimerEvent: {}
+[0.223690] (body_tracking) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/body_tracking/body_tracking_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[0.258489] (body_tracking) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable prueba_talker\x1b[0m\n'}
+[0.264892] (body_tracking) StdoutLine: {'line': b'[100%] Built target body_tracking__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.280175] (body_tracking) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/prueba_talker.dir/src/main.cpp.o: in function `print_body_index_map_middle_line(_k4a_image_t*)':\n"}
+[0.280471] (body_tracking) StderrLine: {'line': b"main.cpp:(.text+0x12a): undefined reference to `k4a_image_get_buffer'\n"}
+[0.280536] (body_tracking) StderrLine: {'line': b"/usr/bin/ld: main.cpp:(.text+0x13a): undefined reference to `k4a_image_get_stride_bytes'\n"}
+[0.280590] (body_tracking) StderrLine: {'line': b"/usr/bin/ld: main.cpp:(.text+0x148): undefined reference to `k4a_image_get_width_pixels'\n"}
+[0.280627] (body_tracking) StderrLine: {'line': b"/usr/bin/ld: main.cpp:(.text+0x177): undefined reference to `k4a_image_get_height_pixels'\n"}
+[0.280662] (body_tracking) StderrLine: {'line': b"/usr/bin/ld: main.cpp:(.text+0x18f): undefined reference to `k4a_image_get_width_pixels'\n"}
+[0.280697] (body_tracking) StderrLine: {'line': b"/usr/bin/ld: main.cpp:(.text+0x1c2): undefined reference to `k4a_image_get_width_pixels'\n"}
+[0.280731] (body_tracking) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/prueba_talker.dir/src/main.cpp.o: in function `main':\n"}
+[0.280766] (body_tracking) StderrLine: {'line': b"main.cpp:(.text+0x27f): undefined reference to `k4a_device_get_installed_count'\n"}
+[0.280799] (body_tracking) StderrLine: {'line': b"/usr/bin/ld: main.cpp:(.text+0x2b2): undefined reference to `k4a_device_open'\n"}
+[0.280835] (body_tracking) StderrLine: {'line': b"/usr/bin/ld: main.cpp:(.text+0x2ea): undefined reference to `k4a_device_start_cameras'\n"}
+[0.280869] (body_tracking) StderrLine: {'line': b"/usr/bin/ld: main.cpp:(.text+0x32d): undefined reference to `k4a_device_get_calibration'\n"}
+[0.280904] (body_tracking) StderrLine: {'line': b"/usr/bin/ld: main.cpp:(.text+0x3c5): undefined reference to `k4abt_tracker_create'\n"}
+[0.280938] (body_tracking) StderrLine: {'line': b"/usr/bin/ld: main.cpp:(.text+0x430): undefined reference to `k4a_device_get_capture'\n"}
+[0.280973] (body_tracking) StderrLine: {'line': b"/usr/bin/ld: main.cpp:(.text+0x48d): undefined reference to `k4abt_tracker_enqueue_capture'\n"}
+[0.281008] (body_tracking) StderrLine: {'line': b"/usr/bin/ld: main.cpp:(.text+0x4a2): undefined reference to `k4a_capture_release'\n"}
+[0.281043] (body_tracking) StderrLine: {'line': b"/usr/bin/ld: main.cpp:(.text+0x4ff): undefined reference to `k4abt_tracker_pop_result'\n"}
+[0.281077] (body_tracking) StderrLine: {'line': b"/usr/bin/ld: main.cpp:(.text+0x590): undefined reference to `k4abt_frame_get_num_bodies'\n"}
+[0.281116] (body_tracking) StderrLine: {'line': b"/usr/bin/ld: main.cpp:(.text+0x5f9): undefined reference to `k4abt_frame_get_body_skeleton'\n"}
+[0.281151] (body_tracking) StderrLine: {'line': b"/usr/bin/ld: main.cpp:(.text+0x62f): undefined reference to `k4abt_frame_get_body_id'\n"}
+[0.281186] (body_tracking) StderrLine: {'line': b"/usr/bin/ld: main.cpp:(.text+0x694): undefined reference to `k4abt_frame_get_body_index_map'\n"}
+[0.281222] (body_tracking) StderrLine: {'line': b"/usr/bin/ld: main.cpp:(.text+0x6c3): undefined reference to `k4a_image_release'\n"}
+[0.281257] (body_tracking) StderrLine: {'line': b"/usr/bin/ld: main.cpp:(.text+0x6e0): undefined reference to `k4abt_frame_release'\n"}
+[0.281291] (body_tracking) StderrLine: {'line': b"/usr/bin/ld: main.cpp:(.text+0x7e0): undefined reference to `k4abt_tracker_shutdown'\n"}
+[0.281338] (body_tracking) StderrLine: {'line': b"/usr/bin/ld: main.cpp:(.text+0x7ef): undefined reference to `k4abt_tracker_destroy'\n"}
+[0.281375] (body_tracking) StderrLine: {'line': b"/usr/bin/ld: main.cpp:(.text+0x7fe): undefined reference to `k4a_device_stop_cameras'\n"}
+[0.281410] (body_tracking) StderrLine: {'line': b"/usr/bin/ld: main.cpp:(.text+0x80d): undefined reference to `k4a_device_close'\n"}
+[0.281445] (body_tracking) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[0.281483] (body_tracking) StderrLine: {'line': b'make[2]: *** [CMakeFiles/prueba_talker.dir/build.make:84: prueba_talker] Error 1\n'}
+[0.281560] (body_tracking) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:325: CMakeFiles/prueba_talker.dir/all] Error 2\n'}
+[0.281711] (body_tracking) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[0.283262] (body_tracking) CommandEnded: {'returncode': 2}
+[0.299671] (-) TimerEvent: {}
+[0.327455] (body_tracking) JobEnded: {'identifier': 'body_tracking', 'rc': 2}
+[0.338184] (-) EventReactorShutdown: {}

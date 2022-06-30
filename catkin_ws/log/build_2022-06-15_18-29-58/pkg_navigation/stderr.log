@@ -1,0 +1,12 @@
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller_position.cpp:[m[K In member function ‘[01m[Kvoid generic::controller()[m[K’:
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller_position.cpp:115:34:[m[K [01;31m[Kerror: [m[K‘[01m[KKd[m[K’ was not declared in this scope; did you mean ‘[01m[KKp[m[K’?
+  115 |         float control=Kp*error_p+[01;31m[KKd[m[K*error_d+Ki*error_i;
+      |                                  [01;31m[K^~[m[K
+      |                                  [32m[KKp[m[K
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller_position.cpp:115:45:[m[K [01;31m[Kerror: [m[K‘[01m[KKi[m[K’ was not declared in this scope; did you mean ‘[01m[KKp[m[K’?
+  115 |         float control=Kp*error_p+Kd*error_d+[01;31m[KKi[m[K*error_i;
+      |                                             [01;31m[K^~[m[K
+      |                                             [32m[KKp[m[K
+make[2]: *** [CMakeFiles/robot_controller_position.dir/build.make:63: CMakeFiles/robot_controller_position.dir/src/robot_controller_position.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:277: CMakeFiles/robot_controller_position.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

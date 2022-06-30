@@ -1,0 +1,52 @@
+[0.010s] Invoking command in '/home/robogait/azure_kinect_ws/build/body_tracking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/azure_kinect_ws/build/body_tracking -- -j8 -l8
+[0.041s] [35m[1mScanning dependencies of target prueba_talker[0m
+[0.047s] [  7%] Built target body_tracking_node
+[0.047s] [  7%] Built target body_tracking__cpp
+[0.048s] [ 10%] [32mBuilding C object CMakeFiles/prueba_talker.dir/src/main.c.o[0m
+[0.049s] [ 17%] Built target body_tracking__rosidl_generator_c
+[0.050s] [ 23%] Built target listener
+[0.052s] [ 28%] Built target talker
+[0.064s] [ 35%] Built target body_tracking__rosidl_typesupport_introspection_c
+[0.064s] [01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.c:13:1:[m[K [01;35m[Kwarning: [m[Kmulti-line comment [[01;35m[K-Wcomment[m[K]
+[0.064s]    13 | [01;35m[K/[m[K/#define VERIFY(result, error)                                                                            \
+[0.064s]       | [01;35m[K^[m[K
+[0.065s] [01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.c:[m[K In function ‘[01m[Kmain[m[K’:
+[0.065s] [ 43%] Built target body_tracking__rosidl_typesupport_introspection_cpp
+[0.065s] [01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.c:66:13:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+[0.065s]    66 |      exit(1)
+[0.065s]       |             [01;31m[K^[m[K
+[0.065s]       |             [32m[K;[m[K
+[0.065s]    67 |     [32m[K}[m[K
+[0.065s]       |     [32m[K~[m[K        
+[0.065s] [01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.c:70:13:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+[0.065s]    70 |      exit(1)
+[0.065s]       |             [01;31m[K^[m[K
+[0.065s]       |             [32m[K;[m[K
+[0.066s]    71 |     [32m[K}[m[K
+[0.066s]       |     [32m[K~[m[K        
+[0.066s] [01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.c:75:13:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+[0.066s]    75 |      exit(1)
+[0.066s]       |             [01;31m[K^[m[K
+[0.066s]       |             [32m[K;[m[K
+[0.066s]    76 |     [32m[K}[m[K
+[0.066s]       |     [32m[K~[m[K        
+[0.066s] [01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.c:84:13:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+[0.066s]    84 |      exit(1)
+[0.066s]       |             [01;31m[K^[m[K
+[0.066s]       |             [32m[K;[m[K
+[0.066s]    85 |     [32m[K}[m[K
+[0.066s]       |     [32m[K~[m[K        
+[0.066s] [01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.c:139:15:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+[0.067s]   139 |        exit(1)
+[0.067s]       |               [01;31m[K^[m[K
+[0.067s]       |               [32m[K;[m[K
+[0.067s]   140 |       [32m[K}[m[K
+[0.067s]       |       [32m[K~[m[K        
+[0.067s] [ 51%] Built target body_tracking__rosidl_typesupport_cpp
+[0.067s] [ 58%] Built target body_tracking__rosidl_typesupport_c
+[0.067s] make[2]: *** [CMakeFiles/prueba_talker.dir/build.make:63: CMakeFiles/prueba_talker.dir/src/main.c.o] Error 1
+[0.067s] make[1]: *** [CMakeFiles/Makefile2:325: CMakeFiles/prueba_talker.dir/all] Error 2
+[0.067s] make[1]: *** Waiting for unfinished jobs....
+[0.069s] [ 66%] Built target body_tracking__rosidl_typesupport_fastrtps_cpp
+[0.070s] make: *** [Makefile:141: all] Error 2
+[0.071s] Invoked command in '/home/robogait/azure_kinect_ws/build/body_tracking' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/azure_kinect_ws/build/body_tracking -- -j8 -l8

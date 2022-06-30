@@ -1,0 +1,12 @@
+[  5%] Built target body_tracking_node
+[ 12%] Built target body_tracking__rosidl_generator_c
+[ 15%] Built target body_tracking__cpp
+[ 20%] Built target talker
+[ 28%] Built target listener
+[ 28%] [32m[1mLinking C executable prueba_talker[0m
+[ 43%] Built target body_tracking__rosidl_typesupport_c
+[ 43%] Built target body_tracking__rosidl_typesupport_introspection_cpp
+[ 51%] Built target body_tracking__rosidl_typesupport_cpp
+[ 58%] Built target body_tracking__rosidl_typesupport_introspection_c
+[ 66%] Built target body_tracking__rosidl_typesupport_fastrtps_cpp
+[ 74%] Built target body_tracking__rosidl_typesupport_fastrtps_c

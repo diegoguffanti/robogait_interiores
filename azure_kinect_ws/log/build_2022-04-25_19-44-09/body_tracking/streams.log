@@ -1,0 +1,47 @@
+[0.010s] Invoking command in '/home/robogait/azure_kinect_ws/build/body_tracking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/azure_kinect_ws/build/body_tracking -- -j8 -l8
+[0.042s] [35m[1mScanning dependencies of target prueba_talker[0m
+[0.047s] [  5%] Built target body_tracking__cpp
+[0.047s] [  7%] Built target body_tracking_node
+[0.051s] [ 15%] Built target body_tracking__rosidl_generator_c
+[0.052s] [ 20%] Built target listener
+[0.055s] [ 25%] Built target talker
+[0.065s] [ 33%] [32mBuilding CXX object CMakeFiles/prueba_talker.dir/src/main.cpp.o[0m
+[0.066s] [ 35%] Built target body_tracking__rosidl_typesupport_introspection_cpp
+[0.066s] [ 43%] Built target body_tracking__rosidl_typesupport_cpp
+[0.067s] [ 58%] Built target body_tracking__rosidl_typesupport_fastrtps_cpp
+[0.067s] [ 58%] Built target body_tracking__rosidl_typesupport_c
+[0.068s] [ 66%] Built target body_tracking__rosidl_typesupport_introspection_c
+[0.084s] [ 74%] Built target body_tracking__rosidl_typesupport_fastrtps_c
+[0.097s] [ 74%] Built target body_tracking
+[0.111s] [ 76%] Built target body_tracking__py
+[0.131s] [ 82%] Built target body_tracking__python
+[0.149s] [ 97%] Built target body_tracking__rosidl_typesupport_fastrtps_c__pyext
+[0.149s] [ 97%] Built target body_tracking__rosidl_typesupport_c__pyext
+[0.149s] [ 97%] Built target body_tracking__rosidl_typesupport_introspection_c__pyext
+[0.794s] [01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:[m[K In constructor ‘[01m[KMinimalPublisher::MinimalPublisher()[m[K’:
+[0.794s] [01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:36:59:[m[K [01;31m[Kerror: [m[K‘[01m[KCoordinates[m[K’ is not a member of ‘[01m[Kbody_tracking::msg[m[K’; did you mean ‘[01m[KHipCoordinates[m[K’?
+[0.794s]    36 |   publisher_ = this->create_publisher<body_tracking::msg::[01;31m[KCoordinates[m[K>("topic", 10);
+[0.794s]       |                                                           [01;31m[K^~~~~~~~~~~[m[K
+[0.794s]       |                                                           [32m[KHipCoordinates[m[K
+[0.794s] [01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:36:59:[m[K [01;31m[Kerror: [m[K‘[01m[KCoordinates[m[K’ is not a member of ‘[01m[Kbody_tracking::msg[m[K’; did you mean ‘[01m[KHipCoordinates[m[K’?
+[0.794s]    36 |   publisher_ = this->create_publisher<body_tracking::msg::[01;31m[KCoordinates[m[K>("topic", 10);
+[0.794s]       |                                                           [01;31m[K^~~~~~~~~~~[m[K
+[0.794s]       |                                                           [32m[KHipCoordinates[m[K
+[0.795s] [01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:36:83:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMinimalPublisher::create_publisher<<expression error> >(const char [6], int)[m[K’
+[0.795s]    36 |   publisher_ = this->create_publisher<body_tracking::msg::Coordinates>("topic", 10[01;31m[K)[m[K;
+[0.795s]       |                                                                                   [01;31m[K^[m[K
+[0.795s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[0.795s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[0.795s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[0.795s]                  from [01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:16[m[K:
+[0.795s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+[0.795s]   184 |   [01;36m[Kcreate_publisher[m[K(
+[0.795s]       |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[0.795s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[0.795s] [01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:36:83:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.795s]    36 |   publisher_ = this->create_publisher<body_tracking::msg::Coordinates>("topic", 10[01;31m[K)[m[K;
+[0.795s]       |                                                                                   [01;31m[K^[m[K
+[1.096s] make[2]: *** [CMakeFiles/prueba_talker.dir/build.make:63: CMakeFiles/prueba_talker.dir/src/main.cpp.o] Error 1
+[1.096s] make[1]: *** [CMakeFiles/Makefile2:325: CMakeFiles/prueba_talker.dir/all] Error 2
+[1.096s] make: *** [Makefile:141: all] Error 2
+[1.097s] Invoked command in '/home/robogait/azure_kinect_ws/build/body_tracking' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/azure_kinect_ws/build/body_tracking -- -j8 -l8

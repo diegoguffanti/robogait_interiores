@@ -1,0 +1,14 @@
+[35m[1mScanning dependencies of target robot_controller[0m
+[ 40%] Built target robot_odom_tf2_listener
+[ 40%] Built target publisher_initial_pose
+[ 60%] Built target publisher_subscriber
+[ 80%] Built target tf2_broadcaster
+[ 90%] [32mBuilding CXX object CMakeFiles/robot_controller.dir/src/robot_controller.cpp.o[0m
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller.cpp:[m[K In member function ‘[01m[Kvoid generic::loop()[m[K’:
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller.cpp:118:9:[m[K [01;31m[Kerror: [m[K‘[01m[Km3_err[m[K’ was not declared in this scope; did you mean ‘[01m[Km_err[m[K’?
+  118 |         [01;31m[Km3_err[m[K.getRPY(roll_err, pitch_err, yaw_err);
+      |         [01;31m[K^~~~~~[m[K
+      |         [32m[Km_err[m[K
+make[2]: *** [CMakeFiles/robot_controller.dir/build.make:63: CMakeFiles/robot_controller.dir/src/robot_controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/robot_controller.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

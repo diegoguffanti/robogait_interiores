@@ -1,0 +1,13 @@
+[0.013s] Invoking command in '/home/robogait/catkin_ws/build/pkg_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/ros2_ws/install/nav2_project:/home/robogait/nav2_ws/install/nav2_gazebo_spawner:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/catkin_ws/build/pkg_navigation -- -j8 -l8
+[0.052s] [35m[1mScanning dependencies of target publisher_initial_pose[0m
+[0.068s] [ 33%] Built target tf2_broadcaster
+[0.068s] [ 66%] Built target publisher_subscriber
+[0.069s] [ 83%] [32mBuilding CXX object CMakeFiles/publisher_initial_pose.dir/src/publisher_initial_pose.cpp.o[0m
+[0.130s] [01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/publisher_initial_pose.cpp:8:10:[m[K [01;31m[Kfatal error: [m[Kgeometry_msgs/msg/PoseWithCovarianceStamped.hpp: No such file or directory
+[0.130s]     8 | #include [01;31m[K"geometry_msgs/msg/PoseWithCovarianceStamped.hpp"[m[K
+[0.130s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.130s] compilation terminated.
+[0.134s] make[2]: *** [CMakeFiles/publisher_initial_pose.dir/build.make:63: CMakeFiles/publisher_initial_pose.dir/src/publisher_initial_pose.cpp.o] Error 1
+[0.135s] make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/publisher_initial_pose.dir/all] Error 2
+[0.135s] make: *** [Makefile:141: all] Error 2
+[0.137s] Invoked command in '/home/robogait/catkin_ws/build/pkg_navigation' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/ros2_ws/install/nav2_project:/home/robogait/nav2_ws/install/nav2_gazebo_spawner:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/catkin_ws/build/pkg_navigation -- -j8 -l8

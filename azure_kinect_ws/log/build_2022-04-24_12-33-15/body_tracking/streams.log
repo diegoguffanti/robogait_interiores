@@ -1,0 +1,23 @@
+[0.010s] Invoking command in '/home/robogait/azure_kinect_ws/build/body_tracking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/azure_kinect_ws/build/body_tracking -- -j8 -l8
+[0.040s] [35m[1mScanning dependencies of target prueba_talker[0m
+[0.049s] [  2%] [32mBuilding C object CMakeFiles/prueba_talker.dir/src/main.c.o[0m
+[0.049s] [  5%] Built target body_tracking__cpp
+[0.049s] [ 10%] Built target body_tracking_node
+[0.050s] [ 17%] Built target body_tracking__rosidl_generator_c
+[0.053s] [ 23%] Built target talker
+[0.053s] [ 28%] Built target listener
+[0.066s] [ 43%] Built target body_tracking__rosidl_typesupport_introspection_c
+[0.066s] [ 43%] Built target body_tracking__rosidl_typesupport_introspection_cpp
+[0.066s] [ 51%] Built target body_tracking__rosidl_typesupport_c
+[0.066s] [ 58%] Built target body_tracking__rosidl_typesupport_cpp
+[0.067s] [ 66%] Built target body_tracking__rosidl_typesupport_fastrtps_cpp
+[0.082s] [ 69%] [32m[1mLinking C executable prueba_talker[0m
+[0.083s] [ 76%] Built target body_tracking__rosidl_typesupport_fastrtps_c
+[0.091s] /usr/bin/ld: cannot find -lrclcpp
+[0.091s] collect2: error: ld returned 1 exit status
+[0.092s] make[2]: *** [CMakeFiles/prueba_talker.dir/build.make:84: prueba_talker] Error 1
+[0.092s] make[1]: *** [CMakeFiles/Makefile2:325: CMakeFiles/prueba_talker.dir/all] Error 2
+[0.092s] make[1]: *** Waiting for unfinished jobs....
+[0.096s] [ 76%] Built target body_tracking
+[0.096s] make: *** [Makefile:141: all] Error 2
+[0.098s] Invoked command in '/home/robogait/azure_kinect_ws/build/body_tracking' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/azure_kinect_ws/build/body_tracking -- -j8 -l8

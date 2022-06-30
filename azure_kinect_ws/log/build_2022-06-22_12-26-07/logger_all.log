@@ -1,0 +1,303 @@
+[0.075s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.075s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f41a468e7c0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f41a468e7c0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f41a468ed30>)
+[0.092s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.092s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.092s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.092s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.092s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.092s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.092s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/robogait/azure_kinect_ws'
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/body_tracker_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/body_tracker_msgs) by extension 'ignore'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/body_tracker_msgs) by extension 'ignore_ament_install'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/body_tracker_msgs) by extensions ['colcon_pkg']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/body_tracker_msgs) by extension 'colcon_pkg'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/body_tracker_msgs) by extensions ['colcon_meta']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/body_tracker_msgs) by extension 'colcon_meta'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/body_tracker_msgs) by extensions ['ros']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/body_tracker_msgs) by extension 'ros'
+[0.102s] DEBUG:colcon.colcon_core.package_identification:Package 'src/body_tracker_msgs' with type 'ros.ament_cmake' and name 'body_tracker_msgs'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/body_tracking) by extensions ['ignore', 'ignore_ament_install']
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/body_tracking) by extension 'ignore'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/body_tracking) by extension 'ignore_ament_install'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/body_tracking) by extensions ['colcon_pkg']
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/body_tracking) by extension 'colcon_pkg'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/body_tracking) by extensions ['colcon_meta']
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/body_tracking) by extension 'colcon_meta'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/body_tracking) by extensions ['ros']
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/body_tracking) by extension 'ros'
+[0.102s] DEBUG:colcon.colcon_core.package_identification:Package 'src/body_tracking' with type 'ros.ament_cmake' and name 'body_tracking'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/kinect_azure_body_tracker) by extensions ['ignore', 'ignore_ament_install']
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/kinect_azure_body_tracker) by extension 'ignore'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/kinect_azure_body_tracker) by extension 'ignore_ament_install'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/kinect_azure_body_tracker) by extensions ['colcon_pkg']
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/kinect_azure_body_tracker) by extension 'colcon_pkg'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/kinect_azure_body_tracker) by extensions ['colcon_meta']
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/kinect_azure_body_tracker) by extension 'colcon_meta'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/kinect_azure_body_tracker) by extensions ['ros']
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/kinect_azure_body_tracker) by extension 'ros'
+[0.103s] DEBUG:colcon.colcon_core.package_identification:Package 'src/kinect_azure_body_tracker' with type 'ros.ament_cmake' and name 'kinect_azure_body_tracker'
+[0.103s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.103s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.103s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.103s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.103s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.114s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.114s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.116s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/robogait/azure_kinect_ws/install
+[0.116s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/robogait/ros2_ws_realsense/install
+[0.116s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/robogait/nav2_teb/install
+[0.117s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 31 installed packages in /home/robogait/nav2_ws/install
+[0.117s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/robogait/ros2_serial_cpp/install
+[0.118s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/robogait/serial_cpp/install
+[0.118s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/robogait/ros2_serial/install
+[0.118s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/robogait/rplidar/install
+[0.118s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/robogait/catkin_ws/install
+[0.119s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/robogait/tutorials_ros2/install
+[0.119s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/robogait/ros2_ws/install
+[0.120s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 323 installed packages in /opt/ros/foxy
+[0.122s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.169s] Level 5:colcon.colcon_core.verb:set package 'body_tracker_msgs' build argument 'cmake_args' from command line to 'None'
+[0.169s] Level 5:colcon.colcon_core.verb:set package 'body_tracker_msgs' build argument 'cmake_target' from command line to 'None'
+[0.169s] Level 5:colcon.colcon_core.verb:set package 'body_tracker_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.169s] Level 5:colcon.colcon_core.verb:set package 'body_tracker_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.169s] Level 5:colcon.colcon_core.verb:set package 'body_tracker_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.169s] Level 5:colcon.colcon_core.verb:set package 'body_tracker_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.169s] Level 5:colcon.colcon_core.verb:set package 'body_tracker_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.169s] Level 5:colcon.colcon_core.verb:set package 'body_tracker_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.169s] Level 5:colcon.colcon_core.verb:set package 'body_tracker_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.169s] DEBUG:colcon.colcon_core.verb:Building package 'body_tracker_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robogait/azure_kinect_ws/build/body_tracker_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robogait/azure_kinect_ws/install/body_tracker_msgs', 'merge_install': False, 'path': '/home/robogait/azure_kinect_ws/src/body_tracker_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.169s] Level 5:colcon.colcon_core.verb:set package 'body_tracking' build argument 'cmake_args' from command line to 'None'
+[0.169s] Level 5:colcon.colcon_core.verb:set package 'body_tracking' build argument 'cmake_target' from command line to 'None'
+[0.169s] Level 5:colcon.colcon_core.verb:set package 'body_tracking' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.169s] Level 5:colcon.colcon_core.verb:set package 'body_tracking' build argument 'cmake_clean_cache' from command line to 'False'
+[0.169s] Level 5:colcon.colcon_core.verb:set package 'body_tracking' build argument 'cmake_clean_first' from command line to 'False'
+[0.169s] Level 5:colcon.colcon_core.verb:set package 'body_tracking' build argument 'cmake_force_configure' from command line to 'False'
+[0.169s] Level 5:colcon.colcon_core.verb:set package 'body_tracking' build argument 'ament_cmake_args' from command line to 'None'
+[0.169s] Level 5:colcon.colcon_core.verb:set package 'body_tracking' build argument 'catkin_cmake_args' from command line to 'None'
+[0.169s] Level 5:colcon.colcon_core.verb:set package 'body_tracking' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.169s] DEBUG:colcon.colcon_core.verb:Building package 'body_tracking' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robogait/azure_kinect_ws/build/body_tracking', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robogait/azure_kinect_ws/install/body_tracking', 'merge_install': False, 'path': '/home/robogait/azure_kinect_ws/src/body_tracking', 'symlink_install': False, 'test_result_base': None}
+[0.170s] Level 5:colcon.colcon_core.verb:set package 'kinect_azure_body_tracker' build argument 'cmake_args' from command line to 'None'
+[0.170s] Level 5:colcon.colcon_core.verb:set package 'kinect_azure_body_tracker' build argument 'cmake_target' from command line to 'None'
+[0.170s] Level 5:colcon.colcon_core.verb:set package 'kinect_azure_body_tracker' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.170s] Level 5:colcon.colcon_core.verb:set package 'kinect_azure_body_tracker' build argument 'cmake_clean_cache' from command line to 'False'
+[0.170s] Level 5:colcon.colcon_core.verb:set package 'kinect_azure_body_tracker' build argument 'cmake_clean_first' from command line to 'False'
+[0.170s] Level 5:colcon.colcon_core.verb:set package 'kinect_azure_body_tracker' build argument 'cmake_force_configure' from command line to 'False'
+[0.170s] Level 5:colcon.colcon_core.verb:set package 'kinect_azure_body_tracker' build argument 'ament_cmake_args' from command line to 'None'
+[0.170s] Level 5:colcon.colcon_core.verb:set package 'kinect_azure_body_tracker' build argument 'catkin_cmake_args' from command line to 'None'
+[0.170s] Level 5:colcon.colcon_core.verb:set package 'kinect_azure_body_tracker' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.170s] DEBUG:colcon.colcon_core.verb:Building package 'kinect_azure_body_tracker' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robogait/azure_kinect_ws/build/kinect_azure_body_tracker', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robogait/azure_kinect_ws/install/kinect_azure_body_tracker', 'merge_install': False, 'path': '/home/robogait/azure_kinect_ws/src/kinect_azure_body_tracker', 'symlink_install': False, 'test_result_base': None}
+[0.170s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.171s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.171s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robogait/azure_kinect_ws/src/body_tracker_msgs' with build type 'ament_cmake'
+[0.172s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robogait/azure_kinect_ws/src/body_tracker_msgs'
+[0.173s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.174s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.174s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.181s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robogait/azure_kinect_ws/src/body_tracking' with build type 'ament_cmake'
+[0.181s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robogait/azure_kinect_ws/src/body_tracking'
+[0.181s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.181s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.189s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robogait/azure_kinect_ws/src/kinect_azure_body_tracker' with build type 'ament_cmake'
+[0.189s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robogait/azure_kinect_ws/src/kinect_azure_body_tracker'
+[0.190s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.190s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.200s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robogait/azure_kinect_ws/build/body_tracker_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/nav2_ws/install/nav2_gazebo_spawner:/home/robogait/ros2_serial/install/ourbotmanager:/home/robogait/ros2_ws/install/nav2_project:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/azure_kinect_ws/build/body_tracker_msgs -- -j8 -l8
+[0.206s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robogait/azure_kinect_ws/build/body_tracking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/nav2_ws/install/nav2_gazebo_spawner:/home/robogait/ros2_serial/install/ourbotmanager:/home/robogait/ros2_ws/install/nav2_project:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/azure_kinect_ws/build/body_tracking -- -j8 -l8
+[0.211s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robogait/azure_kinect_ws/build/kinect_azure_body_tracker': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/nav2_ws/install/nav2_gazebo_spawner:/home/robogait/ros2_serial/install/ourbotmanager:/home/robogait/ros2_ws/install/nav2_project:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/azure_kinect_ws/build/kinect_azure_body_tracker -- -j8 -l8
+[0.308s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robogait/azure_kinect_ws/build/body_tracking' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/nav2_ws/install/nav2_gazebo_spawner:/home/robogait/ros2_serial/install/ourbotmanager:/home/robogait/ros2_ws/install/nav2_project:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/azure_kinect_ws/build/body_tracking -- -j8 -l8
+[0.358s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robogait/azure_kinect_ws/build/body_tracking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/nav2_ws/install/nav2_gazebo_spawner:/home/robogait/ros2_serial/install/ourbotmanager:/home/robogait/ros2_ws/install/nav2_project:/opt/ros/foxy /usr/bin/cmake --install /home/robogait/azure_kinect_ws/build/body_tracking
+[0.382s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(body_tracking)
+[0.384s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robogait/azure_kinect_ws/build/body_tracking' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/nav2_ws/install/nav2_gazebo_spawner:/home/robogait/ros2_serial/install/ourbotmanager:/home/robogait/ros2_ws/install/nav2_project:/opt/ros/foxy /usr/bin/cmake --install /home/robogait/azure_kinect_ws/build/body_tracking
+[0.386s] Level 1:colcon.colcon_core.environment:checking '/home/robogait/azure_kinect_ws/install/body_tracking' for CMake module files
+[0.386s] Level 1:colcon.colcon_core.environment:checking '/home/robogait/azure_kinect_ws/install/body_tracking' for CMake config files
+[0.387s] Level 1:colcon.colcon_core.shell:create_environment_hook('body_tracking', 'cmake_prefix_path')
+[0.387s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/hook/cmake_prefix_path.ps1'
+[0.388s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/hook/cmake_prefix_path.dsv'
+[0.388s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/hook/cmake_prefix_path.sh'
+[0.388s] Level 1:colcon.colcon_core.environment:checking '/home/robogait/azure_kinect_ws/install/body_tracking/lib'
+[0.389s] Level 1:colcon.colcon_core.shell:create_environment_hook('body_tracking', 'ld_library_path_lib')
+[0.389s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/hook/ld_library_path_lib.ps1'
+[0.389s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/hook/ld_library_path_lib.dsv'
+[0.389s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/hook/ld_library_path_lib.sh'
+[0.389s] Level 1:colcon.colcon_core.environment:checking '/home/robogait/azure_kinect_ws/install/body_tracking/bin'
+[0.390s] Level 1:colcon.colcon_core.environment:checking '/home/robogait/azure_kinect_ws/install/body_tracking/lib/pkgconfig/body_tracking.pc'
+[0.390s] Level 1:colcon.colcon_core.environment:checking '/home/robogait/azure_kinect_ws/install/body_tracking/lib/python3.8/site-packages'
+[0.390s] Level 1:colcon.colcon_core.shell:create_environment_hook('body_tracking', 'pythonpath')
+[0.390s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/hook/pythonpath.ps1'
+[0.390s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/hook/pythonpath.dsv'
+[0.390s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/hook/pythonpath.sh'
+[0.391s] Level 1:colcon.colcon_core.environment:checking '/home/robogait/azure_kinect_ws/install/body_tracking/bin'
+[0.391s] INFO:colcon.colcon_core.shell:Creating package script '/home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/package.ps1'
+[0.392s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/package.dsv'
+[0.392s] INFO:colcon.colcon_core.shell:Creating package script '/home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/package.sh'
+[0.392s] INFO:colcon.colcon_core.shell:Creating package script '/home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/package.bash'
+[0.393s] INFO:colcon.colcon_core.shell:Creating package script '/home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/package.zsh'
+[0.393s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robogait/azure_kinect_ws/install/body_tracking/share/colcon-core/packages/body_tracking)
+[0.426s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(body_tracking)
+[0.427s] Level 1:colcon.colcon_core.environment:checking '/home/robogait/azure_kinect_ws/install/body_tracking' for CMake module files
+[0.428s] Level 1:colcon.colcon_core.environment:checking '/home/robogait/azure_kinect_ws/install/body_tracking' for CMake config files
+[0.428s] Level 1:colcon.colcon_core.shell:create_environment_hook('body_tracking', 'cmake_prefix_path')
+[0.428s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/hook/cmake_prefix_path.ps1'
+[0.428s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/hook/cmake_prefix_path.dsv'
+[0.429s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/hook/cmake_prefix_path.sh'
+[0.429s] Level 1:colcon.colcon_core.environment:checking '/home/robogait/azure_kinect_ws/install/body_tracking/lib'
+[0.429s] Level 1:colcon.colcon_core.shell:create_environment_hook('body_tracking', 'ld_library_path_lib')
+[0.430s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/hook/ld_library_path_lib.ps1'
+[0.430s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/hook/ld_library_path_lib.dsv'
+[0.430s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/hook/ld_library_path_lib.sh'
+[0.430s] Level 1:colcon.colcon_core.environment:checking '/home/robogait/azure_kinect_ws/install/body_tracking/bin'
+[0.430s] Level 1:colcon.colcon_core.environment:checking '/home/robogait/azure_kinect_ws/install/body_tracking/lib/pkgconfig/body_tracking.pc'
+[0.430s] Level 1:colcon.colcon_core.environment:checking '/home/robogait/azure_kinect_ws/install/body_tracking/lib/python3.8/site-packages'
+[0.430s] Level 1:colcon.colcon_core.shell:create_environment_hook('body_tracking', 'pythonpath')
+[0.431s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/hook/pythonpath.ps1'
+[0.431s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/hook/pythonpath.dsv'
+[0.431s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/hook/pythonpath.sh'
+[0.431s] Level 1:colcon.colcon_core.environment:checking '/home/robogait/azure_kinect_ws/install/body_tracking/bin'
+[0.432s] INFO:colcon.colcon_core.shell:Creating package script '/home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/package.ps1'
+[0.432s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/package.dsv'
+[0.432s] INFO:colcon.colcon_core.shell:Creating package script '/home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/package.sh'
+[0.432s] INFO:colcon.colcon_core.shell:Creating package script '/home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/package.bash'
+[0.433s] INFO:colcon.colcon_core.shell:Creating package script '/home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/package.zsh'
+[0.433s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robogait/azure_kinect_ws/install/body_tracking/share/colcon-core/packages/body_tracking)
+[0.517s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robogait/azure_kinect_ws/build/body_tracker_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/nav2_ws/install/nav2_gazebo_spawner:/home/robogait/ros2_serial/install/ourbotmanager:/home/robogait/ros2_ws/install/nav2_project:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/azure_kinect_ws/build/body_tracker_msgs -- -j8 -l8
+[0.611s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robogait/azure_kinect_ws/build/body_tracker_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/nav2_ws/install/nav2_gazebo_spawner:/home/robogait/ros2_serial/install/ourbotmanager:/home/robogait/ros2_ws/install/nav2_project:/opt/ros/foxy /usr/bin/cmake --install /home/robogait/azure_kinect_ws/build/body_tracker_msgs
+[0.648s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(body_tracker_msgs)
+[0.649s] Level 1:colcon.colcon_core.environment:checking '/home/robogait/azure_kinect_ws/install/body_tracker_msgs' for CMake module files
+[0.649s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robogait/azure_kinect_ws/build/body_tracker_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/nav2_ws/install/nav2_gazebo_spawner:/home/robogait/ros2_serial/install/ourbotmanager:/home/robogait/ros2_ws/install/nav2_project:/opt/ros/foxy /usr/bin/cmake --install /home/robogait/azure_kinect_ws/build/body_tracker_msgs
+[0.649s] Level 1:colcon.colcon_core.environment:checking '/home/robogait/azure_kinect_ws/install/body_tracker_msgs' for CMake config files
+[0.650s] Level 1:colcon.colcon_core.shell:create_environment_hook('body_tracker_msgs', 'cmake_prefix_path')
+[0.650s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robogait/azure_kinect_ws/install/body_tracker_msgs/share/body_tracker_msgs/hook/cmake_prefix_path.ps1'
+[0.651s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robogait/azure_kinect_ws/install/body_tracker_msgs/share/body_tracker_msgs/hook/cmake_prefix_path.dsv'
+[0.651s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robogait/azure_kinect_ws/install/body_tracker_msgs/share/body_tracker_msgs/hook/cmake_prefix_path.sh'
+[0.651s] Level 1:colcon.colcon_core.environment:checking '/home/robogait/azure_kinect_ws/install/body_tracker_msgs/lib'
+[0.651s] Level 1:colcon.colcon_core.shell:create_environment_hook('body_tracker_msgs', 'ld_library_path_lib')
+[0.651s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robogait/azure_kinect_ws/install/body_tracker_msgs/share/body_tracker_msgs/hook/ld_library_path_lib.ps1'
+[0.652s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robogait/azure_kinect_ws/install/body_tracker_msgs/share/body_tracker_msgs/hook/ld_library_path_lib.dsv'
+[0.652s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robogait/azure_kinect_ws/install/body_tracker_msgs/share/body_tracker_msgs/hook/ld_library_path_lib.sh'
+[0.652s] Level 1:colcon.colcon_core.environment:checking '/home/robogait/azure_kinect_ws/install/body_tracker_msgs/bin'
+[0.652s] Level 1:colcon.colcon_core.environment:checking '/home/robogait/azure_kinect_ws/install/body_tracker_msgs/lib/pkgconfig/body_tracker_msgs.pc'
+[0.652s] Level 1:colcon.colcon_core.environment:checking '/home/robogait/azure_kinect_ws/install/body_tracker_msgs/lib/python3.8/site-packages'
+[0.652s] Level 1:colcon.colcon_core.environment:checking '/home/robogait/azure_kinect_ws/install/body_tracker_msgs/bin'
+[0.653s] INFO:colcon.colcon_core.shell:Creating package script '/home/robogait/azure_kinect_ws/install/body_tracker_msgs/share/body_tracker_msgs/package.ps1'
+[0.653s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robogait/azure_kinect_ws/install/body_tracker_msgs/share/body_tracker_msgs/package.dsv'
+[0.653s] INFO:colcon.colcon_core.shell:Creating package script '/home/robogait/azure_kinect_ws/install/body_tracker_msgs/share/body_tracker_msgs/package.sh'
+[0.653s] INFO:colcon.colcon_core.shell:Creating package script '/home/robogait/azure_kinect_ws/install/body_tracker_msgs/share/body_tracker_msgs/package.bash'
+[0.654s] INFO:colcon.colcon_core.shell:Creating package script '/home/robogait/azure_kinect_ws/install/body_tracker_msgs/share/body_tracker_msgs/package.zsh'
+[0.654s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robogait/azure_kinect_ws/install/body_tracker_msgs/share/colcon-core/packages/body_tracker_msgs)
+[0.748s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(body_tracker_msgs)
+[0.748s] Level 1:colcon.colcon_core.environment:checking '/home/robogait/azure_kinect_ws/install/body_tracker_msgs' for CMake module files
+[0.749s] Level 1:colcon.colcon_core.environment:checking '/home/robogait/azure_kinect_ws/install/body_tracker_msgs' for CMake config files
+[0.749s] Level 1:colcon.colcon_core.shell:create_environment_hook('body_tracker_msgs', 'cmake_prefix_path')
+[0.749s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robogait/azure_kinect_ws/install/body_tracker_msgs/share/body_tracker_msgs/hook/cmake_prefix_path.ps1'
+[0.750s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robogait/azure_kinect_ws/install/body_tracker_msgs/share/body_tracker_msgs/hook/cmake_prefix_path.dsv'
+[0.750s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robogait/azure_kinect_ws/install/body_tracker_msgs/share/body_tracker_msgs/hook/cmake_prefix_path.sh'
+[0.750s] Level 1:colcon.colcon_core.environment:checking '/home/robogait/azure_kinect_ws/install/body_tracker_msgs/lib'
+[0.750s] Level 1:colcon.colcon_core.shell:create_environment_hook('body_tracker_msgs', 'ld_library_path_lib')
+[0.751s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robogait/azure_kinect_ws/install/body_tracker_msgs/share/body_tracker_msgs/hook/ld_library_path_lib.ps1'
+[0.751s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robogait/azure_kinect_ws/install/body_tracker_msgs/share/body_tracker_msgs/hook/ld_library_path_lib.dsv'
+[0.751s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robogait/azure_kinect_ws/install/body_tracker_msgs/share/body_tracker_msgs/hook/ld_library_path_lib.sh'
+[0.751s] Level 1:colcon.colcon_core.environment:checking '/home/robogait/azure_kinect_ws/install/body_tracker_msgs/bin'
+[0.751s] Level 1:colcon.colcon_core.environment:checking '/home/robogait/azure_kinect_ws/install/body_tracker_msgs/lib/pkgconfig/body_tracker_msgs.pc'
+[0.752s] Level 1:colcon.colcon_core.environment:checking '/home/robogait/azure_kinect_ws/install/body_tracker_msgs/lib/python3.8/site-packages'
+[0.752s] Level 1:colcon.colcon_core.environment:checking '/home/robogait/azure_kinect_ws/install/body_tracker_msgs/bin'
+[0.752s] INFO:colcon.colcon_core.shell:Creating package script '/home/robogait/azure_kinect_ws/install/body_tracker_msgs/share/body_tracker_msgs/package.ps1'
+[0.752s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robogait/azure_kinect_ws/install/body_tracker_msgs/share/body_tracker_msgs/package.dsv'
+[0.753s] INFO:colcon.colcon_core.shell:Creating package script '/home/robogait/azure_kinect_ws/install/body_tracker_msgs/share/body_tracker_msgs/package.sh'
+[0.753s] INFO:colcon.colcon_core.shell:Creating package script '/home/robogait/azure_kinect_ws/install/body_tracker_msgs/share/body_tracker_msgs/package.bash'
+[0.753s] INFO:colcon.colcon_core.shell:Creating package script '/home/robogait/azure_kinect_ws/install/body_tracker_msgs/share/body_tracker_msgs/package.zsh'
+[0.753s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robogait/azure_kinect_ws/install/body_tracker_msgs/share/colcon-core/packages/body_tracker_msgs)
+[2.161s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robogait/azure_kinect_ws/build/kinect_azure_body_tracker' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/nav2_ws/install/nav2_gazebo_spawner:/home/robogait/ros2_serial/install/ourbotmanager:/home/robogait/ros2_ws/install/nav2_project:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/azure_kinect_ws/build/kinect_azure_body_tracker -- -j8 -l8
+[2.228s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robogait/azure_kinect_ws/build/kinect_azure_body_tracker': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/nav2_ws/install/nav2_gazebo_spawner:/home/robogait/ros2_serial/install/ourbotmanager:/home/robogait/ros2_ws/install/nav2_project:/opt/ros/foxy /usr/bin/cmake --install /home/robogait/azure_kinect_ws/build/kinect_azure_body_tracker
+[2.247s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kinect_azure_body_tracker)
+[2.248s] Level 1:colcon.colcon_core.environment:checking '/home/robogait/azure_kinect_ws/install/kinect_azure_body_tracker' for CMake module files
+[2.248s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robogait/azure_kinect_ws/build/kinect_azure_body_tracker' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/nav2_ws/install/nav2_gazebo_spawner:/home/robogait/ros2_serial/install/ourbotmanager:/home/robogait/ros2_ws/install/nav2_project:/opt/ros/foxy /usr/bin/cmake --install /home/robogait/azure_kinect_ws/build/kinect_azure_body_tracker
+[2.248s] Level 1:colcon.colcon_core.environment:checking '/home/robogait/azure_kinect_ws/install/kinect_azure_body_tracker' for CMake config files
+[2.248s] Level 1:colcon.colcon_core.shell:create_environment_hook('kinect_azure_body_tracker', 'cmake_prefix_path')
+[2.249s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robogait/azure_kinect_ws/install/kinect_azure_body_tracker/share/kinect_azure_body_tracker/hook/cmake_prefix_path.ps1'
+[2.249s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robogait/azure_kinect_ws/install/kinect_azure_body_tracker/share/kinect_azure_body_tracker/hook/cmake_prefix_path.dsv'
+[2.249s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robogait/azure_kinect_ws/install/kinect_azure_body_tracker/share/kinect_azure_body_tracker/hook/cmake_prefix_path.sh'
+[2.250s] Level 1:colcon.colcon_core.environment:checking '/home/robogait/azure_kinect_ws/install/kinect_azure_body_tracker/lib'
+[2.250s] Level 1:colcon.colcon_core.environment:checking '/home/robogait/azure_kinect_ws/install/kinect_azure_body_tracker/bin'
+[2.250s] Level 1:colcon.colcon_core.environment:checking '/home/robogait/azure_kinect_ws/install/kinect_azure_body_tracker/lib/pkgconfig/kinect_azure_body_tracker.pc'
+[2.250s] Level 1:colcon.colcon_core.environment:checking '/home/robogait/azure_kinect_ws/install/kinect_azure_body_tracker/lib/python3.8/site-packages'
+[2.250s] Level 1:colcon.colcon_core.environment:checking '/home/robogait/azure_kinect_ws/install/kinect_azure_body_tracker/bin'
+[2.250s] INFO:colcon.colcon_core.shell:Creating package script '/home/robogait/azure_kinect_ws/install/kinect_azure_body_tracker/share/kinect_azure_body_tracker/package.ps1'
+[2.250s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robogait/azure_kinect_ws/install/kinect_azure_body_tracker/share/kinect_azure_body_tracker/package.dsv'
+[2.251s] INFO:colcon.colcon_core.shell:Creating package script '/home/robogait/azure_kinect_ws/install/kinect_azure_body_tracker/share/kinect_azure_body_tracker/package.sh'
+[2.251s] INFO:colcon.colcon_core.shell:Creating package script '/home/robogait/azure_kinect_ws/install/kinect_azure_body_tracker/share/kinect_azure_body_tracker/package.bash'
+[2.251s] INFO:colcon.colcon_core.shell:Creating package script '/home/robogait/azure_kinect_ws/install/kinect_azure_body_tracker/share/kinect_azure_body_tracker/package.zsh'
+[2.251s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robogait/azure_kinect_ws/install/kinect_azure_body_tracker/share/colcon-core/packages/kinect_azure_body_tracker)
+[2.297s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kinect_azure_body_tracker)
+[2.297s] Level 1:colcon.colcon_core.environment:checking '/home/robogait/azure_kinect_ws/install/kinect_azure_body_tracker' for CMake module files
+[2.298s] Level 1:colcon.colcon_core.environment:checking '/home/robogait/azure_kinect_ws/install/kinect_azure_body_tracker' for CMake config files
+[2.298s] Level 1:colcon.colcon_core.shell:create_environment_hook('kinect_azure_body_tracker', 'cmake_prefix_path')
+[2.298s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robogait/azure_kinect_ws/install/kinect_azure_body_tracker/share/kinect_azure_body_tracker/hook/cmake_prefix_path.ps1'
+[2.298s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robogait/azure_kinect_ws/install/kinect_azure_body_tracker/share/kinect_azure_body_tracker/hook/cmake_prefix_path.dsv'
+[2.299s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robogait/azure_kinect_ws/install/kinect_azure_body_tracker/share/kinect_azure_body_tracker/hook/cmake_prefix_path.sh'
+[2.299s] Level 1:colcon.colcon_core.environment:checking '/home/robogait/azure_kinect_ws/install/kinect_azure_body_tracker/lib'
+[2.299s] Level 1:colcon.colcon_core.environment:checking '/home/robogait/azure_kinect_ws/install/kinect_azure_body_tracker/bin'
+[2.299s] Level 1:colcon.colcon_core.environment:checking '/home/robogait/azure_kinect_ws/install/kinect_azure_body_tracker/lib/pkgconfig/kinect_azure_body_tracker.pc'
+[2.299s] Level 1:colcon.colcon_core.environment:checking '/home/robogait/azure_kinect_ws/install/kinect_azure_body_tracker/lib/python3.8/site-packages'
+[2.299s] Level 1:colcon.colcon_core.environment:checking '/home/robogait/azure_kinect_ws/install/kinect_azure_body_tracker/bin'
+[2.300s] INFO:colcon.colcon_core.shell:Creating package script '/home/robogait/azure_kinect_ws/install/kinect_azure_body_tracker/share/kinect_azure_body_tracker/package.ps1'
+[2.300s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robogait/azure_kinect_ws/install/kinect_azure_body_tracker/share/kinect_azure_body_tracker/package.dsv'
+[2.300s] INFO:colcon.colcon_core.shell:Creating package script '/home/robogait/azure_kinect_ws/install/kinect_azure_body_tracker/share/kinect_azure_body_tracker/package.sh'
+[2.300s] INFO:colcon.colcon_core.shell:Creating package script '/home/robogait/azure_kinect_ws/install/kinect_azure_body_tracker/share/kinect_azure_body_tracker/package.bash'
+[2.300s] INFO:colcon.colcon_core.shell:Creating package script '/home/robogait/azure_kinect_ws/install/kinect_azure_body_tracker/share/kinect_azure_body_tracker/package.zsh'
+[2.301s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robogait/azure_kinect_ws/install/kinect_azure_body_tracker/share/colcon-core/packages/kinect_azure_body_tracker)
+[2.301s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.301s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.301s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.301s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.306s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.306s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.306s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.314s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.314s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robogait/azure_kinect_ws/install/local_setup.ps1'
+[2.315s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/robogait/azure_kinect_ws/install/_local_setup_util_ps1.py'
+[2.316s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robogait/azure_kinect_ws/install/setup.ps1'
+[2.318s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robogait/azure_kinect_ws/install/local_setup.sh'
+[2.318s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/robogait/azure_kinect_ws/install/_local_setup_util_sh.py'
+[2.318s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robogait/azure_kinect_ws/install/setup.sh'
+[2.320s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robogait/azure_kinect_ws/install/local_setup.bash'
+[2.320s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robogait/azure_kinect_ws/install/setup.bash'
+[2.322s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robogait/azure_kinect_ws/install/local_setup.zsh'
+[2.323s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robogait/azure_kinect_ws/install/setup.zsh'

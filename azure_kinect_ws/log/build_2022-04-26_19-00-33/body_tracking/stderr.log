@@ -1,0 +1,35 @@
+Tenemos la info en /home/robogait/azure_kinect_ws/src/body_tracking || /home/robogait/azure_kinect_ws/src/body_tracking;/opt/ros/foxy/share/fastrtps_cmake_module/cmake/Modules
+CMake Warning (dev) at CMakeLists.txt:41 (find_package):
+  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  CMake variable k4abt_ROOT is set to:
+
+    /usr
+
+  For compatibility, CMake is ignoring the variable.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+[01m[Kc++:[m[K [01;31m[Kerror: [m[Kunrecognized command line option ‘[01m[K-Wexta[m[K’; did you mean ‘[01m[K-Wextra[m[K’?
+[01m[Kc++:[m[K [01;31m[Kerror: [m[Kunrecognized command line option ‘[01m[K-Wexta[m[K’; did you mean ‘[01m[K-Wextra[m[K’?
+[01m[Kc++:[m[K [01;31m[Kerror: [m[Kunrecognized command line option ‘[01m[K-Wexta[m[K’; did you mean ‘[01m[K-Wextra[m[K’?
+[01m[Kc++:[m[K [01;31m[Kerror: [m[Kunrecognized command line option ‘[01m[K-Wpedantric[m[K’; did you mean ‘[01m[K-Wpedantic[m[K’?
+[01m[Kc++:[m[K [01;31m[Kerror: [m[Kunrecognized command line option ‘[01m[K-Wpedantric[m[K’; did you mean ‘[01m[K-Wpedantic[m[K’?
+[01m[Kc++:[m[K [01;31m[Kerror: [m[Kunrecognized command line option ‘[01m[K-Wpedantric[m[K’; did you mean ‘[01m[K-Wpedantic[m[K’?
+make[2]: *** [CMakeFiles/talker.dir/build.make:63: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:352: CMakeFiles/talker.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/body_tracking_node.dir/build.make:63: CMakeFiles/body_tracking_node.dir/src/body_tracking_node.cpp.o] Error 1
+make[2]: *** [CMakeFiles/listener.dir/build.make:63: CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:271: CMakeFiles/body_tracking_node.dir/all] Error 2
+make[1]: *** [CMakeFiles/Makefile2:298: CMakeFiles/listener.dir/all] Error 2
+[01m[Kc++:[m[K [01;31m[Kerror: [m[Kunrecognized command line option ‘[01m[K-Wexta[m[K’; did you mean ‘[01m[K-Wextra[m[K’?
+[01m[Kc++:[m[K [01;31m[Kerror: [m[Kunrecognized command line option ‘[01m[K-Wpedantric[m[K’; did you mean ‘[01m[K-Wpedantic[m[K’?
+[01m[Kc++:[m[K [01;31m[Kerror: [m[Kunrecognized command line option ‘[01m[K-Wexta[m[K’; did you mean ‘[01m[K-Wextra[m[K’?
+make[2]: *** [CMakeFiles/body_tracking__rosidl_typesupport_fastrtps_cpp.dir/build.make:78: CMakeFiles/body_tracking__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/body_tracking/msg/detail/dds_fastrtps/hip_coordinates__type_support.cpp.o] Error 1
+[01m[Kc++:[m[K [01;31m[Kerror: [m[Kunrecognized command line option ‘[01m[K-Wpedantric[m[K’; did you mean ‘[01m[K-Wpedantic[m[K’?
+make[1]: *** [CMakeFiles/Makefile2:529: CMakeFiles/body_tracking__rosidl_typesupport_fastrtps_cpp.dir/all] Error 2
+make[2]: *** [CMakeFiles/prueba_talker.dir/build.make:63: CMakeFiles/prueba_talker.dir/src/main.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:325: CMakeFiles/prueba_talker.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

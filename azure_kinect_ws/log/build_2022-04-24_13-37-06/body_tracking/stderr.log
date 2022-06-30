@@ -1,0 +1,21 @@
+CMake Error at /opt/ros/foxy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:145 (target_link_libraries):
+  The keyword signature for target_link_libraries has already been used with
+  the target "prueba_talker".  All uses of target_link_libraries with a
+  target must be either all-keyword or all-plain.
+
+  The uses of the keyword signature are here:
+
+   * CMakeLists.txt:58 (target_link_libraries)
+
+Call Stack (most recent call first):
+  CMakeLists.txt:65 (ament_target_dependencies)
+
+
+CMake Error at /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:40 (message):
+  rosidl_target_interfaces() the second argument 'body_tracking' must be a
+  valid target name
+Call Stack (most recent call first):
+  CMakeLists.txt:67 (rosidl_target_interfaces)
+
+
+make: *** [Makefile:924: cmake_check_build_system] Error 1

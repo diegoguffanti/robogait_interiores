@@ -1,0 +1,11 @@
+[ 20%] Built target tf2_broadcaster_person
+[ 20%] Built target publisher_initial_pose
+[ 30%] Built target robot_controller
+[ 40%] Built target tf2_broadcaster
+[ 50%] Built target robot_controller_position
+[ 60%] Built target publisher_subscriber
+[ 70%] Built target robot_odom_tf2_listener
+[ 80%] Built target robot_controller_straight
+[35m[1mScanning dependencies of target robot_controller_center_person[0m
+[ 90%] Built target person_odom_tf2_listener
+[ 95%] [32mBuilding CXX object CMakeFiles/robot_controller_center_person.dir/src/robot_controller_center_person.cpp.o[0m

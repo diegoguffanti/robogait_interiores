@@ -1,0 +1,76 @@
+[0.014s] Invoking command in '/home/robogait/catkin_ws/build/pkg_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/nav2_ws/install/nav2_gazebo_spawner:/home/robogait/ros2_serial/install/ourbotmanager:/home/robogait/ros2_ws/install/nav2_project:/opt/ros/foxy /bin/cmake --build /home/robogait/catkin_ws/build/pkg_navigation -- -j8 -l8
+[0.043s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.067s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.184s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.194s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.226s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.228s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.328s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.364s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.367s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.461s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.482s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[0.528s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[0.572s] -- Found tf2: 0.13.13 (/opt/ros/foxy/share/tf2/cmake)
+[0.579s] -- Found tf2_ros: 0.13.13 (/opt/ros/foxy/share/tf2_ros/cmake)
+[0.785s] -- Found turtlesim: 1.2.5 (/home/robogait/tutorials_ros2/install/turtlesim/share/turtlesim/cmake)
+[0.818s] -- Found body_tracker_msgs: 0.0.0 (/home/robogait/azure_kinect_ws/install/body_tracker_msgs/share/body_tracker_msgs/cmake)
+[0.933s] -- Configuring done
+[0.982s] -- Generating done
+[0.984s] -- Build files have been written to: /home/robogait/catkin_ws/build/pkg_navigation
+[1.015s] [35m[1mScanning dependencies of target tf2_broadcaster_camera[0m
+[1.044s] [ 40%] Built target tf2_broadcaster_person
+[1.044s] [ 40%] Built target tf2_broadcaster
+[1.044s] [ 40%] Built target publisher_initial_pose
+[1.044s] [ 40%] Built target publisher_subscriber
+[1.044s] [ 50%] Built target robot_controller_position
+[1.045s] [ 60%] Built target robot_odom_tf2_listener
+[1.051s] [ 70%] Built target robot_controller
+[1.058s] [ 75%] [32mBuilding CXX object CMakeFiles/tf2_broadcaster_camera.dir/src/tf2_broadcaster_camera.cpp.o[0m
+[1.077s] [ 85%] Built target robot_controller_straight
+[1.079s] [ 95%] Built target person_odom_tf2_listener
+[1.851s] [01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/tf2_broadcaster_camera.cpp:[m[K In constructor ‘[01m[KFramePublisher::FramePublisher()[m[K’:
+[1.851s] [01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/tf2_broadcaster_camera.cpp:35:63:[m[K [01;31m[Kerror: [m[K‘[01m[KFloat32y[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’; did you mean ‘[01m[KFloat32[m[K’?
+[1.851s]    35 |     subscription_ = this->create_subscription<std_msgs::msg::[01;31m[KFloat32y[m[K>("/camera_position", 10,std::bind(&FramePublisher::handle_camera_pose, this, _1));
+[1.851s]       |                                                              [01;31m[K^~~~~~~~[m[K
+[1.851s]       |                                                              [32m[KFloat32[m[K
+[1.851s] [01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/tf2_broadcaster_camera.cpp:35:63:[m[K [01;31m[Kerror: [m[K‘[01m[KFloat32y[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’; did you mean ‘[01m[KFloat32[m[K’?
+[1.851s]    35 |     subscription_ = this->create_subscription<std_msgs::msg::[01;31m[KFloat32y[m[K>("/camera_position", 10,std::bind(&FramePublisher::handle_camera_pose, this, _1));
+[1.852s]       |                                                              [01;31m[K^~~~~~~~[m[K
+[1.852s]       |                                                              [32m[KFloat32[m[K
+[1.855s] [01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/tf2_broadcaster_camera.cpp:35:152:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KFramePublisher::create_subscription<<expression error> >(const char [17], int, std::_Bind_helper<false, void (FramePublisher::*)(std::shared_ptr<nav_msgs::msg::Odometry_<std::allocator<void> > >), FramePublisher*, const std::_Placeholder<1>&>::type)[m[K’
+[1.855s]    35 | , 10,std::bind(&FramePublisher::handle_camera_pose, this, _1)[01;31m[K)[m[K;
+[1.855s]       |                                                              [01;31m[K^[m[K
+[1.855s] 
+[1.855s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[1.855s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[1.855s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.855s]                  from [01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/tf2_broadcaster_camera.cpp:3[m[K:
+[1.856s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:213:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class CallbackMessageT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<SubscriptionT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+[1.856s]   213 |   [01;36m[Kcreate_subscription[m[K(
+[1.856s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.856s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:213:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.856s] [01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/tf2_broadcaster_camera.cpp:35:152:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.856s]    35 | , 10,std::bind(&FramePublisher::handle_camera_pose, this, _1)[01;31m[K)[m[K;
+[1.856s]       |                                                              [01;31m[K^[m[K
+[1.856s] 
+[1.857s] [01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/tf2_broadcaster_camera.cpp:[m[K In member function ‘[01m[Kvoid FramePublisher::handle_camera_pose(std::shared_ptr<nav_msgs::msg::Odometry_<std::allocator<void> > >)[m[K’:
+[1.857s] [01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/tf2_broadcaster_camera.cpp:61:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct nav_msgs::msg::Odometry_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct nav_msgs::msg::Odometry_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kdata[m[K’
+[1.857s]    61 |     q_camera.setRPY( 0, 0, msg->[01;31m[Kdata[m[K);
+[1.857s]       |                                 [01;31m[K^~~~[m[K
+[1.857s] [01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/tf2_broadcaster_camera.cpp:63:39:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Ktf2::QuadWord::x[m[K’ from type ‘[01m[Kconst tf2Scalar& (tf2::QuadWord::)() const[m[K’ {aka ‘[01m[Kconst double& (tf2::QuadWord::)() const[m[K’} to type ‘[01m[Kgeometry_msgs::msg::Quaternion_<std::allocator<void> >::_x_type[m[K’ {aka ‘[01m[Kdouble[m[K’}
+[1.857s]    63 |     t.transform.rotation.x = q_camera.[01;31m[Kx[m[K;
+[1.857s]       |                                       [01;31m[K^[m[K
+[1.858s] [01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/tf2_broadcaster_camera.cpp:64:39:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Ktf2::QuadWord::y[m[K’ from type ‘[01m[Kconst tf2Scalar& (tf2::QuadWord::)() const[m[K’ {aka ‘[01m[Kconst double& (tf2::QuadWord::)() const[m[K’} to type ‘[01m[Kgeometry_msgs::msg::Quaternion_<std::allocator<void> >::_y_type[m[K’ {aka ‘[01m[Kdouble[m[K’}
+[1.858s]    64 |     t.transform.rotation.y = q_camera.[01;31m[Ky[m[K;
+[1.858s]       |                                       [01;31m[K^[m[K
+[1.858s] [01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/tf2_broadcaster_camera.cpp:65:39:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Ktf2::QuadWord::z[m[K’ from type ‘[01m[Kconst tf2Scalar& (tf2::QuadWord::)() const[m[K’ {aka ‘[01m[Kconst double& (tf2::QuadWord::)() const[m[K’} to type ‘[01m[Kgeometry_msgs::msg::Quaternion_<std::allocator<void> >::_z_type[m[K’ {aka ‘[01m[Kdouble[m[K’}
+[1.858s]    65 |     t.transform.rotation.z = q_camera.[01;31m[Kz[m[K;
+[1.858s]       |                                       [01;31m[K^[m[K
+[1.858s] [01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/tf2_broadcaster_camera.cpp:66:39:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Ktf2::QuadWord::w[m[K’ from type ‘[01m[Kconst tf2Scalar& (tf2::QuadWord::)() const[m[K’ {aka ‘[01m[Kconst double& (tf2::QuadWord::)() const[m[K’} to type ‘[01m[Kgeometry_msgs::msg::Quaternion_<std::allocator<void> >::_w_type[m[K’ {aka ‘[01m[Kdouble[m[K’}
+[1.858s]    66 |     t.transform.rotation.w = q_camera.[01;31m[Kw[m[K;
+[1.858s]       |                                       [01;31m[K^[m[K
+[2.441s] make[2]: *** [CMakeFiles/tf2_broadcaster_camera.dir/build.make:63: CMakeFiles/tf2_broadcaster_camera.dir/src/tf2_broadcaster_camera.cpp.o] Error 1
+[2.441s] make[1]: *** [CMakeFiles/Makefile2:123: CMakeFiles/tf2_broadcaster_camera.dir/all] Error 2
+[2.441s] make: *** [Makefile:141: all] Error 2
+[2.443s] Invoked command in '/home/robogait/catkin_ws/build/pkg_navigation' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/nav2_ws/install/nav2_gazebo_spawner:/home/robogait/ros2_serial/install/ourbotmanager:/home/robogait/ros2_ws/install/nav2_project:/opt/ros/foxy /bin/cmake --build /home/robogait/catkin_ws/build/pkg_navigation -- -j8 -l8

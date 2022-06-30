@@ -1,0 +1,56 @@
+[0.015s] Invoking command in '/home/robogait/catkin_ws/build/pkg_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/nav2_ws/install/nav2_gazebo_spawner:/home/robogait/ros2_serial/install/ourbotmanager:/home/robogait/ros2_ws/install/nav2_project:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/catkin_ws/build/pkg_navigation -- -j8 -l8
+[0.068s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.093s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.204s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.214s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.246s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.249s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.343s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.379s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.381s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.472s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.493s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[0.536s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[0.578s] -- Found tf2: 0.13.13 (/opt/ros/foxy/share/tf2/cmake)
+[0.585s] -- Found tf2_ros: 0.13.13 (/opt/ros/foxy/share/tf2_ros/cmake)
+[0.782s] -- Found turtlesim: 1.2.5 (/home/robogait/tutorials_ros2/install/turtlesim/share/turtlesim/cmake)
+[0.814s] -- Found body_tracker_msgs: 0.0.0 (/home/robogait/azure_kinect_ws/install/body_tracker_msgs/share/body_tracker_msgs/cmake)
+[0.917s] -- Configuring done
+[0.952s] -- Generating done
+[0.953s] -- Build files have been written to: /home/robogait/catkin_ws/build/pkg_navigation
+[0.981s] [35m[1mScanning dependencies of target tf2_broadcaster_person[0m
+[1.010s] [ 42%] Built target robot_controller
+[1.010s] [ 42%] Built target tf2_broadcaster
+[1.010s] [ 42%] Built target robot_odom_tf2_listener
+[1.010s] [ 57%] Built target publisher_initial_pose
+[1.011s] [ 71%] Built target publisher_subscriber
+[1.015s] [ 85%] Built target robot_controller_position
+[1.043s] [ 92%] [32mBuilding CXX object CMakeFiles/tf2_broadcaster_person.dir/src/tf2_broadcaster_person.cpp.o[0m
+[1.850s] [01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/tf2_broadcaster_person.cpp:75:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[1.850s]    75 | [01;31m[K}[m[K
+[1.850s]       | [01;31m[K^[m[K
+[1.850s] [01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/tf2_broadcaster_person.cpp:17:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[1.850s]    17 | [01;36m[K{[m[K
+[1.850s]       | [01;36m[K^[m[K
+[1.853s] [01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/tf2_broadcaster_person.cpp:[m[K In constructor ‘[01m[KFramePublisher::FramePublisher()[m[K’:
+[1.853s] [01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/tf2_broadcaster_person.cpp:26:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf_broadcaster_[m[K’ was not declared in this scope
+[1.853s]    26 |     [01;31m[Ktf_broadcaster_[m[K =
+[1.853s]       |     [01;31m[K^~~~~~~~~~~~~~~[m[K
+[1.860s] [01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/tf2_broadcaster_person.cpp:30:6:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_spine_bottom[m[K’ was not declared in this scope
+[1.860s]    30 |      [01;31m[Ksubscription_spine_bottom[m[K = this->create_subscription<body_tracker_msgs::msg::SpineBottom>("body_tracker_simplified", 10, bind(&FramePublisher::handle_person_pose, this,
+[1.860s]       |      [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.861s] [01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/tf2_broadcaster_person.cpp:30:150:[m[K [01;31m[Kerror: [m[K‘[01m[Khandle_person_pose[m[K’ is not a member of ‘[01m[KFramePublisher[m[K’
+[1.861s]    30 | Bottom>("body_tracker_simplified", 10, bind(&FramePublisher::[01;31m[Khandle_person_pose[m[K, this,
+[1.862s]       |                                                              [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[1.862s] 
+[1.862s] [01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/tf2_broadcaster_person.cpp:32:3:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K}[m[K’ token
+[1.862s]    32 |   [01;31m[K}[m[K
+[1.862s]       |   [01;31m[K^[m[K
+[1.864s] [01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/tf2_broadcaster_person.cpp:[m[K At global scope:
+[1.864s] [01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/tf2_broadcaster_person.cpp:75:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+[1.864s]    75 | [01;31m[K}[m[K
+[1.864s]       | [01;31m[K^[m[K
+[2.375s] make[2]: *** [CMakeFiles/tf2_broadcaster_person.dir/build.make:63: CMakeFiles/tf2_broadcaster_person.dir/src/tf2_broadcaster_person.cpp.o] Error 1
+[2.375s] make[1]: *** [CMakeFiles/Makefile2:144: CMakeFiles/tf2_broadcaster_person.dir/all] Error 2
+[2.376s] make: *** [Makefile:141: all] Error 2
+[2.378s] Invoked command in '/home/robogait/catkin_ws/build/pkg_navigation' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/nav2_ws/install/nav2_gazebo_spawner:/home/robogait/ros2_serial/install/ourbotmanager:/home/robogait/ros2_ws/install/nav2_project:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/catkin_ws/build/pkg_navigation -- -j8 -l8

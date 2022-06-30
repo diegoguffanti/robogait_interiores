@@ -1,0 +1,36 @@
+[0.011s] Invoking command in '/home/robogait/azure_kinect_ws/build/body_tracking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy /usr/bin/cmake /home/robogait/azure_kinect_ws/src/body_tracking -DCMAKE_INSTALL_PREFIX=/home/robogait/azure_kinect_ws/install/body_tracking
+[0.020s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.034s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.132s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.136s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.156s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.158s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.229s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.259s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.260s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.343s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.363s] -- Found body_tracker_msgs: 0.0.0 (/home/robogait/azure_kinect_ws/install/body_tracker_msgs/share/body_tracker_msgs/cmake)
+[0.397s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.406s] CMake Error at CMakeLists.txt:60 (add_executable):
+[0.406s]   add_executable cannot create target "body_tracking_node" because another
+[0.406s]   target with the same name already exists.  The existing target is an
+[0.406s]   executable created in source directory
+[0.406s]   "/home/robogait/azure_kinect_ws/src/body_tracking".  See documentation for
+[0.406s]   policy CMP0002 for more details.
+[0.406s] 
+[0.406s] 
+[0.407s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.447s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.447s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.447s] -- Configured cppcheck include dirs: 
+[0.447s] -- Configured cppcheck exclude dirs and/or files: 
+[0.448s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.448s] -- Configured cpplint exclude dirs and/or files: 
+[0.448s] -- Added test 'lint_cmake' to check CMake code style
+[0.449s] -- Added test 'uncrustify' to check C / C++ code style
+[0.449s] -- Configured uncrustify additional arguments: 
+[0.449s] -- Added test 'xmllint' to check XML markup files
+[0.451s] -- Configuring incomplete, errors occurred!
+[0.451s] See also "/home/robogait/azure_kinect_ws/build/body_tracking/CMakeFiles/CMakeOutput.log".
+[0.451s] See also "/home/robogait/azure_kinect_ws/build/body_tracking/CMakeFiles/CMakeError.log".
+[0.455s] Invoked command in '/home/robogait/azure_kinect_ws/build/body_tracking' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy /usr/bin/cmake /home/robogait/azure_kinect_ws/src/body_tracking -DCMAKE_INSTALL_PREFIX=/home/robogait/azure_kinect_ws/install/body_tracking

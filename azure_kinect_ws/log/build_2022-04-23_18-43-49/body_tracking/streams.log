@@ -1,0 +1,64 @@
+[0.010s] Invoking command in '/home/robogait/azure_kinect_ws/build/body_tracking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/azure_kinect_ws/build/body_tracking -- -j8 -l8
+[0.027s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.041s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.041s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.144s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.164s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.165s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.235s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.264s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.265s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.347s] -- Found body_tracking: 0.0.0 (/home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/cmake)
+[0.351s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.371s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[0.442s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[0.498s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.502s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.516s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[0.517s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[0.531s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.531s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[0.531s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[0.540s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.545s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.545s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.546s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/robogait/azure_kinect_ws/src/body_tracking/include>
+[0.546s] -- Configured cppcheck exclude dirs and/or files: 
+[0.546s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.546s] -- Configured cpplint exclude dirs and/or files: 
+[0.547s] -- Added test 'lint_cmake' to check CMake code style
+[0.547s] -- Added test 'uncrustify' to check C / C++ code style
+[0.547s] -- Configured uncrustify additional arguments: 
+[0.547s] -- Added test 'xmllint' to check XML markup files
+[0.550s] -- Configuring done
+[0.570s] -- Generating done
+[0.572s] -- Build files have been written to: /home/robogait/azure_kinect_ws/build/body_tracking
+[0.590s] [35m[1mScanning dependencies of target body_tracking__cpp[0m
+[0.591s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.592s] [35m[1mScanning dependencies of target listener[0m
+[0.593s] [35m[1mScanning dependencies of target talker[0m
+[0.597s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.598s] [  8%] Built target body_tracking_node
+[0.610s] [ 11%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[0.610s] [ 13%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[0.674s] [01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/publisher_member_function.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Kbody_tracking/msg/hipCoordinates.hpp: No such file or directory
+[0.674s]     5 | #include [01;31m[K"body_tracking/msg/hipCoordinates.hpp"[m[K
+[0.674s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.674s] [01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/subscriber_member_function.cpp:4:10:[m[K [01;31m[Kfatal error: [m[Kbody_tracking/msg/hipCoordinates.hpp: No such file or directory
+[0.674s]     4 | #include [01;31m[K"body_tracking/msg/hipCoordinates.hpp"[m[K
+[0.674s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.674s] compilation terminated.
+[0.674s] compilation terminated.
+[0.678s] make[2]: *** [CMakeFiles/listener.dir/build.make:63: CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o] Error 1
+[0.678s] make[2]: *** [CMakeFiles/talker.dir/build.make:63: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+[0.678s] make[1]: *** [CMakeFiles/Makefile2:296: CMakeFiles/listener.dir/all] Error 2
+[0.678s] make[1]: *** Waiting for unfinished jobs....
+[0.678s] make[1]: *** [CMakeFiles/Makefile2:323: CMakeFiles/talker.dir/all] Error 2
+[0.752s] [ 13%] Built target body_tracking__cpp
+[0.763s] [35m[1mScanning dependencies of target body_tracking__rosidl_generator_c[0m
+[0.770s] [ 17%] [32mBuilding C object CMakeFiles/body_tracking__rosidl_generator_c.dir/rosidl_generator_c/body_tracking/msg/detail/num__functions.c.o[0m
+[0.770s] [ 17%] [32mBuilding C object CMakeFiles/body_tracking__rosidl_generator_c.dir/rosidl_generator_c/body_tracking/msg/detail/hip_coordinates__functions.c.o[0m
+[0.793s] [ 20%] [32m[1mLinking C shared library libbody_tracking__rosidl_generator_c.so[0m
+[0.814s] [ 20%] Built target body_tracking__rosidl_generator_c
+[0.815s] make: *** [Makefile:141: all] Error 2
+[0.817s] Invoked command in '/home/robogait/azure_kinect_ws/build/body_tracking' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/azure_kinect_ws/build/body_tracking -- -j8 -l8

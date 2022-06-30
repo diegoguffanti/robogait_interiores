@@ -1,0 +1,10 @@
+13:25:46 **** Incremental Build of configuration Debug for project firmware_interiores_v2_nucleo_f446ze ****
+make -j8 all 
+arm-none-eabi-size   firmware_interiores_v2_nucleo_f446ze.elf 
+   text	   data	    bss	    dec	    hex	filename
+  80264	    784	  10032	  91080	  163c8	firmware_interiores_v2_nucleo_f446ze.elf
+Finished building: default.size.stdout
+ 
+
+13:25:46 Build Finished. 0 errors, 0 warnings. (took 173ms)
+

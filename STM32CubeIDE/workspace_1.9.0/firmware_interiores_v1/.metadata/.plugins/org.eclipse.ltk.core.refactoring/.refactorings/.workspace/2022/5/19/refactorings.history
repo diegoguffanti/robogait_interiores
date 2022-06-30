@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;6283A1_AnalogFlicker&apos;" deleteContents="false" description="Delete resource &apos;6283A1_AnalogFlicker&apos;" element1="/6283A1_AnalogFlicker" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1651672096694"/>
+</session>

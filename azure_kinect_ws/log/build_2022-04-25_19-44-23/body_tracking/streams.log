@@ -1,0 +1,49 @@
+[0.010s] Invoking command in '/home/robogait/azure_kinect_ws/build/body_tracking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/azure_kinect_ws/build/body_tracking -- -j8 -l8
+[0.043s] [35m[1mScanning dependencies of target prueba_talker[0m
+[0.048s] [  5%] Built target body_tracking_node
+[0.048s] [  7%] Built target body_tracking__cpp
+[0.049s] [ 15%] Built target body_tracking__rosidl_generator_c
+[0.050s] [ 20%] Built target listener
+[0.053s] [ 25%] Built target talker
+[0.063s] [ 28%] [32mBuilding CXX object CMakeFiles/prueba_talker.dir/src/main.cpp.o[0m
+[0.065s] [ 35%] Built target body_tracking__rosidl_typesupport_cpp
+[0.065s] [ 43%] Built target body_tracking__rosidl_typesupport_introspection_c
+[0.066s] [ 51%] Built target body_tracking__rosidl_typesupport_c
+[0.066s] [ 58%] Built target body_tracking__rosidl_typesupport_introspection_cpp
+[0.069s] [ 66%] Built target body_tracking__rosidl_typesupport_fastrtps_cpp
+[0.086s] [ 74%] Built target body_tracking__rosidl_typesupport_fastrtps_c
+[0.100s] [ 74%] Built target body_tracking
+[0.115s] [ 76%] Built target body_tracking__py
+[0.134s] [ 82%] Built target body_tracking__python
+[0.150s] [ 97%] Built target body_tracking__rosidl_typesupport_fastrtps_c__pyext
+[0.151s] [ 97%] Built target body_tracking__rosidl_typesupport_introspection_c__pyext
+[0.151s] [ 97%] Built target body_tracking__rosidl_typesupport_c__pyext
+[1.836s] [100%] [32m[1mLinking CXX executable prueba_talker[0m
+[1.926s] /usr/bin/ld: CMakeFiles/prueba_talker.dir/src/main.cpp.o: in function `MinimalPublisher::timer_callback()':
+[1.926s] main.cpp:(.text._ZN16MinimalPublisher14timer_callbackEv[_ZN16MinimalPublisher14timer_callbackEv]+0x50): undefined reference to `k4a_device_get_capture'
+[1.926s] /usr/bin/ld: main.cpp:(.text._ZN16MinimalPublisher14timer_callbackEv[_ZN16MinimalPublisher14timer_callbackEv]+0xaa): undefined reference to `k4abt_tracker_enqueue_capture'
+[1.926s] /usr/bin/ld: main.cpp:(.text._ZN16MinimalPublisher14timer_callbackEv[_ZN16MinimalPublisher14timer_callbackEv]+0xc6): undefined reference to `k4a_capture_release'
+[1.926s] /usr/bin/ld: main.cpp:(.text._ZN16MinimalPublisher14timer_callbackEv[_ZN16MinimalPublisher14timer_callbackEv]+0x12a): undefined reference to `k4abt_tracker_pop_result'
+[1.926s] /usr/bin/ld: main.cpp:(.text._ZN16MinimalPublisher14timer_callbackEv[_ZN16MinimalPublisher14timer_callbackEv]+0x19c): undefined reference to `k4abt_frame_get_num_bodies'
+[1.926s] /usr/bin/ld: main.cpp:(.text._ZN16MinimalPublisher14timer_callbackEv[_ZN16MinimalPublisher14timer_callbackEv]+0x1e3): undefined reference to `k4abt_frame_get_body_skeleton'
+[1.926s] /usr/bin/ld: main.cpp:(.text._ZN16MinimalPublisher14timer_callbackEv[_ZN16MinimalPublisher14timer_callbackEv]+0x219): undefined reference to `k4abt_frame_get_body_id'
+[1.926s] /usr/bin/ld: main.cpp:(.text._ZN16MinimalPublisher14timer_callbackEv[_ZN16MinimalPublisher14timer_callbackEv]+0x28a): undefined reference to `k4abt_frame_get_body_index_map'
+[1.926s] /usr/bin/ld: main.cpp:(.text._ZN16MinimalPublisher14timer_callbackEv[_ZN16MinimalPublisher14timer_callbackEv]+0x2c3): undefined reference to `k4a_image_release'
+[1.927s] /usr/bin/ld: main.cpp:(.text._ZN16MinimalPublisher14timer_callbackEv[_ZN16MinimalPublisher14timer_callbackEv]+0x2e0): undefined reference to `k4abt_frame_release'
+[1.927s] /usr/bin/ld: CMakeFiles/prueba_talker.dir/src/main.cpp.o: in function `MinimalPublisher::print_body_index_map_middle_line(_k4a_image_t*)':
+[1.927s] main.cpp:(.text._ZN16MinimalPublisher32print_body_index_map_middle_lineEP12_k4a_image_t[_ZN16MinimalPublisher32print_body_index_map_middle_lineEP12_k4a_image_t]+0x1d): undefined reference to `k4a_image_get_buffer'
+[1.927s] /usr/bin/ld: main.cpp:(.text._ZN16MinimalPublisher32print_body_index_map_middle_lineEP12_k4a_image_t[_ZN16MinimalPublisher32print_body_index_map_middle_lineEP12_k4a_image_t]+0x2d): undefined reference to `k4a_image_get_stride_bytes'
+[1.927s] /usr/bin/ld: main.cpp:(.text._ZN16MinimalPublisher32print_body_index_map_middle_lineEP12_k4a_image_t[_ZN16MinimalPublisher32print_body_index_map_middle_lineEP12_k4a_image_t]+0x3b): undefined reference to `k4a_image_get_width_pixels'
+[1.927s] /usr/bin/ld: main.cpp:(.text._ZN16MinimalPublisher32print_body_index_map_middle_lineEP12_k4a_image_t[_ZN16MinimalPublisher32print_body_index_map_middle_lineEP12_k4a_image_t]+0x6a): undefined reference to `k4a_image_get_height_pixels'
+[1.927s] /usr/bin/ld: main.cpp:(.text._ZN16MinimalPublisher32print_body_index_map_middle_lineEP12_k4a_image_t[_ZN16MinimalPublisher32print_body_index_map_middle_lineEP12_k4a_image_t]+0x82): undefined reference to `k4a_image_get_width_pixels'
+[1.927s] /usr/bin/ld: main.cpp:(.text._ZN16MinimalPublisher32print_body_index_map_middle_lineEP12_k4a_image_t[_ZN16MinimalPublisher32print_body_index_map_middle_lineEP12_k4a_image_t]+0xb5): undefined reference to `k4a_image_get_width_pixels'
+[1.927s] /usr/bin/ld: CMakeFiles/prueba_talker.dir/src/main.cpp.o: in function `MinimalPublisher::Init()':
+[1.927s] main.cpp:(.text._ZN16MinimalPublisher4InitEv[_ZN16MinimalPublisher4InitEv]+0x79): undefined reference to `k4a_device_open'
+[1.927s] /usr/bin/ld: main.cpp:(.text._ZN16MinimalPublisher4InitEv[_ZN16MinimalPublisher4InitEv]+0xb9): undefined reference to `k4a_device_start_cameras'
+[1.927s] /usr/bin/ld: main.cpp:(.text._ZN16MinimalPublisher4InitEv[_ZN16MinimalPublisher4InitEv]+0x108): undefined reference to `k4a_device_get_calibration'
+[1.927s] /usr/bin/ld: main.cpp:(.text._ZN16MinimalPublisher4InitEv[_ZN16MinimalPublisher4InitEv]+0x1c4): undefined reference to `k4abt_tracker_create'
+[1.928s] collect2: error: ld returned 1 exit status
+[1.930s] make[2]: *** [CMakeFiles/prueba_talker.dir/build.make:136: prueba_talker] Error 1
+[1.930s] make[1]: *** [CMakeFiles/Makefile2:325: CMakeFiles/prueba_talker.dir/all] Error 2
+[1.930s] make: *** [Makefile:141: all] Error 2
+[1.931s] Invoked command in '/home/robogait/azure_kinect_ws/build/body_tracking' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/azure_kinect_ws/build/body_tracking -- -j8 -l8

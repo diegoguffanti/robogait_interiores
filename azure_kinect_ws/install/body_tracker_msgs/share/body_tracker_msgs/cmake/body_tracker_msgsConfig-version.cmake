@@ -1,0 +1,1 @@
+/home/robogait/azure_kinect_ws/build/body_tracker_msgs/ament_cmake_core/body_tracker_msgsConfig-version.cmake

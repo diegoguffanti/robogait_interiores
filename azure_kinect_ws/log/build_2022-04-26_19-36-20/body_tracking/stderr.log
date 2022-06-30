@@ -1,0 +1,18 @@
+CMake Error at CMakeLists.txt:40 (find_package):
+  By not providing "Findk4a_ROOT.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "k4a_ROOT",
+  but CMake did not find one.
+
+  Could not find a package configuration file provided by "k4a_ROOT" with any
+  of the following names:
+
+    k4a_ROOTConfig.cmake
+    k4a_root-config.cmake
+
+  Add the installation prefix of "k4a_ROOT" to CMAKE_PREFIX_PATH or set
+  "k4a_ROOT_DIR" to a directory containing one of the above files.  If
+  "k4a_ROOT" provides a separate development package or SDK, be sure it has
+  been installed.
+
+
+make: *** [Makefile:924: cmake_check_build_system] Error 1

@@ -1,0 +1,9 @@
+[ 50%] Built target publisher_initial_pose
+[ 50%] Built target robot_odom_tf2_listener
+[ 50%] Built target tf2_broadcaster_person
+[ 50%] Built target publisher_subscriber
+[ 50%] Built target robot_controller
+[ 60%] Built target tf2_broadcaster
+[ 70%] Built target robot_controller_position
+[ 80%] Built target robot_controller_straight
+[ 90%] Built target person_odom_tf2_listener

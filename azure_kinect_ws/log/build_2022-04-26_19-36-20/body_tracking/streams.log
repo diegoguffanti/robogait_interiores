@@ -1,0 +1,33 @@
+[0.012s] Invoking command in '/home/robogait/azure_kinect_ws/build/body_tracking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/azure_kinect_ws/build/body_tracking -- -j8 -l8
+[0.028s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.046s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.152s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.171s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.173s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.244s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.272s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.273s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.355s] -- Found body_tracking: 0.0.0 (/home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/cmake)
+[0.359s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.372s] CMake Error at CMakeLists.txt:40 (find_package):
+[0.372s]   By not providing "Findk4a_ROOT.cmake" in CMAKE_MODULE_PATH this project has
+[0.372s]   asked CMake to find a package configuration file provided by "k4a_ROOT",
+[0.372s]   but CMake did not find one.
+[0.372s] 
+[0.372s]   Could not find a package configuration file provided by "k4a_ROOT" with any
+[0.372s]   of the following names:
+[0.372s] 
+[0.372s]     k4a_ROOTConfig.cmake
+[0.372s]     k4a_root-config.cmake
+[0.372s] 
+[0.372s]   Add the installation prefix of "k4a_ROOT" to CMAKE_PREFIX_PATH or set
+[0.372s]   "k4a_ROOT_DIR" to a directory containing one of the above files.  If
+[0.372s]   "k4a_ROOT" provides a separate development package or SDK, be sure it has
+[0.372s]   been installed.
+[0.372s] 
+[0.372s] 
+[0.372s] -- Configuring incomplete, errors occurred!
+[0.373s] See also "/home/robogait/azure_kinect_ws/build/body_tracking/CMakeFiles/CMakeOutput.log".
+[0.373s] See also "/home/robogait/azure_kinect_ws/build/body_tracking/CMakeFiles/CMakeError.log".
+[0.377s] make: *** [Makefile:924: cmake_check_build_system] Error 1
+[0.378s] Invoked command in '/home/robogait/azure_kinect_ws/build/body_tracking' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/azure_kinect_ws/build/body_tracking -- -j8 -l8

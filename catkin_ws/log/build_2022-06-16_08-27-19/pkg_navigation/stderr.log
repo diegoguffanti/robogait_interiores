@@ -1,0 +1,27 @@
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/tf2_broadcaster_person.cpp:75:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+   75 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/tf2_broadcaster_person.cpp:17:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   17 | [01;36m[K{[m[K
+      | [01;36m[K^[m[K
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/tf2_broadcaster_person.cpp:[m[K In constructor ‘[01m[KFramePublisher::FramePublisher()[m[K’:
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/tf2_broadcaster_person.cpp:26:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf_broadcaster_[m[K’ was not declared in this scope
+   26 |     [01;31m[Ktf_broadcaster_[m[K =
+      |     [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/tf2_broadcaster_person.cpp:30:6:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_spine_bottom[m[K’ was not declared in this scope
+   30 |      [01;31m[Ksubscription_spine_bottom[m[K = this->create_subscription<body_tracker_msgs::msg::SpineBottom>("body_tracker_simplified", 10, bind(&FramePublisher::handle_person_pose, this,
+      |      [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/tf2_broadcaster_person.cpp:30:150:[m[K [01;31m[Kerror: [m[K‘[01m[Khandle_person_pose[m[K’ is not a member of ‘[01m[KFramePublisher[m[K’
+   30 | Bottom>("body_tracker_simplified", 10, bind(&FramePublisher::[01;31m[Khandle_person_pose[m[K, this,
+      |                                                              [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/tf2_broadcaster_person.cpp:32:3:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K}[m[K’ token
+   32 |   [01;31m[K}[m[K
+      |   [01;31m[K^[m[K
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/tf2_broadcaster_person.cpp:[m[K At global scope:
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/tf2_broadcaster_person.cpp:75:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+   75 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/tf2_broadcaster_person.dir/build.make:63: CMakeFiles/tf2_broadcaster_person.dir/src/tf2_broadcaster_person.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:144: CMakeFiles/tf2_broadcaster_person.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

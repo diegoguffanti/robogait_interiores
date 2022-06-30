@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/robogait/azure_kinect_ws/build/body_tracker_msgs/libbody_tracker_msgs__rosidl_typesupport_fastrtps_cpp.so" "TARGETS" "body_tracker_msgs__rosidl_typesupport_fastrtps_cpp" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

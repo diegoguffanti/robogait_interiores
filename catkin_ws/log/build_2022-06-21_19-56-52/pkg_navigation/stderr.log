@@ -1,0 +1,44 @@
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/tf2_broadcaster_camera.cpp:[m[K In constructor ‘[01m[KFramePublisher::FramePublisher()[m[K’:
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/tf2_broadcaster_camera.cpp:35:63:[m[K [01;31m[Kerror: [m[K‘[01m[KFloat32y[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’; did you mean ‘[01m[KFloat32[m[K’?
+   35 |     subscription_ = this->create_subscription<std_msgs::msg::[01;31m[KFloat32y[m[K>("/camera_position", 10,std::bind(&FramePublisher::handle_camera_pose, this, _1));
+      |                                                              [01;31m[K^~~~~~~~[m[K
+      |                                                              [32m[KFloat32[m[K
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/tf2_broadcaster_camera.cpp:35:63:[m[K [01;31m[Kerror: [m[K‘[01m[KFloat32y[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’; did you mean ‘[01m[KFloat32[m[K’?
+   35 |     subscription_ = this->create_subscription<std_msgs::msg::[01;31m[KFloat32y[m[K>("/camera_position", 10,std::bind(&FramePublisher::handle_camera_pose, this, _1));
+      |                                                              [01;31m[K^~~~~~~~[m[K
+      |                                                              [32m[KFloat32[m[K
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/tf2_broadcaster_camera.cpp:35:152:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KFramePublisher::create_subscription<<expression error> >(const char [17], int, std::_Bind_helper<false, void (FramePublisher::*)(std::shared_ptr<nav_msgs::msg::Odometry_<std::allocator<void> > >), FramePublisher*, const std::_Placeholder<1>&>::type)[m[K’
+   35 | , 10,std::bind(&FramePublisher::handle_camera_pose, this, _1)[01;31m[K)[m[K;
+      |                                                              [01;31m[K^[m[K
+
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/tf2_broadcaster_camera.cpp:3[m[K:
+[01m[K/opt/ros/foxy/include/rclcpp/node.hpp:213:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class CallbackMessageT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<SubscriptionT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+  213 |   [01;36m[Kcreate_subscription[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/node.hpp:213:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/tf2_broadcaster_camera.cpp:35:152:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   35 | , 10,std::bind(&FramePublisher::handle_camera_pose, this, _1)[01;31m[K)[m[K;
+      |                                                              [01;31m[K^[m[K
+
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/tf2_broadcaster_camera.cpp:[m[K In member function ‘[01m[Kvoid FramePublisher::handle_camera_pose(std::shared_ptr<nav_msgs::msg::Odometry_<std::allocator<void> > >)[m[K’:
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/tf2_broadcaster_camera.cpp:61:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct nav_msgs::msg::Odometry_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct nav_msgs::msg::Odometry_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kdata[m[K’
+   61 |     q_camera.setRPY( 0, 0, msg->[01;31m[Kdata[m[K);
+      |                                 [01;31m[K^~~~[m[K
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/tf2_broadcaster_camera.cpp:63:39:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Ktf2::QuadWord::x[m[K’ from type ‘[01m[Kconst tf2Scalar& (tf2::QuadWord::)() const[m[K’ {aka ‘[01m[Kconst double& (tf2::QuadWord::)() const[m[K’} to type ‘[01m[Kgeometry_msgs::msg::Quaternion_<std::allocator<void> >::_x_type[m[K’ {aka ‘[01m[Kdouble[m[K’}
+   63 |     t.transform.rotation.x = q_camera.[01;31m[Kx[m[K;
+      |                                       [01;31m[K^[m[K
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/tf2_broadcaster_camera.cpp:64:39:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Ktf2::QuadWord::y[m[K’ from type ‘[01m[Kconst tf2Scalar& (tf2::QuadWord::)() const[m[K’ {aka ‘[01m[Kconst double& (tf2::QuadWord::)() const[m[K’} to type ‘[01m[Kgeometry_msgs::msg::Quaternion_<std::allocator<void> >::_y_type[m[K’ {aka ‘[01m[Kdouble[m[K’}
+   64 |     t.transform.rotation.y = q_camera.[01;31m[Ky[m[K;
+      |                                       [01;31m[K^[m[K
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/tf2_broadcaster_camera.cpp:65:39:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Ktf2::QuadWord::z[m[K’ from type ‘[01m[Kconst tf2Scalar& (tf2::QuadWord::)() const[m[K’ {aka ‘[01m[Kconst double& (tf2::QuadWord::)() const[m[K’} to type ‘[01m[Kgeometry_msgs::msg::Quaternion_<std::allocator<void> >::_z_type[m[K’ {aka ‘[01m[Kdouble[m[K’}
+   65 |     t.transform.rotation.z = q_camera.[01;31m[Kz[m[K;
+      |                                       [01;31m[K^[m[K
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/tf2_broadcaster_camera.cpp:66:39:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Ktf2::QuadWord::w[m[K’ from type ‘[01m[Kconst tf2Scalar& (tf2::QuadWord::)() const[m[K’ {aka ‘[01m[Kconst double& (tf2::QuadWord::)() const[m[K’} to type ‘[01m[Kgeometry_msgs::msg::Quaternion_<std::allocator<void> >::_w_type[m[K’ {aka ‘[01m[Kdouble[m[K’}
+   66 |     t.transform.rotation.w = q_camera.[01;31m[Kw[m[K;
+      |                                       [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/tf2_broadcaster_camera.dir/build.make:63: CMakeFiles/tf2_broadcaster_camera.dir/src/tf2_broadcaster_camera.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:123: CMakeFiles/tf2_broadcaster_camera.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,19 @@
+[0.021s] Invoking command in '/home/robogait/azure_kinect_ws/build/kinect_azure_body_tracker': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/nav2_ws/install/nav2_gazebo_spawner:/home/robogait/ros2_serial/install/ourbotmanager:/home/robogait/ros2_ws/install/nav2_project:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/azure_kinect_ws/build/kinect_azure_body_tracker -- -j8 -l8
+[0.088s] [35m[1mScanning dependencies of target kinect_azure_body_tracker_recording_node_simplified[0m
+[0.120s] [ 14%] Built target kinect_azure_body_tracker_node_full_processing
+[0.128s] [ 28%] Built target kinect_azure_body_tracker_node
+[0.128s] [ 42%] Built target kinect_azure_body_tracker_node_plus_recording_test
+[0.135s] [ 50%] [32mBuilding CXX object CMakeFiles/kinect_azure_body_tracker_recording_node_simplified.dir/src/kinectAzure_body_tracker_node_plus_recording_simplified.cpp.o[0m
+[0.135s] [ 64%] Built target kinect_azure_body_tracker_node_simplified
+[0.136s] [ 78%] Built target kinect_azure_body_tracker_node_finite
+[0.137s] [ 92%] Built target kinect_azure_body_tracker_recording_node
+[0.928s] [01m[K/home/robogait/azure_kinect_ws/src/kinect_azure_body_tracker/src/kinectAzure_body_tracker_node_plus_recording_simplified.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::Init()[m[K’:
+[0.928s] [01m[K/home/robogait/azure_kinect_ws/src/kinect_azure_body_tracker/src/kinectAzure_body_tracker_node_plus_recording_simplified.cpp:198:54:[m[K [01;31m[Kerror: [m[K‘[01m[Kruta[m[K’ was not declared in this scope
+[0.928s]   198 |    printf("\tEmpezamos a grabar en el archivo %s\n", [01;31m[Kruta[m[K);
+[0.928s]       |                                                      [01;31m[K^~~~[m[K
+[1.438s] At global scope:
+[1.438s] [01m[Kcc1plus:[m[K [01;35m[Kwarning: [m[Kunrecognized command line option ‘[01m[K-Wno-dev[m[K’
+[1.445s] make[2]: *** [CMakeFiles/kinect_azure_body_tracker_recording_node_simplified.dir/build.make:63: CMakeFiles/kinect_azure_body_tracker_recording_node_simplified.dir/src/kinectAzure_body_tracker_node_plus_recording_simplified.cpp.o] Error 1
+[1.445s] make[1]: *** [CMakeFiles/Makefile2:225: CMakeFiles/kinect_azure_body_tracker_recording_node_simplified.dir/all] Error 2
+[1.445s] make: *** [Makefile:141: all] Error 2
+[1.448s] Invoked command in '/home/robogait/azure_kinect_ws/build/kinect_azure_body_tracker' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/nav2_ws/install/nav2_gazebo_spawner:/home/robogait/ros2_serial/install/ourbotmanager:/home/robogait/ros2_ws/install/nav2_project:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/azure_kinect_ws/build/kinect_azure_body_tracker -- -j8 -l8

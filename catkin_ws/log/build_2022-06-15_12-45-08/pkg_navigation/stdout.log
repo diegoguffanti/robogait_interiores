@@ -1,0 +1,6 @@
+[  8%] [32mBuilding CXX object CMakeFiles/robot_controller_position.dir/src/robot_controller_position.cpp.o[0m
+[ 25%] Built target publisher_subscriber
+[ 41%] Built target publisher_initial_pose
+[ 58%] Built target tf2_broadcaster
+[ 75%] Built target robot_odom_tf2_listener
+[ 91%] Built target robot_controller

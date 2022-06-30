@@ -1,0 +1,20 @@
+[35m[1mScanning dependencies of target robot_controller[0m
+[ 20%] Built target publisher_initial_pose
+[ 40%] Built target robot_odom_tf2_listener
+[ 60%] Built target publisher_subscriber
+[ 80%] [32mBuilding CXX object CMakeFiles/robot_controller.dir/src/robot_controller.cpp.o[0m
+[ 90%] Built target tf2_broadcaster
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller.cpp:[m[K In member function ‘[01m[Kvoid generic::loop()[m[K’:
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller.cpp:106:38:[m[K [01;31m[Kerror: [m[Kexpression cannot be used as a function
+  106 |         q1.setRPY(0, 0, 90(3.1415/180[01;31m[K)[m[K);
+      |                                      [01;31m[K^[m[K
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller.cpp:108:38:[m[K [01;31m[Kerror: [m[Kexpression cannot be used as a function
+  108 |         q1.setRPY(0, 0, 30(3.1415/180[01;31m[K)[m[K);
+      |                                      [01;31m[K^[m[K
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller.cpp:111:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kq[m[K’ was not declared in this scope; did you mean ‘[01m[Kq3[m[K’?
+  111 |         tf2::Matrix3x3 m1([01;31m[Kq[m[K);
+      |                           [01;31m[K^[m[K
+      |                           [32m[Kq3[m[K
+make[2]: *** [CMakeFiles/robot_controller.dir/build.make:63: CMakeFiles/robot_controller.dir/src/robot_controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/robot_controller.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

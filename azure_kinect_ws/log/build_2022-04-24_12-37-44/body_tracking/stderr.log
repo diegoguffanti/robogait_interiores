@@ -1,0 +1,9 @@
+In file included from [01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.c:16[m[K:
+[01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:143:10:[m[K [01;31m[Kfatal error: [m[Kcsignal: No such file or directory
+  143 | #include [01;31m[K<csignal>[m[K
+      |          [01;31m[K^~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/prueba_talker.dir/build.make:63: CMakeFiles/prueba_talker.dir/src/main.c.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:325: CMakeFiles/prueba_talker.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,10 @@
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/kinectAzure_body_tracker_node_plus_recording.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::close()[m[K’:
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/kinectAzure_body_tracker_node_plus_recording.cpp:352:38:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%f[m[K’ expects argument of type ‘[01m[Kdouble[m[K’, but argument 2 has type ‘[01m[Kuint64_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  352 |   printf("Recording time spent = [01;35m[K%0.2f[m[K\n", [32m[Kt_diff[m[K);
+      |                                  [01;35m[K~~~~^[m[K     [32m[K~~~~~~[m[K
+      |                                      [01;35m[K|[m[K     [32m[K|[m[K
+      |                                      [01;35m[K|[m[K     [32m[Kuint64_t {aka long unsigned int}[m[K
+      |                                      [01;35m[Kdouble[m[K
+      |                                  [32m[K%0.2ld[m[K
+At global scope:
+[01m[Kcc1plus:[m[K [01;35m[Kwarning: [m[Kunrecognized command line option ‘[01m[K-Wno-dev[m[K’

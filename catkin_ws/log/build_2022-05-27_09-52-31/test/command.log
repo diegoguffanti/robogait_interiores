@@ -1,0 +1,6 @@
+Invoking command in '/home/robogait/catkin_ws/build/test': /usr/bin/cmake /home/robogait/catkin_ws/src/test -DCMAKE_INSTALL_PREFIX=/home/robogait/catkin_ws/install/test
+Invoked command in '/home/robogait/catkin_ws/build/test' returned '0': /usr/bin/cmake /home/robogait/catkin_ws/src/test -DCMAKE_INSTALL_PREFIX=/home/robogait/catkin_ws/install/test
+Invoking command in '/home/robogait/catkin_ws/build/test': /usr/bin/cmake --build /home/robogait/catkin_ws/build/test -- -j8 -l8
+Invoked command in '/home/robogait/catkin_ws/build/test' returned '0': /usr/bin/cmake --build /home/robogait/catkin_ws/build/test -- -j8 -l8
+Invoking command in '/home/robogait/catkin_ws/build/test': /usr/bin/cmake --install /home/robogait/catkin_ws/build/test
+Invoked command in '/home/robogait/catkin_ws/build/test' returned '0': /usr/bin/cmake --install /home/robogait/catkin_ws/build/test

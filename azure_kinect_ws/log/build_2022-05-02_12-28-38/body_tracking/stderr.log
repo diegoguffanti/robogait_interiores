@@ -1,0 +1,8 @@
+CMake Error at CMakeLists.txt:60 (add_executable):
+  add_executable cannot create target "body_tracking_node" because another
+  target with the same name already exists.  The existing target is an
+  executable created in source directory
+  "/home/robogait/azure_kinect_ws/src/body_tracking".  See documentation for
+  policy CMP0002 for more details.
+
+

@@ -1,0 +1,24 @@
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller_position.cpp:[m[K In constructor ‘[01m[Kgeneric::generic()[m[K’:
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller_position.cpp:56:110:[m[K [01;31m[Kerror: [m[K‘[01m[Kcallback_odom[m[K’ is not a member of ‘[01m[Kgeneric[m[K’
+   56 |   subscription_robot_odom= this->create_subscription<nav_msgs::msg::Odometry>("odom",10, std::bind(&generic::[01;31m[Kcallback_odom[m[K, this, _1));
+      |                                                                                                              [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller_position.cpp:58:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_spine_bottom[m[K’ was not declared in this scope; did you mean ‘[01m[Ksubscription_robot_odom[m[K’?
+   58 |   [01;31m[Ksubscription_spine_bottom[m[K = this->create_subscription<body_tracker_msgs::msg::SpineBottom>("body_tracker_simplified", 10, bind(&MinimalSubscriber::topic_callback_spine_bottom, this, _1));
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |   [32m[Ksubscription_robot_odom[m[K
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller_position.cpp:58:131:[m[K [01;31m[Kerror: [m[K‘[01m[KMinimalSubscriber[m[K’ has not been declared
+   58 |   subscription_spine_bottom = this->create_subscription<body_tracker_msgs::msg::SpineBottom>("body_tracker_simplified", 10, bind(&[01;31m[KMinimalSubscriber[m[K::topic_callback_spine_bottom, this, _1));
+      |                                                                                                                                   [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller_position.cpp:[m[K In member function ‘[01m[Kvoid generic::controller()[m[K’:
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller_position.cpp:86:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kperson_vel[m[K’ was not declared in this scope
+   86 |        float control=[01;31m[Kperson_vel[m[K+(0.5*error);
+      |                      [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller_position.cpp:95:66:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_posx[m[K’ was not declared in this scope
+   95 |        cout<< "Control: "<<control<<" Error: "<<error<<" Pos: "<<[01;31m[Krobot_posx[m[K<<" Vel: "<<robot_velx<<endl;
+      |                                                                  [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller_position.cpp:95:88:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_velx[m[K’ was not declared in this scope
+   95 |        cout<< "Control: "<<control<<" Error: "<<error<<" Pos: "<<robot_posx<<" Vel: "<<[01;31m[Krobot_velx[m[K<<endl;
+      |                                                                                        [01;31m[K^~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/robot_controller_position.dir/build.make:63: CMakeFiles/robot_controller_position.dir/src/robot_controller_position.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:277: CMakeFiles/robot_controller_position.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

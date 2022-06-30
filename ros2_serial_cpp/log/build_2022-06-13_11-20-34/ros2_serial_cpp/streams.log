@@ -1,0 +1,11 @@
+[0.013s] Invoking command in '/home/robogait/ros2_serial_cpp/build/ros2_serial_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/nav2_ws/install/nav2_gazebo_spawner:/home/robogait/ros2_serial/install/ourbotmanager:/home/robogait/ros2_ws/install/nav2_project:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/ros2_serial_cpp/build/ros2_serial_cpp -- -j8 -l8
+[0.055s] [35m[1mScanning dependencies of target driver_controller[0m
+[0.073s] [ 50%] [32mBuilding CXX object CMakeFiles/driver_controller.dir/src/driver_controller.cpp.o[0m
+[0.854s] [01m[K/home/robogait/ros2_serial_cpp/src/driver_controller.cpp:[m[K In member function ‘[01m[Kvoid driver_controller::loop()[m[K’:
+[0.854s] [01m[K/home/robogait/ros2_serial_cpp/src/driver_controller.cpp:131:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<rclcpp::Clock>[m[K’ {aka ‘[01m[Kclass std::shared_ptr<rclcpp::Clock>[m[K’} has no member named ‘[01m[Know[m[K’
+[0.855s]   131 |    odom_msg.header.stamp=this->get_clock().[01;31m[Know[m[K().to_msg()
+[0.855s]       |                                            [01;31m[K^~~[m[K
+[1.921s] make[2]: *** [CMakeFiles/driver_controller.dir/build.make:63: CMakeFiles/driver_controller.dir/src/driver_controller.cpp.o] Error 1
+[1.921s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/driver_controller.dir/all] Error 2
+[1.921s] make: *** [Makefile:141: all] Error 2
+[1.923s] Invoked command in '/home/robogait/ros2_serial_cpp/build/ros2_serial_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/nav2_ws/install/nav2_gazebo_spawner:/home/robogait/ros2_serial/install/ourbotmanager:/home/robogait/ros2_ws/install/nav2_project:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/ros2_serial_cpp/build/ros2_serial_cpp -- -j8 -l8

@@ -1,0 +1,58 @@
+-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+-- Found body_tracker_msgs: 0.0.0 (/home/robogait/azure_kinect_ws/install/body_tracker_msgs/share/body_tracker_msgs/cmake)
+-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/robogait/azure_kinect_ws/build/kinect_azure_body_tracker
+[35m[1mScanning dependencies of target kinect_azure_body_tracker_recording_node[0m
+[ 66%] Built target kinect_azure_body_tracker_node_simplified
+[ 66%] Built target kinect_azure_body_tracker_node
+[ 83%] [32mBuilding CXX object CMakeFiles/kinect_azure_body_tracker_recording_node.dir/src/kinectAzure_body_tracker_node_plus_recording_simplified.cpp.o[0m
+[01m[K/home/robogait/azure_kinect_ws/src/kinect_azure_body_tracker/src/kinectAzure_body_tracker_node_plus_recording_simplified.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::body_tracking()[m[K’:
+[01m[K/home/robogait/azure_kinect_ws/src/kinect_azure_body_tracker/src/kinectAzure_body_tracker_node_plus_recording_simplified.cpp:135:46:[m[K [01;31m[Kerror: [m[K‘[01m[KSpineBottom[m[K’ is not a member of ‘[01m[Kbody_tracker_msgs::msg[m[K’
+  135 |   auto pelvis_data = body_tracker_msgs::msg::[01;31m[KSpineBottom[m[K();
+      |                                              [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/robogait/azure_kinect_ws/src/kinect_azure_body_tracker/src/kinectAzure_body_tracker_node_plus_recording_simplified.cpp:141:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kt_final[m[K’ was not declared in this scope
+  141 |   [01;31m[Kt_final[m[K = rclcpp::Clock().now().nanoseconds();
+      |   [01;31m[K^~~~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/robogait/azure_kinect_ws/src/kinect_azure_body_tracker/src/kinectAzure_body_tracker_node_plus_recording_simplified.cpp:17[m[K:
+[01m[K/home/robogait/azure_kinect_ws/src/kinect_azure_body_tracker/src/kinectAzure_body_tracker_node_plus_recording_simplified.cpp:154:140:[m[K [01;31m[Kerror: [m[K‘[01m[Kskeleton_data[m[K’ was not declared in this scope
+  154 |   RCLCPP_INFO(this->get_logger(), "Publishing skeleton coordinates. Pelvis coodinates are: tiempo -> '%f' || x->'%f' ; y->'%f' ; z->'%f'", [01;31m[Kskeleton_data[m[K.tiempo,  skeleton_data.joint_position_spine_bottom.x, skeleton_data.joint_position_spine_bottom.y, skeleton_data.joint_position_spine_bottom.x);
+      |                                                                                                                                            [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/robogait/azure_kinect_ws/src/kinect_azure_body_tracker/src/kinectAzure_body_tracker_node_plus_recording_simplified.cpp:155:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kskeleton_data[m[K’ was not declared in this scope
+  155 |   publisher_->publish([01;31m[Kskeleton_data[m[K);
+      |                       [01;31m[K^~~~~~~~~~~~~[m[K
+At global scope:
+[01m[Kcc1plus:[m[K [01;35m[Kwarning: [m[Kunrecognized command line option ‘[01m[K-Wno-dev[m[K’
+make[2]: *** [CMakeFiles/kinect_azure_body_tracker_recording_node.dir/build.make:63: CMakeFiles/kinect_azure_body_tracker_recording_node.dir/src/kinectAzure_body_tracker_node_plus_recording_simplified.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/kinect_azure_body_tracker_recording_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,59 @@
+[0.010s] Invoking command in '/home/robogait/azure_kinect_ws/build/body_tracking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/azure_kinect_ws/build/body_tracking -- -j8 -l8
+[0.041s] [35m[1mScanning dependencies of target prueba_talker[0m
+[0.047s] [  5%] Built target body_tracking_node
+[0.047s] [ 10%] Built target body_tracking__cpp
+[0.047s] [ 15%] Built target body_tracking__rosidl_generator_c
+[0.049s] [ 17%] [32mBuilding CXX object CMakeFiles/prueba_talker.dir/src/main.cpp.o[0m
+[0.051s] [ 23%] Built target talker
+[0.052s] [ 28%] Built target listener
+[0.064s] [ 35%] Built target body_tracking__rosidl_typesupport_cpp
+[0.065s] [ 43%] Built target body_tracking__rosidl_typesupport_introspection_cpp
+[0.066s] [ 51%] Built target body_tracking__rosidl_typesupport_introspection_c
+[0.067s] [ 58%] Built target body_tracking__rosidl_typesupport_fastrtps_cpp
+[0.067s] [ 66%] Built target body_tracking__rosidl_typesupport_c
+[0.083s] [ 74%] Built target body_tracking__rosidl_typesupport_fastrtps_c
+[0.097s] [ 74%] Built target body_tracking
+[0.110s] [ 76%] Built target body_tracking__py
+[0.128s] [ 79%] [32m[1mLinking C shared library rosidl_generator_py/body_tracking/libbody_tracking__python.so[0m
+[0.155s] [ 82%] Built target body_tracking__python
+[0.162s] [35m[1mScanning dependencies of target body_tracking__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.171s] [ 84%] [32mBuilding C object CMakeFiles/body_tracking__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/body_tracking/_body_tracking_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[0.171s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/body_tracking/body_tracking_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[0.172s] [ 89%] [32m[1mLinking C shared library rosidl_generator_py/body_tracking/body_tracking_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[0.193s] [ 94%] Built target body_tracking__rosidl_typesupport_c__pyext
+[0.193s] [ 94%] Built target body_tracking__rosidl_typesupport_introspection_c__pyext
+[0.223s] [ 97%] [32m[1mLinking CXX shared library rosidl_generator_py/body_tracking/body_tracking_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[0.258s] [100%] [32m[1mLinking CXX executable prueba_talker[0m
+[0.265s] [100%] Built target body_tracking__rosidl_typesupport_fastrtps_c__pyext
+[0.280s] /usr/bin/ld: CMakeFiles/prueba_talker.dir/src/main.cpp.o: in function `print_body_index_map_middle_line(_k4a_image_t*)':
+[0.280s] main.cpp:(.text+0x12a): undefined reference to `k4a_image_get_buffer'
+[0.280s] /usr/bin/ld: main.cpp:(.text+0x13a): undefined reference to `k4a_image_get_stride_bytes'
+[0.280s] /usr/bin/ld: main.cpp:(.text+0x148): undefined reference to `k4a_image_get_width_pixels'
+[0.280s] /usr/bin/ld: main.cpp:(.text+0x177): undefined reference to `k4a_image_get_height_pixels'
+[0.280s] /usr/bin/ld: main.cpp:(.text+0x18f): undefined reference to `k4a_image_get_width_pixels'
+[0.280s] /usr/bin/ld: main.cpp:(.text+0x1c2): undefined reference to `k4a_image_get_width_pixels'
+[0.280s] /usr/bin/ld: CMakeFiles/prueba_talker.dir/src/main.cpp.o: in function `main':
+[0.280s] main.cpp:(.text+0x27f): undefined reference to `k4a_device_get_installed_count'
+[0.280s] /usr/bin/ld: main.cpp:(.text+0x2b2): undefined reference to `k4a_device_open'
+[0.280s] /usr/bin/ld: main.cpp:(.text+0x2ea): undefined reference to `k4a_device_start_cameras'
+[0.280s] /usr/bin/ld: main.cpp:(.text+0x32d): undefined reference to `k4a_device_get_calibration'
+[0.280s] /usr/bin/ld: main.cpp:(.text+0x3c5): undefined reference to `k4abt_tracker_create'
+[0.281s] /usr/bin/ld: main.cpp:(.text+0x430): undefined reference to `k4a_device_get_capture'
+[0.281s] /usr/bin/ld: main.cpp:(.text+0x48d): undefined reference to `k4abt_tracker_enqueue_capture'
+[0.281s] /usr/bin/ld: main.cpp:(.text+0x4a2): undefined reference to `k4a_capture_release'
+[0.281s] /usr/bin/ld: main.cpp:(.text+0x4ff): undefined reference to `k4abt_tracker_pop_result'
+[0.281s] /usr/bin/ld: main.cpp:(.text+0x590): undefined reference to `k4abt_frame_get_num_bodies'
+[0.281s] /usr/bin/ld: main.cpp:(.text+0x5f9): undefined reference to `k4abt_frame_get_body_skeleton'
+[0.281s] /usr/bin/ld: main.cpp:(.text+0x62f): undefined reference to `k4abt_frame_get_body_id'
+[0.281s] /usr/bin/ld: main.cpp:(.text+0x694): undefined reference to `k4abt_frame_get_body_index_map'
+[0.281s] /usr/bin/ld: main.cpp:(.text+0x6c3): undefined reference to `k4a_image_release'
+[0.281s] /usr/bin/ld: main.cpp:(.text+0x6e0): undefined reference to `k4abt_frame_release'
+[0.281s] /usr/bin/ld: main.cpp:(.text+0x7e0): undefined reference to `k4abt_tracker_shutdown'
+[0.281s] /usr/bin/ld: main.cpp:(.text+0x7ef): undefined reference to `k4abt_tracker_destroy'
+[0.281s] /usr/bin/ld: main.cpp:(.text+0x7fe): undefined reference to `k4a_device_stop_cameras'
+[0.281s] /usr/bin/ld: main.cpp:(.text+0x80d): undefined reference to `k4a_device_close'
+[0.281s] collect2: error: ld returned 1 exit status
+[0.281s] make[2]: *** [CMakeFiles/prueba_talker.dir/build.make:84: prueba_talker] Error 1
+[0.281s] make[1]: *** [CMakeFiles/Makefile2:325: CMakeFiles/prueba_talker.dir/all] Error 2
+[0.281s] make: *** [Makefile:141: all] Error 2
+[0.283s] Invoked command in '/home/robogait/azure_kinect_ws/build/body_tracking' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/azure_kinect_ws/build/body_tracking -- -j8 -l8

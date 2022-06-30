@@ -1,0 +1,18 @@
+CMake Error at CMakeLists.txt:26 (find_package):
+  By not providing "Findbody_tracker_msgs.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "body_tracker_msgs", but CMake did not find one.
+
+  Could not find a package configuration file provided by "body_tracker_msgs"
+  with any of the following names:
+
+    body_tracker_msgsConfig.cmake
+    body_tracker_msgs-config.cmake
+
+  Add the installation prefix of "body_tracker_msgs" to CMAKE_PREFIX_PATH or
+  set "body_tracker_msgs_DIR" to a directory containing one of the above
+  files.  If "body_tracker_msgs" provides a separate development package or
+  SDK, be sure it has been installed.
+
+
+make: *** [Makefile:1032: cmake_check_build_system] Error 1

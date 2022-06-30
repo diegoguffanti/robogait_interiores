@@ -1,0 +1,12 @@
+[0.017s] Invoking command in '/home/robogait/ros2_serial_cpp/build/ros2_serial_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/nav2_ws/install/nav2_gazebo_spawner:/home/robogait/ros2_serial/install/ourbotmanager:/home/robogait/ros2_ws/install/nav2_project:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/ros2_serial_cpp/build/ros2_serial_cpp -- -j8 -l8
+[0.094s] [35m[1mScanning dependencies of target modelado[0m
+[0.114s] [ 75%] Built target driver_controller
+[0.114s] [ 75%] [32mBuilding CXX object CMakeFiles/modelado.dir/src/modelado.cpp.o[0m
+[0.975s] [01m[K/home/robogait/ros2_serial_cpp/src/modelado.cpp:[m[K In constructor ‘[01m[KMinimalSubscriber::MinimalSubscriber()[m[K’:
+[0.975s] [01m[K/home/robogait/ros2_serial_cpp/src/modelado.cpp:29:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kloop[m[K’ is not a member of ‘[01m[KMinimalSubscriber[m[K’
+[0.975s]    29 |       pub = thread(&MinimalSubscriber::[01;31m[Kloop[m[K, this);
+[0.975s]       |                                        [01;31m[K^~~~[m[K
+[2.688s] make[2]: *** [CMakeFiles/modelado.dir/build.make:63: CMakeFiles/modelado.dir/src/modelado.cpp.o] Error 1
+[2.688s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/modelado.dir/all] Error 2
+[2.688s] make: *** [Makefile:141: all] Error 2
+[2.690s] Invoked command in '/home/robogait/ros2_serial_cpp/build/ros2_serial_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/nav2_ws/install/nav2_gazebo_spawner:/home/robogait/ros2_serial/install/ourbotmanager:/home/robogait/ros2_ws/install/nav2_project:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/ros2_serial_cpp/build/ros2_serial_cpp -- -j8 -l8

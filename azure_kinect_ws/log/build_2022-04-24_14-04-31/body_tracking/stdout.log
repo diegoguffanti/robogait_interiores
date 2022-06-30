@@ -1,0 +1,15 @@
+[35m[1mScanning dependencies of target prueba_talker[0m
+[  5%] Built target body_tracking_node
+[ 12%] Built target body_tracking__rosidl_generator_c
+[ 15%] [32mBuilding CXX object CMakeFiles/prueba_talker.dir/src/main.cpp.o[0m
+[ 17%] Built target body_tracking__cpp
+[ 20%] [32m[1mLinking CXX executable talker[0m
+[ 23%] [32m[1mLinking CXX executable listener[0m
+[ 38%] Built target body_tracking__rosidl_typesupport_introspection_c
+[ 46%] Built target body_tracking__rosidl_typesupport_introspection_cpp
+[ 38%] Built target body_tracking__rosidl_typesupport_c
+[ 53%] Built target body_tracking__rosidl_typesupport_cpp
+[ 61%] Built target body_tracking__rosidl_typesupport_fastrtps_cpp
+[ 69%] Built target body_tracking__rosidl_typesupport_fastrtps_c
+[ 71%] Built target talker
+[ 74%] Built target listener

@@ -1,0 +1,22 @@
+[0.013s] Invoking command in '/home/robogait/catkin_ws/build/pkg_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/nav2_ws/install/nav2_gazebo_spawner:/home/robogait/ros2_serial/install/ourbotmanager:/home/robogait/ros2_ws/install/nav2_project:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/catkin_ws/build/pkg_navigation -- -j8 -l8
+[0.076s] [  8%] [32mBuilding CXX object CMakeFiles/robot_controller_position.dir/src/robot_controller_position.cpp.o[0m
+[0.078s] [ 25%] Built target publisher_subscriber
+[0.081s] [ 41%] Built target publisher_initial_pose
+[0.082s] [ 58%] Built target tf2_broadcaster
+[0.085s] [ 75%] Built target robot_odom_tf2_listener
+[0.085s] [ 91%] Built target robot_controller
+[0.918s] [01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller_position.cpp:109:23:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[0.918s]   109 |        float array[5];[01;35m[K;[m[K
+[0.918s]       |                       [01;35m[K^[m[K
+[0.918s]       |                       [31m[K-[m[K
+[0.918s] [01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller_position.cpp:[m[K In constructor ‘[01m[Kgeneric::generic()[m[K’:
+[0.918s] [01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller_position.cpp:57:110:[m[K [01;31m[Kerror: [m[K‘[01m[Kcallback_odom[m[K’ is not a member of ‘[01m[Kgeneric[m[K’
+[0.918s]    57 |   subscription_robot_odom= this->create_subscription<nav_msgs::msg::Odometry>("odom",10, std::bind(&generic::[01;31m[Kcallback_odom[m[K, this, _1));
+[0.918s]       |                                                                                                              [01;31m[K^~~~~~~~~~~~~[m[K
+[0.919s] [01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller_position.cpp:59:131:[m[K [01;31m[Kerror: [m[K‘[01m[KMinimalSubscriber[m[K’ has not been declared
+[0.919s]    59 |   subscription_spine_bottom = this->create_subscription<body_tracker_msgs::msg::SpineBottom>("body_tracker_simplified", 10, bind(&[01;31m[KMinimalSubscriber[m[K::topic_callback_spine_bottom, this, _1));
+[0.919s]       |                                                                                                                                   [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[1.520s] make[2]: *** [CMakeFiles/robot_controller_position.dir/build.make:63: CMakeFiles/robot_controller_position.dir/src/robot_controller_position.cpp.o] Error 1
+[1.520s] make[1]: *** [CMakeFiles/Makefile2:277: CMakeFiles/robot_controller_position.dir/all] Error 2
+[1.520s] make: *** [Makefile:141: all] Error 2
+[1.522s] Invoked command in '/home/robogait/catkin_ws/build/pkg_navigation' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/nav2_ws/install/nav2_gazebo_spawner:/home/robogait/ros2_serial/install/ourbotmanager:/home/robogait/ros2_ws/install/nav2_project:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/catkin_ws/build/pkg_navigation -- -j8 -l8

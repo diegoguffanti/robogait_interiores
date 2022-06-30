@@ -1,0 +1,23 @@
+[35m[1mScanning dependencies of target robot_controller[0m
+[ 22%] Built target publisher_initial_pose
+[ 33%] Built target robot_controller_position
+[ 22%] Built target publisher_subscriber
+[ 44%] Built target person_odom_tf2_listener
+[ 55%] Built target tf2_broadcaster
+[ 66%] Built target robot_odom_tf2_listener
+[ 77%] Built target tf2_broadcaster_person
+[ 83%] [32mBuilding CXX object CMakeFiles/robot_controller.dir/src/robot_controller.cpp.o[0m
+[ 94%] Built target robot_controller_straight
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller.cpp:[m[K In member function ‘[01m[Kvoid generic::loop()[m[K’:
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller.cpp:135:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kcontrol_yaw[m[K’ was not declared in this scope
+  135 |         cmd_velrobot_msg.angular.z=[01;31m[Kcontrol_yaw[m[K;
+      |                                    [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller.cpp:142:59:[m[K [01;31m[Kerror: [m[K‘[01m[Kyaw_robot[m[K’ was not declared in this scope
+  142 |         cout<<"Angle goal: "<<angle_goal<<" yaw_robot: "<<[01;31m[Kyaw_robot[m[K*(180/3.14159)<<" yaw_error: "<<yaw_error*(180/3.14159)<<endl;
+      |                                                           [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller.cpp:142:100:[m[K [01;31m[Kerror: [m[K‘[01m[Kyaw_error[m[K’ was not declared in this scope
+  142 |         cout<<"Angle goal: "<<angle_goal<<" yaw_robot: "<<yaw_robot*(180/3.14159)<<" yaw_error: "<<[01;31m[Kyaw_error[m[K*(180/3.14159)<<endl;
+      |                                                                                                    [01;31m[K^~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/robot_controller.dir/build.make:63: CMakeFiles/robot_controller.dir/src/robot_controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:256: CMakeFiles/robot_controller.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

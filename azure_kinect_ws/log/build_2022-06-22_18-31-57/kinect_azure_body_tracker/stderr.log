@@ -1,0 +1,6 @@
+[01m[K/home/robogait/azure_kinect_ws/src/kinect_azure_body_tracker/src/kinectAzure_body_tracker_node_plus_recording_test.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::body_tracking(k4a_capture_t, k4a_wait_result_t)[m[K’:
+[01m[K/home/robogait/azure_kinect_ws/src/kinect_azure_body_tracker/src/kinectAzure_body_tracker_node_plus_recording_test.cpp:72:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kbody_frame[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   72 |       k4abt_frame_t [01;35m[Kbody_frame[m[K = NULL;
+      |                     [01;35m[K^~~~~~~~~~[m[K
+At global scope:
+[01m[Kcc1plus:[m[K [01;35m[Kwarning: [m[Kunrecognized command line option ‘[01m[K-Wno-dev[m[K’

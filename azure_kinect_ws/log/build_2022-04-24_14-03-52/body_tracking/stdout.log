@@ -1,0 +1,26 @@
+[35m[1mScanning dependencies of target prueba_talker[0m
+[  5%] Built target body_tracking_node
+[ 10%] Built target body_tracking__cpp
+[ 15%] Built target body_tracking__rosidl_generator_c
+[ 17%] [32mBuilding CXX object CMakeFiles/prueba_talker.dir/src/main.cpp.o[0m
+[ 23%] Built target talker
+[ 28%] Built target listener
+[ 35%] Built target body_tracking__rosidl_typesupport_cpp
+[ 43%] Built target body_tracking__rosidl_typesupport_introspection_cpp
+[ 51%] Built target body_tracking__rosidl_typesupport_introspection_c
+[ 58%] Built target body_tracking__rosidl_typesupport_fastrtps_cpp
+[ 66%] Built target body_tracking__rosidl_typesupport_c
+[ 74%] Built target body_tracking__rosidl_typesupport_fastrtps_c
+[ 74%] Built target body_tracking
+[ 76%] Built target body_tracking__py
+[ 79%] [32m[1mLinking C shared library rosidl_generator_py/body_tracking/libbody_tracking__python.so[0m
+[ 82%] Built target body_tracking__python
+[35m[1mScanning dependencies of target body_tracking__rosidl_typesupport_fastrtps_c__pyext[0m
+[ 84%] [32mBuilding C object CMakeFiles/body_tracking__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/body_tracking/_body_tracking_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 87%] [32m[1mLinking C shared library rosidl_generator_py/body_tracking/body_tracking_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[ 89%] [32m[1mLinking C shared library rosidl_generator_py/body_tracking/body_tracking_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[ 94%] Built target body_tracking__rosidl_typesupport_c__pyext
+[ 94%] Built target body_tracking__rosidl_typesupport_introspection_c__pyext
+[ 97%] [32m[1mLinking CXX shared library rosidl_generator_py/body_tracking/body_tracking_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[100%] [32m[1mLinking CXX executable prueba_talker[0m
+[100%] Built target body_tracking__rosidl_typesupport_fastrtps_c__pyext

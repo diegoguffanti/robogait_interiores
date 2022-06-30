@@ -1,0 +1,16 @@
+[35m[1mScanning dependencies of target body_tracking_node[0m
+[  2%] Built target body_tracking__cpp
+[ 12%] Built target body_tracking__rosidl_generator_c
+[ 14%] [32mBuilding CXX object CMakeFiles/body_tracking_node.dir/src/kinectAzure_body_tracker_node.cpp.o[0m
+[ 24%] Built target body_tracking__rosidl_typesupport_c
+[ 34%] Built target body_tracking__rosidl_typesupport_cpp
+[ 43%] Built target body_tracking__rosidl_typesupport_introspection_cpp
+[ 53%] Built target body_tracking__rosidl_typesupport_introspection_c
+[ 63%] Built target body_tracking__rosidl_typesupport_fastrtps_cpp
+[ 73%] Built target body_tracking__rosidl_typesupport_fastrtps_c
+[ 73%] Built target body_tracking
+[ 75%] Built target body_tracking__py
+[ 82%] Built target body_tracking__python
+[ 97%] Built target body_tracking__rosidl_typesupport_c__pyext
+[ 97%] Built target body_tracking__rosidl_typesupport_introspection_c__pyext
+[ 97%] Built target body_tracking__rosidl_typesupport_fastrtps_c__pyext

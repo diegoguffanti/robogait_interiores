@@ -1,0 +1,18 @@
+[35m[1mScanning dependencies of target kinect_azure_body_tracker_node_full_processing[0m
+[ 20%] Built target kinect_azure_body_tracker_node_simplified
+[ 40%] Built target kinect_azure_body_tracker_node
+[ 60%] Built target kinect_azure_body_tracker_recording_node_simplified
+[ 70%] [32mBuilding CXX object CMakeFiles/kinect_azure_body_tracker_node_full_processing.dir/src/kinectAzure_body_tracker_node_full_processing.cpp.o[0m
+[ 90%] Built target kinect_azure_body_tracker_recording_node
+In file included from [01m[K/home/robogait/azure_kinect_ws/src/kinect_azure_body_tracker/src/kinectAzure_body_tracker_node_full_processing.cpp:23[m[K:
+[01m[K/home/robogait/azure_kinect_ws/src/kinect_azure_body_tracker/src/csvProcessing.cpp:98:157:[m[K [01;31m[Kerror: [m[Kdefault argument missing for parameter 4 of ‘[01m[Kbool process_mkv_offline(const char*, const char*, k4abt_tracker_configuration_t, bool)[m[K’
+   98 | const char* output_path, k4abt_tracker_configuration_t tracker_config = K4ABT_TRACKER_CONFIG_DEFAULT, [01;31m[Kbool deleteExistingFile[m[K)
+      |                                                                                                       [01;31m[K~~~~~^~~~~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/robogait/azure_kinect_ws/src/kinect_azure_body_tracker/src/csvProcessing.cpp:98:105:[m[K [01;36m[Knote: [m[K...following parameter 3 which has a default argument
+   98 | bool process_mkv_offline(const char* input_path, const char* output_path, [01;36m[Kk4abt_tracker_configuration_t tracker_config = K4ABT_TRACKER_CONFIG_DEFAULT[m[K, bool deleteExistingFile)
+      |                                                                           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[Kcc1plus:[m[K [01;35m[Kwarning: [m[Kunrecognized command line option ‘[01m[K-Wno-dev[m[K’
+make[2]: *** [CMakeFiles/kinect_azure_body_tracker_node_full_processing.dir/build.make:63: CMakeFiles/kinect_azure_body_tracker_node_full_processing.dir/src/kinectAzure_body_tracker_node_full_processing.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:86: CMakeFiles/kinect_azure_body_tracker_node_full_processing.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

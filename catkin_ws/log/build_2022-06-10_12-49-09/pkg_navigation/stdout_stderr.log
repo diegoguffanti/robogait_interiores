@@ -1,0 +1,20 @@
+[35m[1mScanning dependencies of target robot_controller[0m
+[ 20%] Built target publisher_initial_pose
+[ 40%] Built target publisher_subscriber
+[ 60%] Built target robot_odom_tf2_listener
+[ 80%] Built target tf2_broadcaster
+[ 90%] [32mBuilding CXX object CMakeFiles/robot_controller.dir/src/robot_controller.cpp.o[0m
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller.cpp:[m[K In member function ‘[01m[Kvoid generic::lane_controller()[m[K’:
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller.cpp:73:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kuse_pose[m[K’ was not declared in this scope
+   73 |        [01;31m[Kuse_pose[m[K=path_local.poses.size();
+      |        [01;31m[K^~~~~~~~[m[K
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller.cpp:74:8:[m[K [01;31m[Kerror: [m[K‘[01m[Krot_q[m[K’ was not declared in this scope
+   74 |        [01;31m[Krot_q[m[K=path_local.poses[use_pose].pose.orientation;
+      |        [01;31m[K^~~~~[m[K
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller.cpp:76:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass tf2::Quaternion[m[K’ has no member named ‘[01m[KgetRPY[m[K’; did you mean ‘[01m[KsetRPY[m[K’?
+   76 |        q.[01;31m[KgetRPY[m[K();
+      |          [01;31m[K^~~~~~[m[K
+      |          [32m[KsetRPY[m[K
+make[2]: *** [CMakeFiles/robot_controller.dir/build.make:63: CMakeFiles/robot_controller.dir/src/robot_controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/robot_controller.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,11 @@
+[35m[1mScanning dependencies of target listener[0m
+[35m[1mScanning dependencies of target talker[0m
+make[2]: *** No rule to make target '/home/robogait/azure_kinect_ws/src/body_tracking/src/subscriber_member_function.cpp', needed by 'CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o'.  Stop.
+make[1]: *** [CMakeFiles/Makefile2:296: CMakeFiles/listener.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make[2]: *** No rule to make target '/home/robogait/azure_kinect_ws/src/body_tracking/src/publisher_member_function.cpp', needed by 'CMakeFiles/talker.dir/src/publisher_member_function.cpp.o'.  Stop.
+make[1]: *** [CMakeFiles/Makefile2:323: CMakeFiles/talker.dir/all] Error 2
+[  2%] Built target body_tracking__cpp
+[ 13%] Built target body_tracking_node
+[ 16%] Built target body_tracking__rosidl_generator_c
+make: *** [Makefile:141: all] Error 2

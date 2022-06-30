@@ -1,0 +1,20 @@
+CMake Error at CMakeLists.txt:20 (find_package):
+  By not providing "Findbody_tracking::hip_coordinates.cmake" in
+  CMAKE_MODULE_PATH this project has asked CMake to find a package
+  configuration file provided by "body_tracking::hip_coordinates", but CMake
+  did not find one.
+
+  Could not find a package configuration file provided by
+  "body_tracking::hip_coordinates" with any of the following names:
+
+    body_tracking::hip_coordinatesConfig.cmake
+    body_tracking::hip_coordinates-config.cmake
+
+  Add the installation prefix of "body_tracking::hip_coordinates" to
+  CMAKE_PREFIX_PATH or set "body_tracking::hip_coordinates_DIR" to a
+  directory containing one of the above files.  If
+  "body_tracking::hip_coordinates" provides a separate development package or
+  SDK, be sure it has been installed.
+
+
+make: *** [Makefile:924: cmake_check_build_system] Error 1

@@ -1,0 +1,92 @@
+[0.000000] (-) TimerEvent: {}
+[0.000671] (body_tracking) JobQueued: {'identifier': 'body_tracking', 'dependencies': OrderedDict()}
+[0.000714] (body_tracking) JobStarted: {'identifier': 'body_tracking'}
+[0.008360] (body_tracking) JobProgress: {'identifier': 'body_tracking', 'progress': 'cmake'}
+[0.008805] (body_tracking) JobProgress: {'identifier': 'body_tracking', 'progress': 'build'}
+[0.009279] (body_tracking) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robogait/azure_kinect_ws/build/body_tracking', '--', '-j8', '-l8'], 'cwd': '/home/robogait/azure_kinect_ws/build/body_tracking', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'robogait'), ('LC_TIME', 'es_ES.UTF-8'), ('SSH_AGENT_PID', '1685'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/robogait/azure_kinect_ws/install/body_tracking/lib:/home/robogait/tutorials_ws/install/turtlesim/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/robogait'), ('OLDPWD', '/usr/lib/cmake'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('MANAGERPID', '1488'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/robogait/azure_kinect_ws/install:/home/robogait/serial_cpp/install:/home/robogait/ros2_serial/install:/home/robogait/rplidar/install:/home/robogait/tutorials_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'robogait'), ('JOURNAL_STREAM', '8:52361'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'robogait'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/robogait/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/robogait-NUC11TNKv7:@/tmp/.ICE-unix/1723,unix/robogait-NUC11TNKv7:/tmp/.ICE-unix/1723'), ('INVOCATION_ID', '5a7102b0b6194049890e2181dddd96c5'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/269b53c7_b546_443c_abbe_365da80520e1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.121'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/robogait/azure_kinect_ws/install/body_tracking:/home/robogait/ros2_serial/install/ourbotmanager:/home/robogait/serial_cpp/install/serial_pubsub:/home/robogait/rplidar/install/sllidar_ros2:/home/robogait/rplidar/install/rplidar_ros2:/home/robogait/tutorials_ws/install/turtlesim:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robogait/azure_kinect_ws/build/body_tracking'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/robogait/azure_kinect_ws/install/body_tracking/lib/python3.8/site-packages:/home/robogait/ros2_serial/install/ourbotmanager/lib/python3.8/site-packages:/home/robogait/tutorials_ws/install/turtlesim/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/robogait/azure_kinect_ws/install/body_tracking:/home/robogait/serial_cpp/install/serial_pubsub:/home/robogait/rplidar/install/sllidar_ros2:/home/robogait/rplidar/install/rplidar_ros2:/home/robogait/tutorials_ws/install/turtlesim:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy')]), 'shell': False}
+[0.044698] (body_tracking) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target prueba_talker\x1b[0m\n'}
+[0.049649] (body_tracking) StdoutLine: {'line': b'[  2%] Built target body_tracking__cpp\n'}
+[0.049951] (body_tracking) StdoutLine: {'line': b'[  7%] Built target body_tracking_node\n'}
+[0.052044] (body_tracking) StdoutLine: {'line': b'[ 15%] Built target body_tracking__rosidl_generator_c\n'}
+[0.053197] (body_tracking) StdoutLine: {'line': b'[ 20%] Built target talker\n'}
+[0.055091] (body_tracking) StdoutLine: {'line': b'[ 25%] Built target listener\n'}
+[0.065708] (body_tracking) StdoutLine: {'line': b'[ 33%] Built target body_tracking__rosidl_typesupport_cpp\n'}
+[0.065993] (body_tracking) StdoutLine: {'line': b'[ 43%] Built target body_tracking__rosidl_typesupport_introspection_cpp\n'}
+[0.066077] (body_tracking) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/prueba_talker.dir/src/main.cpp.o\x1b[0m\n'}
+[0.069213] (body_tracking) StdoutLine: {'line': b'[ 51%] Built target body_tracking__rosidl_typesupport_fastrtps_cpp\n'}
+[0.069631] (body_tracking) StdoutLine: {'line': b'[ 58%] Built target body_tracking__rosidl_typesupport_introspection_c\n'}
+[0.069901] (body_tracking) StdoutLine: {'line': b'[ 66%] Built target body_tracking__rosidl_typesupport_c\n'}
+[0.085005] (body_tracking) StdoutLine: {'line': b'[ 74%] Built target body_tracking__rosidl_typesupport_fastrtps_c\n'}
+[0.097699] (body_tracking) StdoutLine: {'line': b'[ 74%] Built target body_tracking\n'}
+[0.100061] (-) TimerEvent: {}
+[0.110785] (body_tracking) StdoutLine: {'line': b'[ 76%] Built target body_tracking__py\n'}
+[0.129256] (body_tracking) StdoutLine: {'line': b'[ 82%] Built target body_tracking__python\n'}
+[0.146958] (body_tracking) StdoutLine: {'line': b'[ 97%] Built target body_tracking__rosidl_typesupport_introspection_c__pyext\n'}
+[0.147205] (body_tracking) StdoutLine: {'line': b'[ 97%] Built target body_tracking__rosidl_typesupport_c__pyext\n'}
+[0.147289] (body_tracking) StdoutLine: {'line': b'[ 97%] Built target body_tracking__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.200188] (-) TimerEvent: {}
+[0.300614] (-) TimerEvent: {}
+[0.400965] (-) TimerEvent: {}
+[0.501325] (-) TimerEvent: {}
+[0.601691] (-) TimerEvent: {}
+[0.702049] (-) TimerEvent: {}
+[0.802436] (-) TimerEvent: {}
+[0.816653] (body_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:31:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdevice_config\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[0.816834] (body_tracking) StderrLine: {'line': b'   31 |      \x1b[01;31m\x1b[Kdevice_config\x1b[m\x1b[K.depth_mode = K4A_DEPTH_MODE_NFOV_UNBINNED;\n'}
+[0.816883] (body_tracking) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.827533] (body_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MinimalPublisher::timer_callback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.827672] (body_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:76:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kframe_count\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.827718] (body_tracking) StderrLine: {'line': b'   76 |       \x1b[01;31m\x1b[Kframe_count\x1b[m\x1b[K++;\n'}
+[0.827757] (body_tracking) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.828656] (body_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:82:78:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktracker\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.828728] (body_tracking) StderrLine: {'line': b'   82 |       k4a_wait_result_t queue_capture_result = k4abt_tracker_enqueue_capture(\x1b[01;31m\x1b[Ktracker\x1b[m\x1b[K, sensor_capture, K4A_WAIT_INFINITE);\n'}
+[0.828783] (body_tracking) StderrLine: {'line': b'      |                                                                              \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[0.828820] (body_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:89:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kbreak statement not within loop or switch\n'}
+[0.828857] (body_tracking) StderrLine: {'line': b'   89 |           \x1b[01;31m\x1b[Kbreak\x1b[m\x1b[K;\n'}
+[0.828893] (body_tracking) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[0.828929] (body_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:94:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kbreak statement not within loop or switch\n'}
+[0.828964] (body_tracking) StderrLine: {'line': b'   94 |           \x1b[01;31m\x1b[Kbreak\x1b[m\x1b[K;\n'}
+[0.828998] (body_tracking) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[0.833646] (body_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:103:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktotal_success_tracker_time\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.833743] (body_tracking) StderrLine: {'line': b'  103 |           \x1b[01;31m\x1b[Ktotal_success_tracker_time\x1b[m\x1b[K += time_spent;\n'}
+[0.833796] (body_tracking) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.836664] (body_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:104:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksuccess_frame_count\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.836731] (body_tracking) StderrLine: {'line': b'  104 |           \x1b[01;31m\x1b[Ksuccess_frame_count\x1b[m\x1b[K++;\n'}
+[0.836770] (body_tracking) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.840804] (body_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:110:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktotal_success_body_count\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.840912] (body_tracking) StderrLine: {'line': b'  110 |           \x1b[01;31m\x1b[Ktotal_success_body_count\x1b[m\x1b[K += num_bodies;\n'}
+[0.840963] (body_tracking) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.841231] (body_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:141:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kbreak statement not within loop or switch\n'}
+[0.841298] (body_tracking) StderrLine: {'line': b'  141 |           \x1b[01;31m\x1b[Kbreak\x1b[m\x1b[K;\n'}
+[0.841338] (body_tracking) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[0.841373] (body_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:146:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kbreak statement not within loop or switch\n'}
+[0.841409] (body_tracking) StderrLine: {'line': b'  146 |           \x1b[01;31m\x1b[Kbreak\x1b[m\x1b[K;\n'}
+[0.841448] (body_tracking) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[0.841495] (body_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:153:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kbreak statement not within loop or switch\n'}
+[0.841536] (body_tracking) StderrLine: {'line': b'  153 |       \x1b[01;31m\x1b[Kbreak\x1b[m\x1b[K;\n'}
+[0.841572] (body_tracking) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[0.841621] (body_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:158:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kbreak statement not within loop or switch\n'}
+[0.841659] (body_tracking) StderrLine: {'line': b'  158 |       \x1b[01;31m\x1b[Kbreak\x1b[m\x1b[K;\n'}
+[0.841702] (body_tracking) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[0.841842] (body_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:163:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kbody\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.841911] (body_tracking) StderrLine: {'line': b'  163 |   k4a_float3_t position = \x1b[01;31m\x1b[Kbody\x1b[m\x1b[K.skeleton.joints[coordenadaCadera].position;\n'}
+[0.841951] (body_tracking) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[0.850827] (body_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.850978] (body_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:221:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktracker\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.851032] (body_tracking) StderrLine: {'line': b'  221 |  k4abt_tracker_shutdown(\x1b[01;31m\x1b[Ktracker\x1b[m\x1b[K);\n'}
+[0.851092] (body_tracking) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[0.851507] (body_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:223:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdevice\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.851580] (body_tracking) StderrLine: {'line': b'  223 |  k4a_device_stop_cameras(\x1b[01;31m\x1b[Kdevice\x1b[m\x1b[K);\n'}
+[0.851621] (body_tracking) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[0.902625] (-) TimerEvent: {}
+[1.002968] (-) TimerEvent: {}
+[1.103322] (-) TimerEvent: {}
+[1.203686] (-) TimerEvent: {}
+[1.304070] (-) TimerEvent: {}
+[1.397762] (body_tracking) StderrLine: {'line': b'make[2]: *** [CMakeFiles/prueba_talker.dir/build.make:63: CMakeFiles/prueba_talker.dir/src/main.cpp.o] Error 1\n'}
+[1.398096] (body_tracking) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:325: CMakeFiles/prueba_talker.dir/all] Error 2\n'}
+[1.398279] (body_tracking) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[1.400866] (body_tracking) CommandEnded: {'returncode': 2}
+[1.404156] (-) TimerEvent: {}
+[1.444400] (body_tracking) JobEnded: {'identifier': 'body_tracking', 'rc': 2}
+[1.455025] (-) EventReactorShutdown: {}

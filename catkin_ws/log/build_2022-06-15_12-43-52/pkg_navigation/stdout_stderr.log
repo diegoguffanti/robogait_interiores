@@ -1,0 +1,25 @@
+[35m[1mScanning dependencies of target robot_controller_position[0m
+[ 16%] Built target robot_controller
+[ 33%] Built target publisher_initial_pose
+[ 50%] Built target tf2_broadcaster
+[ 66%] Built target publisher_subscriber
+[ 83%] Built target robot_odom_tf2_listener
+[ 91%] [32mBuilding CXX object CMakeFiles/robot_controller_position.dir/src/robot_controller_position.cpp.o[0m
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller_position.cpp:108:23:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  108 |        float array[5];[01;35m[K;[m[K
+      |                       [01;35m[K^[m[K
+      |                       [31m[K-[m[K
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller_position.cpp:[m[K In constructor ‘[01m[Kgeneric::generic()[m[K’:
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller_position.cpp:56:110:[m[K [01;31m[Kerror: [m[K‘[01m[Kcallback_odom[m[K’ is not a member of ‘[01m[Kgeneric[m[K’
+   56 |   subscription_robot_odom= this->create_subscription<nav_msgs::msg::Odometry>("odom",10, std::bind(&generic::[01;31m[Kcallback_odom[m[K, this, _1));
+      |                                                                                                              [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller_position.cpp:58:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_spine_bottom[m[K’ was not declared in this scope; did you mean ‘[01m[Ksubscription_robot_odom[m[K’?
+   58 |   [01;31m[Ksubscription_spine_bottom[m[K = this->create_subscription<body_tracker_msgs::msg::SpineBottom>("body_tracker_simplified", 10, bind(&MinimalSubscriber::topic_callback_spine_bottom, this, _1));
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |   [32m[Ksubscription_robot_odom[m[K
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller_position.cpp:58:131:[m[K [01;31m[Kerror: [m[K‘[01m[KMinimalSubscriber[m[K’ has not been declared
+   58 |   subscription_spine_bottom = this->create_subscription<body_tracker_msgs::msg::SpineBottom>("body_tracker_simplified", 10, bind(&[01;31m[KMinimalSubscriber[m[K::topic_callback_spine_bottom, this, _1));
+      |                                                                                                                                   [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/robot_controller_position.dir/build.make:63: CMakeFiles/robot_controller_position.dir/src/robot_controller_position.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:277: CMakeFiles/robot_controller_position.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

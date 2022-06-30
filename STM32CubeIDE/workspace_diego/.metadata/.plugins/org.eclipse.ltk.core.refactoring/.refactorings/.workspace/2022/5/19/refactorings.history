@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;6283A1_ALSValues&apos;" deleteContents="false" description="Delete resource &apos;6283A1_ALSValues&apos;" element1="/6283A1_ALSValues" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1651673097155"/>&#x0A;<refactoring comment="Delete resource &apos;firmware_interiores_v2_nucleo_f446ze&apos;" deleteContents="false" description="Delete resource &apos;firmware_interiores_v2_nucleo_f446ze&apos;" element1="/firmware_interiores_v2_nucleo_f446ze" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1651846453130"/>
+</session>

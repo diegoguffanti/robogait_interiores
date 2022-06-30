@@ -1,0 +1,88 @@
+[0.013s] Invoking command in '/home/robogait/catkin_ws/build/pkg_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/nav2_ws/install/nav2_gazebo_spawner:/home/robogait/ros2_serial/install/ourbotmanager:/home/robogait/ros2_ws/install/nav2_project:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/catkin_ws/build/pkg_navigation -- -j8 -l8
+[0.061s] [35m[1mScanning dependencies of target robot_controller_position[0m
+[0.074s] [ 16%] Built target publisher_initial_pose
+[0.074s] [ 33%] Built target robot_odom_tf2_listener
+[0.078s] [ 50%] Built target publisher_subscriber
+[0.080s] [ 66%] Built target tf2_broadcaster
+[0.080s] [ 83%] Built target robot_controller
+[0.089s] [ 91%] [32mBuilding CXX object CMakeFiles/robot_controller_position.dir/src/robot_controller_position.cpp.o[0m
+[0.878s] [01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller_position.cpp:[m[K In constructor ‘[01m[Kgeneric::generic()[m[K’:
+[0.878s] [01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller_position.cpp:49:46:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Duration::Duration()[m[K’
+[0.878s]    49 |  generic() : Node("robot_controller_position"[01;31m[K)[m[K
+[0.878s]       |                                              [01;31m[K^[m[K
+[0.878s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/qos.hpp:20[m[K,
+[0.879s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_graph_interface.hpp:31[m[K,
+[0.879s]                  from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:34[m[K,
+[0.879s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[0.879s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[0.879s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[0.879s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[0.879s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[0.879s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[0.879s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[0.879s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[0.879s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[0.879s]                  from [01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller_position.cpp:8[m[K:
+[0.879s] [01m[K/opt/ros/foxy/include/rclcpp/duration.hpp:64:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Duration::Duration(const rclcpp::Duration&)[m[K’
+[0.879s]    64 |   [01;36m[KDuration[m[K(const Duration & rhs);
+[0.879s]       |   [01;36m[K^~~~~~~~[m[K
+[0.879s] [01m[K/opt/ros/foxy/include/rclcpp/duration.hpp:64:3:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[0.879s] [01m[K/opt/ros/foxy/include/rclcpp/duration.hpp:62:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Duration::Duration(const rcl_duration_t&)[m[K’
+[0.879s]    62 |   explicit [01;36m[KDuration[m[K(const rcl_duration_t & duration);
+[0.879s]       |            [01;36m[K^~~~~~~~[m[K
+[0.879s] [01m[K/opt/ros/foxy/include/rclcpp/duration.hpp:62:12:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[0.879s] [01m[K/opt/ros/foxy/include/rclcpp/duration.hpp:56:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Duration::Duration(const Duration&)[m[K’
+[0.879s]    56 |   [01;36m[KDuration[m[K(const builtin_interfaces::msg::Duration & duration_msg);  // NOLINT(runtime/explicit)
+[0.879s]       |   [01;36m[K^~~~~~~~[m[K
+[0.879s] [01m[K/opt/ros/foxy/include/rclcpp/duration.hpp:56:3:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[0.879s] [01m[K/opt/ros/foxy/include/rclcpp/duration.hpp:51:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Rep, class Period> rclcpp::Duration::Duration(const std::chrono::duration<_Rep1, _Period1>&)[m[K’
+[0.879s]    51 |   [01;36m[KDuration[m[K(const std::chrono::duration<Rep, Period> & duration)  // NOLINT(runtime/explicit)
+[0.879s]       |   [01;36m[K^~~~~~~~[m[K
+[0.879s] [01m[K/opt/ros/foxy/include/rclcpp/duration.hpp:51:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[0.879s] [01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller_position.cpp:49:46:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[0.880s]    49 |  generic() : Node("robot_controller_position"[01;36m[K)[m[K
+[0.880s]       |                                              [01;36m[K^[m[K
+[0.880s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/qos.hpp:20[m[K,
+[0.880s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_graph_interface.hpp:31[m[K,
+[0.880s]                  from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:34[m[K,
+[0.880s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[0.880s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[0.880s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[0.880s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[0.880s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[0.880s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[0.880s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[0.880s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[0.880s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[0.880s]                  from [01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller_position.cpp:8[m[K:
+[0.880s] [01m[K/opt/ros/foxy/include/rclcpp/duration.hpp:45:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Duration::Duration(std::chrono::nanoseconds)[m[K’
+[0.880s]    45 |   explicit [01;36m[KDuration[m[K(std::chrono::nanoseconds nanoseconds);
+[0.880s]       |            [01;36m[K^~~~~~~~[m[K
+[0.880s] [01m[K/opt/ros/foxy/include/rclcpp/duration.hpp:45:12:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[0.880s] [01m[K/opt/ros/foxy/include/rclcpp/duration.hpp:42:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Duration::Duration(rcl_duration_value_t)[m[K’
+[0.880s]    42 |   explicit [01;36m[KDuration[m[K(rcl_duration_value_t nanoseconds);
+[0.880s]       |            [01;36m[K^~~~~~~~[m[K
+[0.880s] [01m[K/opt/ros/foxy/include/rclcpp/duration.hpp:42:12:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[0.880s] [01m[K/opt/ros/foxy/include/rclcpp/duration.hpp:39:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Duration::Duration(int32_t, uint32_t)[m[K’
+[0.880s]    39 |   [01;36m[KDuration[m[K(int32_t seconds, uint32_t nanoseconds);
+[0.880s]       |   [01;36m[K^~~~~~~~[m[K
+[0.880s] [01m[K/opt/ros/foxy/include/rclcpp/duration.hpp:39:3:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 0 provided
+[0.891s] [01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller_position.cpp:[m[K In member function ‘[01m[Kvoid generic::topic_callback_spine_bottom(body_tracker_msgs::msg::SpineBottom_<std::allocator<void> >::SharedPtr)[m[K’:
+[0.891s] [01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller_position.cpp:87:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kcounter_distances[m[K’ was not declared in this scope
+[0.892s]    87 |         if([01;31m[Kcounter_distances[m[K==0)
+[0.892s]       |            [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[0.893s] [01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller_position.cpp:89:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kdistance_person_ant[m[K’ was not declared in this scope; did you mean ‘[01m[Kdistance_person[m[K’?
+[0.893s]    89 |            [01;31m[Kdistance_person_ant[m[K=distance_person;
+[0.893s]       |            [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.893s]       |            [32m[Kdistance_person[m[K
+[0.894s] [01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller_position.cpp:92:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kdistance_person_ant[m[K’ was not declared in this scope; did you mean ‘[01m[Kdistance_person[m[K’?
+[0.894s]    92 |         person_vel=([01;31m[Kdistance_person_ant[m[K-distance_person)/time;
+[0.894s]       |                     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.894s]       |                     [32m[Kdistance_person[m[K
+[0.894s] [01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller_position.cpp:93:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kavg_filtered[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[0.894s]    93 |         float [01;35m[Kavg_filtered[m[K=mean_filter(person_vel);
+[0.894s]       |               [01;35m[K^~~~~~~~~~~~[m[K
+[2.211s] make[2]: *** [CMakeFiles/robot_controller_position.dir/build.make:63: CMakeFiles/robot_controller_position.dir/src/robot_controller_position.cpp.o] Error 1
+[2.211s] make[1]: *** [CMakeFiles/Makefile2:277: CMakeFiles/robot_controller_position.dir/all] Error 2
+[2.211s] make: *** [Makefile:141: all] Error 2
+[2.213s] Invoked command in '/home/robogait/catkin_ws/build/pkg_navigation' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/nav2_ws/install/nav2_gazebo_spawner:/home/robogait/ros2_serial/install/ourbotmanager:/home/robogait/ros2_ws/install/nav2_project:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/catkin_ws/build/pkg_navigation -- -j8 -l8

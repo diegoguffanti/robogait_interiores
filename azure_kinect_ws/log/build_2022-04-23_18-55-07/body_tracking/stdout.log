@@ -1,0 +1,5 @@
+[35m[1mScanning dependencies of target listener[0m
+[35m[1mScanning dependencies of target talker[0m
+[  2%] Built target body_tracking__cpp
+[ 13%] Built target body_tracking_node
+[ 16%] Built target body_tracking__rosidl_generator_c

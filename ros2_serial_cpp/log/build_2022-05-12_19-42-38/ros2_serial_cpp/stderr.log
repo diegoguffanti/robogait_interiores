@@ -1,0 +1,19 @@
+[01m[K/home/robogait/ros2_serial_cpp/src/driver_controller.cpp:[m[K In constructor ‘[01m[Kdriver_controller::driver_controller()[m[K’:
+[01m[K/home/robogait/ros2_serial_cpp/src/driver_controller.cpp:84:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_imu[m[K’ was not declared in this scope; did you mean ‘[01m[Kpublisher_[m[K’?
+   84 |   [01;31m[Kpublisher_imu[m[K = this->create_publisher<sensor_msgs::msg::Imu>("imu", 10);
+      |   [01;31m[K^~~~~~~~~~~~~[m[K
+      |   [32m[Kpublisher_[m[K
+[01m[K/home/robogait/ros2_serial_cpp/src/driver_controller.cpp:[m[K In member function ‘[01m[Kvoid driver_controller::loop()[m[K’:
+[01m[K/home/robogait/ros2_serial_cpp/src/driver_controller.cpp:143:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _angular_velocity_type = struct geometry_msgs::msg::Vector3_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Vector3_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kw[m[K’
+  143 |    imu_msg.angular_velocity.[01;31m[Kw[m[K=rx_buf[7];
+      |                             [01;31m[K^[m[K
+[01m[K/home/robogait/ros2_serial_cpp/src/driver_controller.cpp:148:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _linear_acceleration_type = struct geometry_msgs::msg::Vector3_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Vector3_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kw[m[K’
+  148 |    imu_msg.linear_acceleration.[01;31m[Kw[m[K=rx_buf[8];
+      |                                [01;31m[K^[m[K
+[01m[K/home/robogait/ros2_serial_cpp/src/driver_controller.cpp:149:4:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_imu[m[K’ was not declared in this scope; did you mean ‘[01m[Kpublisher_[m[K’?
+  149 |    [01;31m[Kpublisher_imu[m[K->publish(imu_msg);
+      |    [01;31m[K^~~~~~~~~~~~~[m[K
+      |    [32m[Kpublisher_[m[K
+make[2]: *** [CMakeFiles/driver_controller.dir/build.make:63: CMakeFiles/driver_controller.dir/src/driver_controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/driver_controller.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

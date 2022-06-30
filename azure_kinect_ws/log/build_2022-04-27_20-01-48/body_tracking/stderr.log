@@ -1,0 +1,24 @@
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/kinectAzure_body_tracker_node.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::body_tracking()[m[K’:
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/kinectAzure_body_tracker_node.cpp:157:58:[m[K [01;31m[Kerror: [m[K‘[01m[Kunion k4a_float3_t[m[K’ has no member named ‘[01m[Kx[m[K’
+  157 |     position[i].v[0] = (body.skeleton.joints[4].position.[01;31m[Kx[m[K + body.skeleton.joints[11].position.x) / 2;
+      |                                                          [01;31m[K^[m[K
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/kinectAzure_body_tracker_node.cpp:157:96:[m[K [01;31m[Kerror: [m[K‘[01m[Kunion k4a_float3_t[m[K’ has no member named ‘[01m[Kx[m[K’
+  157 |     position[i].v[0] = (body.skeleton.joints[4].position.x + body.skeleton.joints[11].position.[01;31m[Kx[m[K) / 2;
+      |                                                                                                [01;31m[K^[m[K
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/kinectAzure_body_tracker_node.cpp:158:58:[m[K [01;31m[Kerror: [m[K‘[01m[Kunion k4a_float3_t[m[K’ has no member named ‘[01m[Ky[m[K’
+  158 |     position[i].v[1] = (body.skeleton.joints[4].position.[01;31m[Ky[m[K + body.skeleton.joints[11].position.y) / 2;
+      |                                                          [01;31m[K^[m[K
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/kinectAzure_body_tracker_node.cpp:158:96:[m[K [01;31m[Kerror: [m[K‘[01m[Kunion k4a_float3_t[m[K’ has no member named ‘[01m[Ky[m[K’
+  158 |     position[i].v[1] = (body.skeleton.joints[4].position.y + body.skeleton.joints[11].position.[01;31m[Ky[m[K) / 2;
+      |                                                                                                [01;31m[K^[m[K
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/kinectAzure_body_tracker_node.cpp:159:58:[m[K [01;31m[Kerror: [m[K‘[01m[Kunion k4a_float3_t[m[K’ has no member named ‘[01m[Kz[m[K’
+  159 |     position[i].v[2] = (body.skeleton.joints[4].position.[01;31m[Kz[m[K + body.skeleton.joints[11].position.z) / 2;
+      |                                                          [01;31m[K^[m[K
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/kinectAzure_body_tracker_node.cpp:159:96:[m[K [01;31m[Kerror: [m[K‘[01m[Kunion k4a_float3_t[m[K’ has no member named ‘[01m[Kz[m[K’
+  159 |     position[i].v[2] = (body.skeleton.joints[4].position.z + body.skeleton.joints[11].position.[01;31m[Kz[m[K) / 2;
+      |                                                                                                [01;31m[K^[m[K
+At global scope:
+[01m[Kcc1plus:[m[K [01;35m[Kwarning: [m[Kunrecognized command line option ‘[01m[K-Wno-dev[m[K’
+make[2]: *** [CMakeFiles/body_tracking_node.dir/build.make:63: CMakeFiles/body_tracking_node.dir/src/kinectAzure_body_tracker_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:208: CMakeFiles/body_tracking_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

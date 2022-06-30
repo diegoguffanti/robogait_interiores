@@ -1,0 +1,13 @@
+[35m[1mScanning dependencies of target publisher_cpp[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/publisher_cpp.dir/src/publisher_cpp.cpp.o[0m
+[01m[K/home/robogait/catkin_ws/src/test/src/publisher_cpp.cpp:[m[K In constructor ‘[01m[Kgeneric::generic()[m[K’:
+[01m[K/home/robogait/catkin_ws/src/test/src/publisher_cpp.cpp:30:44:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[Kgeneric[m[K’ does not have any field named ‘[01m[Kcount_[m[K’
+   30 |  generic() : Node("publisher_subscriber"), [01;31m[Kcount_[m[K(0)
+      |                                            [01;31m[K^~~~~~[m[K
+[01m[K/home/robogait/catkin_ws/src/test/src/publisher_cpp.cpp:[m[K In member function ‘[01m[Kvoid generic::loop()[m[K’:
+[01m[K/home/robogait/catkin_ws/src/test/src/publisher_cpp.cpp:50:58:[m[K [01;31m[Kerror: [m[K‘[01m[Kcount_[m[K’ was not declared in this scope
+   50 |         message.data = "Hello, world! " + std::to_string([01;31m[Kcount_[m[K++);
+      |                                                          [01;31m[K^~~~~~[m[K
+make[2]: *** [CMakeFiles/publisher_cpp.dir/build.make:63: CMakeFiles/publisher_cpp.dir/src/publisher_cpp.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/publisher_cpp.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

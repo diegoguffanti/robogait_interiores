@@ -1,0 +1,2 @@
+[35m[1mScanning dependencies of target body_tracking_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/body_tracking_node.dir/src/kinectAzure_body_tracker_node.cpp.o[0m

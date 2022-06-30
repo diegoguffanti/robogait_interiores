@@ -1,0 +1,29 @@
+[35m[1mScanning dependencies of target prueba_talker[0m
+[  5%] Built target body_tracking_node
+[  7%] Built target body_tracking__cpp
+[ 15%] Built target body_tracking__rosidl_generator_c
+[ 17%] [32m[1mLinking CXX executable talker[0m
+[ 20%] [32m[1mLinking CXX executable listener[0m
+[ 35%] Built target body_tracking__rosidl_typesupport_cpp
+[ 35%] Built target body_tracking__rosidl_typesupport_introspection_cpp
+[ 43%] Built target body_tracking__rosidl_typesupport_introspection_c
+[ 53%] [32mBuilding CXX object CMakeFiles/prueba_talker.dir/src/main.cpp.o[0m
+[ 53%] Built target body_tracking__rosidl_typesupport_c
+[ 61%] Built target body_tracking__rosidl_typesupport_fastrtps_cpp
+[ 69%] Built target body_tracking__rosidl_typesupport_fastrtps_c
+[ 69%] Built target body_tracking
+[ 71%] Built target body_tracking__py
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:17:10:[m[K [01;31m[Kfatal error: [m[Kbody_tracking/msg/hipCoordinates.hpp: No such file or directory
+   17 | #include [01;31m[K"body_tracking/msg/hipCoordinates.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+[ 76%] Built target body_tracking__python
+make[2]: *** [CMakeFiles/prueba_talker.dir/build.make:63: CMakeFiles/prueba_talker.dir/src/main.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:325: CMakeFiles/prueba_talker.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[ 82%] Built target body_tracking__rosidl_typesupport_fastrtps_c__pyext
+[ 87%] Built target body_tracking__rosidl_typesupport_c__pyext
+[ 92%] Built target body_tracking__rosidl_typesupport_introspection_c__pyext
+[ 94%] Built target talker
+[ 97%] Built target listener
+make: *** [Makefile:141: all] Error 2

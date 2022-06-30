@@ -1,0 +1,66 @@
+[0.011s] Invoking command in '/home/robogait/catkin_ws/build/test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/nav2_ws/install/nav2_gazebo_spawner:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy /usr/bin/cmake /home/robogait/catkin_ws/src/test -DCMAKE_INSTALL_PREFIX=/home/robogait/catkin_ws/install/test
+[0.055s] -- The C compiler identification is GNU 9.4.0
+[0.096s] -- The CXX compiler identification is GNU 9.4.0
+[0.099s] -- Check for working C compiler: /usr/bin/cc
+[0.162s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.162s] -- Detecting C compiler ABI info
+[0.228s] -- Detecting C compiler ABI info - done
+[0.236s] -- Detecting C compile features
+[0.236s] -- Detecting C compile features - done
+[0.237s] -- Check for working CXX compiler: /usr/bin/c++
+[0.300s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.301s] -- Detecting CXX compiler ABI info
+[0.370s] -- Detecting CXX compiler ABI info - done
+[0.377s] -- Detecting CXX compile features
+[0.378s] -- Detecting CXX compile features - done
+[0.380s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.403s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.403s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.532s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.574s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.582s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.651s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.672s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.731s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.773s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.774s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.775s] -- Looking for pthread.h
+[0.835s] -- Looking for pthread.h - found
+[0.835s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.923s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.924s] -- Looking for pthread_create in pthreads
+[0.985s] -- Looking for pthread_create in pthreads - not found
+[0.985s] -- Looking for pthread_create in pthread
+[1.047s] -- Looking for pthread_create in pthread - found
+[1.047s] -- Found Threads: TRUE  
+[1.152s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[1.263s] -- Configuring done
+[1.268s] -- Generating done
+[1.269s] -- Build files have been written to: /home/robogait/catkin_ws/build/test
+[1.276s] Invoked command in '/home/robogait/catkin_ws/build/test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/nav2_ws/install/nav2_gazebo_spawner:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy /usr/bin/cmake /home/robogait/catkin_ws/src/test -DCMAKE_INSTALL_PREFIX=/home/robogait/catkin_ws/install/test
+[1.277s] Invoking command in '/home/robogait/catkin_ws/build/test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/nav2_ws/install/nav2_gazebo_spawner:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/catkin_ws/build/test -- -j8 -l8
+[1.314s] [35m[1mScanning dependencies of target publisher_cpp[0m
+[1.339s] [ 50%] [32mBuilding CXX object CMakeFiles/publisher_cpp.dir/src/publisher_cpp.cpp.o[0m
+[3.100s] [100%] [32m[1mLinking CXX executable publisher_cpp[0m
+[3.208s] [100%] Built target publisher_cpp
+[3.217s] Invoked command in '/home/robogait/catkin_ws/build/test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/nav2_ws/install/nav2_gazebo_spawner:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/catkin_ws/build/test -- -j8 -l8
+[3.259s] Invoking command in '/home/robogait/catkin_ws/build/test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/nav2_ws/install/nav2_gazebo_spawner:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy /usr/bin/cmake --install /home/robogait/catkin_ws/build/test
+[3.266s] -- Install configuration: ""
+[3.266s] -- Installing: /home/robogait/catkin_ws/install/test/lib/test/publisher_cpp
+[3.266s] -- Set runtime path of "/home/robogait/catkin_ws/install/test/lib/test/publisher_cpp" to ""
+[3.266s] -- Installing: /home/robogait/catkin_ws/install/test/share/ament_index/resource_index/package_run_dependencies/test
+[3.266s] -- Installing: /home/robogait/catkin_ws/install/test/share/ament_index/resource_index/parent_prefix_path/test
+[3.267s] -- Installing: /home/robogait/catkin_ws/install/test/share/test/environment/ament_prefix_path.sh
+[3.267s] -- Installing: /home/robogait/catkin_ws/install/test/share/test/environment/ament_prefix_path.dsv
+[3.267s] -- Installing: /home/robogait/catkin_ws/install/test/share/test/environment/path.sh
+[3.267s] -- Installing: /home/robogait/catkin_ws/install/test/share/test/environment/path.dsv
+[3.267s] -- Installing: /home/robogait/catkin_ws/install/test/share/test/local_setup.bash
+[3.267s] -- Installing: /home/robogait/catkin_ws/install/test/share/test/local_setup.sh
+[3.267s] -- Installing: /home/robogait/catkin_ws/install/test/share/test/local_setup.zsh
+[3.267s] -- Installing: /home/robogait/catkin_ws/install/test/share/test/local_setup.dsv
+[3.267s] -- Installing: /home/robogait/catkin_ws/install/test/share/test/package.dsv
+[3.267s] -- Installing: /home/robogait/catkin_ws/install/test/share/ament_index/resource_index/packages/test
+[3.267s] -- Installing: /home/robogait/catkin_ws/install/test/share/test/cmake/testConfig.cmake
+[3.267s] -- Installing: /home/robogait/catkin_ws/install/test/share/test/cmake/testConfig-version.cmake
+[3.267s] -- Installing: /home/robogait/catkin_ws/install/test/share/test/package.xml
+[3.269s] Invoked command in '/home/robogait/catkin_ws/build/test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/nav2_ws/install/nav2_gazebo_spawner:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy /usr/bin/cmake --install /home/robogait/catkin_ws/build/test

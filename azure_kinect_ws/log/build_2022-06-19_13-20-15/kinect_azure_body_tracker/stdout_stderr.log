@@ -1,0 +1,25 @@
+[35m[1mScanning dependencies of target kinect_azure_body_tracker_node_full_processing[0m
+[ 20%] Built target kinect_azure_body_tracker_recording_node
+[ 40%] Built target kinect_azure_body_tracker_node
+[ 50%] [32mBuilding CXX object CMakeFiles/kinect_azure_body_tracker_node_full_processing.dir/src/kinectAzure_body_tracker_node_full_processing.cpp.o[0m
+[ 70%] Built target kinect_azure_body_tracker_node_simplified
+[ 90%] Built target kinect_azure_body_tracker_recording_node_simplified
+In file included from [01m[K/home/robogait/azure_kinect_ws/src/kinect_azure_body_tracker/src/kinectAzure_body_tracker_node_full_processing.cpp:23[m[K:
+[01m[K/home/robogait/azure_kinect_ws/src/kinect_azure_body_tracker/src/csvProcessing.cpp:[m[K In function ‘[01m[Kint processVideo(const char*, const char*)[m[K’:
+[01m[K/home/robogait/azure_kinect_ws/src/kinect_azure_body_tracker/src/csvProcessing.cpp:247:32:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kconst[m[K’
+  247 |     return process_mkv_offline([01;31m[Kconst[m[K char* input_path, const char* output_path, tracker_config) ? 0 : -1;
+      |                                [01;31m[K^~~~~[m[K
+[01m[K/home/robogait/azure_kinect_ws/src/kinect_azure_body_tracker/src/csvProcessing.cpp:247:56:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kconst[m[K’
+  247 |     return process_mkv_offline(const char* input_path, [01;31m[Kconst[m[K char* output_path, tracker_config) ? 0 : -1;
+      |                                                        [01;31m[K^~~~~[m[K
+[01m[K/home/robogait/azure_kinect_ws/src/kinect_azure_body_tracker/src/csvProcessing.cpp:243:30:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kinput_path[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  243 | int processVideo([01;35m[Kconst char* input_path[m[K, const char* output_path)
+      |                  [01;35m[K~~~~~~~~~~~~^~~~~~~~~~[m[K
+[01m[K/home/robogait/azure_kinect_ws/src/kinect_azure_body_tracker/src/csvProcessing.cpp:243:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Koutput_path[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  243 | int processVideo(const char* input_path, [01;35m[Kconst char* output_path[m[K)
+      |                                          [01;35m[K~~~~~~~~~~~~^~~~~~~~~~~[m[K
+At global scope:
+[01m[Kcc1plus:[m[K [01;35m[Kwarning: [m[Kunrecognized command line option ‘[01m[K-Wno-dev[m[K’
+make[2]: *** [CMakeFiles/kinect_azure_body_tracker_node_full_processing.dir/build.make:63: CMakeFiles/kinect_azure_body_tracker_node_full_processing.dir/src/kinectAzure_body_tracker_node_full_processing.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:86: CMakeFiles/kinect_azure_body_tracker_node_full_processing.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

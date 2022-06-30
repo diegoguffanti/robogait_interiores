@@ -1,0 +1,6 @@
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_odom_tf2_listener.cpp:93:3:[m[K [01;31m[Kerror: [m[K‘[01m[KTimerBase[m[K’ does not name a type
+   93 |   [01;31m[KTimerBase[m[K::SharedPtr timer_;
+      |   [01;31m[K^~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/robot_odom_tf2_listener.dir/build.make:63: CMakeFiles/robot_odom_tf2_listener.dir/src/robot_odom_tf2_listener.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/robot_odom_tf2_listener.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

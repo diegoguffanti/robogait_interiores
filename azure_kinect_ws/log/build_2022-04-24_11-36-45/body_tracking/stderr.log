@@ -1,0 +1,9 @@
+CMake Error at CMakeLists.txt:62 (add_executable):
+  add_executable cannot create target "prueba_talker" because another target
+  with the same name already exists.  The existing target is a shared library
+  created in source directory
+  "/home/robogait/azure_kinect_ws/src/body_tracking".  See documentation for
+  policy CMP0002 for more details.
+
+
+make: *** [Makefile:924: cmake_check_build_system] Error 1

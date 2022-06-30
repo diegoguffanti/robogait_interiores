@@ -1,0 +1,25 @@
+[35m[1mScanning dependencies of target prueba_talker[0m
+[  5%] Built target body_tracking_node
+[ 12%] Built target body_tracking__rosidl_generator_c
+[ 15%] Built target body_tracking__cpp
+[ 20%] Built target listener
+[ 25%] Built target talker
+[ 28%] [32mBuilding CXX object CMakeFiles/prueba_talker.dir/src/main.cpp.o[0m
+[ 35%] Built target body_tracking__rosidl_typesupport_cpp
+[ 43%] Built target body_tracking__rosidl_typesupport_introspection_cpp
+[ 51%] Built target body_tracking__rosidl_typesupport_c
+[ 58%] Built target body_tracking__rosidl_typesupport_introspection_c
+[ 66%] Built target body_tracking__rosidl_typesupport_fastrtps_cpp
+[ 74%] Built target body_tracking__rosidl_typesupport_fastrtps_c
+[ 74%] Built target body_tracking
+[ 76%] Built target body_tracking__py
+[ 82%] Built target body_tracking__python
+[ 97%] Built target body_tracking__rosidl_typesupport_c__pyext
+[ 97%] Built target body_tracking__rosidl_typesupport_introspection_c__pyext
+[ 97%] Built target body_tracking__rosidl_typesupport_fastrtps_c__pyext
+[01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:209:2:[m[K [01;31m[Kerror: [m[Knon-static data member declared with placeholder ‘[01m[Kauto[m[K’
+  209 |  [01;31m[Kauto[m[K message = body_tracking::msg::HipCoordinates();
+      |  [01;31m[K^~~~[m[K
+make[2]: *** [CMakeFiles/prueba_talker.dir/build.make:63: CMakeFiles/prueba_talker.dir/src/main.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:325: CMakeFiles/prueba_talker.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,30 @@
+-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/robogait/catkin_ws/build/test
+[100%] Built target publisher_subscriber
+-- Install configuration: ""
+-- Up-to-date: /home/robogait/catkin_ws/install/test/lib/test/publisher_subscriber
+-- Up-to-date: /home/robogait/catkin_ws/install/test/share/ament_index/resource_index/package_run_dependencies/test
+-- Up-to-date: /home/robogait/catkin_ws/install/test/share/ament_index/resource_index/parent_prefix_path/test
+-- Up-to-date: /home/robogait/catkin_ws/install/test/share/test/environment/ament_prefix_path.sh
+-- Installing: /home/robogait/catkin_ws/install/test/share/test/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/robogait/catkin_ws/install/test/share/test/environment/path.sh
+-- Installing: /home/robogait/catkin_ws/install/test/share/test/environment/path.dsv
+-- Up-to-date: /home/robogait/catkin_ws/install/test/share/test/local_setup.bash
+-- Up-to-date: /home/robogait/catkin_ws/install/test/share/test/local_setup.sh
+-- Up-to-date: /home/robogait/catkin_ws/install/test/share/test/local_setup.zsh
+-- Installing: /home/robogait/catkin_ws/install/test/share/test/local_setup.dsv
+-- Installing: /home/robogait/catkin_ws/install/test/share/test/package.dsv
+-- Up-to-date: /home/robogait/catkin_ws/install/test/share/ament_index/resource_index/packages/test
+-- Up-to-date: /home/robogait/catkin_ws/install/test/share/test/cmake/testConfig.cmake
+-- Up-to-date: /home/robogait/catkin_ws/install/test/share/test/cmake/testConfig-version.cmake
+-- Installing: /home/robogait/catkin_ws/install/test/share/test/package.xml

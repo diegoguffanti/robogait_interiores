@@ -1,0 +1,12 @@
+[35m[1mScanning dependencies of target robot_controller[0m
+[ 10%] Built target publisher_initial_pose
+[ 20%] Built target tf2_broadcaster_person
+[ 25%] [32mBuilding CXX object CMakeFiles/robot_controller.dir/src/robot_controller.cpp.o[0m
+[ 40%] Built target publisher_subscriber
+[ 45%] Built target robot_odom_tf2_listener
+[ 55%] Built target robot_controller_position
+[ 65%] Built target tf2_broadcaster
+[ 75%] Built target robot_controller_straight
+[ 85%] Built target person_odom_tf2_listener
+[ 90%] [32m[1mLinking CXX executable robot_controller[0m
+[ 90%] Built target robot_controller

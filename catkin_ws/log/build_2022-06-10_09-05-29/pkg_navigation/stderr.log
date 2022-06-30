@@ -1,0 +1,23 @@
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_odom_tf2_listener.cpp:93:3:[m[K [01;31m[Kerror: [m[K‘[01m[KTimerBase[m[K’ does not name a type
+   93 |   [01;31m[KTimerBase[m[K::SharedPtr timer_;
+      |   [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_odom_tf2_listener.cpp:[m[K In member function ‘[01m[Kvoid FrameListener::on_timer()[m[K’:
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_odom_tf2_listener.cpp:82:69:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _transform_type = struct geometry_msgs::msg::Transform_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Transform_<std::allocator<void> >[m[K’} has no member named ‘[01m[Korientation[m[K’; did you mean ‘[01m[Krotation[m[K’?
+   82 |      odom_msg.pose.pose.orientation.x=transformStamped.transform.[01;31m[Korientation[m[K.x;
+      |                                                                  [01;31m[K^~~~~~~~~~~[m[K
+      |                                                                  [32m[Krotation[m[K
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_odom_tf2_listener.cpp:83:69:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _transform_type = struct geometry_msgs::msg::Transform_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Transform_<std::allocator<void> >[m[K’} has no member named ‘[01m[Korientation[m[K’; did you mean ‘[01m[Krotation[m[K’?
+   83 |      odom_msg.pose.pose.orientation.y=transformStamped.transform.[01;31m[Korientation[m[K.y;
+      |                                                                  [01;31m[K^~~~~~~~~~~[m[K
+      |                                                                  [32m[Krotation[m[K
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_odom_tf2_listener.cpp:84:69:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _transform_type = struct geometry_msgs::msg::Transform_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Transform_<std::allocator<void> >[m[K’} has no member named ‘[01m[Korientation[m[K’; did you mean ‘[01m[Krotation[m[K’?
+   84 |      odom_msg.pose.pose.orientation.z=transformStamped.transform.[01;31m[Korientation[m[K.z;
+      |                                                                  [01;31m[K^~~~~~~~~~~[m[K
+      |                                                                  [32m[Krotation[m[K
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_odom_tf2_listener.cpp:85:69:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _transform_type = struct geometry_msgs::msg::Transform_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Transform_<std::allocator<void> >[m[K’} has no member named ‘[01m[Korientation[m[K’; did you mean ‘[01m[Krotation[m[K’?
+   85 |      odom_msg.pose.pose.orientation.w=transformStamped.transform.[01;31m[Korientation[m[K.w;
+      |                                                                  [01;31m[K^~~~~~~~~~~[m[K
+      |                                                                  [32m[Krotation[m[K
+make[2]: *** [CMakeFiles/robot_odom_tf2_listener.dir/build.make:63: CMakeFiles/robot_odom_tf2_listener.dir/src/robot_odom_tf2_listener.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/robot_odom_tf2_listener.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

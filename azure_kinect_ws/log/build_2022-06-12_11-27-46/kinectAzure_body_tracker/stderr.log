@@ -1,0 +1,11 @@
+CMake Error: The current CMakeCache.txt directory /home/robogait/azure_kinect_ws/build/kinectAzure_body_tracker/CMakeCache.txt is different than the directory /home/robogait/azure_kinect_ws/build/body_tracking where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+WARNING: Package name "kinectAzure_body_tracker" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+CMake Error at /home/robogait/azure_kinect_ws/build/body_tracking/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:267 (message):
+  ament_cmake_symlink_install_targets() can't find
+  '/home/robogait/azure_kinect_ws/build/body_tracking/kinectAzure_body_tracker_node'
+Call Stack (most recent call first):
+  /home/robogait/azure_kinect_ws/build/body_tracking/ament_cmake_symlink_install_targets_0_.cmake:1 (ament_cmake_symlink_install_targets)
+  /home/robogait/azure_kinect_ws/build/body_tracking/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:314 (include)
+  cmake_install.cmake:41 (include)
+
+

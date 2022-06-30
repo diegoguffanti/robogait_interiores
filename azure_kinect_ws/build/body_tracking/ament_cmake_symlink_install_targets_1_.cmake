@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/robogait/azure_kinect_ws/build/body_tracking/body_tracking_node" "/home/robogait/azure_kinect_ws/build/body_tracking/body_tracking_recording_node" "TARGETS" "body_tracking_node" "body_tracking_recording_node" "DESTINATION" "lib/body_tracking")

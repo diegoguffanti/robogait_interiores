@@ -1,0 +1,4 @@
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller_position.cpp:109:23:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  109 |        float array[5];[01;35m[K;[m[K
+      |                       [01;35m[K^[m[K
+      |                       [31m[K-[m[K

@@ -1,0 +1,19 @@
+[0.015s] Invoking command in '/home/robogait/catkin_ws/build/pkg_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/nav2_ws/install/nav2_gazebo_spawner:/home/robogait/ros2_serial/install/ourbotmanager:/home/robogait/ros2_ws/install/nav2_project:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/catkin_ws/build/pkg_navigation -- -j8 -l8
+[0.060s] [35m[1mScanning dependencies of target robot_controller_position[0m
+[0.071s] [ 16%] Built target publisher_initial_pose
+[0.078s] [ 33%] Built target tf2_broadcaster
+[0.079s] [ 50%] Built target publisher_subscriber
+[0.080s] [ 66%] Built target robot_controller
+[0.081s] [ 83%] Built target robot_odom_tf2_listener
+[0.085s] [ 91%] [32mBuilding CXX object CMakeFiles/robot_controller_position.dir/src/robot_controller_position.cpp.o[0m
+[0.928s] [01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller_position.cpp:[m[K In member function ‘[01m[Kvoid generic::callback_keyboard(geometry_msgs::msg::Twist_<std::allocator<void> >::SharedPtr)[m[K’:
+[0.928s] [01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller_position.cpp:132:24:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kcout[m[K’
+[0.928s]   132 |        avg = sum / size
+[0.928s]       |                        [01;31m[K^[m[K
+[0.928s]       |                        [32m[K;[m[K
+[0.928s]   133 |        [32m[Kcout[m[K<<"Promedio: "<<avg<<endl;
+[0.928s]       |        [32m[K~~~~[m[K             
+[2.194s] make[2]: *** [CMakeFiles/robot_controller_position.dir/build.make:63: CMakeFiles/robot_controller_position.dir/src/robot_controller_position.cpp.o] Error 1
+[2.194s] make[1]: *** [CMakeFiles/Makefile2:277: CMakeFiles/robot_controller_position.dir/all] Error 2
+[2.194s] make: *** [Makefile:141: all] Error 2
+[2.196s] Invoked command in '/home/robogait/catkin_ws/build/pkg_navigation' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/nav2_ws/install/nav2_gazebo_spawner:/home/robogait/ros2_serial/install/ourbotmanager:/home/robogait/ros2_ws/install/nav2_project:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/catkin_ws/build/pkg_navigation -- -j8 -l8

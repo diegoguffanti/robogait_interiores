@@ -1,0 +1,11 @@
+[35m[1mScanning dependencies of target robot_controller_position[0m
+[35m[1mScanning dependencies of target tf2_broadcaster_person[0m
+[ 14%] Built target robot_controller
+[ 28%] Built target robot_odom_tf2_listener
+[ 42%] Built target tf2_broadcaster
+[ 71%] Built target publisher_initial_pose
+[ 71%] Built target publisher_subscriber
+[ 78%] [32mBuilding CXX object CMakeFiles/robot_controller_position.dir/src/robot_controller_position.cpp.o[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/tf2_broadcaster_person.dir/src/tf2_broadcaster_person.cpp.o[0m
+[ 92%] [32m[1mLinking CXX executable tf2_broadcaster_person[0m
+[ 92%] Built target tf2_broadcaster_person

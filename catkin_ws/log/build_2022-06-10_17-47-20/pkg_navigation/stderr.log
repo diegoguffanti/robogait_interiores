@@ -1,0 +1,22 @@
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller.cpp:[m[K In member function ‘[01m[Kvoid generic::loop()[m[K’:
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller.cpp:118:37:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Kdouble yaw_err[m[K’
+  118 |         double roll_err, pitch_err, [01;31m[Kyaw_err[m[K;
+      |                                     [01;31m[K^~~~~~~[m[K
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller.cpp:111:15:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Kfloat yaw_err[m[K’
+  111 |         float [01;36m[Kyaw_err[m[K=q_goal.getAngle()-q_robot.getAngle();
+      |               [01;36m[K^~~~~~~[m[K
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller.cpp:119:43:[m[K [01;31m[Kerror: [m[Kcannot bind non-const lvalue reference of type ‘[01m[Ktf2Scalar&[m[K’ {aka ‘[01m[Kdouble&[m[K’} to an rvalue of type ‘[01m[Ktf2Scalar[m[K’ {aka ‘[01m[Kdouble[m[K’}
+  119 |         m_err.getRPY(roll_err, pitch_err, [01;31m[Kyaw_err[m[K);
+      |                                           [01;31m[K^~~~~~~[m[K
+In file included from [01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller.cpp:17[m[K:
+[01m[K/opt/ros/foxy/include/tf2/LinearMath/Matrix3x3.h:359:60:[m[K [01;36m[Knote: [m[K  initializing argument 3 of ‘[01m[Kvoid tf2::Matrix3x3::getRPY(tf2Scalar&, tf2Scalar&, tf2Scalar&, unsigned int) const[m[K’
+  359 |  void getRPY(tf2Scalar& roll, tf2Scalar& pitch, [01;36m[Ktf2Scalar& yaw[m[K, unsigned int solution_number = 1) const
+      |                                                 [01;36m[K~~~~~~~~~~~^~~[m[K
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller.cpp:121:20:[m[K [01;31m[Kerror: [m[Kinvalid operands of types ‘[01m[Kint[m[K’ and ‘[01m[Kdouble[m[K’ to binary ‘[01m[Koperator%[m[K’
+  121 |         cout << [32m[K-20[m[K[01;31m[K%[m[K[34m[K(2*M_PI)[m[K << endl;
+      |                 [32m[K~~~[m[K[01;31m[K^[m[K[34m[K~~~~~~~~[m[K
+      |                 [32m[K|[m[K     [34m[K|[m[K
+      |                 [32m[Kint[m[K   [34m[Kdouble[m[K
+make[2]: *** [CMakeFiles/robot_controller.dir/build.make:63: CMakeFiles/robot_controller.dir/src/robot_controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/robot_controller.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

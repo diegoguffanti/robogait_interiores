@@ -1,0 +1,1682 @@
+[0.000000] (-) TimerEvent: {}
+[0.000199] (body_tracking) JobQueued: {'identifier': 'body_tracking', 'dependencies': OrderedDict()}
+[0.000257] (body_tracking) JobStarted: {'identifier': 'body_tracking'}
+[0.007848] (body_tracking) JobProgress: {'identifier': 'body_tracking', 'progress': 'cmake'}
+[0.008805] (body_tracking) JobProgress: {'identifier': 'body_tracking', 'progress': 'build'}
+[0.008824] (body_tracking) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robogait/azure_kinect_ws/build/body_tracking', '--', '-j8', '-l8'], 'cwd': '/home/robogait/azure_kinect_ws/build/body_tracking', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'robogait'), ('LC_TIME', 'es_ES.UTF-8'), ('SSH_AGENT_PID', '1685'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/robogait/azure_kinect_ws/install/body_tracking/lib:/home/robogait/tutorials_ws/install/turtlesim/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/robogait'), ('OLDPWD', '/home/robogait/azure_kinect_ws/src/body_tracking/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('MANAGERPID', '1488'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/robogait/azure_kinect_ws/install:/home/robogait/serial_cpp/install:/home/robogait/ros2_serial/install:/home/robogait/rplidar/install:/home/robogait/tutorials_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'robogait'), ('JOURNAL_STREAM', '8:52361'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'robogait'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/robogait/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/robogait-NUC11TNKv7:@/tmp/.ICE-unix/1723,unix/robogait-NUC11TNKv7:/tmp/.ICE-unix/1723'), ('INVOCATION_ID', '5a7102b0b6194049890e2181dddd96c5'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/269b53c7_b546_443c_abbe_365da80520e1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.121'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/robogait/azure_kinect_ws/install/body_tracking:/home/robogait/ros2_serial/install/ourbotmanager:/home/robogait/serial_cpp/install/serial_pubsub:/home/robogait/rplidar/install/sllidar_ros2:/home/robogait/rplidar/install/rplidar_ros2:/home/robogait/tutorials_ws/install/turtlesim:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robogait/azure_kinect_ws/build/body_tracking'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/robogait/azure_kinect_ws/install/body_tracking/lib/python3.8/site-packages:/home/robogait/ros2_serial/install/ourbotmanager/lib/python3.8/site-packages:/home/robogait/tutorials_ws/install/turtlesim/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/robogait/azure_kinect_ws/install/body_tracking:/home/robogait/serial_cpp/install/serial_pubsub:/home/robogait/rplidar/install/sllidar_ros2:/home/robogait/rplidar/install/rplidar_ros2:/home/robogait/tutorials_ws/install/turtlesim:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy')]), 'shell': False}
+[0.029219] (body_tracking) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.043315] (body_tracking) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.043449] (body_tracking) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.099291] (-) TimerEvent: {}
+[0.147054] (body_tracking) StdoutLine: {'line': b'-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.167105] (body_tracking) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.168995] (body_tracking) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.199394] (-) TimerEvent: {}
+[0.239782] (body_tracking) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.268297] (body_tracking) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.269165] (body_tracking) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.299482] (-) TimerEvent: {}
+[0.352653] (body_tracking) StdoutLine: {'line': b'-- Found body_tracking: 0.0.0 (/home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/cmake)\n'}
+[0.356359] (body_tracking) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[0.376925] (body_tracking) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[0.399564] (-) TimerEvent: {}
+[0.445473] (body_tracking) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[0.499666] (-) TimerEvent: {}
+[0.501947] (body_tracking) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.505773] (body_tracking) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.520001] (body_tracking) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[0.520125] (body_tracking) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[0.534294] (body_tracking) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.534408] (body_tracking) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[0.534447] (body_tracking) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[0.543411] (body_tracking) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[0.548487] (body_tracking) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[0.549352] (body_tracking) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.550091] (body_tracking) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/robogait/azure_kinect_ws/src/body_tracking/include>\n'}
+[0.550158] (body_tracking) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.550618] (body_tracking) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[0.550691] (body_tracking) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[0.550929] (body_tracking) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.551601] (body_tracking) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.551640] (body_tracking) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.551772] (body_tracking) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.554143] (body_tracking) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.563218] (body_tracking) StderrLine: {'line': b'CMake Internal Error (please report a bug) in CMakeLists.txt:\n'}
+[0.564288] (body_tracking) StderrLine: {'line': b'  cmGeneratorTarget::GetOutputInfo called for body_tracking which has type\n'}
+[0.564867] (body_tracking) StderrLine: {'line': b'  UTILITY\n'}
+[0.565591] (body_tracking) StderrLine: {'line': b'\n'}
+[0.565849] (body_tracking) StderrLine: {'line': b'Note: The stack trace will not use advanced capabilities because this is a release build.\n'}
+[0.565888] (body_tracking) StderrLine: {'line': b'0x55b78929d7a4 : ??? [(???) ???:-1]\n'}
+[0.565925] (body_tracking) StderrLine: {'line': b'0x55b78929e262 : ??? [(???) ???:-1]\n'}
+[0.565961] (body_tracking) StderrLine: {'line': b'0x55b7891da253 : ??? [(???) ???:-1]\n'}
+[0.565996] (body_tracking) StderrLine: {'line': b'0x55b7891da8d9 : ??? [(???) ???:-1]\n'}
+[0.566031] (body_tracking) StderrLine: {'line': b'0x55b78913331f : ??? [(???) ???:-1]\n'}
+[0.566066] (body_tracking) StderrLine: {'line': b'0x55b789133513 : ??? [(???) ???:-1]\n'}
+[0.566101] (body_tracking) StderrLine: {'line': b'0x55b78912b0b3 : ??? [(???) ???:-1]\n'}
+[0.566136] (body_tracking) StderrLine: {'line': b'0x55b78912b455 : ??? [(???) ???:-1]\n'}
+[0.566172] (body_tracking) StderrLine: {'line': b'0x55b78912b510 : ??? [(???) ???:-1]\n'}
+[0.566206] (body_tracking) StderrLine: {'line': b'0x55b78919d565 : ??? [(???) ???:-1]\n'}
+[0.566242] (body_tracking) StderrLine: {'line': b'0x55b78919dd55 : ??? [(???) ???:-1]\n'}
+[0.566276] (body_tracking) StderrLine: {'line': b'0x55b788eb464f : ??? [(???) ???:-1]\n'}
+[0.566311] (body_tracking) StderrLine: {'line': b'0x55b788eb4a03 : ??? [(???) ???:-1]\n'}
+[0.566347] (body_tracking) StderrLine: {'line': b'0x55b7891c6b6e : ??? [(???) ???:-1]\n'}
+[0.566382] (body_tracking) StderrLine: {'line': b'0x55b7891cf0bf : ??? [(???) ???:-1]\n'}
+[0.566417] (body_tracking) StderrLine: {'line': b'0x55b7891cbf4d : ??? [(???) ???:-1]\n'}
+[0.566451] (body_tracking) StderrLine: {'line': b'0x55b7891b5421 : ??? [(???) ???:-1]\n'}
+[0.566485] (body_tracking) StderrLine: {'line': b'0x55b7891768fa : ??? [(???) ???:-1]\n'}
+[0.566523] (body_tracking) StderrLine: {'line': b'0x55b7891855b7 : ??? [(???) ???:-1]\n'}
+[0.566558] (body_tracking) StderrLine: {'line': b'0x55b788f72aa7 : ??? [(???) ???:-1]\n'}
+[0.566594] (body_tracking) StderrLine: {'line': b'0x55b788f821e4 : ??? [(???) ???:-1]\n'}
+[0.566630] (body_tracking) StderrLine: {'line': b'0x55b788e85c29 : ??? [(???) ???:-1]\n'}
+[0.566664] (body_tracking) StderrLine: {'line': b'0x55b788e77ba3 : ??? [(???) ???:-1]\n'}
+[0.566699] (body_tracking) StderrLine: {'line': b'0x7fcc97aef0b3 : __libc_start_main [(libc.so.6) ???:-1]\n'}
+[0.566734] (body_tracking) StderrLine: {'line': b'0x55b788e811ae : ??? [(???) ???:-1]\n'}
+[0.566769] (body_tracking) StderrLine: {'line': b'\n'}
+[0.566803] (body_tracking) StderrLine: {'line': b'\n'}
+[0.566838] (body_tracking) StderrLine: {'line': b'CMake Internal Error (please report a bug) in CMakeLists.txt:\n'}
+[0.566874] (body_tracking) StderrLine: {'line': b'  cmGeneratorTarget::GetOutputInfo called for body_tracking which has type\n'}
+[0.566909] (body_tracking) StderrLine: {'line': b'  UTILITY\n'}
+[0.566944] (body_tracking) StderrLine: {'line': b'\n'}
+[0.566980] (body_tracking) StderrLine: {'line': b'Note: The stack trace will not use advanced capabilities because this is a release build.\n'}
+[0.567016] (body_tracking) StderrLine: {'line': b'0x55b78929d7a4 : ??? [(???) ???:-1]\n'}
+[0.567050] (body_tracking) StderrLine: {'line': b'0x55b78929e262 : ??? [(???) ???:-1]\n'}
+[0.567085] (body_tracking) StderrLine: {'line': b'0x55b7891da253 : ??? [(???) ???:-1]\n'}
+[0.567117] (body_tracking) StderrLine: {'line': b'0x55b7891da8d9 : ??? [(???) ???:-1]\n'}
+[0.567152] (body_tracking) StderrLine: {'line': b'0x55b78913331f : ??? [(???) ???:-1]\n'}
+[0.567187] (body_tracking) StderrLine: {'line': b'0x55b789133513 : ??? [(???) ???:-1]\n'}
+[0.567222] (body_tracking) StderrLine: {'line': b'0x55b78912b0b3 : ??? [(???) ???:-1]\n'}
+[0.567265] (body_tracking) StderrLine: {'line': b'0x55b78912b455 : ??? [(???) ???:-1]\n'}
+[0.567298] (body_tracking) StderrLine: {'line': b'0x55b78912b510 : ??? [(???) ???:-1]\n'}
+[0.567334] (body_tracking) StderrLine: {'line': b'0x55b78919d565 : ??? [(???) ???:-1]\n'}
+[0.567369] (body_tracking) StderrLine: {'line': b'0x55b78919dd55 : ??? [(???) ???:-1]\n'}
+[0.567403] (body_tracking) StderrLine: {'line': b'0x55b788eb464f : ??? [(???) ???:-1]\n'}
+[0.567439] (body_tracking) StderrLine: {'line': b'0x55b788eb4a03 : ??? [(???) ???:-1]\n'}
+[0.567474] (body_tracking) StderrLine: {'line': b'0x55b7891c6b6e : ??? [(???) ???:-1]\n'}
+[0.567508] (body_tracking) StderrLine: {'line': b'0x55b7891cf0bf : ??? [(???) ???:-1]\n'}
+[0.567543] (body_tracking) StderrLine: {'line': b'0x55b7891cbf4d : ??? [(???) ???:-1]\n'}
+[0.567577] (body_tracking) StderrLine: {'line': b'0x55b7891b5421 : ??? [(???) ???:-1]\n'}
+[0.567611] (body_tracking) StderrLine: {'line': b'0x55b7891768fa : ??? [(???) ???:-1]\n'}
+[0.567646] (body_tracking) StderrLine: {'line': b'0x55b7891855b7 : ??? [(???) ???:-1]\n'}
+[0.567680] (body_tracking) StderrLine: {'line': b'0x55b788f72aa7 : ??? [(???) ???:-1]\n'}
+[0.567715] (body_tracking) StderrLine: {'line': b'0x55b788f821e4 : ??? [(???) ???:-1]\n'}
+[0.567748] (body_tracking) StderrLine: {'line': b'0x55b788e85c29 : ??? [(???) ???:-1]\n'}
+[0.567784] (body_tracking) StderrLine: {'line': b'0x55b788e77ba3 : ??? [(???) ???:-1]\n'}
+[0.567817] (body_tracking) StderrLine: {'line': b'0x7fcc97aef0b3 : __libc_start_main [(libc.so.6) ???:-1]\n'}
+[0.567851] (body_tracking) StderrLine: {'line': b'0x55b788e811ae : ??? [(???) ???:-1]\n'}
+[0.567886] (body_tracking) StderrLine: {'line': b'\n'}
+[0.567921] (body_tracking) StderrLine: {'line': b'\n'}
+[0.567956] (body_tracking) StderrLine: {'line': b'CMake Internal Error (please report a bug) in CMakeLists.txt:\n'}
+[0.567991] (body_tracking) StderrLine: {'line': b'  cmGeneratorTarget::GetOutputInfo called for body_tracking which has type\n'}
+[0.568026] (body_tracking) StderrLine: {'line': b'  UTILITY\n'}
+[0.568062] (body_tracking) StderrLine: {'line': b'\n'}
+[0.568096] (body_tracking) StderrLine: {'line': b'Note: The stack trace will not use advanced capabilities because this is a release build.\n'}
+[0.568132] (body_tracking) StderrLine: {'line': b'0x55b78929d7a4 : ??? [(???) ???:-1]\n'}
+[0.568167] (body_tracking) StderrLine: {'line': b'0x55b78929e262 : ??? [(???) ???:-1]\n'}
+[0.568201] (body_tracking) StderrLine: {'line': b'0x55b7891da253 : ??? [(???) ???:-1]\n'}
+[0.568235] (body_tracking) StderrLine: {'line': b'0x55b7891da8d9 : ??? [(???) ???:-1]\n'}
+[0.568271] (body_tracking) StderrLine: {'line': b'0x55b78913331f : ??? [(???) ???:-1]\n'}
+[0.568305] (body_tracking) StderrLine: {'line': b'0x55b789133513 : ??? [(???) ???:-1]\n'}
+[0.568340] (body_tracking) StderrLine: {'line': b'0x55b78912b0b3 : ??? [(???) ???:-1]\n'}
+[0.568375] (body_tracking) StderrLine: {'line': b'0x55b78912b455 : ??? [(???) ???:-1]\n'}
+[0.568409] (body_tracking) StderrLine: {'line': b'0x55b78912b510 : ??? [(???) ???:-1]\n'}
+[0.568443] (body_tracking) StderrLine: {'line': b'0x55b78919d565 : ??? [(???) ???:-1]\n'}
+[0.568478] (body_tracking) StderrLine: {'line': b'0x55b78919dd55 : ??? [(???) ???:-1]\n'}
+[0.568512] (body_tracking) StderrLine: {'line': b'0x55b788eb464f : ??? [(???) ???:-1]\n'}
+[0.568547] (body_tracking) StderrLine: {'line': b'0x55b788eb4a03 : ??? [(???) ???:-1]\n'}
+[0.568580] (body_tracking) StderrLine: {'line': b'0x55b7891c6b6e : ??? [(???) ???:-1]\n'}
+[0.568615] (body_tracking) StderrLine: {'line': b'0x55b7891cf0bf : ??? [(???) ???:-1]\n'}
+[0.568648] (body_tracking) StderrLine: {'line': b'0x55b7891cbf4d : ??? [(???) ???:-1]\n'}
+[0.568683] (body_tracking) StderrLine: {'line': b'0x55b7891b5421 : ??? [(???) ???:-1]\n'}
+[0.568717] (body_tracking) StderrLine: {'line': b'0x55b7891768fa : ??? [(???) ???:-1]\n'}
+[0.568752] (body_tracking) StderrLine: {'line': b'0x55b7891855b7 : ??? [(???) ???:-1]\n'}
+[0.568787] (body_tracking) StderrLine: {'line': b'0x55b788f72aa7 : ??? [(???) ???:-1]\n'}
+[0.568823] (body_tracking) StderrLine: {'line': b'0x55b788f821e4 : ??? [(???) ???:-1]\n'}
+[0.568858] (body_tracking) StderrLine: {'line': b'0x55b788e85c29 : ??? [(???) ???:-1]\n'}
+[0.568893] (body_tracking) StderrLine: {'line': b'0x55b788e77ba3 : ??? [(???) ???:-1]\n'}
+[0.568929] (body_tracking) StderrLine: {'line': b'0x7fcc97aef0b3 : __libc_start_main [(libc.so.6) ???:-1]\n'}
+[0.568964] (body_tracking) StderrLine: {'line': b'0x55b788e811ae : ??? [(???) ???:-1]\n'}
+[0.568998] (body_tracking) StderrLine: {'line': b'\n'}
+[0.569032] (body_tracking) StderrLine: {'line': b'\n'}
+[0.569066] (body_tracking) StderrLine: {'line': b'CMake Internal Error (please report a bug) in CMakeLists.txt:\n'}
+[0.569100] (body_tracking) StderrLine: {'line': b'  cmGeneratorTarget::GetOutputInfo called for body_tracking which has type\n'}
+[0.569135] (body_tracking) StderrLine: {'line': b'  UTILITY\n'}
+[0.569170] (body_tracking) StderrLine: {'line': b'\n'}
+[0.569205] (body_tracking) StderrLine: {'line': b'Note: The stack trace will not use advanced capabilities because this is a release build.\n'}
+[0.569246] (body_tracking) StderrLine: {'line': b'0x55b78929d7a4 : ??? [(???) ???:-1]\n'}
+[0.569285] (body_tracking) StderrLine: {'line': b'0x55b78929e262 : ??? [(???) ???:-1]\n'}
+[0.569320] (body_tracking) StderrLine: {'line': b'0x55b7891da253 : ??? [(???) ???:-1]\n'}
+[0.569356] (body_tracking) StderrLine: {'line': b'0x55b7891da8d9 : ??? [(???) ???:-1]\n'}
+[0.569391] (body_tracking) StderrLine: {'line': b'0x55b78913331f : ??? [(???) ???:-1]\n'}
+[0.569426] (body_tracking) StderrLine: {'line': b'0x55b789133513 : ??? [(???) ???:-1]\n'}
+[0.569461] (body_tracking) StderrLine: {'line': b'0x55b78912b0b3 : ??? [(???) ???:-1]\n'}
+[0.569493] (body_tracking) StderrLine: {'line': b'0x55b78912b455 : ??? [(???) ???:-1]\n'}
+[0.569525] (body_tracking) StderrLine: {'line': b'0x55b78912b510 : ??? [(???) ???:-1]\n'}
+[0.569557] (body_tracking) StderrLine: {'line': b'0x55b78919d565 : ??? [(???) ???:-1]\n'}
+[0.569588] (body_tracking) StderrLine: {'line': b'0x55b78919dd55 : ??? [(???) ???:-1]\n'}
+[0.569622] (body_tracking) StderrLine: {'line': b'0x55b788eb464f : ??? [(???) ???:-1]\n'}
+[0.569654] (body_tracking) StderrLine: {'line': b'0x55b788eb4a03 : ??? [(???) ???:-1]\n'}
+[0.569687] (body_tracking) StderrLine: {'line': b'0x55b7891c6b6e : ??? [(???) ???:-1]\n'}
+[0.569719] (body_tracking) StderrLine: {'line': b'0x55b7891cf0bf : ??? [(???) ???:-1]\n'}
+[0.569751] (body_tracking) StderrLine: {'line': b'0x55b7891cbf4d : ??? [(???) ???:-1]\n'}
+[0.569782] (body_tracking) StderrLine: {'line': b'0x55b7891b5421 : ??? [(???) ???:-1]\n'}
+[0.569813] (body_tracking) StderrLine: {'line': b'0x55b7891768fa : ??? [(???) ???:-1]\n'}
+[0.569844] (body_tracking) StderrLine: {'line': b'0x55b7891855b7 : ??? [(???) ???:-1]\n'}
+[0.569876] (body_tracking) StderrLine: {'line': b'0x55b788f72aa7 : ??? [(???) ???:-1]\n'}
+[0.569908] (body_tracking) StderrLine: {'line': b'0x55b788f821e4 : ??? [(???) ???:-1]\n'}
+[0.569939] (body_tracking) StderrLine: {'line': b'0x55b788e85c29 : ??? [(???) ???:-1]\n'}
+[0.569972] (body_tracking) StderrLine: {'line': b'0x55b788e77ba3 : ??? [(???) ???:-1]\n'}
+[0.570004] (body_tracking) StderrLine: {'line': b'0x7fcc97aef0b3 : __libc_start_main [(libc.so.6) ???:-1]\n'}
+[0.570036] (body_tracking) StderrLine: {'line': b'0x55b788e811ae : ??? [(???) ???:-1]\n'}
+[0.570068] (body_tracking) StderrLine: {'line': b'\n'}
+[0.570101] (body_tracking) StderrLine: {'line': b'\n'}
+[0.570135] (body_tracking) StderrLine: {'line': b'CMake Internal Error (please report a bug) in CMakeLists.txt:\n'}
+[0.570170] (body_tracking) StderrLine: {'line': b'  cmGeneratorTarget::GetOutputInfo called for body_tracking which has type\n'}
+[0.570205] (body_tracking) StderrLine: {'line': b'  UTILITY\n'}
+[0.570240] (body_tracking) StderrLine: {'line': b'\n'}
+[0.570275] (body_tracking) StderrLine: {'line': b'Note: The stack trace will not use advanced capabilities because this is a release build.\n'}
+[0.570311] (body_tracking) StderrLine: {'line': b'0x55b78929d7a4 : ??? [(???) ???:-1]\n'}
+[0.570347] (body_tracking) StderrLine: {'line': b'0x55b78929e262 : ??? [(???) ???:-1]\n'}
+[0.570382] (body_tracking) StderrLine: {'line': b'0x55b7891da253 : ??? [(???) ???:-1]\n'}
+[0.570418] (body_tracking) StderrLine: {'line': b'0x55b7891da8d9 : ??? [(???) ???:-1]\n'}
+[0.570453] (body_tracking) StderrLine: {'line': b'0x55b78913331f : ??? [(???) ???:-1]\n'}
+[0.570489] (body_tracking) StderrLine: {'line': b'0x55b789133513 : ??? [(???) ???:-1]\n'}
+[0.570523] (body_tracking) StderrLine: {'line': b'0x55b78912b0b3 : ??? [(???) ???:-1]\n'}
+[0.570557] (body_tracking) StderrLine: {'line': b'0x55b78912b455 : ??? [(???) ???:-1]\n'}
+[0.570591] (body_tracking) StderrLine: {'line': b'0x55b78912b510 : ??? [(???) ???:-1]\n'}
+[0.570626] (body_tracking) StderrLine: {'line': b'0x55b78919d565 : ??? [(???) ???:-1]\n'}
+[0.570661] (body_tracking) StderrLine: {'line': b'0x55b78919dd55 : ??? [(???) ???:-1]\n'}
+[0.570695] (body_tracking) StderrLine: {'line': b'0x55b788eb464f : ??? [(???) ???:-1]\n'}
+[0.570730] (body_tracking) StderrLine: {'line': b'0x55b788eb4a03 : ??? [(???) ???:-1]\n'}
+[0.570765] (body_tracking) StderrLine: {'line': b'0x55b7891c6b6e : ??? [(???) ???:-1]\n'}
+[0.570799] (body_tracking) StderrLine: {'line': b'0x55b7891cf0bf : ??? [(???) ???:-1]\n'}
+[0.570835] (body_tracking) StderrLine: {'line': b'0x55b7891cbf4d : ??? [(???) ???:-1]\n'}
+[0.570869] (body_tracking) StderrLine: {'line': b'0x55b7891b5421 : ??? [(???) ???:-1]\n'}
+[0.570904] (body_tracking) StderrLine: {'line': b'0x55b7891768fa : ??? [(???) ???:-1]\n'}
+[0.570939] (body_tracking) StderrLine: {'line': b'0x55b7891855b7 : ??? [(???) ???:-1]\n'}
+[0.570973] (body_tracking) StderrLine: {'line': b'0x55b788f72aa7 : ??? [(???) ???:-1]\n'}
+[0.571007] (body_tracking) StderrLine: {'line': b'0x55b788f821e4 : ??? [(???) ???:-1]\n'}
+[0.571042] (body_tracking) StderrLine: {'line': b'0x55b788e85c29 : ??? [(???) ???:-1]\n'}
+[0.571077] (body_tracking) StderrLine: {'line': b'0x55b788e77ba3 : ??? [(???) ???:-1]\n'}
+[0.571111] (body_tracking) StderrLine: {'line': b'0x7fcc97aef0b3 : __libc_start_main [(libc.so.6) ???:-1]\n'}
+[0.571146] (body_tracking) StderrLine: {'line': b'0x55b788e811ae : ??? [(???) ???:-1]\n'}
+[0.571181] (body_tracking) StderrLine: {'line': b'\n'}
+[0.571215] (body_tracking) StderrLine: {'line': b'\n'}
+[0.571252] (body_tracking) StderrLine: {'line': b'CMake Internal Error (please report a bug) in CMakeLists.txt:\n'}
+[0.571289] (body_tracking) StderrLine: {'line': b'  cmGeneratorTarget::GetOutputInfo called for body_tracking which has type\n'}
+[0.571325] (body_tracking) StderrLine: {'line': b'  UTILITY\n'}
+[0.571359] (body_tracking) StderrLine: {'line': b'\n'}
+[0.571393] (body_tracking) StderrLine: {'line': b'Note: The stack trace will not use advanced capabilities because this is a release build.\n'}
+[0.571429] (body_tracking) StderrLine: {'line': b'0x55b78929d7a4 : ??? [(???) ???:-1]\n'}
+[0.571463] (body_tracking) StderrLine: {'line': b'0x55b78929e262 : ??? [(???) ???:-1]\n'}
+[0.571498] (body_tracking) StderrLine: {'line': b'0x55b7891da253 : ??? [(???) ???:-1]\n'}
+[0.571532] (body_tracking) StderrLine: {'line': b'0x55b7891da8d9 : ??? [(???) ???:-1]\n'}
+[0.571567] (body_tracking) StderrLine: {'line': b'0x55b78913331f : ??? [(???) ???:-1]\n'}
+[0.571602] (body_tracking) StderrLine: {'line': b'0x55b789133513 : ??? [(???) ???:-1]\n'}
+[0.571636] (body_tracking) StderrLine: {'line': b'0x55b78912b0b3 : ??? [(???) ???:-1]\n'}
+[0.571671] (body_tracking) StderrLine: {'line': b'0x55b78912b455 : ??? [(???) ???:-1]\n'}
+[0.571705] (body_tracking) StderrLine: {'line': b'0x55b78912b510 : ??? [(???) ???:-1]\n'}
+[0.571739] (body_tracking) StderrLine: {'line': b'0x55b78919d565 : ??? [(???) ???:-1]\n'}
+[0.571773] (body_tracking) StderrLine: {'line': b'0x55b78919dd55 : ??? [(???) ???:-1]\n'}
+[0.571808] (body_tracking) StderrLine: {'line': b'0x55b788eb464f : ??? [(???) ???:-1]\n'}
+[0.571844] (body_tracking) StderrLine: {'line': b'0x55b788eb4a03 : ??? [(???) ???:-1]\n'}
+[0.571879] (body_tracking) StderrLine: {'line': b'0x55b7891c6b6e : ??? [(???) ???:-1]\n'}
+[0.571913] (body_tracking) StderrLine: {'line': b'0x55b7891cf0bf : ??? [(???) ???:-1]\n'}
+[0.571948] (body_tracking) StderrLine: {'line': b'0x55b7891cbf4d : ??? [(???) ???:-1]\n'}
+[0.571983] (body_tracking) StderrLine: {'line': b'0x55b7891b5421 : ??? [(???) ???:-1]\n'}
+[0.572017] (body_tracking) StderrLine: {'line': b'0x55b7891768fa : ??? [(???) ???:-1]\n'}
+[0.572052] (body_tracking) StderrLine: {'line': b'0x55b7891855b7 : ??? [(???) ???:-1]\n'}
+[0.572086] (body_tracking) StderrLine: {'line': b'0x55b788f72aa7 : ??? [(???) ???:-1]\n'}
+[0.572120] (body_tracking) StderrLine: {'line': b'0x55b788f821e4 : ??? [(???) ???:-1]\n'}
+[0.572156] (body_tracking) StderrLine: {'line': b'0x55b788e85c29 : ??? [(???) ???:-1]\n'}
+[0.572191] (body_tracking) StderrLine: {'line': b'0x55b788e77ba3 : ??? [(???) ???:-1]\n'}
+[0.572225] (body_tracking) StderrLine: {'line': b'0x7fcc97aef0b3 : __libc_start_main [(libc.so.6) ???:-1]\n'}
+[0.572259] (body_tracking) StderrLine: {'line': b'0x55b788e811ae : ??? [(???) ???:-1]\n'}
+[0.572294] (body_tracking) StderrLine: {'line': b'\n'}
+[0.572329] (body_tracking) StderrLine: {'line': b'\n'}
+[0.572364] (body_tracking) StderrLine: {'line': b'CMake Internal Error (please report a bug) in CMakeLists.txt:\n'}
+[0.572399] (body_tracking) StderrLine: {'line': b'  cmGeneratorTarget::GetOutputInfo called for body_tracking which has type\n'}
+[0.572435] (body_tracking) StderrLine: {'line': b'  UTILITY\n'}
+[0.572470] (body_tracking) StderrLine: {'line': b'\n'}
+[0.572505] (body_tracking) StderrLine: {'line': b'Note: The stack trace will not use advanced capabilities because this is a release build.\n'}
+[0.572540] (body_tracking) StderrLine: {'line': b'0x55b78929d7a4 : ??? [(???) ???:-1]\n'}
+[0.572574] (body_tracking) StderrLine: {'line': b'0x55b78929e262 : ??? [(???) ???:-1]\n'}
+[0.572609] (body_tracking) StderrLine: {'line': b'0x55b7891da253 : ??? [(???) ???:-1]\n'}
+[0.572643] (body_tracking) StderrLine: {'line': b'0x55b7891da8d9 : ??? [(???) ???:-1]\n'}
+[0.572678] (body_tracking) StderrLine: {'line': b'0x55b78913331f : ??? [(???) ???:-1]\n'}
+[0.572713] (body_tracking) StderrLine: {'line': b'0x55b789133513 : ??? [(???) ???:-1]\n'}
+[0.572747] (body_tracking) StderrLine: {'line': b'0x55b78912b0b3 : ??? [(???) ???:-1]\n'}
+[0.572782] (body_tracking) StderrLine: {'line': b'0x55b78912b455 : ??? [(???) ???:-1]\n'}
+[0.572818] (body_tracking) StderrLine: {'line': b'0x55b78912b510 : ??? [(???) ???:-1]\n'}
+[0.572854] (body_tracking) StderrLine: {'line': b'0x55b78919d565 : ??? [(???) ???:-1]\n'}
+[0.572889] (body_tracking) StderrLine: {'line': b'0x55b78919dd55 : ??? [(???) ???:-1]\n'}
+[0.572924] (body_tracking) StderrLine: {'line': b'0x55b788eb464f : ??? [(???) ???:-1]\n'}
+[0.572958] (body_tracking) StderrLine: {'line': b'0x55b788eb4a03 : ??? [(???) ???:-1]\n'}
+[0.572993] (body_tracking) StderrLine: {'line': b'0x55b7891c6b6e : ??? [(???) ???:-1]\n'}
+[0.573027] (body_tracking) StderrLine: {'line': b'0x55b7891cf0bf : ??? [(???) ???:-1]\n'}
+[0.573062] (body_tracking) StderrLine: {'line': b'0x55b7891cbf4d : ??? [(???) ???:-1]\n'}
+[0.573099] (body_tracking) StderrLine: {'line': b'0x55b7891b5421 : ??? [(???) ???:-1]\n'}
+[0.573134] (body_tracking) StderrLine: {'line': b'0x55b7891768fa : ??? [(???) ???:-1]\n'}
+[0.573169] (body_tracking) StderrLine: {'line': b'0x55b7891855b7 : ??? [(???) ???:-1]\n'}
+[0.573204] (body_tracking) StderrLine: {'line': b'0x55b788f72aa7 : ??? [(???) ???:-1]\n'}
+[0.573244] (body_tracking) StderrLine: {'line': b'0x55b788f821e4 : ??? [(???) ???:-1]\n'}
+[0.573282] (body_tracking) StderrLine: {'line': b'0x55b788e85c29 : ??? [(???) ???:-1]\n'}
+[0.573314] (body_tracking) StderrLine: {'line': b'0x55b788e77ba3 : ??? [(???) ???:-1]\n'}
+[0.573345] (body_tracking) StderrLine: {'line': b'0x7fcc97aef0b3 : __libc_start_main [(libc.so.6) ???:-1]\n'}
+[0.573377] (body_tracking) StderrLine: {'line': b'0x55b788e811ae : ??? [(???) ???:-1]\n'}
+[0.573409] (body_tracking) StderrLine: {'line': b'\n'}
+[0.573440] (body_tracking) StderrLine: {'line': b'\n'}
+[0.573472] (body_tracking) StderrLine: {'line': b'CMake Internal Error (please report a bug) in CMakeLists.txt:\n'}
+[0.573504] (body_tracking) StderrLine: {'line': b'  cmGeneratorTarget::GetOutputInfo called for body_tracking which has type\n'}
+[0.573538] (body_tracking) StderrLine: {'line': b'  UTILITY\n'}
+[0.573569] (body_tracking) StderrLine: {'line': b'\n'}
+[0.573601] (body_tracking) StderrLine: {'line': b'Note: The stack trace will not use advanced capabilities because this is a release build.\n'}
+[0.573633] (body_tracking) StderrLine: {'line': b'0x55b78929d7a4 : ??? [(???) ???:-1]\n'}
+[0.573665] (body_tracking) StderrLine: {'line': b'0x55b78929e262 : ??? [(???) ???:-1]\n'}
+[0.573696] (body_tracking) StderrLine: {'line': b'0x55b7891da253 : ??? [(???) ???:-1]\n'}
+[0.573728] (body_tracking) StderrLine: {'line': b'0x55b7891da8d9 : ??? [(???) ???:-1]\n'}
+[0.573760] (body_tracking) StderrLine: {'line': b'0x55b78913331f : ??? [(???) ???:-1]\n'}
+[0.573791] (body_tracking) StderrLine: {'line': b'0x55b789133513 : ??? [(???) ???:-1]\n'}
+[0.573823] (body_tracking) StderrLine: {'line': b'0x55b78912b0b3 : ??? [(???) ???:-1]\n'}
+[0.573854] (body_tracking) StderrLine: {'line': b'0x55b78912b455 : ??? [(???) ???:-1]\n'}
+[0.573886] (body_tracking) StderrLine: {'line': b'0x55b78912b510 : ??? [(???) ???:-1]\n'}
+[0.573918] (body_tracking) StderrLine: {'line': b'0x55b78919d565 : ??? [(???) ???:-1]\n'}
+[0.573950] (body_tracking) StderrLine: {'line': b'0x55b78919dd55 : ??? [(???) ???:-1]\n'}
+[0.573981] (body_tracking) StderrLine: {'line': b'0x55b788eb464f : ??? [(???) ???:-1]\n'}
+[0.574013] (body_tracking) StderrLine: {'line': b'0x55b788eb4a03 : ??? [(???) ???:-1]\n'}
+[0.574045] (body_tracking) StderrLine: {'line': b'0x55b7891c6b6e : ??? [(???) ???:-1]\n'}
+[0.574076] (body_tracking) StderrLine: {'line': b'0x55b7891cf0bf : ??? [(???) ???:-1]\n'}
+[0.574108] (body_tracking) StderrLine: {'line': b'0x55b7891cbf4d : ??? [(???) ???:-1]\n'}
+[0.574140] (body_tracking) StderrLine: {'line': b'0x55b7891b5421 : ??? [(???) ???:-1]\n'}
+[0.574176] (body_tracking) StderrLine: {'line': b'0x55b7891768fa : ??? [(???) ???:-1]\n'}
+[0.574211] (body_tracking) StderrLine: {'line': b'0x55b7891855b7 : ??? [(???) ???:-1]\n'}
+[0.574248] (body_tracking) StderrLine: {'line': b'0x55b788f72aa7 : ??? [(???) ???:-1]\n'}
+[0.574281] (body_tracking) StderrLine: {'line': b'0x55b788f821e4 : ??? [(???) ???:-1]\n'}
+[0.574314] (body_tracking) StderrLine: {'line': b'0x55b788e85c29 : ??? [(???) ???:-1]\n'}
+[0.574346] (body_tracking) StderrLine: {'line': b'0x55b788e77ba3 : ??? [(???) ???:-1]\n'}
+[0.574379] (body_tracking) StderrLine: {'line': b'0x7fcc97aef0b3 : __libc_start_main [(libc.so.6) ???:-1]\n'}
+[0.574414] (body_tracking) StderrLine: {'line': b'0x55b788e811ae : ??? [(???) ???:-1]\n'}
+[0.574448] (body_tracking) StderrLine: {'line': b'\n'}
+[0.574482] (body_tracking) StderrLine: {'line': b'\n'}
+[0.574516] (body_tracking) StderrLine: {'line': b'CMake Internal Error (please report a bug) in CMakeLists.txt:\n'}
+[0.574551] (body_tracking) StderrLine: {'line': b'  cmGeneratorTarget::GetOutputInfo called for body_tracking which has type\n'}
+[0.574586] (body_tracking) StderrLine: {'line': b'  UTILITY\n'}
+[0.574621] (body_tracking) StderrLine: {'line': b'\n'}
+[0.574655] (body_tracking) StderrLine: {'line': b'Note: The stack trace will not use advanced capabilities because this is a release build.\n'}
+[0.574689] (body_tracking) StderrLine: {'line': b'0x55b78929d7a4 : ??? [(???) ???:-1]\n'}
+[0.574724] (body_tracking) StderrLine: {'line': b'0x55b78929e262 : ??? [(???) ???:-1]\n'}
+[0.574759] (body_tracking) StderrLine: {'line': b'0x55b7891da253 : ??? [(???) ???:-1]\n'}
+[0.574794] (body_tracking) StderrLine: {'line': b'0x55b7891da8d9 : ??? [(???) ???:-1]\n'}
+[0.574828] (body_tracking) StderrLine: {'line': b'0x55b78913331f : ??? [(???) ???:-1]\n'}
+[0.574862] (body_tracking) StderrLine: {'line': b'0x55b789133513 : ??? [(???) ???:-1]\n'}
+[0.574897] (body_tracking) StderrLine: {'line': b'0x55b78912b0b3 : ??? [(???) ???:-1]\n'}
+[0.574931] (body_tracking) StderrLine: {'line': b'0x55b78912b455 : ??? [(???) ???:-1]\n'}
+[0.574966] (body_tracking) StderrLine: {'line': b'0x55b78912b510 : ??? [(???) ???:-1]\n'}
+[0.575000] (body_tracking) StderrLine: {'line': b'0x55b78919d565 : ??? [(???) ???:-1]\n'}
+[0.575034] (body_tracking) StderrLine: {'line': b'0x55b78919dd55 : ??? [(???) ???:-1]\n'}
+[0.575069] (body_tracking) StderrLine: {'line': b'0x55b788eb464f : ??? [(???) ???:-1]\n'}
+[0.575103] (body_tracking) StderrLine: {'line': b'0x55b788eb4a03 : ??? [(???) ???:-1]\n'}
+[0.575137] (body_tracking) StderrLine: {'line': b'0x55b7891c6b6e : ??? [(???) ???:-1]\n'}
+[0.575170] (body_tracking) StderrLine: {'line': b'0x55b7891cf0bf : ??? [(???) ???:-1]\n'}
+[0.575205] (body_tracking) StderrLine: {'line': b'0x55b7891cbf4d : ??? [(???) ???:-1]\n'}
+[0.575240] (body_tracking) StderrLine: {'line': b'0x55b7891b5421 : ??? [(???) ???:-1]\n'}
+[0.575276] (body_tracking) StderrLine: {'line': b'0x55b7891768fa : ??? [(???) ???:-1]\n'}
+[0.575310] (body_tracking) StderrLine: {'line': b'0x55b7891855b7 : ??? [(???) ???:-1]\n'}
+[0.575345] (body_tracking) StderrLine: {'line': b'0x55b788f72aa7 : ??? [(???) ???:-1]\n'}
+[0.575378] (body_tracking) StderrLine: {'line': b'0x55b788f821e4 : ??? [(???) ???:-1]\n'}
+[0.575413] (body_tracking) StderrLine: {'line': b'0x55b788e85c29 : ??? [(???) ???:-1]\n'}
+[0.575448] (body_tracking) StderrLine: {'line': b'0x55b788e77ba3 : ??? [(???) ???:-1]\n'}
+[0.575483] (body_tracking) StderrLine: {'line': b'0x7fcc97aef0b3 : __libc_start_main [(libc.so.6) ???:-1]\n'}
+[0.575517] (body_tracking) StderrLine: {'line': b'0x55b788e811ae : ??? [(???) ???:-1]\n'}
+[0.575552] (body_tracking) StderrLine: {'line': b'\n'}
+[0.575587] (body_tracking) StderrLine: {'line': b'\n'}
+[0.575621] (body_tracking) StderrLine: {'line': b'CMake Internal Error (please report a bug) in CMakeLists.txt:\n'}
+[0.575656] (body_tracking) StderrLine: {'line': b'  cmGeneratorTarget::GetOutputInfo called for body_tracking which has type\n'}
+[0.575691] (body_tracking) StderrLine: {'line': b'  UTILITY\n'}
+[0.575725] (body_tracking) StderrLine: {'line': b'\n'}
+[0.575759] (body_tracking) StderrLine: {'line': b'Note: The stack trace will not use advanced capabilities because this is a release build.\n'}
+[0.575794] (body_tracking) StderrLine: {'line': b'0x55b78929d7a4 : ??? [(???) ???:-1]\n'}
+[0.575830] (body_tracking) StderrLine: {'line': b'0x55b78929e262 : ??? [(???) ???:-1]\n'}
+[0.575865] (body_tracking) StderrLine: {'line': b'0x55b7891da253 : ??? [(???) ???:-1]\n'}
+[0.575903] (body_tracking) StderrLine: {'line': b'0x55b7891da8d9 : ??? [(???) ???:-1]\n'}
+[0.575938] (body_tracking) StderrLine: {'line': b'0x55b78913331f : ??? [(???) ???:-1]\n'}
+[0.575973] (body_tracking) StderrLine: {'line': b'0x55b789133513 : ??? [(???) ???:-1]\n'}
+[0.576008] (body_tracking) StderrLine: {'line': b'0x55b78912b0b3 : ??? [(???) ???:-1]\n'}
+[0.576043] (body_tracking) StderrLine: {'line': b'0x55b78912b455 : ??? [(???) ???:-1]\n'}
+[0.576079] (body_tracking) StderrLine: {'line': b'0x55b78912b510 : ??? [(???) ???:-1]\n'}
+[0.576114] (body_tracking) StderrLine: {'line': b'0x55b78919d565 : ??? [(???) ???:-1]\n'}
+[0.576148] (body_tracking) StderrLine: {'line': b'0x55b78919dd55 : ??? [(???) ???:-1]\n'}
+[0.576183] (body_tracking) StderrLine: {'line': b'0x55b788eb464f : ??? [(???) ???:-1]\n'}
+[0.576217] (body_tracking) StderrLine: {'line': b'0x55b788eb4a03 : ??? [(???) ???:-1]\n'}
+[0.576251] (body_tracking) StderrLine: {'line': b'0x55b7891c6b6e : ??? [(???) ???:-1]\n'}
+[0.576286] (body_tracking) StderrLine: {'line': b'0x55b7891cf0bf : ??? [(???) ???:-1]\n'}
+[0.576321] (body_tracking) StderrLine: {'line': b'0x55b7891cbf4d : ??? [(???) ???:-1]\n'}
+[0.576355] (body_tracking) StderrLine: {'line': b'0x55b7891b5421 : ??? [(???) ???:-1]\n'}
+[0.576390] (body_tracking) StderrLine: {'line': b'0x55b7891768fa : ??? [(???) ???:-1]\n'}
+[0.576425] (body_tracking) StderrLine: {'line': b'0x55b7891855b7 : ??? [(???) ???:-1]\n'}
+[0.576460] (body_tracking) StderrLine: {'line': b'0x55b788f72aa7 : ??? [(???) ???:-1]\n'}
+[0.576495] (body_tracking) StderrLine: {'line': b'0x55b788f821e4 : ??? [(???) ???:-1]\n'}
+[0.576531] (body_tracking) StderrLine: {'line': b'0x55b788e85c29 : ??? [(???) ???:-1]\n'}
+[0.576566] (body_tracking) StderrLine: {'line': b'0x55b788e77ba3 : ??? [(???) ???:-1]\n'}
+[0.576602] (body_tracking) StderrLine: {'line': b'0x7fcc97aef0b3 : __libc_start_main [(libc.so.6) ???:-1]\n'}
+[0.576641] (body_tracking) StderrLine: {'line': b'0x55b788e811ae : ??? [(???) ???:-1]\n'}
+[0.576676] (body_tracking) StderrLine: {'line': b'\n'}
+[0.576711] (body_tracking) StderrLine: {'line': b'\n'}
+[0.576746] (body_tracking) StderrLine: {'line': b'CMake Internal Error (please report a bug) in CMakeLists.txt:\n'}
+[0.576782] (body_tracking) StderrLine: {'line': b'  cmGeneratorTarget::GetOutputInfo called for body_tracking which has type\n'}
+[0.576816] (body_tracking) StderrLine: {'line': b'  UTILITY\n'}
+[0.576851] (body_tracking) StderrLine: {'line': b'\n'}
+[0.576886] (body_tracking) StderrLine: {'line': b'Note: The stack trace will not use advanced capabilities because this is a release build.\n'}
+[0.576921] (body_tracking) StderrLine: {'line': b'0x55b78929d7a4 : ??? [(???) ???:-1]\n'}
+[0.576957] (body_tracking) StderrLine: {'line': b'0x55b78929e262 : ??? [(???) ???:-1]\n'}
+[0.576991] (body_tracking) StderrLine: {'line': b'0x55b7891da253 : ??? [(???) ???:-1]\n'}
+[0.577025] (body_tracking) StderrLine: {'line': b'0x55b7891da8d9 : ??? [(???) ???:-1]\n'}
+[0.577061] (body_tracking) StderrLine: {'line': b'0x55b78913331f : ??? [(???) ???:-1]\n'}
+[0.577096] (body_tracking) StderrLine: {'line': b'0x55b789133513 : ??? [(???) ???:-1]\n'}
+[0.577130] (body_tracking) StderrLine: {'line': b'0x55b78912b0b3 : ??? [(???) ???:-1]\n'}
+[0.577163] (body_tracking) StderrLine: {'line': b'0x55b78912b455 : ??? [(???) ???:-1]\n'}
+[0.577198] (body_tracking) StderrLine: {'line': b'0x55b78912b510 : ??? [(???) ???:-1]\n'}
+[0.577232] (body_tracking) StderrLine: {'line': b'0x55b78919d565 : ??? [(???) ???:-1]\n'}
+[0.577273] (body_tracking) StderrLine: {'line': b'0x55b78919dd55 : ??? [(???) ???:-1]\n'}
+[0.577308] (body_tracking) StderrLine: {'line': b'0x55b788eb464f : ??? [(???) ???:-1]\n'}
+[0.577343] (body_tracking) StderrLine: {'line': b'0x55b788eb4a03 : ??? [(???) ???:-1]\n'}
+[0.577380] (body_tracking) StderrLine: {'line': b'0x55b7891c6b6e : ??? [(???) ???:-1]\n'}
+[0.577415] (body_tracking) StderrLine: {'line': b'0x55b7891cf0bf : ??? [(???) ???:-1]\n'}
+[0.577450] (body_tracking) StderrLine: {'line': b'0x55b7891cbf4d : ??? [(???) ???:-1]\n'}
+[0.577486] (body_tracking) StderrLine: {'line': b'0x55b7891b5421 : ??? [(???) ???:-1]\n'}
+[0.577520] (body_tracking) StderrLine: {'line': b'0x55b7891768fa : ??? [(???) ???:-1]\n'}
+[0.577555] (body_tracking) StderrLine: {'line': b'0x55b7891855b7 : ??? [(???) ???:-1]\n'}
+[0.577589] (body_tracking) StderrLine: {'line': b'0x55b788f72aa7 : ??? [(???) ???:-1]\n'}
+[0.577624] (body_tracking) StderrLine: {'line': b'0x55b788f821e4 : ??? [(???) ???:-1]\n'}
+[0.577658] (body_tracking) StderrLine: {'line': b'0x55b788e85c29 : ??? [(???) ???:-1]\n'}
+[0.577693] (body_tracking) StderrLine: {'line': b'0x55b788e77ba3 : ??? [(???) ???:-1]\n'}
+[0.577726] (body_tracking) StderrLine: {'line': b'0x7fcc97aef0b3 : __libc_start_main [(libc.so.6) ???:-1]\n'}
+[0.577761] (body_tracking) StderrLine: {'line': b'0x55b788e811ae : ??? [(???) ???:-1]\n'}
+[0.577794] (body_tracking) StderrLine: {'line': b'\n'}
+[0.577829] (body_tracking) StderrLine: {'line': b'\n'}
+[0.577864] (body_tracking) StderrLine: {'line': b'CMake Internal Error (please report a bug) in CMakeLists.txt:\n'}
+[0.577913] (body_tracking) StderrLine: {'line': b'  cmGeneratorTarget::GetOutputInfo called for body_tracking which has type\n'}
+[0.577976] (body_tracking) StderrLine: {'line': b'  UTILITY\n'}
+[0.578011] (body_tracking) StderrLine: {'line': b'\n'}
+[0.578045] (body_tracking) StderrLine: {'line': b'Note: The stack trace will not use advanced capabilities because this is a release build.\n'}
+[0.578079] (body_tracking) StderrLine: {'line': b'0x55b78929d7a4 : ??? [(???) ???:-1]\n'}
+[0.578114] (body_tracking) StderrLine: {'line': b'0x55b78929e262 : ??? [(???) ???:-1]\n'}
+[0.578150] (body_tracking) StderrLine: {'line': b'0x55b7891da253 : ??? [(???) ???:-1]\n'}
+[0.578185] (body_tracking) StderrLine: {'line': b'0x55b7891da8d9 : ??? [(???) ???:-1]\n'}
+[0.578220] (body_tracking) StderrLine: {'line': b'0x55b78913331f : ??? [(???) ???:-1]\n'}
+[0.578255] (body_tracking) StderrLine: {'line': b'0x55b789133513 : ??? [(???) ???:-1]\n'}
+[0.578290] (body_tracking) StderrLine: {'line': b'0x55b78912b0b3 : ??? [(???) ???:-1]\n'}
+[0.578324] (body_tracking) StderrLine: {'line': b'0x55b78912b455 : ??? [(???) ???:-1]\n'}
+[0.578359] (body_tracking) StderrLine: {'line': b'0x55b78912b510 : ??? [(???) ???:-1]\n'}
+[0.578393] (body_tracking) StderrLine: {'line': b'0x55b78919d565 : ??? [(???) ???:-1]\n'}
+[0.578427] (body_tracking) StderrLine: {'line': b'0x55b78919dd55 : ??? [(???) ???:-1]\n'}
+[0.578462] (body_tracking) StderrLine: {'line': b'0x55b788eb464f : ??? [(???) ???:-1]\n'}
+[0.578496] (body_tracking) StderrLine: {'line': b'0x55b788eb4a03 : ??? [(???) ???:-1]\n'}
+[0.578531] (body_tracking) StderrLine: {'line': b'0x55b7891c6b6e : ??? [(???) ???:-1]\n'}
+[0.578565] (body_tracking) StderrLine: {'line': b'0x55b7891cf0bf : ??? [(???) ???:-1]\n'}
+[0.578599] (body_tracking) StderrLine: {'line': b'0x55b7891cbf4d : ??? [(???) ???:-1]\n'}
+[0.578634] (body_tracking) StderrLine: {'line': b'0x55b7891b5421 : ??? [(???) ???:-1]\n'}
+[0.578668] (body_tracking) StderrLine: {'line': b'0x55b7891768fa : ??? [(???) ???:-1]\n'}
+[0.578702] (body_tracking) StderrLine: {'line': b'0x55b7891855b7 : ??? [(???) ???:-1]\n'}
+[0.578737] (body_tracking) StderrLine: {'line': b'0x55b788f72aa7 : ??? [(???) ???:-1]\n'}
+[0.578772] (body_tracking) StderrLine: {'line': b'0x55b788f821e4 : ??? [(???) ???:-1]\n'}
+[0.578807] (body_tracking) StderrLine: {'line': b'0x55b788e85c29 : ??? [(???) ???:-1]\n'}
+[0.578841] (body_tracking) StderrLine: {'line': b'0x55b788e77ba3 : ??? [(???) ???:-1]\n'}
+[0.578875] (body_tracking) StderrLine: {'line': b'0x7fcc97aef0b3 : __libc_start_main [(libc.so.6) ???:-1]\n'}
+[0.578911] (body_tracking) StderrLine: {'line': b'0x55b788e811ae : ??? [(???) ???:-1]\n'}
+[0.578945] (body_tracking) StderrLine: {'line': b'\n'}
+[0.578980] (body_tracking) StderrLine: {'line': b'\n'}
+[0.579014] (body_tracking) StderrLine: {'line': b'CMake Internal Error (please report a bug) in CMakeLists.txt:\n'}
+[0.579048] (body_tracking) StderrLine: {'line': b'  cmGeneratorTarget::GetOutputInfo called for body_tracking which has type\n'}
+[0.579086] (body_tracking) StderrLine: {'line': b'  UTILITY\n'}
+[0.579122] (body_tracking) StderrLine: {'line': b'\n'}
+[0.579156] (body_tracking) StderrLine: {'line': b'Note: The stack trace will not use advanced capabilities because this is a release build.\n'}
+[0.579191] (body_tracking) StderrLine: {'line': b'0x55b78929d7a4 : ??? [(???) ???:-1]\n'}
+[0.579226] (body_tracking) StderrLine: {'line': b'0x55b78929e262 : ??? [(???) ???:-1]\n'}
+[0.579260] (body_tracking) StderrLine: {'line': b'0x55b7891da253 : ??? [(???) ???:-1]\n'}
+[0.579294] (body_tracking) StderrLine: {'line': b'0x55b7891da8d9 : ??? [(???) ???:-1]\n'}
+[0.579328] (body_tracking) StderrLine: {'line': b'0x55b78913331f : ??? [(???) ???:-1]\n'}
+[0.579362] (body_tracking) StderrLine: {'line': b'0x55b789133513 : ??? [(???) ???:-1]\n'}
+[0.579396] (body_tracking) StderrLine: {'line': b'0x55b78912b0b3 : ??? [(???) ???:-1]\n'}
+[0.579430] (body_tracking) StderrLine: {'line': b'0x55b78912b455 : ??? [(???) ???:-1]\n'}
+[0.579464] (body_tracking) StderrLine: {'line': b'0x55b78912b510 : ??? [(???) ???:-1]\n'}
+[0.579498] (body_tracking) StderrLine: {'line': b'0x55b78919d565 : ??? [(???) ???:-1]\n'}
+[0.579532] (body_tracking) StderrLine: {'line': b'0x55b78919dd55 : ??? [(???) ???:-1]\n'}
+[0.579566] (body_tracking) StderrLine: {'line': b'0x55b788eb464f : ??? [(???) ???:-1]\n'}
+[0.579599] (body_tracking) StderrLine: {'line': b'0x55b788eb4a03 : ??? [(???) ???:-1]\n'}
+[0.579633] (body_tracking) StderrLine: {'line': b'0x55b7891c6b6e : ??? [(???) ???:-1]\n'}
+[0.579667] (body_tracking) StderrLine: {'line': b'0x55b7891cf0bf : ??? [(???) ???:-1]\n'}
+[0.579702] (body_tracking) StderrLine: {'line': b'0x55b7891cbf4d : ??? [(???) ???:-1]\n'}
+[0.579756] (body_tracking) StderrLine: {'line': b'0x55b7891b5421 : ??? [(???) ???:-1]\n'}
+[0.579793] (body_tracking) StderrLine: {'line': b'0x55b7891768fa : ??? [(???) ???:-1]\n'}
+[0.579828] (body_tracking) StderrLine: {'line': b'0x55b7891855b7 : ??? [(???) ???:-1]\n'}
+[0.579862] (body_tracking) StderrLine: {'line': b'0x55b788f72aa7 : ??? [(???) ???:-1]\n'}
+[0.579896] (body_tracking) StderrLine: {'line': b'0x55b788f821e4 : ??? [(???) ???:-1]\n'}
+[0.579930] (body_tracking) StderrLine: {'line': b'0x55b788e85c29 : ??? [(???) ???:-1]\n'}
+[0.579964] (body_tracking) StderrLine: {'line': b'0x55b788e77ba3 : ??? [(???) ???:-1]\n'}
+[0.579999] (body_tracking) StderrLine: {'line': b'0x7fcc97aef0b3 : __libc_start_main [(libc.so.6) ???:-1]\n'}
+[0.580034] (body_tracking) StderrLine: {'line': b'0x55b788e811ae : ??? [(???) ???:-1]\n'}
+[0.580067] (body_tracking) StderrLine: {'line': b'\n'}
+[0.580102] (body_tracking) StderrLine: {'line': b'\n'}
+[0.580136] (body_tracking) StderrLine: {'line': b'CMake Internal Error (please report a bug) in CMakeLists.txt:\n'}
+[0.580171] (body_tracking) StderrLine: {'line': b'  cmGeneratorTarget::GetOutputInfo called for body_tracking which has type\n'}
+[0.580206] (body_tracking) StderrLine: {'line': b'  UTILITY\n'}
+[0.580241] (body_tracking) StderrLine: {'line': b'\n'}
+[0.580276] (body_tracking) StderrLine: {'line': b'Note: The stack trace will not use advanced capabilities because this is a release build.\n'}
+[0.580312] (body_tracking) StderrLine: {'line': b'0x55b78929d7a4 : ??? [(???) ???:-1]\n'}
+[0.580346] (body_tracking) StderrLine: {'line': b'0x55b78929e262 : ??? [(???) ???:-1]\n'}
+[0.580380] (body_tracking) StderrLine: {'line': b'0x55b7891da253 : ??? [(???) ???:-1]\n'}
+[0.580414] (body_tracking) StderrLine: {'line': b'0x55b7891da8d9 : ??? [(???) ???:-1]\n'}
+[0.580449] (body_tracking) StderrLine: {'line': b'0x55b78913331f : ??? [(???) ???:-1]\n'}
+[0.580483] (body_tracking) StderrLine: {'line': b'0x55b789133513 : ??? [(???) ???:-1]\n'}
+[0.580517] (body_tracking) StderrLine: {'line': b'0x55b78912b0b3 : ??? [(???) ???:-1]\n'}
+[0.580552] (body_tracking) StderrLine: {'line': b'0x55b78912b455 : ??? [(???) ???:-1]\n'}
+[0.580586] (body_tracking) StderrLine: {'line': b'0x55b78912b510 : ??? [(???) ???:-1]\n'}
+[0.580621] (body_tracking) StderrLine: {'line': b'0x55b78919d565 : ??? [(???) ???:-1]\n'}
+[0.580655] (body_tracking) StderrLine: {'line': b'0x55b78919dd55 : ??? [(???) ???:-1]\n'}
+[0.580691] (body_tracking) StderrLine: {'line': b'0x55b788eb464f : ??? [(???) ???:-1]\n'}
+[0.580726] (body_tracking) StderrLine: {'line': b'0x55b788eb4a03 : ??? [(???) ???:-1]\n'}
+[0.580760] (body_tracking) StderrLine: {'line': b'0x55b7891c6b6e : ??? [(???) ???:-1]\n'}
+[0.580794] (body_tracking) StderrLine: {'line': b'0x55b7891cf0bf : ??? [(???) ???:-1]\n'}
+[0.580828] (body_tracking) StderrLine: {'line': b'0x55b7891cbf4d : ??? [(???) ???:-1]\n'}
+[0.580863] (body_tracking) StderrLine: {'line': b'0x55b7891b5421 : ??? [(???) ???:-1]\n'}
+[0.580897] (body_tracking) StderrLine: {'line': b'0x55b7891768fa : ??? [(???) ???:-1]\n'}
+[0.580931] (body_tracking) StderrLine: {'line': b'0x55b7891855b7 : ??? [(???) ???:-1]\n'}
+[0.580965] (body_tracking) StderrLine: {'line': b'0x55b788f72aa7 : ??? [(???) ???:-1]\n'}
+[0.580999] (body_tracking) StderrLine: {'line': b'0x55b788f821e4 : ??? [(???) ???:-1]\n'}
+[0.581034] (body_tracking) StderrLine: {'line': b'0x55b788e85c29 : ??? [(???) ???:-1]\n'}
+[0.581068] (body_tracking) StderrLine: {'line': b'0x55b788e77ba3 : ??? [(???) ???:-1]\n'}
+[0.581102] (body_tracking) StderrLine: {'line': b'0x7fcc97aef0b3 : __libc_start_main [(libc.so.6) ???:-1]\n'}
+[0.581136] (body_tracking) StderrLine: {'line': b'0x55b788e811ae : ??? [(???) ???:-1]\n'}
+[0.581171] (body_tracking) StderrLine: {'line': b'\n'}
+[0.581205] (body_tracking) StderrLine: {'line': b'\n'}
+[0.581250] (body_tracking) StderrLine: {'line': b'CMake Internal Error (please report a bug) in CMakeLists.txt:\n'}
+[0.581287] (body_tracking) StderrLine: {'line': b'  cmGeneratorTarget::GetOutputInfo called for body_tracking which has type\n'}
+[0.581322] (body_tracking) StderrLine: {'line': b'  UTILITY\n'}
+[0.581358] (body_tracking) StderrLine: {'line': b'\n'}
+[0.581392] (body_tracking) StderrLine: {'line': b'Note: The stack trace will not use advanced capabilities because this is a release build.\n'}
+[0.581426] (body_tracking) StderrLine: {'line': b'0x55b78929d7a4 : ??? [(???) ???:-1]\n'}
+[0.581461] (body_tracking) StderrLine: {'line': b'0x55b78929e262 : ??? [(???) ???:-1]\n'}
+[0.581495] (body_tracking) StderrLine: {'line': b'0x55b7891da253 : ??? [(???) ???:-1]\n'}
+[0.581529] (body_tracking) StderrLine: {'line': b'0x55b7891da8d9 : ??? [(???) ???:-1]\n'}
+[0.581564] (body_tracking) StderrLine: {'line': b'0x55b78913331f : ??? [(???) ???:-1]\n'}
+[0.581600] (body_tracking) StderrLine: {'line': b'0x55b789133513 : ??? [(???) ???:-1]\n'}
+[0.581636] (body_tracking) StderrLine: {'line': b'0x55b78912b0b3 : ??? [(???) ???:-1]\n'}
+[0.581670] (body_tracking) StderrLine: {'line': b'0x55b78912b455 : ??? [(???) ???:-1]\n'}
+[0.581705] (body_tracking) StderrLine: {'line': b'0x55b78912b510 : ??? [(???) ???:-1]\n'}
+[0.581739] (body_tracking) StderrLine: {'line': b'0x55b78919d565 : ??? [(???) ???:-1]\n'}
+[0.581775] (body_tracking) StderrLine: {'line': b'0x55b78919dd55 : ??? [(???) ???:-1]\n'}
+[0.581810] (body_tracking) StderrLine: {'line': b'0x55b788eb464f : ??? [(???) ???:-1]\n'}
+[0.581845] (body_tracking) StderrLine: {'line': b'0x55b788eb4a03 : ??? [(???) ???:-1]\n'}
+[0.581881] (body_tracking) StderrLine: {'line': b'0x55b7891c6b6e : ??? [(???) ???:-1]\n'}
+[0.581916] (body_tracking) StderrLine: {'line': b'0x55b7891cf0bf : ??? [(???) ???:-1]\n'}
+[0.581950] (body_tracking) StderrLine: {'line': b'0x55b7891cbf4d : ??? [(???) ???:-1]\n'}
+[0.581984] (body_tracking) StderrLine: {'line': b'0x55b7891b5421 : ??? [(???) ???:-1]\n'}
+[0.582019] (body_tracking) StderrLine: {'line': b'0x55b7891768fa : ??? [(???) ???:-1]\n'}
+[0.582053] (body_tracking) StderrLine: {'line': b'0x55b7891855b7 : ??? [(???) ???:-1]\n'}
+[0.582089] (body_tracking) StderrLine: {'line': b'0x55b788f72aa7 : ??? [(???) ???:-1]\n'}
+[0.582125] (body_tracking) StderrLine: {'line': b'0x55b788f821e4 : ??? [(???) ???:-1]\n'}
+[0.582161] (body_tracking) StderrLine: {'line': b'0x55b788e85c29 : ??? [(???) ???:-1]\n'}
+[0.582196] (body_tracking) StderrLine: {'line': b'0x55b788e77ba3 : ??? [(???) ???:-1]\n'}
+[0.582232] (body_tracking) StderrLine: {'line': b'0x7fcc97aef0b3 : __libc_start_main [(libc.so.6) ???:-1]\n'}
+[0.582273] (body_tracking) StderrLine: {'line': b'0x55b788e811ae : ??? [(???) ???:-1]\n'}
+[0.582309] (body_tracking) StderrLine: {'line': b'\n'}
+[0.582345] (body_tracking) StderrLine: {'line': b'\n'}
+[0.582380] (body_tracking) StderrLine: {'line': b'CMake Internal Error (please report a bug) in CMakeLists.txt:\n'}
+[0.582416] (body_tracking) StderrLine: {'line': b'  cmGeneratorTarget::GetOutputInfo called for body_tracking which has type\n'}
+[0.582448] (body_tracking) StderrLine: {'line': b'  UTILITY\n'}
+[0.582479] (body_tracking) StderrLine: {'line': b'\n'}
+[0.582510] (body_tracking) StderrLine: {'line': b'Note: The stack trace will not use advanced capabilities because this is a release build.\n'}
+[0.582542] (body_tracking) StderrLine: {'line': b'0x55b78929d7a4 : ??? [(???) ???:-1]\n'}
+[0.582574] (body_tracking) StderrLine: {'line': b'0x55b78929e262 : ??? [(???) ???:-1]\n'}
+[0.582605] (body_tracking) StderrLine: {'line': b'0x55b7891da253 : ??? [(???) ???:-1]\n'}
+[0.582635] (body_tracking) StderrLine: {'line': b'0x55b7891da8d9 : ??? [(???) ???:-1]\n'}
+[0.582667] (body_tracking) StderrLine: {'line': b'0x55b78913331f : ??? [(???) ???:-1]\n'}
+[0.582700] (body_tracking) StderrLine: {'line': b'0x55b789133513 : ??? [(???) ???:-1]\n'}
+[0.582731] (body_tracking) StderrLine: {'line': b'0x55b78912b0b3 : ??? [(???) ???:-1]\n'}
+[0.582763] (body_tracking) StderrLine: {'line': b'0x55b78912b455 : ??? [(???) ???:-1]\n'}
+[0.582795] (body_tracking) StderrLine: {'line': b'0x55b78912b510 : ??? [(???) ???:-1]\n'}
+[0.582826] (body_tracking) StderrLine: {'line': b'0x55b78919d565 : ??? [(???) ???:-1]\n'}
+[0.582857] (body_tracking) StderrLine: {'line': b'0x55b78919dd55 : ??? [(???) ???:-1]\n'}
+[0.582887] (body_tracking) StderrLine: {'line': b'0x55b788eb464f : ??? [(???) ???:-1]\n'}
+[0.582918] (body_tracking) StderrLine: {'line': b'0x55b788eb4a03 : ??? [(???) ???:-1]\n'}
+[0.582952] (body_tracking) StderrLine: {'line': b'0x55b7891c6b6e : ??? [(???) ???:-1]\n'}
+[0.582984] (body_tracking) StderrLine: {'line': b'0x55b7891cf0bf : ??? [(???) ???:-1]\n'}
+[0.583015] (body_tracking) StderrLine: {'line': b'0x55b7891cbf4d : ??? [(???) ???:-1]\n'}
+[0.583047] (body_tracking) StderrLine: {'line': b'0x55b7891b5421 : ??? [(???) ???:-1]\n'}
+[0.583079] (body_tracking) StderrLine: {'line': b'0x55b7891768fa : ??? [(???) ???:-1]\n'}
+[0.583111] (body_tracking) StderrLine: {'line': b'0x55b7891855b7 : ??? [(???) ???:-1]\n'}
+[0.583143] (body_tracking) StderrLine: {'line': b'0x55b788f72aa7 : ??? [(???) ???:-1]\n'}
+[0.583175] (body_tracking) StderrLine: {'line': b'0x55b788f821e4 : ??? [(???) ???:-1]\n'}
+[0.583206] (body_tracking) StderrLine: {'line': b'0x55b788e85c29 : ??? [(???) ???:-1]\n'}
+[0.583238] (body_tracking) StderrLine: {'line': b'0x55b788e77ba3 : ??? [(???) ???:-1]\n'}
+[0.583269] (body_tracking) StderrLine: {'line': b'0x7fcc97aef0b3 : __libc_start_main [(libc.so.6) ???:-1]\n'}
+[0.583301] (body_tracking) StderrLine: {'line': b'0x55b788e811ae : ??? [(???) ???:-1]\n'}
+[0.583332] (body_tracking) StderrLine: {'line': b'\n'}
+[0.583364] (body_tracking) StderrLine: {'line': b'\n'}
+[0.583396] (body_tracking) StderrLine: {'line': b'CMake Internal Error (please report a bug) in CMakeLists.txt:\n'}
+[0.583427] (body_tracking) StderrLine: {'line': b'  cmGeneratorTarget::GetOutputInfo called for body_tracking which has type\n'}
+[0.583459] (body_tracking) StderrLine: {'line': b'  UTILITY\n'}
+[0.583491] (body_tracking) StderrLine: {'line': b'\n'}
+[0.583522] (body_tracking) StderrLine: {'line': b'Note: The stack trace will not use advanced capabilities because this is a release build.\n'}
+[0.583555] (body_tracking) StderrLine: {'line': b'0x55b78929d7a4 : ??? [(???) ???:-1]\n'}
+[0.583587] (body_tracking) StderrLine: {'line': b'0x55b78929e262 : ??? [(???) ???:-1]\n'}
+[0.583621] (body_tracking) StderrLine: {'line': b'0x55b7891da253 : ??? [(???) ???:-1]\n'}
+[0.583653] (body_tracking) StderrLine: {'line': b'0x55b7891da8d9 : ??? [(???) ???:-1]\n'}
+[0.583685] (body_tracking) StderrLine: {'line': b'0x55b78913331f : ??? [(???) ???:-1]\n'}
+[0.583718] (body_tracking) StderrLine: {'line': b'0x55b789133513 : ??? [(???) ???:-1]\n'}
+[0.583757] (body_tracking) StderrLine: {'line': b'0x55b78912b0b3 : ??? [(???) ???:-1]\n'}
+[0.583789] (body_tracking) StderrLine: {'line': b'0x55b78912b455 : ??? [(???) ???:-1]\n'}
+[0.583822] (body_tracking) StderrLine: {'line': b'0x55b78912b510 : ??? [(???) ???:-1]\n'}
+[0.583858] (body_tracking) StderrLine: {'line': b'0x55b78919d565 : ??? [(???) ???:-1]\n'}
+[0.583895] (body_tracking) StderrLine: {'line': b'0x55b78919dd55 : ??? [(???) ???:-1]\n'}
+[0.583930] (body_tracking) StderrLine: {'line': b'0x55b788eb464f : ??? [(???) ???:-1]\n'}
+[0.583968] (body_tracking) StderrLine: {'line': b'0x55b788eb4a03 : ??? [(???) ???:-1]\n'}
+[0.584004] (body_tracking) StderrLine: {'line': b'0x55b7891c6b6e : ??? [(???) ???:-1]\n'}
+[0.584039] (body_tracking) StderrLine: {'line': b'0x55b7891cf0bf : ??? [(???) ???:-1]\n'}
+[0.584070] (body_tracking) StderrLine: {'line': b'0x55b7891cbf4d : ??? [(???) ???:-1]\n'}
+[0.584104] (body_tracking) StderrLine: {'line': b'0x55b7891b5421 : ??? [(???) ???:-1]\n'}
+[0.584136] (body_tracking) StderrLine: {'line': b'0x55b7891768fa : ??? [(???) ???:-1]\n'}
+[0.584169] (body_tracking) StderrLine: {'line': b'0x55b7891855b7 : ??? [(???) ???:-1]\n'}
+[0.584201] (body_tracking) StderrLine: {'line': b'0x55b788f72aa7 : ??? [(???) ???:-1]\n'}
+[0.584234] (body_tracking) StderrLine: {'line': b'0x55b788f821e4 : ??? [(???) ???:-1]\n'}
+[0.584266] (body_tracking) StderrLine: {'line': b'0x55b788e85c29 : ??? [(???) ???:-1]\n'}
+[0.584299] (body_tracking) StderrLine: {'line': b'0x55b788e77ba3 : ??? [(???) ???:-1]\n'}
+[0.584332] (body_tracking) StderrLine: {'line': b'0x7fcc97aef0b3 : __libc_start_main [(libc.so.6) ???:-1]\n'}
+[0.584370] (body_tracking) StderrLine: {'line': b'0x55b788e811ae : ??? [(???) ???:-1]\n'}
+[0.584405] (body_tracking) StderrLine: {'line': b'\n'}
+[0.584440] (body_tracking) StderrLine: {'line': b'\n'}
+[0.584475] (body_tracking) StderrLine: {'line': b'CMake Internal Error (please report a bug) in CMakeLists.txt:\n'}
+[0.584542] (body_tracking) StderrLine: {'line': b'  cmGeneratorTarget::GetOutputInfo called for body_tracking which has type\n'}
+[0.584580] (body_tracking) StderrLine: {'line': b'  UTILITY\n'}
+[0.584616] (body_tracking) StderrLine: {'line': b'\n'}
+[0.584651] (body_tracking) StderrLine: {'line': b'Note: The stack trace will not use advanced capabilities because this is a release build.\n'}
+[0.584687] (body_tracking) StderrLine: {'line': b'0x55b78929d7a4 : ??? [(???) ???:-1]\n'}
+[0.584723] (body_tracking) StderrLine: {'line': b'0x55b78929e262 : ??? [(???) ???:-1]\n'}
+[0.584759] (body_tracking) StderrLine: {'line': b'0x55b7891da253 : ??? [(???) ???:-1]\n'}
+[0.584794] (body_tracking) StderrLine: {'line': b'0x55b7891da8d9 : ??? [(???) ???:-1]\n'}
+[0.584829] (body_tracking) StderrLine: {'line': b'0x55b78913331f : ??? [(???) ???:-1]\n'}
+[0.584864] (body_tracking) StderrLine: {'line': b'0x55b789133513 : ??? [(???) ???:-1]\n'}
+[0.584899] (body_tracking) StderrLine: {'line': b'0x55b78912b0b3 : ??? [(???) ???:-1]\n'}
+[0.584934] (body_tracking) StderrLine: {'line': b'0x55b78912b455 : ??? [(???) ???:-1]\n'}
+[0.584969] (body_tracking) StderrLine: {'line': b'0x55b78912b510 : ??? [(???) ???:-1]\n'}
+[0.585004] (body_tracking) StderrLine: {'line': b'0x55b78919d565 : ??? [(???) ???:-1]\n'}
+[0.585040] (body_tracking) StderrLine: {'line': b'0x55b78919dd55 : ??? [(???) ???:-1]\n'}
+[0.585074] (body_tracking) StderrLine: {'line': b'0x55b788eb464f : ??? [(???) ???:-1]\n'}
+[0.585109] (body_tracking) StderrLine: {'line': b'0x55b788eb4a03 : ??? [(???) ???:-1]\n'}
+[0.585144] (body_tracking) StderrLine: {'line': b'0x55b7891c6b6e : ??? [(???) ???:-1]\n'}
+[0.585178] (body_tracking) StderrLine: {'line': b'0x55b7891cf0bf : ??? [(???) ???:-1]\n'}
+[0.585218] (body_tracking) StderrLine: {'line': b'0x55b7891cbf4d : ??? [(???) ???:-1]\n'}
+[0.585260] (body_tracking) StderrLine: {'line': b'0x55b7891b5421 : ??? [(???) ???:-1]\n'}
+[0.585309] (body_tracking) StderrLine: {'line': b'0x55b7891768fa : ??? [(???) ???:-1]\n'}
+[0.585344] (body_tracking) StderrLine: {'line': b'0x55b7891855b7 : ??? [(???) ???:-1]\n'}
+[0.585385] (body_tracking) StderrLine: {'line': b'0x55b788f72aa7 : ??? [(???) ???:-1]\n'}
+[0.585505] (body_tracking) StderrLine: {'line': b'0x55b788f821e4 : ??? [(???) ???:-1]\n'}
+[0.585549] (body_tracking) StderrLine: {'line': b'0x55b788e85c29 : ??? [(???) ???:-1]\n'}
+[0.585591] (body_tracking) StderrLine: {'line': b'0x55b788e77ba3 : ??? [(???) ???:-1]\n'}
+[0.585630] (body_tracking) StderrLine: {'line': b'0x7fcc97aef0b3 : __libc_start_main [(libc.so.6) ???:-1]\n'}
+[0.585670] (body_tracking) StderrLine: {'line': b'0x55b788e811ae : ??? [(???) ???:-1]\n'}
+[0.585709] (body_tracking) StderrLine: {'line': b'\n'}
+[0.585750] (body_tracking) StderrLine: {'line': b'\n'}
+[0.585789] (body_tracking) StderrLine: {'line': b'CMake Internal Error (please report a bug) in CMakeLists.txt:\n'}
+[0.585827] (body_tracking) StderrLine: {'line': b'  cmGeneratorTarget::GetOutputInfo called for body_tracking which has type\n'}
+[0.585866] (body_tracking) StderrLine: {'line': b'  UTILITY\n'}
+[0.585905] (body_tracking) StderrLine: {'line': b'\n'}
+[0.585944] (body_tracking) StderrLine: {'line': b'Note: The stack trace will not use advanced capabilities because this is a release build.\n'}
+[0.585984] (body_tracking) StderrLine: {'line': b'0x55b78929d7a4 : ??? [(???) ???:-1]\n'}
+[0.586019] (body_tracking) StderrLine: {'line': b'0x55b78929e262 : ??? [(???) ???:-1]\n'}
+[0.586121] (body_tracking) StderrLine: {'line': b'0x55b7891da253 : ??? [(???) ???:-1]\n'}
+[0.586161] (body_tracking) StderrLine: {'line': b'0x55b7891da8d9 : ??? [(???) ???:-1]\n'}
+[0.586201] (body_tracking) StderrLine: {'line': b'0x55b78913331f : ??? [(???) ???:-1]\n'}
+[0.586240] (body_tracking) StderrLine: {'line': b'0x55b789133513 : ??? [(???) ???:-1]\n'}
+[0.586279] (body_tracking) StderrLine: {'line': b'0x55b78912b0b3 : ??? [(???) ???:-1]\n'}
+[0.586317] (body_tracking) StderrLine: {'line': b'0x55b78912b455 : ??? [(???) ???:-1]\n'}
+[0.586356] (body_tracking) StderrLine: {'line': b'0x55b78912b510 : ??? [(???) ???:-1]\n'}
+[0.586395] (body_tracking) StderrLine: {'line': b'0x55b78919d565 : ??? [(???) ???:-1]\n'}
+[0.586433] (body_tracking) StderrLine: {'line': b'0x55b78919dd55 : ??? [(???) ???:-1]\n'}
+[0.586472] (body_tracking) StderrLine: {'line': b'0x55b788eb464f : ??? [(???) ???:-1]\n'}
+[0.586511] (body_tracking) StderrLine: {'line': b'0x55b788eb4a03 : ??? [(???) ???:-1]\n'}
+[0.586550] (body_tracking) StderrLine: {'line': b'0x55b7891c6b6e : ??? [(???) ???:-1]\n'}
+[0.586589] (body_tracking) StderrLine: {'line': b'0x55b7891cf0bf : ??? [(???) ???:-1]\n'}
+[0.586628] (body_tracking) StderrLine: {'line': b'0x55b7891cbf4d : ??? [(???) ???:-1]\n'}
+[0.586668] (body_tracking) StderrLine: {'line': b'0x55b7891b5421 : ??? [(???) ???:-1]\n'}
+[0.586706] (body_tracking) StderrLine: {'line': b'0x55b7891768fa : ??? [(???) ???:-1]\n'}
+[0.586745] (body_tracking) StderrLine: {'line': b'0x55b7891855b7 : ??? [(???) ???:-1]\n'}
+[0.586784] (body_tracking) StderrLine: {'line': b'0x55b788f72aa7 : ??? [(???) ???:-1]\n'}
+[0.586822] (body_tracking) StderrLine: {'line': b'0x55b788f821e4 : ??? [(???) ???:-1]\n'}
+[0.586861] (body_tracking) StderrLine: {'line': b'0x55b788e85c29 : ??? [(???) ???:-1]\n'}
+[0.586899] (body_tracking) StderrLine: {'line': b'0x55b788e77ba3 : ??? [(???) ???:-1]\n'}
+[0.586938] (body_tracking) StderrLine: {'line': b'0x7fcc97aef0b3 : __libc_start_main [(libc.so.6) ???:-1]\n'}
+[0.586977] (body_tracking) StderrLine: {'line': b'0x55b788e811ae : ??? [(???) ???:-1]\n'}
+[0.587017] (body_tracking) StderrLine: {'line': b'\n'}
+[0.587055] (body_tracking) StderrLine: {'line': b'\n'}
+[0.587094] (body_tracking) StderrLine: {'line': b'CMake Internal Error (please report a bug) in CMakeLists.txt:\n'}
+[0.587133] (body_tracking) StderrLine: {'line': b'  cmGeneratorTarget::GetOutputInfo called for body_tracking which has type\n'}
+[0.587172] (body_tracking) StderrLine: {'line': b'  UTILITY\n'}
+[0.587212] (body_tracking) StderrLine: {'line': b'\n'}
+[0.587251] (body_tracking) StderrLine: {'line': b'Note: The stack trace will not use advanced capabilities because this is a release build.\n'}
+[0.587388] (body_tracking) StderrLine: {'line': b'0x55b78929d7a4 : ??? [(???) ???:-1]\n'}
+[0.587427] (body_tracking) StderrLine: {'line': b'0x55b78929e262 : ??? [(???) ???:-1]\n'}
+[0.587494] (body_tracking) StderrLine: {'line': b'0x55b7891da253 : ??? [(???) ???:-1]\n'}
+[0.587539] (body_tracking) StderrLine: {'line': b'0x55b7891da8d9 : ??? [(???) ???:-1]\n'}
+[0.587785] (body_tracking) StderrLine: {'line': b'0x55b78913331f : ??? [(???) ???:-1]\n'}
+[0.587829] (body_tracking) StderrLine: {'line': b'0x55b789133513 : ??? [(???) ???:-1]\n'}
+[0.587870] (body_tracking) StderrLine: {'line': b'0x55b78912b0b3 : ??? [(???) ???:-1]\n'}
+[0.587910] (body_tracking) StderrLine: {'line': b'0x55b78912b455 : ??? [(???) ???:-1]\n'}
+[0.587950] (body_tracking) StderrLine: {'line': b'0x55b78912b510 : ??? [(???) ???:-1]\n'}
+[0.587990] (body_tracking) StderrLine: {'line': b'0x55b78919d565 : ??? [(???) ???:-1]\n'}
+[0.588029] (body_tracking) StderrLine: {'line': b'0x55b78919dd55 : ??? [(???) ???:-1]\n'}
+[0.588069] (body_tracking) StderrLine: {'line': b'0x55b788eb464f : ??? [(???) ???:-1]\n'}
+[0.588108] (body_tracking) StderrLine: {'line': b'0x55b788eb4a03 : ??? [(???) ???:-1]\n'}
+[0.588146] (body_tracking) StderrLine: {'line': b'0x55b7891c6b6e : ??? [(???) ???:-1]\n'}
+[0.588185] (body_tracking) StderrLine: {'line': b'0x55b7891cf0bf : ??? [(???) ???:-1]\n'}
+[0.588224] (body_tracking) StderrLine: {'line': b'0x55b7891cbf4d : ??? [(???) ???:-1]\n'}
+[0.588263] (body_tracking) StderrLine: {'line': b'0x55b7891b5421 : ??? [(???) ???:-1]\n'}
+[0.588302] (body_tracking) StderrLine: {'line': b'0x55b7891768fa : ??? [(???) ???:-1]\n'}
+[0.588341] (body_tracking) StderrLine: {'line': b'0x55b7891855b7 : ??? [(???) ???:-1]\n'}
+[0.588380] (body_tracking) StderrLine: {'line': b'0x55b788f72aa7 : ??? [(???) ???:-1]\n'}
+[0.588420] (body_tracking) StderrLine: {'line': b'0x55b788f821e4 : ??? [(???) ???:-1]\n'}
+[0.588459] (body_tracking) StderrLine: {'line': b'0x55b788e85c29 : ??? [(???) ???:-1]\n'}
+[0.588499] (body_tracking) StderrLine: {'line': b'0x55b788e77ba3 : ??? [(???) ???:-1]\n'}
+[0.588538] (body_tracking) StderrLine: {'line': b'0x7fcc97aef0b3 : __libc_start_main [(libc.so.6) ???:-1]\n'}
+[0.588577] (body_tracking) StderrLine: {'line': b'0x55b788e811ae : ??? [(???) ???:-1]\n'}
+[0.588616] (body_tracking) StderrLine: {'line': b'\n'}
+[0.588655] (body_tracking) StderrLine: {'line': b'\n'}
+[0.588695] (body_tracking) StderrLine: {'line': b'CMake Internal Error (please report a bug) in CMakeLists.txt:\n'}
+[0.588735] (body_tracking) StderrLine: {'line': b'  cmGeneratorTarget::GetOutputInfo called for body_tracking which has type\n'}
+[0.588775] (body_tracking) StderrLine: {'line': b'  UTILITY\n'}
+[0.588814] (body_tracking) StderrLine: {'line': b'\n'}
+[0.588852] (body_tracking) StderrLine: {'line': b'Note: The stack trace will not use advanced capabilities because this is a release build.\n'}
+[0.588891] (body_tracking) StderrLine: {'line': b'0x55b78929d7a4 : ??? [(???) ???:-1]\n'}
+[0.588930] (body_tracking) StderrLine: {'line': b'0x55b78929e262 : ??? [(???) ???:-1]\n'}
+[0.588969] (body_tracking) StderrLine: {'line': b'0x55b7891da253 : ??? [(???) ???:-1]\n'}
+[0.589009] (body_tracking) StderrLine: {'line': b'0x55b7891da8d9 : ??? [(???) ???:-1]\n'}
+[0.589048] (body_tracking) StderrLine: {'line': b'0x55b78913331f : ??? [(???) ???:-1]\n'}
+[0.589087] (body_tracking) StderrLine: {'line': b'0x55b789133513 : ??? [(???) ???:-1]\n'}
+[0.589127] (body_tracking) StderrLine: {'line': b'0x55b78912b0b3 : ??? [(???) ???:-1]\n'}
+[0.589166] (body_tracking) StderrLine: {'line': b'0x55b78912b455 : ??? [(???) ???:-1]\n'}
+[0.589205] (body_tracking) StderrLine: {'line': b'0x55b78912b510 : ??? [(???) ???:-1]\n'}
+[0.589361] (body_tracking) StderrLine: {'line': b'0x55b78919d565 : ??? [(???) ???:-1]\n'}
+[0.589435] (body_tracking) StderrLine: {'line': b'0x55b78919dd55 : ??? [(???) ???:-1]\n'}
+[0.589476] (body_tracking) StderrLine: {'line': b'0x55b788eb464f : ??? [(???) ???:-1]\n'}
+[0.589516] (body_tracking) StderrLine: {'line': b'0x55b788eb4a03 : ??? [(???) ???:-1]\n'}
+[0.589556] (body_tracking) StderrLine: {'line': b'0x55b7891c6b6e : ??? [(???) ???:-1]\n'}
+[0.589625] (body_tracking) StderrLine: {'line': b'0x55b7891cf0bf : ??? [(???) ???:-1]\n'}
+[0.589667] (body_tracking) StderrLine: {'line': b'0x55b7891cbf4d : ??? [(???) ???:-1]\n'}
+[0.589707] (body_tracking) StderrLine: {'line': b'0x55b7891b5421 : ??? [(???) ???:-1]\n'}
+[0.589747] (body_tracking) StderrLine: {'line': b'0x55b7891768fa : ??? [(???) ???:-1]\n'}
+[0.589786] (body_tracking) StderrLine: {'line': b'0x55b7891855b7 : ??? [(???) ???:-1]\n'}
+[0.589827] (body_tracking) StderrLine: {'line': b'0x55b788f72aa7 : ??? [(???) ???:-1]\n'}
+[0.589865] (body_tracking) StderrLine: {'line': b'0x55b788f821e4 : ??? [(???) ???:-1]\n'}
+[0.589906] (body_tracking) StderrLine: {'line': b'0x55b788e85c29 : ??? [(???) ???:-1]\n'}
+[0.589945] (body_tracking) StderrLine: {'line': b'0x55b788e77ba3 : ??? [(???) ???:-1]\n'}
+[0.589985] (body_tracking) StderrLine: {'line': b'0x7fcc97aef0b3 : __libc_start_main [(libc.so.6) ???:-1]\n'}
+[0.590025] (body_tracking) StderrLine: {'line': b'0x55b788e811ae : ??? [(???) ???:-1]\n'}
+[0.590064] (body_tracking) StderrLine: {'line': b'\n'}
+[0.590105] (body_tracking) StderrLine: {'line': b'\n'}
+[0.590145] (body_tracking) StderrLine: {'line': b'CMake Internal Error (please report a bug) in CMakeLists.txt:\n'}
+[0.590185] (body_tracking) StderrLine: {'line': b'  cmGeneratorTarget::GetOutputInfo called for body_tracking which has type\n'}
+[0.590226] (body_tracking) StderrLine: {'line': b'  UTILITY\n'}
+[0.590266] (body_tracking) StderrLine: {'line': b'\n'}
+[0.590304] (body_tracking) StderrLine: {'line': b'Note: The stack trace will not use advanced capabilities because this is a release build.\n'}
+[0.590344] (body_tracking) StderrLine: {'line': b'0x55b78929d7a4 : ??? [(???) ???:-1]\n'}
+[0.590383] (body_tracking) StderrLine: {'line': b'0x55b78929e262 : ??? [(???) ???:-1]\n'}
+[0.590423] (body_tracking) StderrLine: {'line': b'0x55b7891da253 : ??? [(???) ???:-1]\n'}
+[0.590462] (body_tracking) StderrLine: {'line': b'0x55b7891da8d9 : ??? [(???) ???:-1]\n'}
+[0.590502] (body_tracking) StderrLine: {'line': b'0x55b78913331f : ??? [(???) ???:-1]\n'}
+[0.590541] (body_tracking) StderrLine: {'line': b'0x55b789133513 : ??? [(???) ???:-1]\n'}
+[0.590580] (body_tracking) StderrLine: {'line': b'0x55b78912b0b3 : ??? [(???) ???:-1]\n'}
+[0.590619] (body_tracking) StderrLine: {'line': b'0x55b78912b455 : ??? [(???) ???:-1]\n'}
+[0.590658] (body_tracking) StderrLine: {'line': b'0x55b78912b510 : ??? [(???) ???:-1]\n'}
+[0.590698] (body_tracking) StderrLine: {'line': b'0x55b78919d565 : ??? [(???) ???:-1]\n'}
+[0.590737] (body_tracking) StderrLine: {'line': b'0x55b78919dd55 : ??? [(???) ???:-1]\n'}
+[0.590776] (body_tracking) StderrLine: {'line': b'0x55b788eb464f : ??? [(???) ???:-1]\n'}
+[0.590815] (body_tracking) StderrLine: {'line': b'0x55b788eb4a03 : ??? [(???) ???:-1]\n'}
+[0.590854] (body_tracking) StderrLine: {'line': b'0x55b7891c6b6e : ??? [(???) ???:-1]\n'}
+[0.590892] (body_tracking) StderrLine: {'line': b'0x55b7891cf0bf : ??? [(???) ???:-1]\n'}
+[0.590931] (body_tracking) StderrLine: {'line': b'0x55b7891cbf4d : ??? [(???) ???:-1]\n'}
+[0.590969] (body_tracking) StderrLine: {'line': b'0x55b7891b5421 : ??? [(???) ???:-1]\n'}
+[0.591007] (body_tracking) StderrLine: {'line': b'0x55b7891768fa : ??? [(???) ???:-1]\n'}
+[0.591046] (body_tracking) StderrLine: {'line': b'0x55b7891855b7 : ??? [(???) ???:-1]\n'}
+[0.591085] (body_tracking) StderrLine: {'line': b'0x55b788f72aa7 : ??? [(???) ???:-1]\n'}
+[0.591124] (body_tracking) StderrLine: {'line': b'0x55b788f821e4 : ??? [(???) ???:-1]\n'}
+[0.591164] (body_tracking) StderrLine: {'line': b'0x55b788e85c29 : ??? [(???) ???:-1]\n'}
+[0.591204] (body_tracking) StderrLine: {'line': b'0x55b788e77ba3 : ??? [(???) ???:-1]\n'}
+[0.591242] (body_tracking) StderrLine: {'line': b'0x7fcc97aef0b3 : __libc_start_main [(libc.so.6) ???:-1]\n'}
+[0.591282] (body_tracking) StderrLine: {'line': b'0x55b788e811ae : ??? [(???) ???:-1]\n'}
+[0.591322] (body_tracking) StderrLine: {'line': b'\n'}
+[0.591361] (body_tracking) StderrLine: {'line': b'\n'}
+[0.591401] (body_tracking) StderrLine: {'line': b'CMake Internal Error (please report a bug) in CMakeLists.txt:\n'}
+[0.591623] (body_tracking) StderrLine: {'line': b'  cmGeneratorTarget::GetOutputInfo called for body_tracking which has type\n'}
+[0.591663] (body_tracking) StderrLine: {'line': b'  UTILITY\n'}
+[0.591703] (body_tracking) StderrLine: {'line': b'\n'}
+[0.591742] (body_tracking) StderrLine: {'line': b'Note: The stack trace will not use advanced capabilities because this is a release build.\n'}
+[0.591781] (body_tracking) StderrLine: {'line': b'0x55b78929d7a4 : ??? [(???) ???:-1]\n'}
+[0.591820] (body_tracking) StderrLine: {'line': b'0x55b78929e262 : ??? [(???) ???:-1]\n'}
+[0.591858] (body_tracking) StderrLine: {'line': b'0x55b7891da253 : ??? [(???) ???:-1]\n'}
+[0.591897] (body_tracking) StderrLine: {'line': b'0x55b7891da8d9 : ??? [(???) ???:-1]\n'}
+[0.591937] (body_tracking) StderrLine: {'line': b'0x55b78913331f : ??? [(???) ???:-1]\n'}
+[0.591976] (body_tracking) StderrLine: {'line': b'0x55b789133513 : ??? [(???) ???:-1]\n'}
+[0.592015] (body_tracking) StderrLine: {'line': b'0x55b78912b0b3 : ??? [(???) ???:-1]\n'}
+[0.592054] (body_tracking) StderrLine: {'line': b'0x55b78912b455 : ??? [(???) ???:-1]\n'}
+[0.592093] (body_tracking) StderrLine: {'line': b'0x55b78912b510 : ??? [(???) ???:-1]\n'}
+[0.592131] (body_tracking) StderrLine: {'line': b'0x55b78919d565 : ??? [(???) ???:-1]\n'}
+[0.592170] (body_tracking) StderrLine: {'line': b'0x55b78919dd55 : ??? [(???) ???:-1]\n'}
+[0.592209] (body_tracking) StderrLine: {'line': b'0x55b788eb464f : ??? [(???) ???:-1]\n'}
+[0.592249] (body_tracking) StderrLine: {'line': b'0x55b788eb4a03 : ??? [(???) ???:-1]\n'}
+[0.592288] (body_tracking) StderrLine: {'line': b'0x55b7891c6b6e : ??? [(???) ???:-1]\n'}
+[0.592327] (body_tracking) StderrLine: {'line': b'0x55b7891cf0bf : ??? [(???) ???:-1]\n'}
+[0.592373] (body_tracking) StderrLine: {'line': b'0x55b7891cbf4d : ??? [(???) ???:-1]\n'}
+[0.592410] (body_tracking) StderrLine: {'line': b'0x55b7891b5421 : ??? [(???) ???:-1]\n'}
+[0.592449] (body_tracking) StderrLine: {'line': b'0x55b7891768fa : ??? [(???) ???:-1]\n'}
+[0.592486] (body_tracking) StderrLine: {'line': b'0x55b7891855b7 : ??? [(???) ???:-1]\n'}
+[0.592525] (body_tracking) StderrLine: {'line': b'0x55b788f72aa7 : ??? [(???) ???:-1]\n'}
+[0.592564] (body_tracking) StderrLine: {'line': b'0x55b788f821e4 : ??? [(???) ???:-1]\n'}
+[0.592604] (body_tracking) StderrLine: {'line': b'0x55b788e85c29 : ??? [(???) ???:-1]\n'}
+[0.592642] (body_tracking) StderrLine: {'line': b'0x55b788e77ba3 : ??? [(???) ???:-1]\n'}
+[0.592681] (body_tracking) StderrLine: {'line': b'0x7fcc97aef0b3 : __libc_start_main [(libc.so.6) ???:-1]\n'}
+[0.592721] (body_tracking) StderrLine: {'line': b'0x55b788e811ae : ??? [(???) ???:-1]\n'}
+[0.592759] (body_tracking) StderrLine: {'line': b'\n'}
+[0.592798] (body_tracking) StderrLine: {'line': b'\n'}
+[0.592837] (body_tracking) StderrLine: {'line': b'CMake Internal Error (please report a bug) in CMakeLists.txt:\n'}
+[0.592876] (body_tracking) StderrLine: {'line': b'  cmGeneratorTarget::GetOutputInfo called for body_tracking which has type\n'}
+[0.592915] (body_tracking) StderrLine: {'line': b'  UTILITY\n'}
+[0.592955] (body_tracking) StderrLine: {'line': b'\n'}
+[0.592994] (body_tracking) StderrLine: {'line': b'Note: The stack trace will not use advanced capabilities because this is a release build.\n'}
+[0.593033] (body_tracking) StderrLine: {'line': b'0x55b78929d7a4 : ??? [(???) ???:-1]\n'}
+[0.593072] (body_tracking) StderrLine: {'line': b'0x55b78929e262 : ??? [(???) ???:-1]\n'}
+[0.593110] (body_tracking) StderrLine: {'line': b'0x55b7891da253 : ??? [(???) ???:-1]\n'}
+[0.593148] (body_tracking) StderrLine: {'line': b'0x55b7891da8d9 : ??? [(???) ???:-1]\n'}
+[0.593187] (body_tracking) StderrLine: {'line': b'0x55b78913331f : ??? [(???) ???:-1]\n'}
+[0.593227] (body_tracking) StderrLine: {'line': b'0x55b789133513 : ??? [(???) ???:-1]\n'}
+[0.593272] (body_tracking) StderrLine: {'line': b'0x55b78912b0b3 : ??? [(???) ???:-1]\n'}
+[0.593347] (body_tracking) StderrLine: {'line': b'0x55b78912b455 : ??? [(???) ???:-1]\n'}
+[0.594285] (body_tracking) StderrLine: {'line': b'0x55b78912b510 : ??? [(???) ???:-1]\n'}
+[0.594333] (body_tracking) StderrLine: {'line': b'0x55b78919d565 : ??? [(???) ???:-1]\n'}
+[0.594368] (body_tracking) StderrLine: {'line': b'0x55b78919dd55 : ??? [(???) ???:-1]\n'}
+[0.594409] (body_tracking) StderrLine: {'line': b'0x55b788eb464f : ??? [(???) ???:-1]\n'}
+[0.594451] (body_tracking) StderrLine: {'line': b'0x55b788eb4a03 : ??? [(???) ???:-1]\n'}
+[0.594489] (body_tracking) StderrLine: {'line': b'0x55b7891c6b6e : ??? [(???) ???:-1]\n'}
+[0.594528] (body_tracking) StderrLine: {'line': b'0x55b7891cf0bf : ??? [(???) ???:-1]\n'}
+[0.594567] (body_tracking) StderrLine: {'line': b'0x55b7891cbf4d : ??? [(???) ???:-1]\n'}
+[0.594606] (body_tracking) StderrLine: {'line': b'0x55b7891b5421 : ??? [(???) ???:-1]\n'}
+[0.594645] (body_tracking) StderrLine: {'line': b'0x55b7891768fa : ??? [(???) ???:-1]\n'}
+[0.594683] (body_tracking) StderrLine: {'line': b'0x55b7891855b7 : ??? [(???) ???:-1]\n'}
+[0.594723] (body_tracking) StderrLine: {'line': b'0x55b788f72aa7 : ??? [(???) ???:-1]\n'}
+[0.594762] (body_tracking) StderrLine: {'line': b'0x55b788f821e4 : ??? [(???) ???:-1]\n'}
+[0.594801] (body_tracking) StderrLine: {'line': b'0x55b788e85c29 : ??? [(???) ???:-1]\n'}
+[0.594840] (body_tracking) StderrLine: {'line': b'0x55b788e77ba3 : ??? [(???) ???:-1]\n'}
+[0.594879] (body_tracking) StderrLine: {'line': b'0x7fcc97aef0b3 : __libc_start_main [(libc.so.6) ???:-1]\n'}
+[0.594918] (body_tracking) StderrLine: {'line': b'0x55b788e811ae : ??? [(???) ???:-1]\n'}
+[0.594957] (body_tracking) StderrLine: {'line': b'\n'}
+[0.594996] (body_tracking) StderrLine: {'line': b'\n'}
+[0.595035] (body_tracking) StderrLine: {'line': b'CMake Internal Error (please report a bug) in CMakeLists.txt:\n'}
+[0.595074] (body_tracking) StderrLine: {'line': b'  cmGeneratorTarget::GetOutputInfo called for body_tracking which has type\n'}
+[0.595114] (body_tracking) StderrLine: {'line': b'  UTILITY\n'}
+[0.595153] (body_tracking) StderrLine: {'line': b'\n'}
+[0.595193] (body_tracking) StderrLine: {'line': b'Note: The stack trace will not use advanced capabilities because this is a release build.\n'}
+[0.595255] (body_tracking) StderrLine: {'line': b'0x55b78929d7a4 : ??? [(???) ???:-1]\n'}
+[0.595295] (body_tracking) StderrLine: {'line': b'0x55b78929e262 : ??? [(???) ???:-1]\n'}
+[0.595335] (body_tracking) StderrLine: {'line': b'0x55b7891da253 : ??? [(???) ???:-1]\n'}
+[0.595374] (body_tracking) StderrLine: {'line': b'0x55b7891da8d9 : ??? [(???) ???:-1]\n'}
+[0.595413] (body_tracking) StderrLine: {'line': b'0x55b78913331f : ??? [(???) ???:-1]\n'}
+[0.595452] (body_tracking) StderrLine: {'line': b'0x55b789133513 : ??? [(???) ???:-1]\n'}
+[0.595492] (body_tracking) StderrLine: {'line': b'0x55b78912b0b3 : ??? [(???) ???:-1]\n'}
+[0.595531] (body_tracking) StderrLine: {'line': b'0x55b78912b455 : ??? [(???) ???:-1]\n'}
+[0.595570] (body_tracking) StderrLine: {'line': b'0x55b78912b510 : ??? [(???) ???:-1]\n'}
+[0.595610] (body_tracking) StderrLine: {'line': b'0x55b78919d565 : ??? [(???) ???:-1]\n'}
+[0.595650] (body_tracking) StderrLine: {'line': b'0x55b78919dd55 : ??? [(???) ???:-1]\n'}
+[0.595689] (body_tracking) StderrLine: {'line': b'0x55b788eb464f : ??? [(???) ???:-1]\n'}
+[0.595728] (body_tracking) StderrLine: {'line': b'0x55b788eb4a03 : ??? [(???) ???:-1]\n'}
+[0.595767] (body_tracking) StderrLine: {'line': b'0x55b7891c6b6e : ??? [(???) ???:-1]\n'}
+[0.595807] (body_tracking) StderrLine: {'line': b'0x55b7891cf0bf : ??? [(???) ???:-1]\n'}
+[0.595847] (body_tracking) StderrLine: {'line': b'0x55b7891cbf4d : ??? [(???) ???:-1]\n'}
+[0.595886] (body_tracking) StderrLine: {'line': b'0x55b7891b5421 : ??? [(???) ???:-1]\n'}
+[0.596064] (body_tracking) StderrLine: {'line': b'0x55b7891768fa : ??? [(???) ???:-1]\n'}
+[0.596105] (body_tracking) StderrLine: {'line': b'0x55b7891855b7 : ??? [(???) ???:-1]\n'}
+[0.596146] (body_tracking) StderrLine: {'line': b'0x55b788f72aa7 : ??? [(???) ???:-1]\n'}
+[0.596185] (body_tracking) StderrLine: {'line': b'0x55b788f821e4 : ??? [(???) ???:-1]\n'}
+[0.596225] (body_tracking) StderrLine: {'line': b'0x55b788e85c29 : ??? [(???) ???:-1]\n'}
+[0.596290] (body_tracking) StderrLine: {'line': b'0x55b788e77ba3 : ??? [(???) ???:-1]\n'}
+[0.596330] (body_tracking) StderrLine: {'line': b'0x7fcc97aef0b3 : __libc_start_main [(libc.so.6) ???:-1]\n'}
+[0.596369] (body_tracking) StderrLine: {'line': b'0x55b788e811ae : ??? [(???) ???:-1]\n'}
+[0.596410] (body_tracking) StderrLine: {'line': b'\n'}
+[0.596449] (body_tracking) StderrLine: {'line': b'\n'}
+[0.596488] (body_tracking) StderrLine: {'line': b'CMake Internal Error (please report a bug) in CMakeLists.txt:\n'}
+[0.596528] (body_tracking) StderrLine: {'line': b'  cmGeneratorTarget::GetOutputInfo called for body_tracking which has type\n'}
+[0.596569] (body_tracking) StderrLine: {'line': b'  UTILITY\n'}
+[0.596609] (body_tracking) StderrLine: {'line': b'\n'}
+[0.596649] (body_tracking) StderrLine: {'line': b'Note: The stack trace will not use advanced capabilities because this is a release build.\n'}
+[0.596688] (body_tracking) StderrLine: {'line': b'0x55b78929d7a4 : ??? [(???) ???:-1]\n'}
+[0.596727] (body_tracking) StderrLine: {'line': b'0x55b78929e262 : ??? [(???) ???:-1]\n'}
+[0.596766] (body_tracking) StderrLine: {'line': b'0x55b7891da253 : ??? [(???) ???:-1]\n'}
+[0.596805] (body_tracking) StderrLine: {'line': b'0x55b7891da8d9 : ??? [(???) ???:-1]\n'}
+[0.596845] (body_tracking) StderrLine: {'line': b'0x55b78913331f : ??? [(???) ???:-1]\n'}
+[0.596886] (body_tracking) StderrLine: {'line': b'0x55b789133513 : ??? [(???) ???:-1]\n'}
+[0.596925] (body_tracking) StderrLine: {'line': b'0x55b78912b0b3 : ??? [(???) ???:-1]\n'}
+[0.596965] (body_tracking) StderrLine: {'line': b'0x55b78912b455 : ??? [(???) ???:-1]\n'}
+[0.597004] (body_tracking) StderrLine: {'line': b'0x55b78912b510 : ??? [(???) ???:-1]\n'}
+[0.597043] (body_tracking) StderrLine: {'line': b'0x55b78919d565 : ??? [(???) ???:-1]\n'}
+[0.597082] (body_tracking) StderrLine: {'line': b'0x55b78919dd55 : ??? [(???) ???:-1]\n'}
+[0.597121] (body_tracking) StderrLine: {'line': b'0x55b788eb464f : ??? [(???) ???:-1]\n'}
+[0.597160] (body_tracking) StderrLine: {'line': b'0x55b788eb4a03 : ??? [(???) ???:-1]\n'}
+[0.597199] (body_tracking) StderrLine: {'line': b'0x55b7891c6b6e : ??? [(???) ???:-1]\n'}
+[0.597242] (body_tracking) StderrLine: {'line': b'0x55b7891cf0bf : ??? [(???) ???:-1]\n'}
+[0.597285] (body_tracking) StderrLine: {'line': b'0x55b7891cbf4d : ??? [(???) ???:-1]\n'}
+[0.597324] (body_tracking) StderrLine: {'line': b'0x55b7891b5421 : ??? [(???) ???:-1]\n'}
+[0.597364] (body_tracking) StderrLine: {'line': b'0x55b7891768fa : ??? [(???) ???:-1]\n'}
+[0.597403] (body_tracking) StderrLine: {'line': b'0x55b7891855b7 : ??? [(???) ???:-1]\n'}
+[0.597442] (body_tracking) StderrLine: {'line': b'0x55b788f72aa7 : ??? [(???) ???:-1]\n'}
+[0.597482] (body_tracking) StderrLine: {'line': b'0x55b788f821e4 : ??? [(???) ???:-1]\n'}
+[0.597521] (body_tracking) StderrLine: {'line': b'0x55b788e85c29 : ??? [(???) ???:-1]\n'}
+[0.597560] (body_tracking) StderrLine: {'line': b'0x55b788e77ba3 : ??? [(???) ???:-1]\n'}
+[0.597600] (body_tracking) StderrLine: {'line': b'0x7fcc97aef0b3 : __libc_start_main [(libc.so.6) ???:-1]\n'}
+[0.597639] (body_tracking) StderrLine: {'line': b'0x55b788e811ae : ??? [(???) ???:-1]\n'}
+[0.597679] (body_tracking) StderrLine: {'line': b'\n'}
+[0.597717] (body_tracking) StderrLine: {'line': b'\n'}
+[0.597756] (body_tracking) StderrLine: {'line': b'CMake Internal Error (please report a bug) in CMakeLists.txt:\n'}
+[0.597796] (body_tracking) StderrLine: {'line': b'  cmGeneratorTarget::GetOutputInfo called for body_tracking which has type\n'}
+[0.597835] (body_tracking) StderrLine: {'line': b'  UTILITY\n'}
+[0.597874] (body_tracking) StderrLine: {'line': b'\n'}
+[0.597913] (body_tracking) StderrLine: {'line': b'Note: The stack trace will not use advanced capabilities because this is a release build.\n'}
+[0.598080] (body_tracking) StderrLine: {'line': b'0x55b78929d7a4 : ??? [(???) ???:-1]\n'}
+[0.598121] (body_tracking) StderrLine: {'line': b'0x55b78929e262 : ??? [(???) ???:-1]\n'}
+[0.598160] (body_tracking) StderrLine: {'line': b'0x55b7891da253 : ??? [(???) ???:-1]\n'}
+[0.598391] (body_tracking) StderrLine: {'line': b'0x55b7891da8d9 : ??? [(???) ???:-1]\n'}
+[0.598428] (body_tracking) StderrLine: {'line': b'0x55b78913331f : ??? [(???) ???:-1]\n'}
+[0.598463] (body_tracking) StderrLine: {'line': b'0x55b789133513 : ??? [(???) ???:-1]\n'}
+[0.598498] (body_tracking) StderrLine: {'line': b'0x55b78912b0b3 : ??? [(???) ???:-1]\n'}
+[0.598532] (body_tracking) StderrLine: {'line': b'0x55b78912b455 : ??? [(???) ???:-1]\n'}
+[0.598566] (body_tracking) StderrLine: {'line': b'0x55b78912b510 : ??? [(???) ???:-1]\n'}
+[0.598602] (body_tracking) StderrLine: {'line': b'0x55b78919d565 : ??? [(???) ???:-1]\n'}
+[0.598637] (body_tracking) StderrLine: {'line': b'0x55b78919dd55 : ??? [(???) ???:-1]\n'}
+[0.598672] (body_tracking) StderrLine: {'line': b'0x55b788eb464f : ??? [(???) ???:-1]\n'}
+[0.598706] (body_tracking) StderrLine: {'line': b'0x55b788eb4a03 : ??? [(???) ???:-1]\n'}
+[0.598740] (body_tracking) StderrLine: {'line': b'0x55b7891c6b6e : ??? [(???) ???:-1]\n'}
+[0.598775] (body_tracking) StderrLine: {'line': b'0x55b7891cf0bf : ??? [(???) ???:-1]\n'}
+[0.598810] (body_tracking) StderrLine: {'line': b'0x55b7891cbf4d : ??? [(???) ???:-1]\n'}
+[0.598845] (body_tracking) StderrLine: {'line': b'0x55b7891b5421 : ??? [(???) ???:-1]\n'}
+[0.598880] (body_tracking) StderrLine: {'line': b'0x55b7891768fa : ??? [(???) ???:-1]\n'}
+[0.598915] (body_tracking) StderrLine: {'line': b'0x55b7891855b7 : ??? [(???) ???:-1]\n'}
+[0.598950] (body_tracking) StderrLine: {'line': b'0x55b788f72aa7 : ??? [(???) ???:-1]\n'}
+[0.598985] (body_tracking) StderrLine: {'line': b'0x55b788f821e4 : ??? [(???) ???:-1]\n'}
+[0.599020] (body_tracking) StderrLine: {'line': b'0x55b788e85c29 : ??? [(???) ???:-1]\n'}
+[0.599055] (body_tracking) StderrLine: {'line': b'0x55b788e77ba3 : ??? [(???) ???:-1]\n'}
+[0.599090] (body_tracking) StderrLine: {'line': b'0x7fcc97aef0b3 : __libc_start_main [(libc.so.6) ???:-1]\n'}
+[0.599126] (body_tracking) StderrLine: {'line': b'0x55b788e811ae : ??? [(???) ???:-1]\n'}
+[0.599162] (body_tracking) StderrLine: {'line': b'\n'}
+[0.599196] (body_tracking) StderrLine: {'line': b'\n'}
+[0.599231] (body_tracking) StderrLine: {'line': b'CMake Internal Error (please report a bug) in CMakeLists.txt:\n'}
+[0.599267] (body_tracking) StderrLine: {'line': b'  cmGeneratorTarget::GetOutputInfo called for body_tracking which has type\n'}
+[0.599302] (body_tracking) StderrLine: {'line': b'  UTILITY\n'}
+[0.599337] (body_tracking) StderrLine: {'line': b'\n'}
+[0.599370] (body_tracking) StderrLine: {'line': b'Note: The stack trace will not use advanced capabilities because this is a release build.\n'}
+[0.599405] (body_tracking) StderrLine: {'line': b'0x55b78929d7a4 : ??? [(???) ???:-1]\n'}
+[0.599440] (body_tracking) StderrLine: {'line': b'0x55b78929e262 : ??? [(???) ???:-1]\n'}
+[0.599475] (body_tracking) StderrLine: {'line': b'0x55b7891da253 : ??? [(???) ???:-1]\n'}
+[0.599511] (body_tracking) StderrLine: {'line': b'0x55b7891da8d9 : ??? [(???) ???:-1]\n'}
+[0.599546] (body_tracking) StderrLine: {'line': b'0x55b78913331f : ??? [(???) ???:-1]\n'}
+[0.599581] (body_tracking) StderrLine: {'line': b'0x55b789133513 : ??? [(???) ???:-1]\n'}
+[0.599617] (body_tracking) StderrLine: {'line': b'0x55b78912b0b3 : ??? [(???) ???:-1]\n'}
+[0.599654] (-) TimerEvent: {}
+[0.599744] (body_tracking) StderrLine: {'line': b'0x55b78912b455 : ??? [(???) ???:-1]\n'}
+[0.599786] (body_tracking) StderrLine: {'line': b'0x55b78912b510 : ??? [(???) ???:-1]\n'}
+[0.599823] (body_tracking) StderrLine: {'line': b'0x55b78919d565 : ??? [(???) ???:-1]\n'}
+[0.599858] (body_tracking) StderrLine: {'line': b'0x55b78919dd55 : ??? [(???) ???:-1]\n'}
+[0.599895] (body_tracking) StderrLine: {'line': b'0x55b788eb464f : ??? [(???) ???:-1]\n'}
+[0.599930] (body_tracking) StderrLine: {'line': b'0x55b788eb4a03 : ??? [(???) ???:-1]\n'}
+[0.599965] (body_tracking) StderrLine: {'line': b'0x55b7891c6b6e : ??? [(???) ???:-1]\n'}
+[0.600000] (body_tracking) StderrLine: {'line': b'0x55b7891cf0bf : ??? [(???) ???:-1]\n'}
+[0.600035] (body_tracking) StderrLine: {'line': b'0x55b7891cbf4d : ??? [(???) ???:-1]\n'}
+[0.600072] (body_tracking) StderrLine: {'line': b'0x55b7891b5421 : ??? [(???) ???:-1]\n'}
+[0.600107] (body_tracking) StderrLine: {'line': b'0x55b7891768fa : ??? [(???) ???:-1]\n'}
+[0.600142] (body_tracking) StderrLine: {'line': b'0x55b7891855b7 : ??? [(???) ???:-1]\n'}
+[0.600177] (body_tracking) StderrLine: {'line': b'0x55b788f72aa7 : ??? [(???) ???:-1]\n'}
+[0.600212] (body_tracking) StderrLine: {'line': b'0x55b788f821e4 : ??? [(???) ???:-1]\n'}
+[0.600246] (body_tracking) StderrLine: {'line': b'0x55b788e85c29 : ??? [(???) ???:-1]\n'}
+[0.600281] (body_tracking) StderrLine: {'line': b'0x55b788e77ba3 : ??? [(???) ???:-1]\n'}
+[0.600316] (body_tracking) StderrLine: {'line': b'0x7fcc97aef0b3 : __libc_start_main [(libc.so.6) ???:-1]\n'}
+[0.600351] (body_tracking) StderrLine: {'line': b'0x55b788e811ae : ??? [(???) ???:-1]\n'}
+[0.600386] (body_tracking) StderrLine: {'line': b'\n'}
+[0.600421] (body_tracking) StderrLine: {'line': b'\n'}
+[0.600455] (body_tracking) StderrLine: {'line': b'CMake Internal Error (please report a bug) in CMakeLists.txt:\n'}
+[0.600489] (body_tracking) StderrLine: {'line': b'  cmGeneratorTarget::GetOutputInfo called for body_tracking which has type\n'}
+[0.600524] (body_tracking) StderrLine: {'line': b'  UTILITY\n'}
+[0.600559] (body_tracking) StderrLine: {'line': b'\n'}
+[0.600593] (body_tracking) StderrLine: {'line': b'Note: The stack trace will not use advanced capabilities because this is a release build.\n'}
+[0.600627] (body_tracking) StderrLine: {'line': b'0x55b78929d7a4 : ??? [(???) ???:-1]\n'}
+[0.600662] (body_tracking) StderrLine: {'line': b'0x55b78929e262 : ??? [(???) ???:-1]\n'}
+[0.600698] (body_tracking) StderrLine: {'line': b'0x55b7891da253 : ??? [(???) ???:-1]\n'}
+[0.600733] (body_tracking) StderrLine: {'line': b'0x55b7891da8d9 : ??? [(???) ???:-1]\n'}
+[0.600767] (body_tracking) StderrLine: {'line': b'0x55b78913331f : ??? [(???) ???:-1]\n'}
+[0.600801] (body_tracking) StderrLine: {'line': b'0x55b789133513 : ??? [(???) ???:-1]\n'}
+[0.600836] (body_tracking) StderrLine: {'line': b'0x55b78912b0b3 : ??? [(???) ???:-1]\n'}
+[0.600871] (body_tracking) StderrLine: {'line': b'0x55b78912b455 : ??? [(???) ???:-1]\n'}
+[0.600906] (body_tracking) StderrLine: {'line': b'0x55b78912b510 : ??? [(???) ???:-1]\n'}
+[0.600941] (body_tracking) StderrLine: {'line': b'0x55b78919d565 : ??? [(???) ???:-1]\n'}
+[0.600976] (body_tracking) StderrLine: {'line': b'0x55b78919dd55 : ??? [(???) ???:-1]\n'}
+[0.601011] (body_tracking) StderrLine: {'line': b'0x55b788eb464f : ??? [(???) ???:-1]\n'}
+[0.601045] (body_tracking) StderrLine: {'line': b'0x55b788eb4a03 : ??? [(???) ???:-1]\n'}
+[0.601080] (body_tracking) StderrLine: {'line': b'0x55b7891c6b6e : ??? [(???) ???:-1]\n'}
+[0.601114] (body_tracking) StderrLine: {'line': b'0x55b7891cf0bf : ??? [(???) ???:-1]\n'}
+[0.601148] (body_tracking) StderrLine: {'line': b'0x55b7891cbf4d : ??? [(???) ???:-1]\n'}
+[0.601183] (body_tracking) StderrLine: {'line': b'0x55b7891b5421 : ??? [(???) ???:-1]\n'}
+[0.601217] (body_tracking) StderrLine: {'line': b'0x55b7891768fa : ??? [(???) ???:-1]\n'}
+[0.601257] (body_tracking) StderrLine: {'line': b'0x55b7891855b7 : ??? [(???) ???:-1]\n'}
+[0.601294] (body_tracking) StderrLine: {'line': b'0x55b788f72aa7 : ??? [(???) ???:-1]\n'}
+[0.601412] (body_tracking) StderrLine: {'line': b'0x55b788f821e4 : ??? [(???) ???:-1]\n'}
+[0.601452] (body_tracking) StderrLine: {'line': b'0x55b788e85c29 : ??? [(???) ???:-1]\n'}
+[0.601487] (body_tracking) StderrLine: {'line': b'0x55b788e77ba3 : ??? [(???) ???:-1]\n'}
+[0.601521] (body_tracking) StderrLine: {'line': b'0x7fcc97aef0b3 : __libc_start_main [(libc.so.6) ???:-1]\n'}
+[0.601556] (body_tracking) StderrLine: {'line': b'0x55b788e811ae : ??? [(???) ???:-1]\n'}
+[0.601591] (body_tracking) StderrLine: {'line': b'\n'}
+[0.601626] (body_tracking) StderrLine: {'line': b'\n'}
+[0.601661] (body_tracking) StderrLine: {'line': b'CMake Internal Error (please report a bug) in CMakeLists.txt:\n'}
+[0.601696] (body_tracking) StderrLine: {'line': b'  cmGeneratorTarget::GetOutputInfo called for body_tracking which has type\n'}
+[0.601770] (body_tracking) StderrLine: {'line': b'  UTILITY\n'}
+[0.601808] (body_tracking) StderrLine: {'line': b'\n'}
+[0.601842] (body_tracking) StderrLine: {'line': b'Note: The stack trace will not use advanced capabilities because this is a release build.\n'}
+[0.601877] (body_tracking) StderrLine: {'line': b'0x55b78929d7a4 : ??? [(???) ???:-1]\n'}
+[0.601912] (body_tracking) StderrLine: {'line': b'0x55b78929e262 : ??? [(???) ???:-1]\n'}
+[0.601946] (body_tracking) StderrLine: {'line': b'0x55b7891da253 : ??? [(???) ???:-1]\n'}
+[0.601981] (body_tracking) StderrLine: {'line': b'0x55b7891da8d9 : ??? [(???) ???:-1]\n'}
+[0.602016] (body_tracking) StderrLine: {'line': b'0x55b78913331f : ??? [(???) ???:-1]\n'}
+[0.602096] (body_tracking) StderrLine: {'line': b'0x55b789133513 : ??? [(???) ???:-1]\n'}
+[0.602136] (body_tracking) StderrLine: {'line': b'0x55b78912b0b3 : ??? [(???) ???:-1]\n'}
+[0.602172] (body_tracking) StderrLine: {'line': b'0x55b78912b455 : ??? [(???) ???:-1]\n'}
+[0.602207] (body_tracking) StderrLine: {'line': b'0x55b78912b510 : ??? [(???) ???:-1]\n'}
+[0.602242] (body_tracking) StderrLine: {'line': b'0x55b78919d565 : ??? [(???) ???:-1]\n'}
+[0.602277] (body_tracking) StderrLine: {'line': b'0x55b78919dd55 : ??? [(???) ???:-1]\n'}
+[0.602312] (body_tracking) StderrLine: {'line': b'0x55b788eb464f : ??? [(???) ???:-1]\n'}
+[0.602346] (body_tracking) StderrLine: {'line': b'0x55b788eb4a03 : ??? [(???) ???:-1]\n'}
+[0.602381] (body_tracking) StderrLine: {'line': b'0x55b7891c6b6e : ??? [(???) ???:-1]\n'}
+[0.602416] (body_tracking) StderrLine: {'line': b'0x55b7891cf0bf : ??? [(???) ???:-1]\n'}
+[0.602460] (body_tracking) StderrLine: {'line': b'0x55b7891cbf4d : ??? [(???) ???:-1]\n'}
+[0.602562] (body_tracking) StderrLine: {'line': b'0x55b7891b5421 : ??? [(???) ???:-1]\n'}
+[0.602600] (body_tracking) StderrLine: {'line': b'0x55b7891768fa : ??? [(???) ???:-1]\n'}
+[0.602635] (body_tracking) StderrLine: {'line': b'0x55b7891855b7 : ??? [(???) ???:-1]\n'}
+[0.602671] (body_tracking) StderrLine: {'line': b'0x55b788f72aa7 : ??? [(???) ???:-1]\n'}
+[0.602705] (body_tracking) StderrLine: {'line': b'0x55b788f821e4 : ??? [(???) ???:-1]\n'}
+[0.602741] (body_tracking) StderrLine: {'line': b'0x55b788e85c29 : ??? [(???) ???:-1]\n'}
+[0.602814] (body_tracking) StderrLine: {'line': b'0x55b788e77ba3 : ??? [(???) ???:-1]\n'}
+[0.602850] (body_tracking) StderrLine: {'line': b'0x7fcc97aef0b3 : __libc_start_main [(libc.so.6) ???:-1]\n'}
+[0.602885] (body_tracking) StderrLine: {'line': b'0x55b788e811ae : ??? [(???) ???:-1]\n'}
+[0.602919] (body_tracking) StderrLine: {'line': b'\n'}
+[0.602954] (body_tracking) StderrLine: {'line': b'\n'}
+[0.602989] (body_tracking) StderrLine: {'line': b'CMake Internal Error (please report a bug) in CMakeLists.txt:\n'}
+[0.603024] (body_tracking) StderrLine: {'line': b'  cmGeneratorTarget::GetOutputInfo called for body_tracking which has type\n'}
+[0.603060] (body_tracking) StderrLine: {'line': b'  UTILITY\n'}
+[0.603131] (body_tracking) StderrLine: {'line': b'\n'}
+[0.603167] (body_tracking) StderrLine: {'line': b'Note: The stack trace will not use advanced capabilities because this is a release build.\n'}
+[0.603202] (body_tracking) StderrLine: {'line': b'0x55b78929d7a4 : ??? [(???) ???:-1]\n'}
+[0.603237] (body_tracking) StderrLine: {'line': b'0x55b78929e262 : ??? [(???) ???:-1]\n'}
+[0.603272] (body_tracking) StderrLine: {'line': b'0x55b7891da253 : ??? [(???) ???:-1]\n'}
+[0.603306] (body_tracking) StderrLine: {'line': b'0x55b7891da8d9 : ??? [(???) ???:-1]\n'}
+[0.603340] (body_tracking) StderrLine: {'line': b'0x55b78913331f : ??? [(???) ???:-1]\n'}
+[0.603377] (body_tracking) StderrLine: {'line': b'0x55b789133513 : ??? [(???) ???:-1]\n'}
+[0.603448] (body_tracking) StderrLine: {'line': b'0x55b78912b0b3 : ??? [(???) ???:-1]\n'}
+[0.603485] (body_tracking) StderrLine: {'line': b'0x55b78912b455 : ??? [(???) ???:-1]\n'}
+[0.603520] (body_tracking) StderrLine: {'line': b'0x55b78912b510 : ??? [(???) ???:-1]\n'}
+[0.603555] (body_tracking) StderrLine: {'line': b'0x55b78919d565 : ??? [(???) ???:-1]\n'}
+[0.603590] (body_tracking) StderrLine: {'line': b'0x55b78919dd55 : ??? [(???) ???:-1]\n'}
+[0.603628] (body_tracking) StderrLine: {'line': b'0x55b788eb464f : ??? [(???) ???:-1]\n'}
+[0.603663] (body_tracking) StderrLine: {'line': b'0x55b788eb4a03 : ??? [(???) ???:-1]\n'}
+[0.603698] (body_tracking) StderrLine: {'line': b'0x55b7891c6b6e : ??? [(???) ???:-1]\n'}
+[0.603737] (body_tracking) StderrLine: {'line': b'0x55b7891cf0bf : ??? [(???) ???:-1]\n'}
+[0.603815] (body_tracking) StderrLine: {'line': b'0x55b7891cbf4d : ??? [(???) ???:-1]\n'}
+[0.603852] (body_tracking) StderrLine: {'line': b'0x55b7891b5421 : ??? [(???) ???:-1]\n'}
+[0.603887] (body_tracking) StderrLine: {'line': b'0x55b7891768fa : ??? [(???) ???:-1]\n'}
+[0.603923] (body_tracking) StderrLine: {'line': b'0x55b7891855b7 : ??? [(???) ???:-1]\n'}
+[0.603957] (body_tracking) StderrLine: {'line': b'0x55b788f72aa7 : ??? [(???) ???:-1]\n'}
+[0.603992] (body_tracking) StderrLine: {'line': b'0x55b788f821e4 : ??? [(???) ???:-1]\n'}
+[0.604029] (body_tracking) StderrLine: {'line': b'0x55b788e85c29 : ??? [(???) ???:-1]\n'}
+[0.604081] (body_tracking) StderrLine: {'line': b'0x55b788e77ba3 : ??? [(???) ???:-1]\n'}
+[0.604123] (body_tracking) StderrLine: {'line': b'0x7fcc97aef0b3 : __libc_start_main [(libc.so.6) ???:-1]\n'}
+[0.604164] (body_tracking) StderrLine: {'line': b'0x55b788e811ae : ??? [(???) ???:-1]\n'}
+[0.604204] (body_tracking) StderrLine: {'line': b'\n'}
+[0.604251] (body_tracking) StderrLine: {'line': b'\n'}
+[0.604291] (body_tracking) StderrLine: {'line': b'CMake Internal Error (please report a bug) in CMakeLists.txt:\n'}
+[0.604331] (body_tracking) StderrLine: {'line': b'  cmGeneratorTarget::GetOutputInfo called for body_tracking which has type\n'}
+[0.604371] (body_tracking) StderrLine: {'line': b'  UTILITY\n'}
+[0.604438] (body_tracking) StderrLine: {'line': b'\n'}
+[0.604474] (body_tracking) StderrLine: {'line': b'Note: The stack trace will not use advanced capabilities because this is a release build.\n'}
+[0.604509] (body_tracking) StderrLine: {'line': b'0x55b78929d7a4 : ??? [(???) ???:-1]\n'}
+[0.604544] (body_tracking) StderrLine: {'line': b'0x55b78929e262 : ??? [(???) ???:-1]\n'}
+[0.604580] (body_tracking) StderrLine: {'line': b'0x55b7891da253 : ??? [(???) ???:-1]\n'}
+[0.604614] (body_tracking) StderrLine: {'line': b'0x55b7891da8d9 : ??? [(???) ???:-1]\n'}
+[0.604649] (body_tracking) StderrLine: {'line': b'0x55b78913331f : ??? [(???) ???:-1]\n'}
+[0.604714] (body_tracking) StderrLine: {'line': b'0x55b789133513 : ??? [(???) ???:-1]\n'}
+[0.604753] (body_tracking) StderrLine: {'line': b'0x55b78912b0b3 : ??? [(???) ???:-1]\n'}
+[0.604788] (body_tracking) StderrLine: {'line': b'0x55b78912b455 : ??? [(???) ???:-1]\n'}
+[0.604823] (body_tracking) StderrLine: {'line': b'0x55b78912b510 : ??? [(???) ???:-1]\n'}
+[0.604858] (body_tracking) StderrLine: {'line': b'0x55b78919d565 : ??? [(???) ???:-1]\n'}
+[0.604893] (body_tracking) StderrLine: {'line': b'0x55b78919dd55 : ??? [(???) ???:-1]\n'}
+[0.604928] (body_tracking) StderrLine: {'line': b'0x55b788eb464f : ??? [(???) ???:-1]\n'}
+[0.604963] (body_tracking) StderrLine: {'line': b'0x55b788eb4a03 : ??? [(???) ???:-1]\n'}
+[0.605014] (body_tracking) StderrLine: {'line': b'0x55b7891c6b6e : ??? [(???) ???:-1]\n'}
+[0.605056] (body_tracking) StderrLine: {'line': b'0x55b7891cf0bf : ??? [(???) ???:-1]\n'}
+[0.605095] (body_tracking) StderrLine: {'line': b'0x55b7891cbf4d : ??? [(???) ???:-1]\n'}
+[0.605134] (body_tracking) StderrLine: {'line': b'0x55b7891b5421 : ??? [(???) ???:-1]\n'}
+[0.605173] (body_tracking) StderrLine: {'line': b'0x55b7891768fa : ??? [(???) ???:-1]\n'}
+[0.605212] (body_tracking) StderrLine: {'line': b'0x55b7891855b7 : ??? [(???) ???:-1]\n'}
+[0.605293] (body_tracking) StderrLine: {'line': b'0x55b788f72aa7 : ??? [(???) ???:-1]\n'}
+[0.605330] (body_tracking) StderrLine: {'line': b'0x55b788f821e4 : ??? [(???) ???:-1]\n'}
+[0.605380] (body_tracking) StderrLine: {'line': b'0x55b788e85c29 : ??? [(???) ???:-1]\n'}
+[0.605422] (body_tracking) StderrLine: {'line': b'0x55b788e77ba3 : ??? [(???) ???:-1]\n'}
+[0.605462] (body_tracking) StderrLine: {'line': b'0x7fcc97aef0b3 : __libc_start_main [(libc.so.6) ???:-1]\n'}
+[0.605524] (body_tracking) StderrLine: {'line': b'0x55b788e811ae : ??? [(???) ???:-1]\n'}
+[0.605559] (body_tracking) StderrLine: {'line': b'\n'}
+[0.605594] (body_tracking) StderrLine: {'line': b'\n'}
+[0.605630] (body_tracking) StderrLine: {'line': b'CMake Internal Error (please report a bug) in CMakeLists.txt:\n'}
+[0.605669] (body_tracking) StderrLine: {'line': b'  cmGeneratorTarget::GetOutputInfo called for body_tracking which has type\n'}
+[0.605735] (body_tracking) StderrLine: {'line': b'  UTILITY\n'}
+[0.605771] (body_tracking) StderrLine: {'line': b'\n'}
+[0.605806] (body_tracking) StderrLine: {'line': b'Note: The stack trace will not use advanced capabilities because this is a release build.\n'}
+[0.605842] (body_tracking) StderrLine: {'line': b'0x55b78929d7a4 : ??? [(???) ???:-1]\n'}
+[0.605877] (body_tracking) StderrLine: {'line': b'0x55b78929e262 : ??? [(???) ???:-1]\n'}
+[0.605912] (body_tracking) StderrLine: {'line': b'0x55b7891da253 : ??? [(???) ???:-1]\n'}
+[0.605946] (body_tracking) StderrLine: {'line': b'0x55b7891da8d9 : ??? [(???) ???:-1]\n'}
+[0.606025] (body_tracking) StderrLine: {'line': b'0x55b78913331f : ??? [(???) ???:-1]\n'}
+[0.606063] (body_tracking) StderrLine: {'line': b'0x55b789133513 : ??? [(???) ???:-1]\n'}
+[0.606099] (body_tracking) StderrLine: {'line': b'0x55b78912b0b3 : ??? [(???) ???:-1]\n'}
+[0.606134] (body_tracking) StderrLine: {'line': b'0x55b78912b455 : ??? [(???) ???:-1]\n'}
+[0.606169] (body_tracking) StderrLine: {'line': b'0x55b78912b510 : ??? [(???) ???:-1]\n'}
+[0.606203] (body_tracking) StderrLine: {'line': b'0x55b78919d565 : ??? [(???) ???:-1]\n'}
+[0.606238] (body_tracking) StderrLine: {'line': b'0x55b78919dd55 : ??? [(???) ???:-1]\n'}
+[0.606274] (body_tracking) StderrLine: {'line': b'0x55b788eb464f : ??? [(???) ???:-1]\n'}
+[0.606344] (body_tracking) StderrLine: {'line': b'0x55b788eb4a03 : ??? [(???) ???:-1]\n'}
+[0.606380] (body_tracking) StderrLine: {'line': b'0x55b7891c6b6e : ??? [(???) ???:-1]\n'}
+[0.606414] (body_tracking) StderrLine: {'line': b'0x55b7891cf0bf : ??? [(???) ???:-1]\n'}
+[0.606449] (body_tracking) StderrLine: {'line': b'0x55b7891cbf4d : ??? [(???) ???:-1]\n'}
+[0.606483] (body_tracking) StderrLine: {'line': b'0x55b7891b5421 : ??? [(???) ???:-1]\n'}
+[0.606518] (body_tracking) StderrLine: {'line': b'0x55b7891768fa : ??? [(???) ???:-1]\n'}
+[0.606552] (body_tracking) StderrLine: {'line': b'0x55b7891855b7 : ??? [(???) ???:-1]\n'}
+[0.606594] (body_tracking) StderrLine: {'line': b'0x55b788f72aa7 : ??? [(???) ???:-1]\n'}
+[0.606660] (body_tracking) StderrLine: {'line': b'0x55b788f821e4 : ??? [(???) ???:-1]\n'}
+[0.606696] (body_tracking) StderrLine: {'line': b'0x55b788e85c29 : ??? [(???) ???:-1]\n'}
+[0.606731] (body_tracking) StderrLine: {'line': b'0x55b788e77ba3 : ??? [(???) ???:-1]\n'}
+[0.606766] (body_tracking) StderrLine: {'line': b'0x7fcc97aef0b3 : __libc_start_main [(libc.so.6) ???:-1]\n'}
+[0.606802] (body_tracking) StderrLine: {'line': b'0x55b788e811ae : ??? [(???) ???:-1]\n'}
+[0.606836] (body_tracking) StderrLine: {'line': b'\n'}
+[0.606871] (body_tracking) StderrLine: {'line': b'\n'}
+[0.606938] (body_tracking) StderrLine: {'line': b'CMake Internal Error (please report a bug) in CMakeLists.txt:\n'}
+[0.606975] (body_tracking) StderrLine: {'line': b'  cmGeneratorTarget::GetOutputInfo called for body_tracking which has type\n'}
+[0.607010] (body_tracking) StderrLine: {'line': b'  UTILITY\n'}
+[0.607045] (body_tracking) StderrLine: {'line': b'\n'}
+[0.607080] (body_tracking) StderrLine: {'line': b'Note: The stack trace will not use advanced capabilities because this is a release build.\n'}
+[0.607115] (body_tracking) StderrLine: {'line': b'0x55b78929d7a4 : ??? [(???) ???:-1]\n'}
+[0.607151] (body_tracking) StderrLine: {'line': b'0x55b78929e262 : ??? [(???) ???:-1]\n'}
+[0.607211] (body_tracking) StderrLine: {'line': b'0x55b7891da253 : ??? [(???) ???:-1]\n'}
+[0.607251] (body_tracking) StderrLine: {'line': b'0x55b7891da8d9 : ??? [(???) ???:-1]\n'}
+[0.607291] (body_tracking) StderrLine: {'line': b'0x55b78913331f : ??? [(???) ???:-1]\n'}
+[0.607326] (body_tracking) StderrLine: {'line': b'0x55b789133513 : ??? [(???) ???:-1]\n'}
+[0.607363] (body_tracking) StderrLine: {'line': b'0x55b78912b0b3 : ??? [(???) ???:-1]\n'}
+[0.607398] (body_tracking) StderrLine: {'line': b'0x55b78912b455 : ??? [(???) ???:-1]\n'}
+[0.607433] (body_tracking) StderrLine: {'line': b'0x55b78912b510 : ??? [(???) ???:-1]\n'}
+[0.607469] (body_tracking) StderrLine: {'line': b'0x55b78919d565 : ??? [(???) ???:-1]\n'}
+[0.607504] (body_tracking) StderrLine: {'line': b'0x55b78919dd55 : ??? [(???) ???:-1]\n'}
+[0.607539] (body_tracking) StderrLine: {'line': b'0x55b788eb464f : ??? [(???) ???:-1]\n'}
+[0.607614] (body_tracking) StderrLine: {'line': b'0x55b788eb4a03 : ??? [(???) ???:-1]\n'}
+[0.607651] (body_tracking) StderrLine: {'line': b'0x55b7891c6b6e : ??? [(???) ???:-1]\n'}
+[0.607686] (body_tracking) StderrLine: {'line': b'0x55b7891cf0bf : ??? [(???) ???:-1]\n'}
+[0.607722] (body_tracking) StderrLine: {'line': b'0x55b7891cbf4d : ??? [(???) ???:-1]\n'}
+[0.607757] (body_tracking) StderrLine: {'line': b'0x55b7891b5421 : ??? [(???) ???:-1]\n'}
+[0.607791] (body_tracking) StderrLine: {'line': b'0x55b7891768fa : ??? [(???) ???:-1]\n'}
+[0.607826] (body_tracking) StderrLine: {'line': b'0x55b7891855b7 : ??? [(???) ???:-1]\n'}
+[0.607889] (body_tracking) StderrLine: {'line': b'0x55b788f72aa7 : ??? [(???) ???:-1]\n'}
+[0.607929] (body_tracking) StderrLine: {'line': b'0x55b788f821e4 : ??? [(???) ???:-1]\n'}
+[0.607964] (body_tracking) StderrLine: {'line': b'0x55b788e85c29 : ??? [(???) ???:-1]\n'}
+[0.607998] (body_tracking) StderrLine: {'line': b'0x55b788e77ba3 : ??? [(???) ???:-1]\n'}
+[0.608033] (body_tracking) StderrLine: {'line': b'0x7fcc97aef0b3 : __libc_start_main [(libc.so.6) ???:-1]\n'}
+[0.608067] (body_tracking) StderrLine: {'line': b'0x55b788e811ae : ??? [(???) ???:-1]\n'}
+[0.608101] (body_tracking) StderrLine: {'line': b'\n'}
+[0.608135] (body_tracking) StderrLine: {'line': b'\n'}
+[0.608183] (body_tracking) StderrLine: {'line': b'CMake Internal Error (please report a bug) in CMakeLists.txt:\n'}
+[0.608226] (body_tracking) StderrLine: {'line': b'  cmGeneratorTarget::GetOutputInfo called for body_tracking which has type\n'}
+[0.608267] (body_tracking) StderrLine: {'line': b'  UTILITY\n'}
+[0.608306] (body_tracking) StderrLine: {'line': b'\n'}
+[0.608345] (body_tracking) StderrLine: {'line': b'Note: The stack trace will not use advanced capabilities because this is a release build.\n'}
+[0.608384] (body_tracking) StderrLine: {'line': b'0x55b78929d7a4 : ??? [(???) ???:-1]\n'}
+[0.608423] (body_tracking) StderrLine: {'line': b'0x55b78929e262 : ??? [(???) ???:-1]\n'}
+[0.608461] (body_tracking) StderrLine: {'line': b'0x55b7891da253 : ??? [(???) ???:-1]\n'}
+[0.608527] (body_tracking) StderrLine: {'line': b'0x55b7891da8d9 : ??? [(???) ???:-1]\n'}
+[0.608561] (body_tracking) StderrLine: {'line': b'0x55b78913331f : ??? [(???) ???:-1]\n'}
+[0.608596] (body_tracking) StderrLine: {'line': b'0x55b789133513 : ??? [(???) ???:-1]\n'}
+[0.608630] (body_tracking) StderrLine: {'line': b'0x55b78912b0b3 : ??? [(???) ???:-1]\n'}
+[0.608665] (body_tracking) StderrLine: {'line': b'0x55b78912b455 : ??? [(???) ???:-1]\n'}
+[0.608699] (body_tracking) StderrLine: {'line': b'0x55b78912b510 : ??? [(???) ???:-1]\n'}
+[0.608733] (body_tracking) StderrLine: {'line': b'0x55b78919d565 : ??? [(???) ???:-1]\n'}
+[0.608767] (body_tracking) StderrLine: {'line': b'0x55b78919dd55 : ??? [(???) ???:-1]\n'}
+[0.608801] (body_tracking) StderrLine: {'line': b'0x55b788eb464f : ??? [(???) ???:-1]\n'}
+[0.608849] (body_tracking) StderrLine: {'line': b'0x55b788eb4a03 : ??? [(???) ???:-1]\n'}
+[0.608891] (body_tracking) StderrLine: {'line': b'0x55b7891c6b6e : ??? [(???) ???:-1]\n'}
+[0.608930] (body_tracking) StderrLine: {'line': b'0x55b7891cf0bf : ??? [(???) ???:-1]\n'}
+[0.608970] (body_tracking) StderrLine: {'line': b'0x55b7891cbf4d : ??? [(???) ???:-1]\n'}
+[0.609010] (body_tracking) StderrLine: {'line': b'0x55b7891b5421 : ??? [(???) ???:-1]\n'}
+[0.609049] (body_tracking) StderrLine: {'line': b'0x55b7891768fa : ??? [(???) ???:-1]\n'}
+[0.609135] (body_tracking) StderrLine: {'line': b'0x55b7891855b7 : ??? [(???) ???:-1]\n'}
+[0.609179] (body_tracking) StderrLine: {'line': b'0x55b788f72aa7 : ??? [(???) ???:-1]\n'}
+[0.609214] (body_tracking) StderrLine: {'line': b'0x55b788f821e4 : ??? [(???) ???:-1]\n'}
+[0.609256] (body_tracking) StderrLine: {'line': b'0x55b788e85c29 : ??? [(???) ???:-1]\n'}
+[0.609306] (body_tracking) StderrLine: {'line': b'0x55b788e77ba3 : ??? [(???) ???:-1]\n'}
+[0.609341] (body_tracking) StderrLine: {'line': b'0x7fcc97aef0b3 : __libc_start_main [(libc.so.6) ???:-1]\n'}
+[0.609377] (body_tracking) StderrLine: {'line': b'0x55b788e811ae : ??? [(???) ???:-1]\n'}
+[0.609412] (body_tracking) StderrLine: {'line': b'\n'}
+[0.609450] (body_tracking) StderrLine: {'line': b'\n'}
+[0.609517] (body_tracking) StderrLine: {'line': b'CMake Internal Error (please report a bug) in CMakeLists.txt:\n'}
+[0.609554] (body_tracking) StderrLine: {'line': b'  cmGeneratorTarget::GetOutputInfo called for body_tracking which has type\n'}
+[0.609589] (body_tracking) StderrLine: {'line': b'  UTILITY\n'}
+[0.609623] (body_tracking) StderrLine: {'line': b'\n'}
+[0.609657] (body_tracking) StderrLine: {'line': b'Note: The stack trace will not use advanced capabilities because this is a release build.\n'}
+[0.609693] (body_tracking) StderrLine: {'line': b'0x55b78929d7a4 : ??? [(???) ???:-1]\n'}
+[0.609727] (body_tracking) StderrLine: {'line': b'0x55b78929e262 : ??? [(???) ???:-1]\n'}
+[0.609792] (body_tracking) StderrLine: {'line': b'0x55b7891da253 : ??? [(???) ???:-1]\n'}
+[0.609831] (body_tracking) StderrLine: {'line': b'0x55b7891da8d9 : ??? [(???) ???:-1]\n'}
+[0.609868] (body_tracking) StderrLine: {'line': b'0x55b78913331f : ??? [(???) ???:-1]\n'}
+[0.609903] (body_tracking) StderrLine: {'line': b'0x55b789133513 : ??? [(???) ???:-1]\n'}
+[0.609938] (body_tracking) StderrLine: {'line': b'0x55b78912b0b3 : ??? [(???) ???:-1]\n'}
+[0.609973] (body_tracking) StderrLine: {'line': b'0x55b78912b455 : ??? [(???) ???:-1]\n'}
+[0.610008] (body_tracking) StderrLine: {'line': b'0x55b78912b510 : ??? [(???) ???:-1]\n'}
+[0.610044] (body_tracking) StderrLine: {'line': b'0x55b78919d565 : ??? [(???) ???:-1]\n'}
+[0.610094] (body_tracking) StderrLine: {'line': b'0x55b78919dd55 : ??? [(???) ???:-1]\n'}
+[0.610136] (body_tracking) StderrLine: {'line': b'0x55b788eb464f : ??? [(???) ???:-1]\n'}
+[0.610176] (body_tracking) StderrLine: {'line': b'0x55b788eb4a03 : ??? [(???) ???:-1]\n'}
+[0.610215] (body_tracking) StderrLine: {'line': b'0x55b7891c6b6e : ??? [(???) ???:-1]\n'}
+[0.610254] (body_tracking) StderrLine: {'line': b'0x55b7891cf0bf : ??? [(???) ???:-1]\n'}
+[0.610294] (body_tracking) StderrLine: {'line': b'0x55b7891cbf4d : ??? [(???) ???:-1]\n'}
+[0.610334] (body_tracking) StderrLine: {'line': b'0x55b7891b5421 : ??? [(???) ???:-1]\n'}
+[0.610402] (body_tracking) StderrLine: {'line': b'0x55b7891768fa : ??? [(???) ???:-1]\n'}
+[0.610441] (body_tracking) StderrLine: {'line': b'0x55b7891855b7 : ??? [(???) ???:-1]\n'}
+[0.610476] (body_tracking) StderrLine: {'line': b'0x55b788f72aa7 : ??? [(???) ???:-1]\n'}
+[0.610511] (body_tracking) StderrLine: {'line': b'0x55b788f821e4 : ??? [(???) ???:-1]\n'}
+[0.610547] (body_tracking) StderrLine: {'line': b'0x55b788e85c29 : ??? [(???) ???:-1]\n'}
+[0.610581] (body_tracking) StderrLine: {'line': b'0x55b788e77ba3 : ??? [(???) ???:-1]\n'}
+[0.610616] (body_tracking) StderrLine: {'line': b'0x7fcc97aef0b3 : __libc_start_main [(libc.so.6) ???:-1]\n'}
+[0.610651] (body_tracking) StderrLine: {'line': b'0x55b788e811ae : ??? [(???) ???:-1]\n'}
+[0.610703] (body_tracking) StderrLine: {'line': b'\n'}
+[0.610745] (body_tracking) StderrLine: {'line': b'\n'}
+[0.610785] (body_tracking) StderrLine: {'line': b'CMake Internal Error (please report a bug) in CMakeLists.txt:\n'}
+[0.610824] (body_tracking) StderrLine: {'line': b'  cmGeneratorTarget::GetOutputInfo called for body_tracking which has type\n'}
+[0.610864] (body_tracking) StderrLine: {'line': b'  UTILITY\n'}
+[0.610903] (body_tracking) StderrLine: {'line': b'\n'}
+[0.610942] (body_tracking) StderrLine: {'line': b'Note: The stack trace will not use advanced capabilities because this is a release build.\n'}
+[0.610982] (body_tracking) StderrLine: {'line': b'0x55b78929d7a4 : ??? [(???) ???:-1]\n'}
+[0.611071] (body_tracking) StderrLine: {'line': b'0x55b78929e262 : ??? [(???) ???:-1]\n'}
+[0.611107] (body_tracking) StderrLine: {'line': b'0x55b7891da253 : ??? [(???) ???:-1]\n'}
+[0.611142] (body_tracking) StderrLine: {'line': b'0x55b7891da8d9 : ??? [(???) ???:-1]\n'}
+[0.611178] (body_tracking) StderrLine: {'line': b'0x55b78913331f : ??? [(???) ???:-1]\n'}
+[0.611213] (body_tracking) StderrLine: {'line': b'0x55b789133513 : ??? [(???) ???:-1]\n'}
+[0.611248] (body_tracking) StderrLine: {'line': b'0x55b78912b0b3 : ??? [(???) ???:-1]\n'}
+[0.611283] (body_tracking) StderrLine: {'line': b'0x55b78912b455 : ??? [(???) ???:-1]\n'}
+[0.611318] (body_tracking) StderrLine: {'line': b'0x55b78912b510 : ??? [(???) ???:-1]\n'}
+[0.611388] (body_tracking) StderrLine: {'line': b'0x55b78919d565 : ??? [(???) ???:-1]\n'}
+[0.611424] (body_tracking) StderrLine: {'line': b'0x55b78919dd55 : ??? [(???) ???:-1]\n'}
+[0.611459] (body_tracking) StderrLine: {'line': b'0x55b788eb464f : ??? [(???) ???:-1]\n'}
+[0.611494] (body_tracking) StderrLine: {'line': b'0x55b788eb4a03 : ??? [(???) ???:-1]\n'}
+[0.611528] (body_tracking) StderrLine: {'line': b'0x55b7891c6b6e : ??? [(???) ???:-1]\n'}
+[0.611563] (body_tracking) StderrLine: {'line': b'0x55b7891cf0bf : ??? [(???) ???:-1]\n'}
+[0.611597] (body_tracking) StderrLine: {'line': b'0x55b7891cbf4d : ??? [(???) ???:-1]\n'}
+[0.611638] (body_tracking) StderrLine: {'line': b'0x55b7891b5421 : ??? [(???) ???:-1]\n'}
+[0.611703] (body_tracking) StderrLine: {'line': b'0x55b7891768fa : ??? [(???) ???:-1]\n'}
+[0.611738] (body_tracking) StderrLine: {'line': b'0x55b7891855b7 : ??? [(???) ???:-1]\n'}
+[0.611774] (body_tracking) StderrLine: {'line': b'0x55b788f72aa7 : ??? [(???) ???:-1]\n'}
+[0.611809] (body_tracking) StderrLine: {'line': b'0x55b788f821e4 : ??? [(???) ???:-1]\n'}
+[0.611845] (body_tracking) StderrLine: {'line': b'0x55b788e85c29 : ??? [(???) ???:-1]\n'}
+[0.611880] (body_tracking) StderrLine: {'line': b'0x55b788e77ba3 : ??? [(???) ???:-1]\n'}
+[0.611915] (body_tracking) StderrLine: {'line': b'0x7fcc97aef0b3 : __libc_start_main [(libc.so.6) ???:-1]\n'}
+[0.611995] (body_tracking) StderrLine: {'line': b'0x55b788e811ae : ??? [(???) ???:-1]\n'}
+[0.612033] (body_tracking) StderrLine: {'line': b'\n'}
+[0.612067] (body_tracking) StderrLine: {'line': b'\n'}
+[0.612101] (body_tracking) StderrLine: {'line': b'CMake Internal Error (please report a bug) in CMakeLists.txt:\n'}
+[0.612137] (body_tracking) StderrLine: {'line': b'  cmGeneratorTarget::GetOutputInfo called for body_tracking which has type\n'}
+[0.612172] (body_tracking) StderrLine: {'line': b'  UTILITY\n'}
+[0.612206] (body_tracking) StderrLine: {'line': b'\n'}
+[0.612246] (body_tracking) StderrLine: {'line': b'Note: The stack trace will not use advanced capabilities because this is a release build.\n'}
+[0.612294] (body_tracking) StderrLine: {'line': b'0x55b78929d7a4 : ??? [(???) ???:-1]\n'}
+[0.612333] (body_tracking) StderrLine: {'line': b'0x55b78929e262 : ??? [(???) ???:-1]\n'}
+[0.612372] (body_tracking) StderrLine: {'line': b'0x55b7891da253 : ??? [(???) ???:-1]\n'}
+[0.612412] (body_tracking) StderrLine: {'line': b'0x55b7891da8d9 : ??? [(???) ???:-1]\n'}
+[0.612452] (body_tracking) StderrLine: {'line': b'0x55b78913331f : ??? [(???) ???:-1]\n'}
+[0.612492] (body_tracking) StderrLine: {'line': b'0x55b789133513 : ??? [(???) ???:-1]\n'}
+[0.612531] (body_tracking) StderrLine: {'line': b'0x55b78912b0b3 : ??? [(???) ???:-1]\n'}
+[0.612570] (body_tracking) StderrLine: {'line': b'0x55b78912b455 : ??? [(???) ???:-1]\n'}
+[0.612619] (body_tracking) StderrLine: {'line': b'0x55b78912b510 : ??? [(???) ???:-1]\n'}
+[0.612659] (body_tracking) StderrLine: {'line': b'0x55b78919d565 : ??? [(???) ???:-1]\n'}
+[0.612698] (body_tracking) StderrLine: {'line': b'0x55b78919dd55 : ??? [(???) ???:-1]\n'}
+[0.612737] (body_tracking) StderrLine: {'line': b'0x55b788eb464f : ??? [(???) ???:-1]\n'}
+[0.612776] (body_tracking) StderrLine: {'line': b'0x55b788eb4a03 : ??? [(???) ???:-1]\n'}
+[0.612861] (body_tracking) StderrLine: {'line': b'0x55b7891c6b6e : ??? [(???) ???:-1]\n'}
+[0.612906] (body_tracking) StderrLine: {'line': b'0x55b7891cf0bf : ??? [(???) ???:-1]\n'}
+[0.612974] (body_tracking) StderrLine: {'line': b'0x55b7891cbf4d : ??? [(???) ???:-1]\n'}
+[0.613009] (body_tracking) StderrLine: {'line': b'0x55b7891b5421 : ??? [(???) ???:-1]\n'}
+[0.613044] (body_tracking) StderrLine: {'line': b'0x55b7891768fa : ??? [(???) ???:-1]\n'}
+[0.613078] (body_tracking) StderrLine: {'line': b'0x55b7891855b7 : ??? [(???) ???:-1]\n'}
+[0.613113] (body_tracking) StderrLine: {'line': b'0x55b788f72aa7 : ??? [(???) ???:-1]\n'}
+[0.613148] (body_tracking) StderrLine: {'line': b'0x55b788f821e4 : ??? [(???) ???:-1]\n'}
+[0.613183] (body_tracking) StderrLine: {'line': b'0x55b788e85c29 : ??? [(???) ???:-1]\n'}
+[0.613227] (body_tracking) StderrLine: {'line': b'0x55b788e77ba3 : ??? [(???) ???:-1]\n'}
+[0.613291] (body_tracking) StderrLine: {'line': b'0x7fcc97aef0b3 : __libc_start_main [(libc.so.6) ???:-1]\n'}
+[0.613332] (body_tracking) StderrLine: {'line': b'0x55b788e811ae : ??? [(???) ???:-1]\n'}
+[0.613371] (body_tracking) StderrLine: {'line': b'\n'}
+[0.613411] (body_tracking) StderrLine: {'line': b'\n'}
+[0.613450] (body_tracking) StderrLine: {'line': b'CMake Internal Error (please report a bug) in CMakeLists.txt:\n'}
+[0.613489] (body_tracking) StderrLine: {'line': b'  cmGeneratorTarget::GetOutputInfo called for body_tracking which has type\n'}
+[0.613529] (body_tracking) StderrLine: {'line': b'  UTILITY\n'}
+[0.613599] (body_tracking) StderrLine: {'line': b'\n'}
+[0.613634] (body_tracking) StderrLine: {'line': b'Note: The stack trace will not use advanced capabilities because this is a release build.\n'}
+[0.613669] (body_tracking) StderrLine: {'line': b'0x55b78929d7a4 : ??? [(???) ???:-1]\n'}
+[0.613704] (body_tracking) StderrLine: {'line': b'0x55b78929e262 : ??? [(???) ???:-1]\n'}
+[0.613737] (body_tracking) StderrLine: {'line': b'0x55b7891da253 : ??? [(???) ???:-1]\n'}
+[0.613772] (body_tracking) StderrLine: {'line': b'0x55b7891da8d9 : ??? [(???) ???:-1]\n'}
+[0.613807] (body_tracking) StderrLine: {'line': b'0x55b78913331f : ??? [(???) ???:-1]\n'}
+[0.613848] (body_tracking) StderrLine: {'line': b'0x55b789133513 : ??? [(???) ???:-1]\n'}
+[0.613914] (body_tracking) StderrLine: {'line': b'0x55b78912b0b3 : ??? [(???) ???:-1]\n'}
+[0.613949] (body_tracking) StderrLine: {'line': b'0x55b78912b455 : ??? [(???) ???:-1]\n'}
+[0.613983] (body_tracking) StderrLine: {'line': b'0x55b78912b510 : ??? [(???) ???:-1]\n'}
+[0.614019] (body_tracking) StderrLine: {'line': b'0x55b78919d565 : ??? [(???) ???:-1]\n'}
+[0.614054] (body_tracking) StderrLine: {'line': b'0x55b78919dd55 : ??? [(???) ???:-1]\n'}
+[0.614089] (body_tracking) StderrLine: {'line': b'0x55b788eb464f : ??? [(???) ???:-1]\n'}
+[0.614124] (body_tracking) StderrLine: {'line': b'0x55b788eb4a03 : ??? [(???) ???:-1]\n'}
+[0.614191] (body_tracking) StderrLine: {'line': b'0x55b7891c6b6e : ??? [(???) ???:-1]\n'}
+[0.614230] (body_tracking) StderrLine: {'line': b'0x55b7891cf0bf : ??? [(???) ???:-1]\n'}
+[0.614265] (body_tracking) StderrLine: {'line': b'0x55b7891cbf4d : ??? [(???) ???:-1]\n'}
+[0.614300] (body_tracking) StderrLine: {'line': b'0x55b7891b5421 : ??? [(???) ???:-1]\n'}
+[0.614335] (body_tracking) StderrLine: {'line': b'0x55b7891768fa : ??? [(???) ???:-1]\n'}
+[0.614369] (body_tracking) StderrLine: {'line': b'0x55b7891855b7 : ??? [(???) ???:-1]\n'}
+[0.614404] (body_tracking) StderrLine: {'line': b'0x55b788f72aa7 : ??? [(???) ???:-1]\n'}
+[0.614440] (body_tracking) StderrLine: {'line': b'0x55b788f821e4 : ??? [(???) ???:-1]\n'}
+[0.614483] (body_tracking) StderrLine: {'line': b'0x55b788e85c29 : ??? [(???) ???:-1]\n'}
+[0.614521] (body_tracking) StderrLine: {'line': b'0x55b788e77ba3 : ??? [(???) ???:-1]\n'}
+[0.614597] (body_tracking) StderrLine: {'line': b'0x7fcc97aef0b3 : __libc_start_main [(libc.so.6) ???:-1]\n'}
+[0.614634] (body_tracking) StderrLine: {'line': b'0x55b788e811ae : ??? [(???) ???:-1]\n'}
+[0.614670] (body_tracking) StderrLine: {'line': b'\n'}
+[0.614705] (body_tracking) StderrLine: {'line': b'\n'}
+[0.614739] (body_tracking) StderrLine: {'line': b'CMake Internal Error (please report a bug) in CMakeLists.txt:\n'}
+[0.614776] (body_tracking) StderrLine: {'line': b'  cmGeneratorTarget::GetOutputInfo called for body_tracking which has type\n'}
+[0.614812] (body_tracking) StderrLine: {'line': b'  UTILITY\n'}
+[0.614860] (body_tracking) StderrLine: {'line': b'\n'}
+[0.614906] (body_tracking) StderrLine: {'line': b'Note: The stack trace will not use advanced capabilities because this is a release build.\n'}
+[0.614945] (body_tracking) StderrLine: {'line': b'0x55b78929d7a4 : ??? [(???) ???:-1]\n'}
+[0.614984] (body_tracking) StderrLine: {'line': b'0x55b78929e262 : ??? [(???) ???:-1]\n'}
+[0.615024] (body_tracking) StderrLine: {'line': b'0x55b7891da253 : ??? [(???) ???:-1]\n'}
+[0.615063] (body_tracking) StderrLine: {'line': b'0x55b7891da8d9 : ??? [(???) ???:-1]\n'}
+[0.615102] (body_tracking) StderrLine: {'line': b'0x55b78913331f : ??? [(???) ???:-1]\n'}
+[0.615141] (body_tracking) StderrLine: {'line': b'0x55b789133513 : ??? [(???) ???:-1]\n'}
+[0.615207] (body_tracking) StderrLine: {'line': b'0x55b78912b0b3 : ??? [(???) ???:-1]\n'}
+[0.615243] (body_tracking) StderrLine: {'line': b'0x55b78912b455 : ??? [(???) ???:-1]\n'}
+[0.615279] (body_tracking) StderrLine: {'line': b'0x55b78912b510 : ??? [(???) ???:-1]\n'}
+[0.615314] (body_tracking) StderrLine: {'line': b'0x55b78919d565 : ??? [(???) ???:-1]\n'}
+[0.615348] (body_tracking) StderrLine: {'line': b'0x55b78919dd55 : ??? [(???) ???:-1]\n'}
+[0.615383] (body_tracking) StderrLine: {'line': b'0x55b788eb464f : ??? [(???) ???:-1]\n'}
+[0.615418] (body_tracking) StderrLine: {'line': b'0x55b788eb4a03 : ??? [(???) ???:-1]\n'}
+[0.615459] (body_tracking) StderrLine: {'line': b'0x55b7891c6b6e : ??? [(???) ???:-1]\n'}
+[0.615505] (body_tracking) StderrLine: {'line': b'0x55b7891cf0bf : ??? [(???) ???:-1]\n'}
+[0.615545] (body_tracking) StderrLine: {'line': b'0x55b7891cbf4d : ??? [(???) ???:-1]\n'}
+[0.615584] (body_tracking) StderrLine: {'line': b'0x55b7891b5421 : ??? [(???) ???:-1]\n'}
+[0.615624] (body_tracking) StderrLine: {'line': b'0x55b7891768fa : ??? [(???) ???:-1]\n'}
+[0.615663] (body_tracking) StderrLine: {'line': b'0x55b7891855b7 : ??? [(???) ???:-1]\n'}
+[0.615702] (body_tracking) StderrLine: {'line': b'0x55b788f72aa7 : ??? [(???) ???:-1]\n'}
+[0.615741] (body_tracking) StderrLine: {'line': b'0x55b788f821e4 : ??? [(???) ???:-1]\n'}
+[0.615811] (body_tracking) StderrLine: {'line': b'0x55b788e85c29 : ??? [(???) ???:-1]\n'}
+[0.615848] (body_tracking) StderrLine: {'line': b'0x55b788e77ba3 : ??? [(???) ???:-1]\n'}
+[0.615883] (body_tracking) StderrLine: {'line': b'0x7fcc97aef0b3 : __libc_start_main [(libc.so.6) ???:-1]\n'}
+[0.615919] (body_tracking) StderrLine: {'line': b'0x55b788e811ae : ??? [(???) ???:-1]\n'}
+[0.615954] (body_tracking) StderrLine: {'line': b'\n'}
+[0.615989] (body_tracking) StderrLine: {'line': b'\n'}
+[0.616023] (body_tracking) StderrLine: {'line': b'CMake Internal Error (please report a bug) in CMakeLists.txt:\n'}
+[0.616059] (body_tracking) StderrLine: {'line': b'  cmGeneratorTarget::GetOutputInfo called for body_tracking which has type\n'}
+[0.616094] (body_tracking) StderrLine: {'line': b'  UTILITY\n'}
+[0.616147] (body_tracking) StderrLine: {'line': b'\n'}
+[0.616188] (body_tracking) StderrLine: {'line': b'Note: The stack trace will not use advanced capabilities because this is a release build.\n'}
+[0.616228] (body_tracking) StderrLine: {'line': b'0x55b78929d7a4 : ??? [(???) ???:-1]\n'}
+[0.616268] (body_tracking) StderrLine: {'line': b'0x55b78929e262 : ??? [(???) ???:-1]\n'}
+[0.616306] (body_tracking) StderrLine: {'line': b'0x55b7891da253 : ??? [(???) ???:-1]\n'}
+[0.616345] (body_tracking) StderrLine: {'line': b'0x55b7891da8d9 : ??? [(???) ???:-1]\n'}
+[0.616433] (body_tracking) StderrLine: {'line': b'0x55b78913331f : ??? [(???) ???:-1]\n'}
+[0.616472] (body_tracking) StderrLine: {'line': b'0x55b789133513 : ??? [(???) ???:-1]\n'}
+[0.616507] (body_tracking) StderrLine: {'line': b'0x55b78912b0b3 : ??? [(???) ???:-1]\n'}
+[0.616545] (body_tracking) StderrLine: {'line': b'0x55b78912b455 : ??? [(???) ???:-1]\n'}
+[0.616579] (body_tracking) StderrLine: {'line': b'0x55b78912b510 : ??? [(???) ???:-1]\n'}
+[0.616616] (body_tracking) StderrLine: {'line': b'0x55b78919d565 : ??? [(???) ???:-1]\n'}
+[0.616651] (body_tracking) StderrLine: {'line': b'0x55b78919dd55 : ??? [(???) ???:-1]\n'}
+[0.616685] (body_tracking) StderrLine: {'line': b'0x55b788eb464f : ??? [(???) ???:-1]\n'}
+[0.616751] (body_tracking) StderrLine: {'line': b'0x55b788eb4a03 : ??? [(???) ???:-1]\n'}
+[0.616789] (body_tracking) StderrLine: {'line': b'0x55b7891c6b6e : ??? [(???) ???:-1]\n'}
+[0.616824] (body_tracking) StderrLine: {'line': b'0x55b7891cf0bf : ??? [(???) ???:-1]\n'}
+[0.616859] (body_tracking) StderrLine: {'line': b'0x55b7891cbf4d : ??? [(???) ???:-1]\n'}
+[0.616894] (body_tracking) StderrLine: {'line': b'0x55b7891b5421 : ??? [(???) ???:-1]\n'}
+[0.616928] (body_tracking) StderrLine: {'line': b'0x55b7891768fa : ??? [(???) ???:-1]\n'}
+[0.616962] (body_tracking) StderrLine: {'line': b'0x55b7891855b7 : ??? [(???) ???:-1]\n'}
+[0.616997] (body_tracking) StderrLine: {'line': b'0x55b788f72aa7 : ??? [(???) ???:-1]\n'}
+[0.617064] (body_tracking) StderrLine: {'line': b'0x55b788f821e4 : ??? [(???) ???:-1]\n'}
+[0.617101] (body_tracking) StderrLine: {'line': b'0x55b788e85c29 : ??? [(???) ???:-1]\n'}
+[0.617136] (body_tracking) StderrLine: {'line': b'0x55b788e77ba3 : ??? [(???) ???:-1]\n'}
+[0.617171] (body_tracking) StderrLine: {'line': b'0x7fcc97aef0b3 : __libc_start_main [(libc.so.6) ???:-1]\n'}
+[0.617207] (body_tracking) StderrLine: {'line': b'0x55b788e811ae : ??? [(???) ???:-1]\n'}
+[0.617246] (body_tracking) StderrLine: {'line': b'\n'}
+[0.617286] (body_tracking) StderrLine: {'line': b'\n'}
+[0.617321] (body_tracking) StderrLine: {'line': b'CMake Internal Error (please report a bug) in CMakeLists.txt:\n'}
+[0.617355] (body_tracking) StderrLine: {'line': b'  cmGeneratorTarget::GetOutputInfo called for body_tracking which has type\n'}
+[0.617400] (body_tracking) StderrLine: {'line': b'  UTILITY\n'}
+[0.617467] (body_tracking) StderrLine: {'line': b'\n'}
+[0.617503] (body_tracking) StderrLine: {'line': b'Note: The stack trace will not use advanced capabilities because this is a release build.\n'}
+[0.617539] (body_tracking) StderrLine: {'line': b'0x55b78929d7a4 : ??? [(???) ???:-1]\n'}
+[0.617574] (body_tracking) StderrLine: {'line': b'0x55b78929e262 : ??? [(???) ???:-1]\n'}
+[0.617609] (body_tracking) StderrLine: {'line': b'0x55b7891da253 : ??? [(???) ???:-1]\n'}
+[0.617644] (body_tracking) StderrLine: {'line': b'0x55b7891da8d9 : ??? [(???) ???:-1]\n'}
+[0.617678] (body_tracking) StderrLine: {'line': b'0x55b78913331f : ??? [(???) ???:-1]\n'}
+[0.617748] (body_tracking) StderrLine: {'line': b'0x55b789133513 : ??? [(???) ???:-1]\n'}
+[0.617784] (body_tracking) StderrLine: {'line': b'0x55b78912b0b3 : ??? [(???) ???:-1]\n'}
+[0.617819] (body_tracking) StderrLine: {'line': b'0x55b78912b455 : ??? [(???) ???:-1]\n'}
+[0.617854] (body_tracking) StderrLine: {'line': b'0x55b78912b510 : ??? [(???) ???:-1]\n'}
+[0.617890] (body_tracking) StderrLine: {'line': b'0x55b78919d565 : ??? [(???) ???:-1]\n'}
+[0.617925] (body_tracking) StderrLine: {'line': b'0x55b78919dd55 : ??? [(???) ???:-1]\n'}
+[0.617960] (body_tracking) StderrLine: {'line': b'0x55b788eb464f : ??? [(???) ???:-1]\n'}
+[0.617998] (body_tracking) StderrLine: {'line': b'0x55b788eb4a03 : ??? [(???) ???:-1]\n'}
+[0.618047] (body_tracking) StderrLine: {'line': b'0x55b7891c6b6e : ??? [(???) ???:-1]\n'}
+[0.618087] (body_tracking) StderrLine: {'line': b'0x55b7891cf0bf : ??? [(???) ???:-1]\n'}
+[0.618127] (body_tracking) StderrLine: {'line': b'0x55b7891cbf4d : ??? [(???) ???:-1]\n'}
+[0.618166] (body_tracking) StderrLine: {'line': b'0x55b7891b5421 : ??? [(???) ???:-1]\n'}
+[0.618205] (body_tracking) StderrLine: {'line': b'0x55b7891768fa : ??? [(???) ???:-1]\n'}
+[0.618244] (body_tracking) StderrLine: {'line': b'0x55b7891855b7 : ??? [(???) ???:-1]\n'}
+[0.618283] (body_tracking) StderrLine: {'line': b'0x55b788f72aa7 : ??? [(???) ???:-1]\n'}
+[0.618328] (body_tracking) StderrLine: {'line': b'0x55b788f821e4 : ??? [(???) ???:-1]\n'}
+[0.618371] (body_tracking) StderrLine: {'line': b'0x55b788e85c29 : ??? [(???) ???:-1]\n'}
+[0.618432] (body_tracking) StderrLine: {'line': b'0x55b788e77ba3 : ??? [(???) ???:-1]\n'}
+[0.618467] (body_tracking) StderrLine: {'line': b'0x7fcc97aef0b3 : __libc_start_main [(libc.so.6) ???:-1]\n'}
+[0.618501] (body_tracking) StderrLine: {'line': b'0x55b788e811ae : ??? [(???) ???:-1]\n'}
+[0.618536] (body_tracking) StderrLine: {'line': b'\n'}
+[0.618570] (body_tracking) StderrLine: {'line': b'\n'}
+[0.618638] (body_tracking) StderrLine: {'line': b'CMake Internal Error (please report a bug) in CMakeLists.txt:\n'}
+[0.618676] (body_tracking) StderrLine: {'line': b'  cmGeneratorTarget::GetOutputInfo called for body_tracking which has type\n'}
+[0.618712] (body_tracking) StderrLine: {'line': b'  UTILITY\n'}
+[0.618747] (body_tracking) StderrLine: {'line': b'\n'}
+[0.618782] (body_tracking) StderrLine: {'line': b'Note: The stack trace will not use advanced capabilities because this is a release build.\n'}
+[0.618816] (body_tracking) StderrLine: {'line': b'0x55b78929d7a4 : ??? [(???) ???:-1]\n'}
+[0.618851] (body_tracking) StderrLine: {'line': b'0x55b78929e262 : ??? [(???) ???:-1]\n'}
+[0.618886] (body_tracking) StderrLine: {'line': b'0x55b7891da253 : ??? [(???) ???:-1]\n'}
+[0.618921] (body_tracking) StderrLine: {'line': b'0x55b7891da8d9 : ??? [(???) ???:-1]\n'}
+[0.618956] (body_tracking) StderrLine: {'line': b'0x55b78913331f : ??? [(???) ???:-1]\n'}
+[0.619026] (body_tracking) StderrLine: {'line': b'0x55b789133513 : ??? [(???) ???:-1]\n'}
+[0.619065] (body_tracking) StderrLine: {'line': b'0x55b78912b0b3 : ??? [(???) ???:-1]\n'}
+[0.619100] (body_tracking) StderrLine: {'line': b'0x55b78912b455 : ??? [(???) ???:-1]\n'}
+[0.619134] (body_tracking) StderrLine: {'line': b'0x55b78912b510 : ??? [(???) ???:-1]\n'}
+[0.619170] (body_tracking) StderrLine: {'line': b'0x55b78919d565 : ??? [(???) ???:-1]\n'}
+[0.619205] (body_tracking) StderrLine: {'line': b'0x55b78919dd55 : ??? [(???) ???:-1]\n'}
+[0.619239] (body_tracking) StderrLine: {'line': b'0x55b788eb464f : ??? [(???) ???:-1]\n'}
+[0.619306] (body_tracking) StderrLine: {'line': b'0x55b788eb4a03 : ??? [(???) ???:-1]\n'}
+[0.619344] (body_tracking) StderrLine: {'line': b'0x55b7891c6b6e : ??? [(???) ???:-1]\n'}
+[0.619380] (body_tracking) StderrLine: {'line': b'0x55b7891cf0bf : ??? [(???) ???:-1]\n'}
+[0.619415] (body_tracking) StderrLine: {'line': b'0x55b7891cbf4d : ??? [(???) ???:-1]\n'}
+[0.619450] (body_tracking) StderrLine: {'line': b'0x55b7891b5421 : ??? [(???) ???:-1]\n'}
+[0.619484] (body_tracking) StderrLine: {'line': b'0x55b7891768fa : ??? [(???) ???:-1]\n'}
+[0.619519] (body_tracking) StderrLine: {'line': b'0x55b7891855b7 : ??? [(???) ???:-1]\n'}
+[0.619554] (body_tracking) StderrLine: {'line': b'0x55b788f72aa7 : ??? [(???) ???:-1]\n'}
+[0.619632] (body_tracking) StderrLine: {'line': b'0x55b788f821e4 : ??? [(???) ???:-1]\n'}
+[0.619668] (body_tracking) StderrLine: {'line': b'0x55b788e85c29 : ??? [(???) ???:-1]\n'}
+[0.619703] (body_tracking) StderrLine: {'line': b'0x55b788e77ba3 : ??? [(???) ???:-1]\n'}
+[0.619737] (body_tracking) StderrLine: {'line': b'0x7fcc97aef0b3 : __libc_start_main [(libc.so.6) ???:-1]\n'}
+[0.619772] (body_tracking) StderrLine: {'line': b'0x55b788e811ae : ??? [(???) ???:-1]\n'}
+[0.619807] (body_tracking) StderrLine: {'line': b'\n'}
+[0.619842] (body_tracking) StderrLine: {'line': b'\n'}
+[0.619878] (body_tracking) StderrLine: {'line': b'CMake Internal Error (please report a bug) in CMakeLists.txt:\n'}
+[0.619955] (body_tracking) StderrLine: {'line': b'  cmGeneratorTarget::GetOutputInfo called for body_tracking which has type\n'}
+[0.619993] (body_tracking) StderrLine: {'line': b'  UTILITY\n'}
+[0.620028] (body_tracking) StderrLine: {'line': b'\n'}
+[0.620063] (body_tracking) StderrLine: {'line': b'Note: The stack trace will not use advanced capabilities because this is a release build.\n'}
+[0.620099] (body_tracking) StderrLine: {'line': b'0x55b78929d7a4 : ??? [(???) ???:-1]\n'}
+[0.620134] (body_tracking) StderrLine: {'line': b'0x55b78929e262 : ??? [(???) ???:-1]\n'}
+[0.620171] (body_tracking) StderrLine: {'line': b'0x55b7891da253 : ??? [(???) ???:-1]\n'}
+[0.620206] (body_tracking) StderrLine: {'line': b'0x55b7891da8d9 : ??? [(???) ???:-1]\n'}
+[0.620286] (body_tracking) StderrLine: {'line': b'0x55b78913331f : ??? [(???) ???:-1]\n'}
+[0.620324] (body_tracking) StderrLine: {'line': b'0x55b789133513 : ??? [(???) ???:-1]\n'}
+[0.620359] (body_tracking) StderrLine: {'line': b'0x55b78912b0b3 : ??? [(???) ???:-1]\n'}
+[0.620394] (body_tracking) StderrLine: {'line': b'0x55b78912b455 : ??? [(???) ???:-1]\n'}
+[0.620427] (body_tracking) StderrLine: {'line': b'0x55b78912b510 : ??? [(???) ???:-1]\n'}
+[0.620461] (body_tracking) StderrLine: {'line': b'0x55b78919d565 : ??? [(???) ???:-1]\n'}
+[0.620496] (body_tracking) StderrLine: {'line': b'0x55b78919dd55 : ??? [(???) ???:-1]\n'}
+[0.620532] (body_tracking) StderrLine: {'line': b'0x55b788eb464f : ??? [(???) ???:-1]\n'}
+[0.620580] (body_tracking) StderrLine: {'line': b'0x55b788eb4a03 : ??? [(???) ???:-1]\n'}
+[0.620641] (body_tracking) StderrLine: {'line': b'0x55b7891c6b6e : ??? [(???) ???:-1]\n'}
+[0.620677] (body_tracking) StderrLine: {'line': b'0x55b7891cf0bf : ??? [(???) ???:-1]\n'}
+[0.620711] (body_tracking) StderrLine: {'line': b'0x55b7891cbf4d : ??? [(???) ???:-1]\n'}
+[0.620745] (body_tracking) StderrLine: {'line': b'0x55b7891b5421 : ??? [(???) ???:-1]\n'}
+[0.620780] (body_tracking) StderrLine: {'line': b'0x55b7891768fa : ??? [(???) ???:-1]\n'}
+[0.620815] (body_tracking) StderrLine: {'line': b'0x55b7891855b7 : ??? [(???) ???:-1]\n'}
+[0.620852] (body_tracking) StderrLine: {'line': b'0x55b788f72aa7 : ??? [(???) ???:-1]\n'}
+[0.620916] (body_tracking) StderrLine: {'line': b'0x55b788f821e4 : ??? [(???) ???:-1]\n'}
+[0.620954] (body_tracking) StderrLine: {'line': b'0x55b788e85c29 : ??? [(???) ???:-1]\n'}
+[0.620989] (body_tracking) StderrLine: {'line': b'0x55b788e77ba3 : ??? [(???) ???:-1]\n'}
+[0.621024] (body_tracking) StderrLine: {'line': b'0x7fcc97aef0b3 : __libc_start_main [(libc.so.6) ???:-1]\n'}
+[0.621060] (body_tracking) StderrLine: {'line': b'0x55b788e811ae : ??? [(???) ???:-1]\n'}
+[0.621094] (body_tracking) StderrLine: {'line': b'\n'}
+[0.621129] (body_tracking) StderrLine: {'line': b'\n'}
+[0.621173] (body_tracking) StderrLine: {'line': b'CMake Internal Error (please report a bug) in CMakeLists.txt:\n'}
+[0.621244] (body_tracking) StderrLine: {'line': b'  cmGeneratorTarget::GetOutputInfo called for body_tracking which has type\n'}
+[0.621283] (body_tracking) StderrLine: {'line': b'  UTILITY\n'}
+[0.621318] (body_tracking) StderrLine: {'line': b'\n'}
+[0.621353] (body_tracking) StderrLine: {'line': b'Note: The stack trace will not use advanced capabilities because this is a release build.\n'}
+[0.621388] (body_tracking) StderrLine: {'line': b'0x55b78929d7a4 : ??? [(???) ???:-1]\n'}
+[0.621423] (body_tracking) StderrLine: {'line': b'0x55b78929e262 : ??? [(???) ???:-1]\n'}
+[0.621458] (body_tracking) StderrLine: {'line': b'0x55b7891da253 : ??? [(???) ???:-1]\n'}
+[0.621497] (body_tracking) StderrLine: {'line': b'0x55b7891da8d9 : ??? [(???) ???:-1]\n'}
+[0.621548] (body_tracking) StderrLine: {'line': b'0x55b78913331f : ??? [(???) ???:-1]\n'}
+[0.621587] (body_tracking) StderrLine: {'line': b'0x55b789133513 : ??? [(???) ???:-1]\n'}
+[0.621629] (body_tracking) StderrLine: {'line': b'0x55b78912b0b3 : ??? [(???) ???:-1]\n'}
+[0.621668] (body_tracking) StderrLine: {'line': b'0x55b78912b455 : ??? [(???) ???:-1]\n'}
+[0.621708] (body_tracking) StderrLine: {'line': b'0x55b78912b510 : ??? [(???) ???:-1]\n'}
+[0.621748] (body_tracking) StderrLine: {'line': b'0x55b78919d565 : ??? [(???) ???:-1]\n'}
+[0.621787] (body_tracking) StderrLine: {'line': b'0x55b78919dd55 : ??? [(???) ???:-1]\n'}
+[0.621826] (body_tracking) StderrLine: {'line': b'0x55b788eb464f : ??? [(???) ???:-1]\n'}
+[0.621866] (body_tracking) StderrLine: {'line': b'0x55b788eb4a03 : ??? [(???) ???:-1]\n'}
+[0.621906] (body_tracking) StderrLine: {'line': b'0x55b7891c6b6e : ??? [(???) ???:-1]\n'}
+[0.621948] (body_tracking) StderrLine: {'line': b'0x55b7891cf0bf : ??? [(???) ???:-1]\n'}
+[0.622017] (body_tracking) StderrLine: {'line': b'0x55b7891cbf4d : ??? [(???) ???:-1]\n'}
+[0.622054] (body_tracking) StderrLine: {'line': b'0x55b7891b5421 : ??? [(???) ???:-1]\n'}
+[0.622092] (body_tracking) StderrLine: {'line': b'0x55b7891768fa : ??? [(???) ???:-1]\n'}
+[0.622127] (body_tracking) StderrLine: {'line': b'0x55b7891855b7 : ??? [(???) ???:-1]\n'}
+[0.622164] (body_tracking) StderrLine: {'line': b'0x55b788f72aa7 : ??? [(???) ???:-1]\n'}
+[0.622201] (body_tracking) StderrLine: {'line': b'0x55b788f821e4 : ??? [(???) ???:-1]\n'}
+[0.622236] (body_tracking) StderrLine: {'line': b'0x55b788e85c29 : ??? [(???) ???:-1]\n'}
+[0.622271] (body_tracking) StderrLine: {'line': b'0x55b788e77ba3 : ??? [(???) ???:-1]\n'}
+[0.622348] (body_tracking) StderrLine: {'line': b'0x7fcc97aef0b3 : __libc_start_main [(libc.so.6) ???:-1]\n'}
+[0.622384] (body_tracking) StderrLine: {'line': b'0x55b788e811ae : ??? [(???) ???:-1]\n'}
+[0.622420] (body_tracking) StderrLine: {'line': b'\n'}
+[0.622454] (body_tracking) StderrLine: {'line': b'\n'}
+[0.622489] (body_tracking) StderrLine: {'line': b'CMake Internal Error (please report a bug) in CMakeLists.txt:\n'}
+[0.622524] (body_tracking) StderrLine: {'line': b'  cmGeneratorTarget::GetOutputInfo called for body_tracking which has type\n'}
+[0.622559] (body_tracking) StderrLine: {'line': b'  UTILITY\n'}
+[0.622601] (body_tracking) StderrLine: {'line': b'\n'}
+[0.622667] (body_tracking) StderrLine: {'line': b'Note: The stack trace will not use advanced capabilities because this is a release build.\n'}
+[0.622703] (body_tracking) StderrLine: {'line': b'0x55b78929d7a4 : ??? [(???) ???:-1]\n'}
+[0.622738] (body_tracking) StderrLine: {'line': b'0x55b78929e262 : ??? [(???) ???:-1]\n'}
+[0.622773] (body_tracking) StderrLine: {'line': b'0x55b7891da253 : ??? [(???) ???:-1]\n'}
+[0.622808] (body_tracking) StderrLine: {'line': b'0x55b7891da8d9 : ??? [(???) ???:-1]\n'}
+[0.622843] (body_tracking) StderrLine: {'line': b'0x55b78913331f : ??? [(???) ???:-1]\n'}
+[0.622878] (body_tracking) StderrLine: {'line': b'0x55b789133513 : ??? [(???) ???:-1]\n'}
+[0.622969] (body_tracking) StderrLine: {'line': b'0x55b78912b0b3 : ??? [(???) ???:-1]\n'}
+[0.623005] (body_tracking) StderrLine: {'line': b'0x55b78912b455 : ??? [(???) ???:-1]\n'}
+[0.623039] (body_tracking) StderrLine: {'line': b'0x55b78912b510 : ??? [(???) ???:-1]\n'}
+[0.623074] (body_tracking) StderrLine: {'line': b'0x55b78919d565 : ??? [(???) ???:-1]\n'}
+[0.623109] (body_tracking) StderrLine: {'line': b'0x55b78919dd55 : ??? [(???) ???:-1]\n'}
+[0.623144] (body_tracking) StderrLine: {'line': b'0x55b788eb464f : ??? [(???) ???:-1]\n'}
+[0.623178] (body_tracking) StderrLine: {'line': b'0x55b788eb4a03 : ??? [(???) ???:-1]\n'}
+[0.623214] (body_tracking) StderrLine: {'line': b'0x55b7891c6b6e : ??? [(???) ???:-1]\n'}
+[0.623298] (body_tracking) StderrLine: {'line': b'0x55b7891cf0bf : ??? [(???) ???:-1]\n'}
+[0.623334] (body_tracking) StderrLine: {'line': b'0x55b7891cbf4d : ??? [(???) ???:-1]\n'}
+[0.623369] (body_tracking) StderrLine: {'line': b'0x55b7891b5421 : ??? [(???) ???:-1]\n'}
+[0.623403] (body_tracking) StderrLine: {'line': b'0x55b7891768fa : ??? [(???) ???:-1]\n'}
+[0.623438] (body_tracking) StderrLine: {'line': b'0x55b7891855b7 : ??? [(???) ???:-1]\n'}
+[0.623472] (body_tracking) StderrLine: {'line': b'0x55b788f72aa7 : ??? [(???) ???:-1]\n'}
+[0.623507] (body_tracking) StderrLine: {'line': b'0x55b788f821e4 : ??? [(???) ???:-1]\n'}
+[0.623544] (body_tracking) StderrLine: {'line': b'0x55b788e85c29 : ??? [(???) ???:-1]\n'}
+[0.623593] (body_tracking) StderrLine: {'line': b'0x55b788e77ba3 : ??? [(???) ???:-1]\n'}
+[0.623656] (body_tracking) StderrLine: {'line': b'0x7fcc97aef0b3 : __libc_start_main [(libc.so.6) ???:-1]\n'}
+[0.623692] (body_tracking) StderrLine: {'line': b'0x55b788e811ae : ??? [(???) ???:-1]\n'}
+[0.623727] (body_tracking) StderrLine: {'line': b'\n'}
+[0.623762] (body_tracking) StderrLine: {'line': b'\n'}
+[0.623797] (body_tracking) StderrLine: {'line': b'CMake Internal Error (please report a bug) in CMakeLists.txt:\n'}
+[0.623832] (body_tracking) StderrLine: {'line': b'  cmGeneratorTarget::GetOutputInfo called for body_tracking which has type\n'}
+[0.623904] (body_tracking) StderrLine: {'line': b'  UTILITY\n'}
+[0.623943] (body_tracking) StderrLine: {'line': b'\n'}
+[0.623978] (body_tracking) StderrLine: {'line': b'Note: The stack trace will not use advanced capabilities because this is a release build.\n'}
+[0.624013] (body_tracking) StderrLine: {'line': b'0x55b78929d7a4 : ??? [(???) ???:-1]\n'}
+[0.624047] (body_tracking) StderrLine: {'line': b'0x55b78929e262 : ??? [(???) ???:-1]\n'}
+[0.624082] (body_tracking) StderrLine: {'line': b'0x55b7891da253 : ??? [(???) ???:-1]\n'}
+[0.624117] (body_tracking) StderrLine: {'line': b'0x55b7891da8d9 : ??? [(???) ???:-1]\n'}
+[0.624151] (body_tracking) StderrLine: {'line': b'0x55b78913331f : ??? [(???) ???:-1]\n'}
+[0.624220] (body_tracking) StderrLine: {'line': b'0x55b789133513 : ??? [(???) ???:-1]\n'}
+[0.624257] (body_tracking) StderrLine: {'line': b'0x55b78912b0b3 : ??? [(???) ???:-1]\n'}
+[0.624292] (body_tracking) StderrLine: {'line': b'0x55b78912b455 : ??? [(???) ???:-1]\n'}
+[0.624327] (body_tracking) StderrLine: {'line': b'0x55b78912b510 : ??? [(???) ???:-1]\n'}
+[0.624362] (body_tracking) StderrLine: {'line': b'0x55b78919d565 : ??? [(???) ???:-1]\n'}
+[0.624396] (body_tracking) StderrLine: {'line': b'0x55b78919dd55 : ??? [(???) ???:-1]\n'}
+[0.624431] (body_tracking) StderrLine: {'line': b'0x55b788eb464f : ??? [(???) ???:-1]\n'}
+[0.624469] (body_tracking) StderrLine: {'line': b'0x55b788eb4a03 : ??? [(???) ???:-1]\n'}
+[0.624535] (body_tracking) StderrLine: {'line': b'0x55b7891c6b6e : ??? [(???) ???:-1]\n'}
+[0.624571] (body_tracking) StderrLine: {'line': b'0x55b7891cf0bf : ??? [(???) ???:-1]\n'}
+[0.624606] (body_tracking) StderrLine: {'line': b'0x55b7891cbf4d : ??? [(???) ???:-1]\n'}
+[0.624641] (body_tracking) StderrLine: {'line': b'0x55b7891b5421 : ??? [(???) ???:-1]\n'}
+[0.624675] (body_tracking) StderrLine: {'line': b'0x55b7891768fa : ??? [(???) ???:-1]\n'}
+[0.624709] (body_tracking) StderrLine: {'line': b'0x55b7891855b7 : ??? [(???) ???:-1]\n'}
+[0.624750] (body_tracking) StderrLine: {'line': b'0x55b788f72aa7 : ??? [(???) ???:-1]\n'}
+[0.624786] (body_tracking) StderrLine: {'line': b'0x55b788f821e4 : ??? [(???) ???:-1]\n'}
+[0.624821] (body_tracking) StderrLine: {'line': b'0x55b788e85c29 : ??? [(???) ???:-1]\n'}
+[0.624870] (body_tracking) StderrLine: {'line': b'0x55b788e77ba3 : ??? [(???) ???:-1]\n'}
+[0.624910] (body_tracking) StderrLine: {'line': b'0x7fcc97aef0b3 : __libc_start_main [(libc.so.6) ???:-1]\n'}
+[0.624949] (body_tracking) StderrLine: {'line': b'0x55b788e811ae : ??? [(???) ???:-1]\n'}
+[0.624988] (body_tracking) StderrLine: {'line': b'\n'}
+[0.625027] (body_tracking) StderrLine: {'line': b'\n'}
+[0.625066] (body_tracking) StderrLine: {'line': b'CMake Internal Error (please report a bug) in CMakeLists.txt:\n'}
+[0.625105] (body_tracking) StderrLine: {'line': b'  cmGeneratorTarget::GetOutputInfo called for body_tracking which has type\n'}
+[0.625176] (body_tracking) StderrLine: {'line': b'  UTILITY\n'}
+[0.625214] (body_tracking) StderrLine: {'line': b'\n'}
+[0.625255] (body_tracking) StderrLine: {'line': b'Note: The stack trace will not use advanced capabilities because this is a release build.\n'}
+[0.625294] (body_tracking) StderrLine: {'line': b'0x55b78929d7a4 : ??? [(???) ???:-1]\n'}
+[0.625329] (body_tracking) StderrLine: {'line': b'0x55b78929e262 : ??? [(???) ???:-1]\n'}
+[0.625364] (body_tracking) StderrLine: {'line': b'0x55b7891da253 : ??? [(???) ???:-1]\n'}
+[0.625399] (body_tracking) StderrLine: {'line': b'0x55b7891da8d9 : ??? [(???) ???:-1]\n'}
+[0.625436] (body_tracking) StderrLine: {'line': b'0x55b78913331f : ??? [(???) ???:-1]\n'}
+[0.625511] (body_tracking) StderrLine: {'line': b'0x55b789133513 : ??? [(???) ???:-1]\n'}
+[0.625562] (body_tracking) StderrLine: {'line': b'0x55b78912b0b3 : ??? [(???) ???:-1]\n'}
+[0.625598] (body_tracking) StderrLine: {'line': b'0x55b78912b455 : ??? [(???) ???:-1]\n'}
+[0.625633] (body_tracking) StderrLine: {'line': b'0x55b78912b510 : ??? [(???) ???:-1]\n'}
+[0.625667] (body_tracking) StderrLine: {'line': b'0x55b78919d565 : ??? [(???) ???:-1]\n'}
+[0.625702] (body_tracking) StderrLine: {'line': b'0x55b78919dd55 : ??? [(???) ???:-1]\n'}
+[0.625737] (body_tracking) StderrLine: {'line': b'0x55b788eb464f : ??? [(???) ???:-1]\n'}
+[0.625774] (body_tracking) StderrLine: {'line': b'0x55b788eb4a03 : ??? [(???) ???:-1]\n'}
+[0.625808] (body_tracking) StderrLine: {'line': b'0x55b7891c6b6e : ??? [(???) ???:-1]\n'}
+[0.625844] (body_tracking) StderrLine: {'line': b'0x55b7891cf0bf : ??? [(???) ???:-1]\n'}
+[0.625880] (body_tracking) StderrLine: {'line': b'0x55b7891cbf4d : ??? [(???) ???:-1]\n'}
+[0.625915] (body_tracking) StderrLine: {'line': b'0x55b7891b5421 : ??? [(???) ???:-1]\n'}
+[0.625949] (body_tracking) StderrLine: {'line': b'0x55b7891768fa : ??? [(???) ???:-1]\n'}
+[0.625985] (body_tracking) StderrLine: {'line': b'0x55b7891855b7 : ??? [(???) ???:-1]\n'}
+[0.626020] (body_tracking) StderrLine: {'line': b'0x55b788f72aa7 : ??? [(???) ???:-1]\n'}
+[0.626056] (body_tracking) StderrLine: {'line': b'0x55b788f821e4 : ??? [(???) ???:-1]\n'}
+[0.626092] (body_tracking) StderrLine: {'line': b'0x55b788e85c29 : ??? [(???) ???:-1]\n'}
+[0.626130] (body_tracking) StderrLine: {'line': b'0x55b788e77ba3 : ??? [(???) ???:-1]\n'}
+[0.626167] (body_tracking) StderrLine: {'line': b'0x7fcc97aef0b3 : __libc_start_main [(libc.so.6) ???:-1]\n'}
+[0.626205] (body_tracking) StderrLine: {'line': b'0x55b788e811ae : ??? [(???) ???:-1]\n'}
+[0.626317] (body_tracking) StderrLine: {'line': b'\n'}
+[0.626388] (body_tracking) StderrLine: {'line': b'\n'}
+[0.626499] (body_tracking) StderrLine: {'line': b'CMake Internal Error (please report a bug) in CMakeLists.txt:\n'}
+[0.626624] (body_tracking) StderrLine: {'line': b'  cmGeneratorTarget::GetOutputInfo called for body_tracking which has type\n'}
+[0.626664] (body_tracking) StderrLine: {'line': b'  UTILITY\n'}
+[0.626703] (body_tracking) StderrLine: {'line': b'\n'}
+[0.626743] (body_tracking) StderrLine: {'line': b'Note: The stack trace will not use advanced capabilities because this is a release build.\n'}
+[0.626783] (body_tracking) StderrLine: {'line': b'0x55b78929d7a4 : ??? [(???) ???:-1]\n'}
+[0.626822] (body_tracking) StderrLine: {'line': b'0x55b78929e262 : ??? [(???) ???:-1]\n'}
+[0.626861] (body_tracking) StderrLine: {'line': b'0x55b7891da253 : ??? [(???) ???:-1]\n'}
+[0.626901] (body_tracking) StderrLine: {'line': b'0x55b7891da8d9 : ??? [(???) ???:-1]\n'}
+[0.626941] (body_tracking) StderrLine: {'line': b'0x55b78913331f : ??? [(???) ???:-1]\n'}
+[0.626980] (body_tracking) StderrLine: {'line': b'0x55b789133513 : ??? [(???) ???:-1]\n'}
+[0.627019] (body_tracking) StderrLine: {'line': b'0x55b78912b0b3 : ??? [(???) ???:-1]\n'}
+[0.627059] (body_tracking) StderrLine: {'line': b'0x55b78912b455 : ??? [(???) ???:-1]\n'}
+[0.627099] (body_tracking) StderrLine: {'line': b'0x55b78912b510 : ??? [(???) ???:-1]\n'}
+[0.627139] (body_tracking) StderrLine: {'line': b'0x55b78919d565 : ??? [(???) ???:-1]\n'}
+[0.627179] (body_tracking) StderrLine: {'line': b'0x55b78919dd55 : ??? [(???) ???:-1]\n'}
+[0.627218] (body_tracking) StderrLine: {'line': b'0x55b788eb464f : ??? [(???) ???:-1]\n'}
+[0.627258] (body_tracking) StderrLine: {'line': b'0x55b788eb4a03 : ??? [(???) ???:-1]\n'}
+[0.627298] (body_tracking) StderrLine: {'line': b'0x55b7891c6b6e : ??? [(???) ???:-1]\n'}
+[0.627337] (body_tracking) StderrLine: {'line': b'0x55b7891cf0bf : ??? [(???) ???:-1]\n'}
+[0.627376] (body_tracking) StderrLine: {'line': b'0x55b7891cbf4d : ??? [(???) ???:-1]\n'}
+[0.627413] (body_tracking) StderrLine: {'line': b'0x55b7891b5421 : ??? [(???) ???:-1]\n'}
+[0.627453] (body_tracking) StderrLine: {'line': b'0x55b7891768fa : ??? [(???) ???:-1]\n'}
+[0.627493] (body_tracking) StderrLine: {'line': b'0x55b7891855b7 : ??? [(???) ???:-1]\n'}
+[0.627533] (body_tracking) StderrLine: {'line': b'0x55b788f72aa7 : ??? [(???) ???:-1]\n'}
+[0.627573] (body_tracking) StderrLine: {'line': b'0x55b788f821e4 : ??? [(???) ???:-1]\n'}
+[0.627614] (body_tracking) StderrLine: {'line': b'0x55b788e85c29 : ??? [(???) ???:-1]\n'}
+[0.627652] (body_tracking) StderrLine: {'line': b'0x55b788e77ba3 : ??? [(???) ???:-1]\n'}
+[0.627702] (body_tracking) StderrLine: {'line': b'0x7fcc97aef0b3 : __libc_start_main [(libc.so.6) ???:-1]\n'}
+[0.627743] (body_tracking) StderrLine: {'line': b'0x55b788e811ae : ??? [(???) ???:-1]\n'}
+[0.627793] (body_tracking) StderrLine: {'line': b'\n'}
+[0.627833] (body_tracking) StderrLine: {'line': b'\n'}
+[0.627871] (body_tracking) StderrLine: {'line': b'CMake Internal Error (please report a bug) in CMakeLists.txt:\n'}
+[0.627910] (body_tracking) StderrLine: {'line': b'  cmGeneratorTarget::GetOutputInfo called for body_tracking which has type\n'}
+[0.627949] (body_tracking) StderrLine: {'line': b'  UTILITY\n'}
+[0.627987] (body_tracking) StderrLine: {'line': b'\n'}
+[0.628026] (body_tracking) StderrLine: {'line': b'Note: The stack trace will not use advanced capabilities because this is a release build.\n'}
+[0.628064] (body_tracking) StderrLine: {'line': b'0x55b78929d7a4 : ??? [(???) ???:-1]\n'}
+[0.628102] (body_tracking) StderrLine: {'line': b'0x55b78929e262 : ??? [(???) ???:-1]\n'}
+[0.628141] (body_tracking) StderrLine: {'line': b'0x55b7891da253 : ??? [(???) ???:-1]\n'}
+[0.628178] (body_tracking) StderrLine: {'line': b'0x55b7891da8d9 : ??? [(???) ???:-1]\n'}
+[0.628216] (body_tracking) StderrLine: {'line': b'0x55b78913331f : ??? [(???) ???:-1]\n'}
+[0.628255] (body_tracking) StderrLine: {'line': b'0x55b789133513 : ??? [(???) ???:-1]\n'}
+[0.628293] (body_tracking) StderrLine: {'line': b'0x55b78912b0b3 : ??? [(???) ???:-1]\n'}
+[0.628332] (body_tracking) StderrLine: {'line': b'0x55b78912b455 : ??? [(???) ???:-1]\n'}
+[0.629275] (body_tracking) StderrLine: {'line': b'0x55b78912b510 : ??? [(???) ???:-1]\n'}
+[0.629330] (body_tracking) StderrLine: {'line': b'0x55b78919d565 : ??? [(???) ???:-1]\n'}
+[0.629365] (body_tracking) StderrLine: {'line': b'0x55b78919dd55 : ??? [(???) ???:-1]\n'}
+[0.629402] (body_tracking) StderrLine: {'line': b'0x55b788eb464f : ??? [(???) ???:-1]\n'}
+[0.629439] (body_tracking) StderrLine: {'line': b'0x55b788eb4a03 : ??? [(???) ???:-1]\n'}
+[0.629479] (body_tracking) StderrLine: {'line': b'0x55b7891c6b6e : ??? [(???) ???:-1]\n'}
+[0.629518] (body_tracking) StderrLine: {'line': b'0x55b7891cf0bf : ??? [(???) ???:-1]\n'}
+[0.629558] (body_tracking) StderrLine: {'line': b'0x55b7891cbf4d : ??? [(???) ???:-1]\n'}
+[0.629598] (body_tracking) StderrLine: {'line': b'0x55b7891b5421 : ??? [(???) ???:-1]\n'}
+[0.629637] (body_tracking) StderrLine: {'line': b'0x55b7891768fa : ??? [(???) ???:-1]\n'}
+[0.629677] (body_tracking) StderrLine: {'line': b'0x55b7891855b7 : ??? [(???) ???:-1]\n'}
+[0.629716] (body_tracking) StderrLine: {'line': b'0x55b788f72aa7 : ??? [(???) ???:-1]\n'}
+[0.629755] (body_tracking) StderrLine: {'line': b'0x55b788f821e4 : ??? [(???) ???:-1]\n'}
+[0.629794] (body_tracking) StderrLine: {'line': b'0x55b788e85c29 : ??? [(???) ???:-1]\n'}
+[0.629833] (body_tracking) StderrLine: {'line': b'0x55b788e77ba3 : ??? [(???) ???:-1]\n'}
+[0.629872] (body_tracking) StderrLine: {'line': b'0x7fcc97aef0b3 : __libc_start_main [(libc.so.6) ???:-1]\n'}
+[0.629912] (body_tracking) StderrLine: {'line': b'0x55b788e811ae : ??? [(???) ???:-1]\n'}
+[0.629952] (body_tracking) StderrLine: {'line': b'\n'}
+[0.629991] (body_tracking) StderrLine: {'line': b'\n'}
+[0.630030] (body_tracking) StderrLine: {'line': b'CMake Internal Error (please report a bug) in CMakeLists.txt:\n'}
+[0.630069] (body_tracking) StderrLine: {'line': b'  cmGeneratorTarget::GetOutputInfo called for body_tracking which has type\n'}
+[0.630109] (body_tracking) StderrLine: {'line': b'  UTILITY\n'}
+[0.630148] (body_tracking) StderrLine: {'line': b'\n'}
+[0.630188] (body_tracking) StderrLine: {'line': b'Note: The stack trace will not use advanced capabilities because this is a release build.\n'}
+[0.630450] (body_tracking) StderrLine: {'line': b'0x55b78929d7a4 : ??? [(???) ???:-1]\n'}
+[0.630494] (body_tracking) StderrLine: {'line': b'0x55b78929e262 : ??? [(???) ???:-1]\n'}
+[0.630534] (body_tracking) StderrLine: {'line': b'0x55b7891da253 : ??? [(???) ???:-1]\n'}
+[0.630572] (body_tracking) StderrLine: {'line': b'0x55b7891da8d9 : ??? [(???) ???:-1]\n'}
+[0.630610] (body_tracking) StderrLine: {'line': b'0x55b78913331f : ??? [(???) ???:-1]\n'}
+[0.630649] (body_tracking) StderrLine: {'line': b'0x55b789133513 : ??? [(???) ???:-1]\n'}
+[0.630709] (body_tracking) StderrLine: {'line': b'0x55b78912b0b3 : ??? [(???) ???:-1]\n'}
+[0.630749] (body_tracking) StderrLine: {'line': b'0x55b78912b455 : ??? [(???) ???:-1]\n'}
+[0.630787] (body_tracking) StderrLine: {'line': b'0x55b78912b510 : ??? [(???) ???:-1]\n'}
+[0.630826] (body_tracking) StderrLine: {'line': b'0x55b78919d565 : ??? [(???) ???:-1]\n'}
+[0.630865] (body_tracking) StderrLine: {'line': b'0x55b78919dd55 : ??? [(???) ???:-1]\n'}
+[0.630903] (body_tracking) StderrLine: {'line': b'0x55b788eb464f : ??? [(???) ???:-1]\n'}
+[0.630942] (body_tracking) StderrLine: {'line': b'0x55b788eb4a03 : ??? [(???) ???:-1]\n'}
+[0.630981] (body_tracking) StderrLine: {'line': b'0x55b7891c6b6e : ??? [(???) ???:-1]\n'}
+[0.631021] (body_tracking) StderrLine: {'line': b'0x55b7891cf0bf : ??? [(???) ???:-1]\n'}
+[0.631060] (body_tracking) StderrLine: {'line': b'0x55b7891cbf4d : ??? [(???) ???:-1]\n'}
+[0.631099] (body_tracking) StderrLine: {'line': b'0x55b7891b5421 : ??? [(???) ???:-1]\n'}
+[0.631138] (body_tracking) StderrLine: {'line': b'0x55b7891768fa : ??? [(???) ???:-1]\n'}
+[0.631176] (body_tracking) StderrLine: {'line': b'0x55b7891855b7 : ??? [(???) ???:-1]\n'}
+[0.631215] (body_tracking) StderrLine: {'line': b'0x55b788f72aa7 : ??? [(???) ???:-1]\n'}
+[0.631253] (body_tracking) StderrLine: {'line': b'0x55b788f821e4 : ??? [(???) ???:-1]\n'}
+[0.631293] (body_tracking) StderrLine: {'line': b'0x55b788e85c29 : ??? [(???) ???:-1]\n'}
+[0.631332] (body_tracking) StderrLine: {'line': b'0x55b788e77ba3 : ??? [(???) ???:-1]\n'}
+[0.631389] (body_tracking) StderrLine: {'line': b'0x7fcc97aef0b3 : __libc_start_main [(libc.so.6) ???:-1]\n'}
+[0.631428] (body_tracking) StderrLine: {'line': b'0x55b788e811ae : ??? [(???) ???:-1]\n'}
+[0.631466] (body_tracking) StderrLine: {'line': b'\n'}
+[0.631504] (body_tracking) StderrLine: {'line': b'\n'}
+[0.631545] (body_tracking) StdoutLine: {'line': b'-- Generating done\n'}
+[0.631594] (body_tracking) StderrLine: {'line': b'CMake Generate step failed.  Build files cannot be regenerated correctly.\n'}
+[0.631634] (body_tracking) StderrLine: {'line': b'make: *** [Makefile:924: cmake_check_build_system] Error 1\n'}
+[0.631677] (body_tracking) CommandEnded: {'returncode': 2}
+[0.641958] (body_tracking) JobEnded: {'identifier': 'body_tracking', 'rc': 2}
+[0.658949] (-) EventReactorShutdown: {}

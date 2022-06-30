@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Release Notes for 6283A1_AnalogFlicker sample application for NUCLEO-F401RE</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="_htmresc/mini-st_2020.css" />
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+  <link rel="icon" type="image/x-icon" href="_htmresc/favicon.png" />
+</head>
+<body>
+<div class="row">
+<div class="col-sm-12 col-lg-4">
+<center>
+<h1 id="release-notes-for-6283a1_analogflicker-sample-applications-for-nucleo-f401re">Release Notes for <mark>6283A1_AnalogFlicker</mark> sample applications for <mark>NUCLEO-F401RE</mark></h1>
+<p>Copyright © 2021 STMicroelectronics<br />
+</p>
+<a href="https://www.st.com" class="logo"><img src="_htmresc/st_logo_2020.png" alt="ST logo" /></a>
+</center>
+<h1 id="license">License</h1>
+<p>This software component is licensed by ST under SLA0044, the “License”; You may not use this component except in compliance with the License. You may obtain a copy of the License at:</p>
+<p><a href="https://www.st.com/content/ccc/resource/legal/legal_agreement/license_agreement/group0/87/0c/3d/ad/0a/ba/44/26/DM00216740/files/DM00216740.pdf/jcr:content/translations/en.DM00216740.pdf">SLA0044: SOFTWARE LICENSE AGREEMENT</a></p>
+<h1 id="purpose">Purpose</h1>
+<p>This example shows how to extract flicker frquency using the vd6283tx light sensor embedded on X-NUCLEO-62863A1 expansion board. The user can adjust gain and exposure time using the keypad. The communication is done using a UART connection with the PC.</p>
+</div>
+<section id="update-history" class="col-sm-12 col-lg-8">
+<h1>Update history</h1>
+<div class="collapse">
+<input type="checkbox" id="collapse-section2" checked aria-hidden="true"> <label for="collapse-section2" aria-hidden="true"><strong>V1.0.1 / July 12th 2021</strong></label>
+<div>
+<h2 id="main-changes">Main changes</h2>
+<h3 id="maintenance-release">Maintenance release</h3>
+<p>This maintenance release fix issues encoutered in MDK-ARM IDE projects:</p>
+<ul>
+<li>Remove snprintf calls from sample applications</li>
+<li>Add define in Nucleo BSP common to enable printf through stdio library in ARMCC v6</li>
+</ul>
+<h2 id="contents">Contents</h2>
+<p>Available examples projects:</p>
+<ul>
+<li>6283A1_AnalogFlicker</li>
+</ul>
+<h2 id="known-limitations">Known limitations</h2>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Headline</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">This application’s results are not guaranteed for frequencies below 60 Hz</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">The MDK-ARM project is compatible only with version 6 of ARM compiler</td>
+</tr>
+</tbody>
+</table>
+<h2 id="development-toolchains-and-compilers">Development toolchains and compilers</h2>
+<ul>
+<li>IAR System Workbench V8.50.9</li>
+<li>ARM Keil V5.32</li>
+<li>STM32CubeIDE v1.6.1</li>
+</ul>
+<h2 id="supported-devices-and-boards">Supported devices and boards</h2>
+<ul>
+<li>NUCLEO-F401RE MB1136 rev.C</li>
+<li>X-NUCLEO-6283A1</li>
+</ul>
+<h2 id="backward-compatibility">Backward compatibility</h2>
+<p>N/A</p>
+<h2 id="dependencies">Dependencies</h2>
+<ul>
+<li>VD6283TX BSP Component Driver</li>
+<li>X-NUCLEO-6283A1 BSP Driver</li>
+<li>ARM CMSIS DSP Middleware</li>
+<li>STM32F4xx_Nucleo BSP Drivers</li>
+<li>STM32F4xx CMSIS Drivers</li>
+<li>STM32F4xx HAL Drivers</li>
+</ul>
+</div>
+</div>
+<div class="collapse">
+<input type="checkbox" id="collapse-section1" checked aria-hidden="true"> <label for="collapse-section1" aria-hidden="true"><strong>V1.0.0 / June 11th 2021</strong></label>
+<div>
+<h2 id="main-changes-1">Main changes</h2>
+<h3 id="first-release">First release</h3>
+<p>Initial release.</p>
+<h2 id="contents-1">Contents</h2>
+<p>Available examples projects:</p>
+<ul>
+<li>6283A1_AnalogFlicker</li>
+</ul>
+<h2 id="known-limitations-1">Known limitations</h2>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Headline</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">This application’s results are not guaranteed for frequencies below 60 Hz</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">The MDK-ARM project is compatible only with version 6 of ARM compiler</td>
+</tr>
+</tbody>
+</table>
+<h2 id="development-toolchains-and-compilers-1">Development toolchains and compilers</h2>
+<ul>
+<li>IAR System Workbench V8.50.9</li>
+<li>ARM Keil V5.31</li>
+<li>STM32CubeIDE v1.6.0</li>
+</ul>
+<h2 id="supported-devices-and-boards-1">Supported devices and boards</h2>
+<ul>
+<li>NUCLEO-F401RE MB1136 rev.C</li>
+<li>X-NUCLEO-6283A1</li>
+</ul>
+<h2 id="backward-compatibility-1">Backward compatibility</h2>
+<p>N/A</p>
+<h2 id="dependencies-1">Dependencies</h2>
+<ul>
+<li>VD6283TX BSP Component Driver</li>
+<li>X-NUCLEO-6283A1 BSP Driver</li>
+<li>ARM CMSIS DSP Middleware</li>
+<li>STM32F4xx_Nucleo BSP Drivers</li>
+<li>STM32F4xx CMSIS Drivers</li>
+<li>STM32F4xx HAL Drivers</li>
+</ul>
+</div>
+</div>
+</section>
+</div>
+<footer class="sticky">
+<div class="columns">
+<div class="column" style="width:95%;">
+<p>For complete documentation on <strong>STM32Cube Expansion Packages</strong> , visit: <a href="https://www.st.com/en/embedded-software/stm32cube-expansion-packages.html">STM32Cube Expansion Packages</a></p>
+</div><div class="column" style="width:5%;">
+<p><abbr title="Based on template cx566953 version 2.0">Info</abbr></p>
+</div>
+</div>
+</footer>
+</body>
+</html>

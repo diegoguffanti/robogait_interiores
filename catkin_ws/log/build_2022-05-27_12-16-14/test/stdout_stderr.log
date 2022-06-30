@@ -1,0 +1,10 @@
+[35m[1mScanning dependencies of target tf2_broadcaster[0m
+[ 50%] Built target publisher_subscriber
+[ 75%] [32mBuilding CXX object CMakeFiles/tf2_broadcaster.dir/src/tf2_broadcaster.cpp.o[0m
+[01m[K/home/robogait/catkin_ws/src/test/src/tf2_broadcaster.cpp:[m[K In member function ‘[01m[Kvoid FramePublisher::handle_robot_pose(std::shared_ptr<nav_msgs::msg::Odometry_<std::allocator<void> > >)[m[K’:
+[01m[K/home/robogait/catkin_ws/src/test/src/tf2_broadcaster.cpp:54:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct nav_msgs::msg::Odometry_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct nav_msgs::msg::Odometry_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ktheta[m[K’
+   54 |     q.setRPY(0, 0, msg->[01;31m[Ktheta[m[K);
+      |                         [01;31m[K^~~~~[m[K
+make[2]: *** [CMakeFiles/tf2_broadcaster.dir/build.make:63: CMakeFiles/tf2_broadcaster.dir/src/tf2_broadcaster.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/tf2_broadcaster.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

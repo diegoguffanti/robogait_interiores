@@ -1,0 +1,7 @@
+[01m[K/home/robogait/ros2_serial_cpp/src/driver_controller.cpp:[m[K In constructor ‘[01m[Kdriver_controller::driver_controller()[m[K’:
+[01m[K/home/robogait/ros2_serial_cpp/src/driver_controller.cpp:94:116:[m[K [01;31m[Kerror: [m[K‘[01m[Ktopic_callback_servo[m[K’ is not a member of ‘[01m[Kdriver_controller[m[K’
+   94 |   subscription_servo = this->create_subscription<std_msgs::msg::Float32>("cmd_servo", 10, bind(&driver_controller::[01;31m[Ktopic_callback_servo[m[K, this, _1));
+      |                                                                                                                    [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/driver_controller.dir/build.make:63: CMakeFiles/driver_controller.dir/src/driver_controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/driver_controller.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

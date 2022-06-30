@@ -1,0 +1,3 @@
+int32 body_id
+float64 tiempo
+geometry_msgs/Point32 joint_position_spine_bottom

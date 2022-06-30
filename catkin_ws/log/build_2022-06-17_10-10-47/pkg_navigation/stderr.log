@@ -1,0 +1,22 @@
+make[2]: *** No rule to make target '/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller_center_person.cpp', needed by 'CMakeFiles/robot_controller_center_person.dir/src/robot_controller_center_person.cpp.o'.  Stop.
+make[1]: *** [CMakeFiles/Makefile2:393: CMakeFiles/robot_controller_center_person.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller.cpp:[m[K In member function ‘[01m[Kvoid generic::lane_controller()[m[K’:
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller.cpp:83:12:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kint[m[K’
+   83 |        cout
+      |            [01;31m[K^[m[K
+      |            [32m[K;[m[K
+   84 |        [32m[Kint[m[K use_pose=path_local.poses.size()-1;
+      |        [32m[K~~~[m[K  
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller.cpp:83:8:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K-Wunused-value[m[K]
+   83 |        [01;35m[Kcout[m[K
+      |        [01;35m[K^~~~[m[K
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller.cpp:86:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kuse_pose[m[K’ was not declared in this scope
+   86 |          path_local.poses[[01;31m[Kuse_pose[m[K].pose.orientation.x,
+      |                           [01;31m[K^~~~~~~~[m[K
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller.cpp:96:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kyaw_error[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   96 |        float [01;35m[Kyaw_error[m[K= (float)calculate_yaw_error(q_goal,q_robot);
+      |              [01;35m[K^~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/robot_controller.dir/build.make:63: CMakeFiles/robot_controller.dir/src/robot_controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:258: CMakeFiles/robot_controller.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

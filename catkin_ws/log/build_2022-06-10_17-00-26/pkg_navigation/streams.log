@@ -1,0 +1,21 @@
+[0.013s] Invoking command in '/home/robogait/catkin_ws/build/pkg_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/ros2_ws/install/nav2_project:/home/robogait/nav2_ws/install/nav2_gazebo_spawner:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/catkin_ws/build/pkg_navigation -- -j8 -l8
+[0.062s] [35m[1mScanning dependencies of target robot_controller[0m
+[0.073s] [ 20%] Built target publisher_initial_pose
+[0.073s] [ 40%] Built target robot_odom_tf2_listener
+[0.079s] [ 60%] Built target tf2_broadcaster
+[0.079s] [ 80%] Built target publisher_subscriber
+[0.084s] [ 90%] [32mBuilding CXX object CMakeFiles/robot_controller.dir/src/robot_controller.cpp.o[0m
+[0.892s] [01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller.cpp:[m[K In member function ‘[01m[Kvoid generic::loop()[m[K’:
+[0.892s] [01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller.cpp:125:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kq_orig[m[K’ was not declared in this scope
+[0.892s]   125 |         [01;31m[Kq_orig[m[K.setRPY(0.0, 0.0, 0.0);
+[0.892s]       |         [01;31m[K^~~~~~[m[K
+[0.893s] [01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller.cpp:127:4:[m[K [01;31m[Kerror: [m[K‘[01m[Kq_rot[m[K’ was not declared in this scope
+[0.893s]   127 |    [01;31m[Kq_rot[m[K.setRPY(3.14159, 0.0, 0.0);
+[0.893s]       |    [01;31m[K^~~~~[m[K
+[0.893s] [01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller.cpp:128:4:[m[K [01;31m[Kerror: [m[K‘[01m[Kq_new[m[K’ was not declared in this scope
+[0.893s]   128 |    [01;31m[Kq_new[m[K = q_rot * q_orig;
+[0.893s]       |    [01;31m[K^~~~~[m[K
+[2.165s] make[2]: *** [CMakeFiles/robot_controller.dir/build.make:63: CMakeFiles/robot_controller.dir/src/robot_controller.cpp.o] Error 1
+[2.165s] make[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/robot_controller.dir/all] Error 2
+[2.165s] make: *** [Makefile:141: all] Error 2
+[2.167s] Invoked command in '/home/robogait/catkin_ws/build/pkg_navigation' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/ros2_ws/install/nav2_project:/home/robogait/nav2_ws/install/nav2_gazebo_spawner:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/catkin_ws/build/pkg_navigation -- -j8 -l8

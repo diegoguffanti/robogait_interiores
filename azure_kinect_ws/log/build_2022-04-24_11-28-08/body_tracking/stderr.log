@@ -1,0 +1,11 @@
+CMake Error at /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:213 (add_custom_target):
+  add_custom_target cannot create target "body_tracking" because another
+  target with the same name already exists.  The existing target is a shared
+  library created in source directory
+  "/home/robogait/azure_kinect_ws/src/body_tracking".  See documentation for
+  policy CMP0002 for more details.
+Call Stack (most recent call first):
+  CMakeLists.txt:78 (rosidl_generate_interfaces)
+
+
+make: *** [Makefile:924: cmake_check_build_system] Error 1

@@ -1,0 +1,84 @@
+[0.010s] Invoking command in '/home/robogait/azure_kinect_ws/build/body_tracking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/azure_kinect_ws/build/body_tracking -- -j8 -l8
+[0.031s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.045s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.045s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.146s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.167s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.169s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.242s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.271s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.272s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.359s] -- Found body_tracking: 0.0.0 (/home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/cmake)
+[0.363s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.384s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[0.453s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[0.511s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.515s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.530s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[0.530s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[0.544s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.544s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[0.544s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[0.553s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.559s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.559s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.560s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/robogait/azure_kinect_ws/src/body_tracking/include>
+[0.560s] -- Configured cppcheck exclude dirs and/or files: 
+[0.560s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.561s] -- Configured cpplint exclude dirs and/or files: 
+[0.561s] -- Added test 'lint_cmake' to check CMake code style
+[0.562s] -- Added test 'uncrustify' to check C / C++ code style
+[0.562s] -- Configured uncrustify additional arguments: 
+[0.562s] -- Added test 'xmllint' to check XML markup files
+[0.564s] -- Configuring done
+[0.585s] -- Generating done
+[0.587s] -- Build files have been written to: /home/robogait/azure_kinect_ws/build/body_tracking
+[0.607s] [35m[1mScanning dependencies of target prueba_talker[0m
+[0.612s] [  2%] Built target body_tracking__cpp
+[0.613s] [  7%] Built target body_tracking_node
+[0.614s] [ 15%] Built target body_tracking__rosidl_generator_c
+[0.615s] [ 17%] [32mBuilding C object CMakeFiles/prueba_talker.dir/src/main.c.o[0m
+[0.620s] [ 28%] Built target listener
+[0.620s] [ 28%] Built target talker
+[0.629s] [ 35%] Built target body_tracking__rosidl_typesupport_introspection_cpp
+[0.630s] [ 43%] Built target body_tracking__rosidl_typesupport_cpp
+[0.631s] [ 51%] Built target body_tracking__rosidl_typesupport_c
+[0.632s] [ 58%] Built target body_tracking__rosidl_typesupport_fastrtps_cpp
+[0.632s] [ 66%] Built target body_tracking__rosidl_typesupport_introspection_c
+[0.647s] [ 69%] [32m[1mLinking C executable prueba_talker[0m
+[0.649s] [ 76%] Built target body_tracking__rosidl_typesupport_fastrtps_c
+[0.662s] [ 76%] Built target body_tracking
+[0.663s] /usr/bin/ld: CMakeFiles/prueba_talker.dir/src/main.c.o: in function `print_body_index_map_middle_line':
+[0.663s] main.c:(.text+0x12a): undefined reference to `k4a_image_get_buffer'
+[0.663s] /usr/bin/ld: main.c:(.text+0x13a): undefined reference to `k4a_image_get_stride_bytes'
+[0.663s] /usr/bin/ld: main.c:(.text+0x148): undefined reference to `k4a_image_get_width_pixels'
+[0.663s] /usr/bin/ld: main.c:(.text+0x177): undefined reference to `k4a_image_get_height_pixels'
+[0.663s] /usr/bin/ld: main.c:(.text+0x18f): undefined reference to `k4a_image_get_width_pixels'
+[0.663s] /usr/bin/ld: main.c:(.text+0x1ea): undefined reference to `k4a_image_get_width_pixels'
+[0.663s] /usr/bin/ld: CMakeFiles/prueba_talker.dir/src/main.c.o: in function `main':
+[0.663s] main.c:(.text+0x27a): undefined reference to `k4a_device_get_installed_count'
+[0.663s] /usr/bin/ld: main.c:(.text+0x2ad): undefined reference to `k4a_device_open'
+[0.663s] /usr/bin/ld: main.c:(.text+0x2e0): undefined reference to `k4a_device_start_cameras'
+[0.663s] /usr/bin/ld: main.c:(.text+0x31e): undefined reference to `k4a_device_get_calibration'
+[0.663s] /usr/bin/ld: main.c:(.text+0x3b1): undefined reference to `k4abt_tracker_create'
+[0.663s] /usr/bin/ld: main.c:(.text+0x417): undefined reference to `k4a_device_get_capture'
+[0.663s] /usr/bin/ld: main.c:(.text+0x474): undefined reference to `k4abt_tracker_enqueue_capture'
+[0.663s] /usr/bin/ld: main.c:(.text+0x489): undefined reference to `k4a_capture_release'
+[0.663s] /usr/bin/ld: main.c:(.text+0x4e6): undefined reference to `k4abt_tracker_pop_result'
+[0.663s] /usr/bin/ld: main.c:(.text+0x577): undefined reference to `k4abt_frame_get_num_bodies'
+[0.664s] /usr/bin/ld: main.c:(.text+0x5d3): undefined reference to `k4abt_frame_get_body_skeleton'
+[0.664s] /usr/bin/ld: main.c:(.text+0x604): undefined reference to `k4abt_frame_get_body_id'
+[0.664s] /usr/bin/ld: main.c:(.text+0x676): undefined reference to `k4abt_frame_get_body_index_map'
+[0.664s] /usr/bin/ld: main.c:(.text+0x6a5): undefined reference to `k4a_image_release'
+[0.664s] /usr/bin/ld: main.c:(.text+0x6c2): undefined reference to `k4abt_frame_release'
+[0.664s] /usr/bin/ld: main.c:(.text+0x7c4): undefined reference to `k4abt_tracker_shutdown'
+[0.664s] /usr/bin/ld: main.c:(.text+0x7d3): undefined reference to `k4abt_tracker_destroy'
+[0.664s] /usr/bin/ld: main.c:(.text+0x7e2): undefined reference to `k4a_device_stop_cameras'
+[0.664s] /usr/bin/ld: main.c:(.text+0x7f1): undefined reference to `k4a_device_close'
+[0.664s] collect2: error: ld returned 1 exit status
+[0.664s] make[2]: *** [CMakeFiles/prueba_talker.dir/build.make:84: prueba_talker] Error 1
+[0.664s] make[1]: *** [CMakeFiles/Makefile2:325: CMakeFiles/prueba_talker.dir/all] Error 2
+[0.664s] make[1]: *** Waiting for unfinished jobs....
+[0.675s] [ 79%] Built target body_tracking__py
+[0.675s] make: *** [Makefile:141: all] Error 2
+[0.677s] Invoked command in '/home/robogait/azure_kinect_ws/build/body_tracking' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/azure_kinect_ws/build/body_tracking -- -j8 -l8

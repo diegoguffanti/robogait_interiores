@@ -1,0 +1,18 @@
+[35m[1mScanning dependencies of target robot_controller_position[0m
+[ 16%] Built target tf2_broadcaster
+[ 41%] Built target publisher_initial_pose
+[ 33%] [32mBuilding CXX object CMakeFiles/robot_controller_position.dir/src/robot_controller_position.cpp.o[0m
+[ 58%] Built target publisher_subscriber
+[ 75%] Built target robot_controller
+[ 91%] Built target robot_odom_tf2_listener
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller_position.cpp:109:23:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  109 |        float array[5];[01;35m[K;[m[K
+      |                       [01;35m[K^[m[K
+      |                       [31m[K-[m[K
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller_position.cpp:[m[K In constructor ‘[01m[Kgeneric::generic()[m[K’:
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller_position.cpp:57:110:[m[K [01;31m[Kerror: [m[K‘[01m[Kcallback_odom[m[K’ is not a member of ‘[01m[Kgeneric[m[K’
+   57 |   subscription_robot_odom= this->create_subscription<nav_msgs::msg::Odometry>("odom",10, std::bind(&generic::[01;31m[Kcallback_odom[m[K, this, _1));
+      |                                                                                                              [01;31m[K^~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/robot_controller_position.dir/build.make:63: CMakeFiles/robot_controller_position.dir/src/robot_controller_position.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:277: CMakeFiles/robot_controller_position.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

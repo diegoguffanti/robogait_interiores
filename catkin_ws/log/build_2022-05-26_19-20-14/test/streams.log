@@ -1,0 +1,12 @@
+[0.013s] Invoking command in '/home/robogait/catkin_ws/build/test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/nav2_ws/install/nav2_gazebo_spawner:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/catkin_ws/build/test -- -j8 -l8
+[0.052s] [35m[1mScanning dependencies of target publisher_cpp[0m
+[0.070s] [ 50%] [32mBuilding CXX object CMakeFiles/publisher_cpp.dir/src/publisher_cpp.cpp.o[0m
+[0.853s] [01m[K/home/robogait/catkin_ws/src/test/src/publisher_cpp.cpp:[m[K In member function ‘[01m[Kvoid generic::loop()[m[K’:
+[0.853s] [01m[K/home/robogait/catkin_ws/src/test/src/publisher_cpp.cpp:51:57:[m[K [01;31m[Kerror: [m[K‘[01m[Kcount_[m[K’ was not declared in this scope; did you mean ‘[01m[Kcount[m[K’?
+[0.853s]    51 |         message.data = "Hello, world! "+ std::to_string([01;31m[Kcount_[m[K++);
+[0.853s]       |                                                         [01;31m[K^~~~~~[m[K
+[0.853s]       |                                                         [32m[Kcount[m[K
+[1.991s] make[2]: *** [CMakeFiles/publisher_cpp.dir/build.make:63: CMakeFiles/publisher_cpp.dir/src/publisher_cpp.cpp.o] Error 1
+[1.991s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/publisher_cpp.dir/all] Error 2
+[1.991s] make: *** [Makefile:141: all] Error 2
+[1.993s] Invoked command in '/home/robogait/catkin_ws/build/test' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/nav2_ws/install/nav2_gazebo_spawner:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/catkin_ws/build/test -- -j8 -l8

@@ -1,0 +1,9 @@
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller.cpp:[m[K In member function ‘[01m[Kvoid generic::lane_controller()[m[K’:
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller.cpp:75:55:[m[K [01;31m[Kerror: [m[Karray must be initialized with a brace-enclosed initializer
+   75 |        float rot_q[4]=path_local.poses[use_pose].pose.orientation;
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller.cpp:75:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Krot_q[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   75 |        float [01;35m[Krot_q[m[K[4]=path_local.poses[use_pose].pose.orientation;
+      |              [01;35m[K^~~~~[m[K
+make[2]: *** [CMakeFiles/robot_controller.dir/build.make:63: CMakeFiles/robot_controller.dir/src/robot_controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/robot_controller.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

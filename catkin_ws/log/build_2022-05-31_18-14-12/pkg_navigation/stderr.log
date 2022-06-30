@@ -1,0 +1,6 @@
+CMake Error at cmake_install.cmake:81 (file):
+  file INSTALL cannot find
+  "/home/robogait/catkin_ws/src/pkg_navigation/launch": No such file or
+  directory.
+
+

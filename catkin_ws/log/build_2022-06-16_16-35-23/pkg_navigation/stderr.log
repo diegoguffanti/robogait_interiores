@@ -1,0 +1,4 @@
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller_position.cpp:[m[K In member function ‘[01m[Kvoid generic::controller()[m[K’:
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller_position.cpp:121:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kvel_person[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  121 |         float [01;35m[Kvel_person[m[K=error_d-robot_vel_x;
+      |               [01;35m[K^~~~~~~~~~[m[K

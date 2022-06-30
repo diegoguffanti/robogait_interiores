@@ -1,0 +1,19 @@
+[100%] Built target tf2_broadcaster
+[100%] Built target publisher_subscriber
+-- Install configuration: ""
+-- Up-to-date: /home/robogait/catkin_ws/install/pkg_navigation/lib/pkg_navigation/publisher_subscriber
+-- Up-to-date: /home/robogait/catkin_ws/install/pkg_navigation/lib/pkg_navigation/tf2_broadcaster
+-- Installing: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/launch
+-- Installing: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/launch/map_server_launch.py
+-- Installing: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/launch/__pycache__
+-- Installing: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/launch/__pycache__/turtlesim_mimic_launch.cpython-38.pyc
+-- Installing: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/launch/online_async_launch.py
+-- Installing: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/launch/mapping_launch.py
+-- Installing: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/rviz
+-- Installing: /home/robogait/catkin_ws/install/pkg_navigation/share/pkg_navigation/rviz/rviz_config.rviz
+CMake Error at cmake_install.cmake:81 (file):
+  file INSTALL cannot find
+  "/home/robogait/catkin_ws/src/pkg_navigation/config": No such file or
+  directory.
+
+

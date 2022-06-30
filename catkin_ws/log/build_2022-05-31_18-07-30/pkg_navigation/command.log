@@ -1,0 +1,2 @@
+Invoking command in '/home/robogait/catkin_ws/build/pkg_navigation': /usr/bin/cmake --build /home/robogait/catkin_ws/build/pkg_navigation -- -j8 -l8
+Invoked command in '/home/robogait/catkin_ws/build/pkg_navigation' returned '2': /usr/bin/cmake --build /home/robogait/catkin_ws/build/pkg_navigation -- -j8 -l8

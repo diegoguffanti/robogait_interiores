@@ -1,0 +1,22 @@
+[ 20%] Built target tf2_broadcaster_person
+[ 20%] Built target publisher_initial_pose
+[ 30%] Built target robot_controller
+[ 40%] Built target tf2_broadcaster
+[ 50%] Built target robot_controller_position
+[ 60%] Built target publisher_subscriber
+[ 70%] Built target robot_odom_tf2_listener
+[ 80%] Built target robot_controller_straight
+[35m[1mScanning dependencies of target robot_controller_center_person[0m
+[ 90%] Built target person_odom_tf2_listener
+[ 95%] [32mBuilding CXX object CMakeFiles/robot_controller_center_person.dir/src/robot_controller_center_person.cpp.o[0m
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller_center_person.cpp:[m[K In member function ‘[01m[Kvoid generic::topic_callback_spine_bottom(body_tracker_msgs::msg::SpineBottom_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller_center_person.cpp:138:23:[m[K [01;31m[Kerror: [m[K‘[01m[Ksp[m[K’ was not declared in this scope; did you mean ‘[01m[KKp[m[K’?
+  138 |         errorh_actual=[01;31m[Ksp[m[K-pos_horiz;
+      |                       [01;31m[K^~[m[K
+      |                       [32m[KKp[m[K
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller_center_person.cpp:137:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ksp_h[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  137 |         float [01;35m[Ksp_h[m[K=0.0;
+      |               [01;35m[K^~~~[m[K
+make[2]: *** [CMakeFiles/robot_controller_center_person.dir/build.make:63: CMakeFiles/robot_controller_center_person.dir/src/robot_controller_center_person.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:393: CMakeFiles/robot_controller_center_person.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

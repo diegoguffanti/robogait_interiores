@@ -1,0 +1,8 @@
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller.cpp:[m[K In member function ‘[01m[Kvoid generic::callback_local_plan(nav_msgs::msg::Path_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller.cpp:68:16:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize[m[K’ was not declared in this scope; did you mean ‘[01m[Kdysize[m[K’?
+   68 |        cout << [01;31m[Ksize[m[K(path_local.poses) << endl;
+      |                [01;31m[K^~~~[m[K
+      |                [32m[Kdysize[m[K
+make[2]: *** [CMakeFiles/robot_controller.dir/build.make:63: CMakeFiles/robot_controller.dir/src/robot_controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/robot_controller.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

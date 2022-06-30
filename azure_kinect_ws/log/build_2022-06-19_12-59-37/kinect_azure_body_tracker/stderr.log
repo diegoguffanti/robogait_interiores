@@ -1,0 +1,7 @@
+In file included from [01m[K/home/robogait/azure_kinect_ws/src/kinect_azure_body_tracker/src/kinectAzure_body_tracker_node_full_processing.cpp:23[m[K:
+[01m[K/home/robogait/azure_kinect_ws/src/kinect_azure_body_tracker/src/csvProcessing.cpp:[m[K In function ‘[01m[Kbool predict_joints(char*, int, int, k4abt_tracker_t, k4a_capture_t)[m[K’:
+[01m[K/home/robogait/azure_kinect_ws/src/kinect_azure_body_tracker/src/csvProcessing.cpp:17:44:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kframe_count[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   17 | bool predict_joints(char* myfile_name, [01;35m[Kint frame_count[m[K, int cabecera, k4abt_tracker_t tracker, k4a_capture_t capture_handle)
+      |                                        [01;35m[K~~~~^~~~~~~~~~~[m[K
+At global scope:
+[01m[Kcc1plus:[m[K [01;35m[Kwarning: [m[Kunrecognized command line option ‘[01m[K-Wno-dev[m[K’

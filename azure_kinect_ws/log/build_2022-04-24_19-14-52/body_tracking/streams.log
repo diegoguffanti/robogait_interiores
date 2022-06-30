@@ -1,0 +1,76 @@
+[0.010s] Invoking command in '/home/robogait/azure_kinect_ws/build/body_tracking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/azure_kinect_ws/build/body_tracking -- -j8 -l8
+[0.043s] [35m[1mScanning dependencies of target prueba_talker[0m
+[0.049s] [  5%] Built target body_tracking_node
+[0.050s] [ 10%] Built target body_tracking__cpp
+[0.050s] [ 15%] Built target body_tracking__rosidl_generator_c
+[0.051s] [ 20%] Built target listener
+[0.052s] [ 23%] [32mBuilding CXX object CMakeFiles/prueba_talker.dir/src/main.cpp.o[0m
+[0.054s] [ 28%] Built target talker
+[0.065s] [ 35%] Built target body_tracking__rosidl_typesupport_c
+[0.067s] [ 43%] Built target body_tracking__rosidl_typesupport_introspection_cpp
+[0.068s] [ 58%] Built target body_tracking__rosidl_typesupport_cpp
+[0.068s] [ 58%] Built target body_tracking__rosidl_typesupport_introspection_c
+[0.069s] [ 66%] Built target body_tracking__rosidl_typesupport_fastrtps_cpp
+[0.086s] [ 74%] Built target body_tracking__rosidl_typesupport_fastrtps_c
+[0.099s] [ 74%] Built target body_tracking
+[0.113s] [ 76%] Built target body_tracking__py
+[0.132s] [ 82%] Built target body_tracking__python
+[0.151s] [ 97%] Built target body_tracking__rosidl_typesupport_introspection_c__pyext
+[0.151s] [ 97%] Built target body_tracking__rosidl_typesupport_fastrtps_c__pyext
+[0.151s] [ 97%] Built target body_tracking__rosidl_typesupport_c__pyext
+[0.205s] [01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:25:33:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+[0.205s]    25 | class MinimalPublisher : public [01;31m[Krclcpp[m[K::Node
+[0.205s]       |                                 [01;31m[K^~~~~~[m[K
+[0.205s] [01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:25:41:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[KNode[m[K’
+[0.205s]    25 | class MinimalPublisher : public rclcpp::[01;31m[KNode[m[K
+[0.205s]       |                                         [01;31m[K^~~~[m[K
+[0.205s] [01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:27:1:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kpublic[m[K’
+[0.205s]    27 | [01;31m[Kpublic[m[K:
+[0.206s]       | [01;31m[K^~~~~~[m[K
+[0.206s] [01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:27:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ before ‘[01m[Kpublic[m[K’
+[0.206s] [01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:26:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[0.206s]    26 | [01;36m[K{[m[K
+[0.206s]       | [01;36m[K^[m[K
+[0.206s] [01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:36:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kprivate[m[K’
+[0.206s]    36 | [01;31m[Kprivate[m[K:
+[0.206s]       | [01;31m[K^~~~~~~[m[K
+[0.206s] [01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:178:2:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ does not name a type
+[0.206s]   178 |  [01;31m[Krclcpp[m[K::TimerBase::SharedPtr timer_;
+[0.206s]       |  [01;31m[K^~~~~~[m[K
+[0.206s] [01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:179:2:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ does not name a type
+[0.206s]   179 |  [01;31m[Krclcpp[m[K::Publisher<body_tracking::msg::HipCoordinates>::SharedPtr publisher_;
+[0.206s]       |  [01;31m[K^~~~~~[m[K
+[0.206s] [01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:180:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+[0.206s]   180 | [01;31m[K}[m[K;
+[0.206s]       | [01;31m[K^[m[K
+[0.206s] [01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[0.206s] [01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:186:2:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+[0.206s]   186 |  [01;31m[Krclcpp[m[K::init(argc, argv);
+[0.206s]       |  [01;31m[K^~~~~~[m[K
+[0.207s] [01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:220:2:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+[0.207s]   220 |  [01;31m[Krclcpp[m[K::spin(std::make_shared<MinimalPublisher>());
+[0.207s]       |  [01;31m[K^~~~~~[m[K
+[0.208s] [01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:231:2:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+[0.208s]   231 |  [01;31m[Krclcpp[m[K::shutdown();
+[0.208s]       |  [01;31m[K^~~~~~[m[K
+[0.224s] In file included from [01m[K/usr/include/c++/9/bits/shared_ptr_base.h:56[m[K,
+[0.224s]                  from [01m[K/usr/include/c++/9/bits/shared_ptr.h:52[m[K,
+[0.224s]                  from [01m[K/usr/include/c++/9/memory:81[m[K,
+[0.224s]                  from [01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:14[m[K:
+[0.224s] /usr/include/c++/9/ext/aligned_buffer.h: In instantiation of ‘[01m[Kstruct __gnu_cxx::__aligned_buffer<MinimalPublisher>[m[K’:
+[0.224s] [01m[K/usr/include/c++/9/bits/shared_ptr_base.h:535:35:[m[K   required from ‘[01m[Kclass std::_Sp_counted_ptr_inplace<MinimalPublisher, std::allocator<MinimalPublisher>, __gnu_cxx::_S_atomic>::_Impl[m[K’
+[0.224s] [01m[K/usr/include/c++/9/bits/shared_ptr_base.h:596:13:[m[K   required from ‘[01m[Kclass std::_Sp_counted_ptr_inplace<MinimalPublisher, std::allocator<MinimalPublisher>, __gnu_cxx::_S_atomic>[m[K’
+[0.224s] [01m[K/usr/include/c++/9/bits/shared_ptr_base.h:676:43:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = MinimalPublisher; _Alloc = std::allocator<MinimalPublisher>; _Args = {}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[0.224s] [01m[K/usr/include/c++/9/bits/shared_ptr_base.h:1344:71:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<MinimalPublisher>; _Args = {}; _Tp = MinimalPublisher; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[0.224s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:359:59:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<MinimalPublisher>; _Args = {}; _Tp = MinimalPublisher][m[K’
+[0.224s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:701:14:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = MinimalPublisher; _Alloc = std::allocator<MinimalPublisher>; _Args = {}][m[K’
+[0.224s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:717:39:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = MinimalPublisher; _Args = {}][m[K’
+[0.224s] [01m[K/home/robogait/azure_kinect_ws/src/body_tracking/src/main.cpp:220:50:[m[K   required from here
+[0.224s] [01m[K/usr/include/c++/9/ext/aligned_buffer.h:91:28:[m[K [01;31m[Kerror: [m[Kinvalid application of ‘[01m[Ksizeof[m[K’ to incomplete type ‘[01m[KMinimalPublisher[m[K’
+[0.224s]    91 |     : std::aligned_storage<[01;31m[Ksizeof(_Tp)[m[K, __alignof__(_Tp)>
+[0.225s]       |                            [01;31m[K^~~~~~~~~~~[m[K
+[0.225s] [01m[K/usr/include/c++/9/ext/aligned_buffer.h:91:28:[m[K [01;31m[Kerror: [m[Kinvalid application of ‘[01m[Ksizeof[m[K’ to incomplete type ‘[01m[KMinimalPublisher[m[K’
+[0.232s] make[2]: *** [CMakeFiles/prueba_talker.dir/build.make:63: CMakeFiles/prueba_talker.dir/src/main.cpp.o] Error 1
+[0.232s] make[1]: *** [CMakeFiles/Makefile2:325: CMakeFiles/prueba_talker.dir/all] Error 2
+[0.233s] make: *** [Makefile:141: all] Error 2
+[0.235s] Invoked command in '/home/robogait/azure_kinect_ws/build/body_tracking' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/azure_kinect_ws/build/body_tracking -- -j8 -l8

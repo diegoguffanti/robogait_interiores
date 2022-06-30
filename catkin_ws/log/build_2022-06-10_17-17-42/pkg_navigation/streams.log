@@ -1,0 +1,16 @@
+[0.015s] Invoking command in '/home/robogait/catkin_ws/build/pkg_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/ros2_ws/install/nav2_project:/home/robogait/nav2_ws/install/nav2_gazebo_spawner:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/catkin_ws/build/pkg_navigation -- -j8 -l8
+[0.062s] [35m[1mScanning dependencies of target robot_controller[0m
+[0.074s] [ 40%] Built target robot_odom_tf2_listener
+[0.074s] [ 40%] Built target publisher_initial_pose
+[0.074s] [ 60%] Built target publisher_subscriber
+[0.081s] [ 80%] Built target tf2_broadcaster
+[0.086s] [ 90%] [32mBuilding CXX object CMakeFiles/robot_controller.dir/src/robot_controller.cpp.o[0m
+[0.911s] [01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller.cpp:[m[K In member function ‘[01m[Kvoid generic::loop()[m[K’:
+[0.911s] [01m[K/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller.cpp:118:9:[m[K [01;31m[Kerror: [m[K‘[01m[Km3_err[m[K’ was not declared in this scope; did you mean ‘[01m[Km_err[m[K’?
+[0.911s]   118 |         [01;31m[Km3_err[m[K.getRPY(roll_err, pitch_err, yaw_err);
+[0.911s]       |         [01;31m[K^~~~~~[m[K
+[0.911s]       |         [32m[Km_err[m[K
+[2.217s] make[2]: *** [CMakeFiles/robot_controller.dir/build.make:63: CMakeFiles/robot_controller.dir/src/robot_controller.cpp.o] Error 1
+[2.217s] make[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/robot_controller.dir/all] Error 2
+[2.217s] make: *** [Makefile:141: all] Error 2
+[2.219s] Invoked command in '/home/robogait/catkin_ws/build/pkg_navigation' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/ros2_ws/install/nav2_project:/home/robogait/nav2_ws/install/nav2_gazebo_spawner:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/catkin_ws/build/pkg_navigation -- -j8 -l8

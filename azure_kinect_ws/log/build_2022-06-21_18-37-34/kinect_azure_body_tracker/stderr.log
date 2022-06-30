@@ -1,0 +1,27 @@
+[01m[K/home/robogait/azure_kinect_ws/src/kinect_azure_body_tracker/src/kinectAzure_body_tracker_node_finite.cpp:[m[K In member function ‘[01m[Kint MinimalPublisher::getch()[m[K’:
+[01m[K/home/robogait/azure_kinect_ws/src/kinect_azure_body_tracker/src/kinectAzure_body_tracker_node_finite.cpp:222:25:[m[K [01;31m[Kerror: [m[Kaggregate ‘[01m[KMinimalPublisher::getch()::termios oldt[m[K’ has incomplete type and cannot be defined
+  222 |   static struct termios [01;31m[Koldt[m[K, newt;
+      |                         [01;31m[K^~~~[m[K
+[01m[K/home/robogait/azure_kinect_ws/src/kinect_azure_body_tracker/src/kinectAzure_body_tracker_node_finite.cpp:222:31:[m[K [01;31m[Kerror: [m[Kaggregate ‘[01m[KMinimalPublisher::getch()::termios newt[m[K’ has incomplete type and cannot be defined
+  222 |   static struct termios oldt, [01;31m[Knewt[m[K;
+      |                               [01;31m[K^~~~[m[K
+[01m[K/home/robogait/azure_kinect_ws/src/kinect_azure_body_tracker/src/kinectAzure_body_tracker_node_finite.cpp:223:14:[m[K [01;31m[Kerror: [m[K‘[01m[KSTDIN_FILENO[m[K’ was not declared in this scope
+  223 |   tcgetattr( [01;31m[KSTDIN_FILENO[m[K, &oldt);           // save old settings
+      |              [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/robogait/azure_kinect_ws/src/kinect_azure_body_tracker/src/kinectAzure_body_tracker_node_finite.cpp:223:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ktcgetattr[m[K’ was not declared in this scope
+  223 |   [01;31m[Ktcgetattr[m[K( STDIN_FILENO, &oldt);           // save old settings
+      |   [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/robogait/azure_kinect_ws/src/kinect_azure_body_tracker/src/kinectAzure_body_tracker_node_finite.cpp:225:21:[m[K [01;31m[Kerror: [m[K‘[01m[KICANON[m[K’ was not declared in this scope
+  225 |   newt.c_lflag &= ~([01;31m[KICANON[m[K);                 // disable buffering
+      |                     [01;31m[K^~~~~~[m[K
+[01m[K/home/robogait/azure_kinect_ws/src/kinect_azure_body_tracker/src/kinectAzure_body_tracker_node_finite.cpp:226:28:[m[K [01;31m[Kerror: [m[K‘[01m[KTCSANOW[m[K’ was not declared in this scope
+  226 |   tcsetattr( STDIN_FILENO, [01;31m[KTCSANOW[m[K, &newt);  // apply new settings
+      |                            [01;31m[K^~~~~~~[m[K
+[01m[K/home/robogait/azure_kinect_ws/src/kinect_azure_body_tracker/src/kinectAzure_body_tracker_node_finite.cpp:226:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ktcsetattr[m[K’ was not declared in this scope
+  226 |   [01;31m[Ktcsetattr[m[K( STDIN_FILENO, TCSANOW, &newt);  // apply new settings
+      |   [01;31m[K^~~~~~~~~[m[K
+At global scope:
+[01m[Kcc1plus:[m[K [01;35m[Kwarning: [m[Kunrecognized command line option ‘[01m[K-Wno-dev[m[K’
+make[2]: *** [CMakeFiles/kinect_azure_body_tracker_node_finite.dir/build.make:63: CMakeFiles/kinect_azure_body_tracker_node_finite.dir/src/kinectAzure_body_tracker_node_finite.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:223: CMakeFiles/kinect_azure_body_tracker_node_finite.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

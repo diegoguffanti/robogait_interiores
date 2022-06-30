@@ -1,0 +1,9 @@
+CMake Error at CMakeLists.txt:56 (add_executable):
+  Target "prueba_talker" links to target "body_tracking::body_tracking" but
+  the target was not found.  Perhaps a find_package() call is missing for an
+  IMPORTED target, or an ALIAS target is missing?
+
+
+CMake Error: INSTALL(EXPORT) given unknown export "body_tracking"
+CMake Generate step failed.  Build files cannot be regenerated correctly.
+make: *** [Makefile:924: cmake_check_build_system] Error 1

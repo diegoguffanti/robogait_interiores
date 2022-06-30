@@ -1,0 +1,15 @@
+[0.013s] Invoking command in '/home/robogait/catkin_ws/build/pkg_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/nav2_ws/install/nav2_gazebo_spawner:/home/robogait/ros2_serial/install/ourbotmanager:/home/robogait/ros2_ws/install/nav2_project:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/catkin_ws/build/pkg_navigation -- -j8 -l8
+[0.085s] [ 50%] Built target publisher_initial_pose
+[0.085s] [ 50%] Built target robot_odom_tf2_listener
+[0.085s] [ 50%] Built target tf2_broadcaster_person
+[0.085s] [ 50%] Built target publisher_subscriber
+[0.085s] [ 50%] Built target robot_controller
+[0.085s] [ 60%] Built target tf2_broadcaster
+[0.086s] [ 70%] Built target robot_controller_position
+[0.086s] [ 80%] Built target robot_controller_straight
+[0.098s] make[2]: *** No rule to make target '/home/robogait/catkin_ws/src/pkg_navigation/src/robot_controller_center_person.cpp', needed by 'CMakeFiles/robot_controller_center_person.dir/src/robot_controller_center_person.cpp.o'.  Stop.
+[0.098s] make[1]: *** [CMakeFiles/Makefile2:393: CMakeFiles/robot_controller_center_person.dir/all] Error 2
+[0.098s] make[1]: *** Waiting for unfinished jobs....
+[0.113s] [ 90%] Built target person_odom_tf2_listener
+[0.114s] make: *** [Makefile:141: all] Error 2
+[0.116s] Invoked command in '/home/robogait/catkin_ws/build/pkg_navigation' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/nav2_ws/install/nav2_gazebo_spawner:/home/robogait/ros2_serial/install/ourbotmanager:/home/robogait/ros2_ws/install/nav2_project:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/catkin_ws/build/pkg_navigation -- -j8 -l8

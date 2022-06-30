@@ -1,0 +1,104 @@
+[0.028s] Invoking command in '/home/robogait/azure_kinect_ws/build/body_tracker_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/nav2_ws/install/nav2_gazebo_spawner:/home/robogait/ros2_serial/install/ourbotmanager:/home/robogait/ros2_ws/install/nav2_project:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/azure_kinect_ws/build/body_tracker_msgs -- -j8 -l8
+[0.093s] [  2%] Built target body_tracker_msgs__cpp
+[0.104s] [ 16%] Built target body_tracker_msgs__rosidl_generator_c
+[0.140s] [ 44%] Built target body_tracker_msgs__rosidl_typesupport_introspection_cpp
+[0.140s] [ 44%] Built target body_tracker_msgs__rosidl_typesupport_fastrtps_cpp
+[0.144s] [ 58%] Built target body_tracker_msgs__rosidl_typesupport_cpp
+[0.150s] [ 72%] Built target body_tracker_msgs__rosidl_typesupport_c
+[0.151s] [ 86%] Built target body_tracker_msgs__rosidl_typesupport_introspection_c
+[0.173s] [100%] Built target body_tracker_msgs__rosidl_typesupport_fastrtps_c
+[0.195s] [100%] Built target body_tracker_msgs
+[0.205s] Invoked command in '/home/robogait/azure_kinect_ws/build/body_tracker_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/nav2_ws/install/nav2_gazebo_spawner:/home/robogait/ros2_serial/install/ourbotmanager:/home/robogait/ros2_ws/install/nav2_project:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/azure_kinect_ws/build/body_tracker_msgs -- -j8 -l8
+[0.299s] Invoking command in '/home/robogait/azure_kinect_ws/build/body_tracker_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/nav2_ws/install/nav2_gazebo_spawner:/home/robogait/ros2_serial/install/ourbotmanager:/home/robogait/ros2_ws/install/nav2_project:/opt/ros/foxy /usr/bin/cmake --install /home/robogait/azure_kinect_ws/build/body_tracker_msgs
+[0.308s] -- Install configuration: ""
+[0.308s] -- Execute custom install script
+[0.308s] -- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracker_msgs/share/ament_index/resource_index/rosidl_interfaces/body_tracker_msgs
+[0.309s] -- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracker_msgs/include/body_tracker_msgs/msg/detail/hip_coordinates__functions.h
+[0.309s] -- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracker_msgs/include/body_tracker_msgs/msg/detail/hip_coordinates__struct.h
+[0.309s] -- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracker_msgs/include/body_tracker_msgs/msg/detail/hip_coordinates__type_support.h
+[0.309s] -- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracker_msgs/include/body_tracker_msgs/msg/detail/skeleton__functions.h
+[0.309s] -- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracker_msgs/include/body_tracker_msgs/msg/detail/skeleton__struct.h
+[0.309s] -- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracker_msgs/include/body_tracker_msgs/msg/detail/skeleton__type_support.h
+[0.309s] -- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracker_msgs/include/body_tracker_msgs/msg/detail/spine_bottom__functions.h
+[0.309s] -- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracker_msgs/include/body_tracker_msgs/msg/detail/spine_bottom__struct.h
+[0.310s] -- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracker_msgs/include/body_tracker_msgs/msg/detail/spine_bottom__type_support.h
+[0.310s] -- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracker_msgs/include/body_tracker_msgs/msg/hip_coordinates.h
+[0.310s] -- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracker_msgs/include/body_tracker_msgs/msg/rosidl_generator_c__visibility_control.h
+[0.310s] -- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracker_msgs/include/body_tracker_msgs/msg/skeleton.h
+[0.310s] -- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracker_msgs/include/body_tracker_msgs/msg/spine_bottom.h
+[0.310s] -- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracker_msgs/share/body_tracker_msgs/environment/library_path.sh
+[0.310s] -- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracker_msgs/share/body_tracker_msgs/environment/library_path.dsv
+[0.311s] -- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracker_msgs/include/body_tracker_msgs/msg/detail/hip_coordinates__rosidl_typesupport_fastrtps_c.h
+[0.311s] -- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracker_msgs/include/body_tracker_msgs/msg/detail/skeleton__rosidl_typesupport_fastrtps_c.h
+[0.311s] -- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracker_msgs/include/body_tracker_msgs/msg/detail/spine_bottom__rosidl_typesupport_fastrtps_c.h
+[0.311s] -- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracker_msgs/include/body_tracker_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.311s] -- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracker_msgs/lib/libbody_tracker_msgs__rosidl_typesupport_fastrtps_c.so
+[0.311s] -- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracker_msgs/include/body_tracker_msgs/msg/detail/hip_coordinates__rosidl_typesupport_fastrtps_cpp.hpp
+[0.311s] -- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracker_msgs/include/body_tracker_msgs/msg/detail/skeleton__rosidl_typesupport_fastrtps_cpp.hpp
+[0.311s] -- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracker_msgs/include/body_tracker_msgs/msg/detail/spine_bottom__rosidl_typesupport_fastrtps_cpp.hpp
+[0.312s] -- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracker_msgs/include/body_tracker_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.312s] -- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracker_msgs/lib/libbody_tracker_msgs__rosidl_typesupport_fastrtps_cpp.so
+[0.312s] -- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracker_msgs/include/body_tracker_msgs/msg/detail/hip_coordinates__rosidl_typesupport_introspection_c.h
+[0.312s] -- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracker_msgs/include/body_tracker_msgs/msg/detail/skeleton__rosidl_typesupport_introspection_c.h
+[0.312s] -- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracker_msgs/include/body_tracker_msgs/msg/detail/spine_bottom__rosidl_typesupport_introspection_c.h
+[0.312s] -- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracker_msgs/include/body_tracker_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.313s] -- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracker_msgs/include/body_tracker_msgs/msg/detail/hip_coordinates__builder.hpp
+[0.313s] -- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracker_msgs/include/body_tracker_msgs/msg/detail/hip_coordinates__struct.hpp
+[0.313s] -- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracker_msgs/include/body_tracker_msgs/msg/detail/hip_coordinates__traits.hpp
+[0.313s] -- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracker_msgs/include/body_tracker_msgs/msg/detail/skeleton__builder.hpp
+[0.313s] -- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracker_msgs/include/body_tracker_msgs/msg/detail/skeleton__struct.hpp
+[0.313s] -- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracker_msgs/include/body_tracker_msgs/msg/detail/skeleton__traits.hpp
+[0.313s] -- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracker_msgs/include/body_tracker_msgs/msg/detail/spine_bottom__builder.hpp
+[0.313s] -- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracker_msgs/include/body_tracker_msgs/msg/detail/spine_bottom__struct.hpp
+[0.313s] -- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracker_msgs/include/body_tracker_msgs/msg/detail/spine_bottom__traits.hpp
+[0.313s] -- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracker_msgs/include/body_tracker_msgs/msg/hip_coordinates.hpp
+[0.313s] -- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracker_msgs/include/body_tracker_msgs/msg/skeleton.hpp
+[0.314s] -- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracker_msgs/include/body_tracker_msgs/msg/spine_bottom.hpp
+[0.314s] -- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracker_msgs/include/body_tracker_msgs/msg/detail/hip_coordinates__rosidl_typesupport_introspection_cpp.hpp
+[0.314s] -- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracker_msgs/include/body_tracker_msgs/msg/detail/skeleton__rosidl_typesupport_introspection_cpp.hpp
+[0.314s] -- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracker_msgs/include/body_tracker_msgs/msg/detail/spine_bottom__rosidl_typesupport_introspection_cpp.hpp
+[0.314s] -- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracker_msgs/share/body_tracker_msgs/msg/HipCoordinates.idl
+[0.315s] -- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracker_msgs/share/body_tracker_msgs/msg/Skeleton.idl
+[0.315s] -- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracker_msgs/share/body_tracker_msgs/msg/SpineBottom.idl
+[0.315s] -- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracker_msgs/share/body_tracker_msgs/msg/HipCoordinates.msg
+[0.315s] -- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracker_msgs/share/body_tracker_msgs/msg/Skeleton.msg
+[0.315s] -- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracker_msgs/share/body_tracker_msgs/msg/SpineBottom.msg
+[0.315s] -- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracker_msgs/share/ament_index/resource_index/package_run_dependencies/body_tracker_msgs
+[0.315s] -- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracker_msgs/share/ament_index/resource_index/parent_prefix_path/body_tracker_msgs
+[0.316s] -- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracker_msgs/share/body_tracker_msgs/environment/ament_prefix_path.sh
+[0.316s] -- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracker_msgs/share/body_tracker_msgs/environment/ament_prefix_path.dsv
+[0.316s] -- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracker_msgs/share/body_tracker_msgs/environment/path.sh
+[0.316s] -- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracker_msgs/share/body_tracker_msgs/environment/path.dsv
+[0.316s] -- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracker_msgs/share/body_tracker_msgs/local_setup.bash
+[0.316s] -- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracker_msgs/share/body_tracker_msgs/local_setup.sh
+[0.316s] -- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracker_msgs/share/body_tracker_msgs/local_setup.zsh
+[0.317s] -- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracker_msgs/share/body_tracker_msgs/local_setup.dsv
+[0.317s] -- Symlinking: /home/robogait/azure_kinect_ws/install/body_tracker_msgs/share/body_tracker_msgs/package.dsv
+[0.326s] -- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracker_msgs/share/ament_index/resource_index/packages/body_tracker_msgs
+[0.326s] -- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracker_msgs/share/body_tracker_msgs/cmake/rosidl_cmake-extras.cmake
+[0.326s] -- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracker_msgs/share/body_tracker_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.327s] -- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracker_msgs/share/body_tracker_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[0.327s] -- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracker_msgs/share/body_tracker_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[0.327s] -- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracker_msgs/share/body_tracker_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.327s] -- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracker_msgs/share/body_tracker_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.327s] -- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracker_msgs/share/body_tracker_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.327s] -- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracker_msgs/share/body_tracker_msgs/cmake/body_tracker_msgsConfig.cmake
+[0.327s] -- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracker_msgs/share/body_tracker_msgs/cmake/body_tracker_msgsConfig-version.cmake
+[0.327s] -- Up-to-date symlink: /home/robogait/azure_kinect_ws/install/body_tracker_msgs/share/body_tracker_msgs/package.xml
+[0.328s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracker_msgs/lib/libbody_tracker_msgs__rosidl_generator_c.so
+[0.328s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracker_msgs/lib/libbody_tracker_msgs__rosidl_typesupport_introspection_c.so
+[0.328s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracker_msgs/lib/libbody_tracker_msgs__rosidl_typesupport_c.so
+[0.328s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracker_msgs/lib/libbody_tracker_msgs__rosidl_typesupport_introspection_cpp.so
+[0.328s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracker_msgs/lib/libbody_tracker_msgs__rosidl_typesupport_cpp.so
+[0.329s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracker_msgs/share/body_tracker_msgs/cmake/body_tracker_msgs__rosidl_generator_cExport.cmake
+[0.329s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracker_msgs/share/body_tracker_msgs/cmake/body_tracker_msgs__rosidl_generator_cExport-noconfig.cmake
+[0.329s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracker_msgs/share/body_tracker_msgs/cmake/body_tracker_msgs__rosidl_typesupport_introspection_cExport.cmake
+[0.329s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracker_msgs/share/body_tracker_msgs/cmake/body_tracker_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.329s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracker_msgs/share/body_tracker_msgs/cmake/body_tracker_msgs__rosidl_typesupport_cExport.cmake
+[0.329s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracker_msgs/share/body_tracker_msgs/cmake/body_tracker_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[0.329s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracker_msgs/share/body_tracker_msgs/cmake/body_tracker_msgs__rosidl_generator_cppExport.cmake
+[0.329s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracker_msgs/share/body_tracker_msgs/cmake/body_tracker_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[0.329s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracker_msgs/share/body_tracker_msgs/cmake/body_tracker_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.329s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracker_msgs/share/body_tracker_msgs/cmake/body_tracker_msgs__rosidl_typesupport_cppExport.cmake
+[0.329s] -- Up-to-date: /home/robogait/azure_kinect_ws/install/body_tracker_msgs/share/body_tracker_msgs/cmake/body_tracker_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[0.332s] Invoked command in '/home/robogait/azure_kinect_ws/build/body_tracker_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/nav2_ws/install/nav2_gazebo_spawner:/home/robogait/ros2_serial/install/ourbotmanager:/home/robogait/ros2_ws/install/nav2_project:/opt/ros/foxy /usr/bin/cmake --install /home/robogait/azure_kinect_ws/build/body_tracker_msgs

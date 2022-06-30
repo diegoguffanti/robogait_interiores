@@ -1,0 +1,14 @@
+source;share/body_tracking/hook/cmake_prefix_path.ps1
+source;share/body_tracking/hook/cmake_prefix_path.dsv
+source;share/body_tracking/hook/cmake_prefix_path.sh
+source;share/body_tracking/hook/ld_library_path_lib.ps1
+source;share/body_tracking/hook/ld_library_path_lib.dsv
+source;share/body_tracking/hook/ld_library_path_lib.sh
+source;share/body_tracking/hook/pythonpath.ps1
+source;share/body_tracking/hook/pythonpath.dsv
+source;share/body_tracking/hook/pythonpath.sh
+source;share/body_tracking/local_setup.bash
+source;share/body_tracking/local_setup.dsv
+source;share/body_tracking/local_setup.ps1
+source;share/body_tracking/local_setup.sh
+source;share/body_tracking/local_setup.zsh

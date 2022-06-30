@@ -1,0 +1,137 @@
+[0.000000] (-) TimerEvent: {}
+[0.000304] (body_tracker_msgs) JobQueued: {'identifier': 'body_tracker_msgs', 'dependencies': OrderedDict()}
+[0.000427] (body_tracking) JobQueued: {'identifier': 'body_tracking', 'dependencies': OrderedDict()}
+[0.000441] (body_tracker_msgs) JobStarted: {'identifier': 'body_tracker_msgs'}
+[0.005883] (body_tracking) JobStarted: {'identifier': 'body_tracking'}
+[0.011860] (body_tracker_msgs) JobProgress: {'identifier': 'body_tracker_msgs', 'progress': 'cmake'}
+[0.013185] (body_tracker_msgs) JobProgress: {'identifier': 'body_tracker_msgs', 'progress': 'build'}
+[0.013861] (body_tracker_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robogait/azure_kinect_ws/build/body_tracker_msgs', '--', '-j8', '-l8'], 'cwd': '/home/robogait/azure_kinect_ws/build/body_tracker_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'robogait'), ('LC_TIME', 'es_ES.UTF-8'), ('SSH_AGENT_PID', '1690'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/robogait/tutorials_ws/install/turtlesim/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/robogait'), ('OLDPWD', '/home/robogait'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('MANAGERPID', '1492'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/robogait/serial_cpp/install:/home/robogait/ros2_serial/install:/home/robogait/rplidar/install:/home/robogait/tutorials_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'robogait'), ('JOURNAL_STREAM', '8:51618'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'robogait'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/robogait/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/robogait-NUC11TNKv7:@/tmp/.ICE-unix/1730,unix/robogait-NUC11TNKv7:/tmp/.ICE-unix/1730'), ('INVOCATION_ID', 'bfe031a27d90454f94061677179a4ba6'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/263f0ae0_cc48_419e_a300_8216c46afb64'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.119'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/robogait/ros2_serial/install/ourbotmanager:/home/robogait/serial_cpp/install/serial_pubsub:/home/robogait/rplidar/install/sllidar_ros2:/home/robogait/rplidar/install/rplidar_ros2:/home/robogait/tutorials_ws/install/turtlesim:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robogait/azure_kinect_ws/build/body_tracker_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/robogait/ros2_serial/install/ourbotmanager/lib/python3.8/site-packages:/home/robogait/tutorials_ws/install/turtlesim/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/robogait/serial_cpp/install/serial_pubsub:/home/robogait/rplidar/install/sllidar_ros2:/home/robogait/rplidar/install/rplidar_ros2:/home/robogait/tutorials_ws/install/turtlesim:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy')]), 'shell': False}
+[0.017237] (body_tracking) JobProgress: {'identifier': 'body_tracking', 'progress': 'cmake'}
+[0.017711] (body_tracking) JobProgress: {'identifier': 'body_tracking', 'progress': 'build'}
+[0.017862] (body_tracking) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robogait/azure_kinect_ws/build/body_tracking', '--', '-j8', '-l8'], 'cwd': '/home/robogait/azure_kinect_ws/build/body_tracking', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'robogait'), ('LC_TIME', 'es_ES.UTF-8'), ('SSH_AGENT_PID', '1690'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/robogait/tutorials_ws/install/turtlesim/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/robogait'), ('OLDPWD', '/home/robogait'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('MANAGERPID', '1492'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/robogait/serial_cpp/install:/home/robogait/ros2_serial/install:/home/robogait/rplidar/install:/home/robogait/tutorials_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'robogait'), ('JOURNAL_STREAM', '8:51618'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'robogait'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/robogait/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/robogait-NUC11TNKv7:@/tmp/.ICE-unix/1730,unix/robogait-NUC11TNKv7:/tmp/.ICE-unix/1730'), ('INVOCATION_ID', 'bfe031a27d90454f94061677179a4ba6'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/263f0ae0_cc48_419e_a300_8216c46afb64'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.119'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/robogait/ros2_serial/install/ourbotmanager:/home/robogait/serial_cpp/install/serial_pubsub:/home/robogait/rplidar/install/sllidar_ros2:/home/robogait/rplidar/install/rplidar_ros2:/home/robogait/tutorials_ws/install/turtlesim:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robogait/azure_kinect_ws/build/body_tracking'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/robogait/ros2_serial/install/ourbotmanager/lib/python3.8/site-packages:/home/robogait/tutorials_ws/install/turtlesim/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/robogait/serial_cpp/install/serial_pubsub:/home/robogait/rplidar/install/sllidar_ros2:/home/robogait/rplidar/install/rplidar_ros2:/home/robogait/tutorials_ws/install/turtlesim:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy')]), 'shell': False}
+[0.032436] (body_tracker_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.036388] (body_tracking) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.047816] (body_tracker_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.051826] (body_tracking) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.099512] (-) TimerEvent: {}
+[0.152498] (body_tracker_msgs) StdoutLine: {'line': b'-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.154696] (body_tracking) StdoutLine: {'line': b'-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.172054] (body_tracker_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.174113] (body_tracking) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.174204] (body_tracker_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.176095] (body_tracking) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.199621] (-) TimerEvent: {}
+[0.246980] (body_tracker_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.247561] (body_tracking) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.275593] (body_tracker_msgs) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.276373] (body_tracking) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.276485] (body_tracker_msgs) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.277318] (body_tracking) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.299702] (-) TimerEvent: {}
+[0.360539] (body_tracker_msgs) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[0.360906] (body_tracking) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[0.380106] (body_tracking) StdoutLine: {'line': b'-- Found body_tracking: 0.0.0 (/home/robogait/azure_kinect_ws/install/body_tracking/share/body_tracking/cmake)\n'}
+[0.393172] (body_tracker_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[0.399797] (-) TimerEvent: {}
+[0.419978] (body_tracking) StderrLine: {'line': b'CMake Error at CMakeLists.txt:26 (find_package):\n'}
+[0.420127] (body_tracking) StderrLine: {'line': b'  By not providing "Findbody_tracker_msgs.cmake" in CMAKE_MODULE_PATH this\n'}
+[0.420169] (body_tracking) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[0.420207] (body_tracking) StderrLine: {'line': b'  "body_tracker_msgs", but CMake did not find one.\n'}
+[0.420243] (body_tracking) StderrLine: {'line': b'\n'}
+[0.420280] (body_tracking) StderrLine: {'line': b'  Could not find a package configuration file provided by "body_tracker_msgs"\n'}
+[0.420315] (body_tracking) StderrLine: {'line': b'  with any of the following names:\n'}
+[0.420352] (body_tracking) StderrLine: {'line': b'\n'}
+[0.420388] (body_tracking) StderrLine: {'line': b'    body_tracker_msgsConfig.cmake\n'}
+[0.420424] (body_tracking) StderrLine: {'line': b'    body_tracker_msgs-config.cmake\n'}
+[0.420460] (body_tracking) StderrLine: {'line': b'\n'}
+[0.420496] (body_tracking) StderrLine: {'line': b'  Add the installation prefix of "body_tracker_msgs" to CMAKE_PREFIX_PATH or\n'}
+[0.420532] (body_tracking) StderrLine: {'line': b'  set "body_tracker_msgs_DIR" to a directory containing one of the above\n'}
+[0.420568] (body_tracking) StderrLine: {'line': b'  files.  If "body_tracker_msgs" provides a separate development package or\n'}
+[0.420603] (body_tracking) StderrLine: {'line': b'  SDK, be sure it has been installed.\n'}
+[0.420649] (body_tracking) StderrLine: {'line': b'\n'}
+[0.420684] (body_tracking) StderrLine: {'line': b'\n'}
+[0.420827] (body_tracking) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.420901] (body_tracking) StdoutLine: {'line': b'See also "/home/robogait/azure_kinect_ws/build/body_tracking/CMakeFiles/CMakeOutput.log".\n'}
+[0.420944] (body_tracking) StdoutLine: {'line': b'See also "/home/robogait/azure_kinect_ws/build/body_tracking/CMakeFiles/CMakeError.log".\n'}
+[0.424827] (body_tracking) StderrLine: {'line': b'make: *** [Makefile:1032: cmake_check_build_system] Error 1\n'}
+[0.426421] (body_tracking) CommandEnded: {'returncode': 2}
+[0.474230] (body_tracking) JobEnded: {'identifier': 'body_tracking', 'rc': 2}
+[0.499906] (-) TimerEvent: {}
+[0.507893] (body_tracker_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[0.600101] (-) TimerEvent: {}
+[0.651291] (body_tracker_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.700248] (-) TimerEvent: {}
+[0.713590] (body_tracker_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.716091] (body_tracker_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[0.722895] (body_tracker_msgs) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[0.723728] (body_tracker_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.724173] (body_tracker_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.726482] (body_tracker_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.748772] (body_tracker_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[0.750223] (body_tracker_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/robogait/azure_kinect_ws/build/body_tracker_msgs\n'}
+[0.766002] (body_tracker_msgs) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[0.766163] (body_tracker_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target body_tracker_msgs__cpp\x1b[0m\n'}
+[0.773128] (body_tracker_msgs) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[0.800361] (-) TimerEvent: {}
+[0.900694] (-) TimerEvent: {}
+[1.000983] (-) TimerEvent: {}
+[1.043695] (body_tracker_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target body_tracker_msgs__rosidl_generator_c\x1b[0m\n'}
+[1.043908] (body_tracker_msgs) StdoutLine: {'line': b'[  6%] Built target body_tracker_msgs__cpp\n'}
+[1.050873] (body_tracker_msgs) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.051088] (body_tracker_msgs) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.051149] (body_tracker_msgs) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.056112] (body_tracker_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/body_tracker_msgs__rosidl_generator_c.dir/rosidl_generator_c/body_tracker_msgs/msg/detail/hip_coordinates__functions.c.o\x1b[0m\n'}
+[1.060265] (body_tracker_msgs) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding C object CMakeFiles/body_tracker_msgs__rosidl_generator_c.dir/rosidl_generator_c/body_tracker_msgs/msg/detail/skeleton__functions.c.o\x1b[0m\n'}
+[1.097360] (body_tracker_msgs) StdoutLine: {'line': b'[ 27%] \x1b[32m\x1b[1mLinking C shared library libbody_tracker_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[1.101069] (-) TimerEvent: {}
+[1.125219] (body_tracker_msgs) StdoutLine: {'line': b'[ 27%] Built target body_tracker_msgs__rosidl_generator_c\n'}
+[1.132392] (body_tracker_msgs) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[1.135325] (body_tracker_msgs) StdoutLine: {'line': b'[ 34%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.201165] (-) TimerEvent: {}
+[1.301448] (-) TimerEvent: {}
+[1.319714] (body_tracker_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target body_tracker_msgs__rosidl_typesupport_cpp\x1b[0m\n'}
+[1.323248] (body_tracker_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target body_tracker_msgs__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[1.331186] (body_tracker_msgs) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/body_tracker_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/body_tracker_msgs/msg/hip_coordinates__type_support.cpp.o\x1b[0m\n'}
+[1.331390] (body_tracker_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/body_tracker_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/body_tracker_msgs/msg/skeleton__type_support.cpp.o\x1b[0m\n'}
+[1.334390] (body_tracker_msgs) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/body_tracker_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/body_tracker_msgs/msg/detail/hip_coordinates__type_support.cpp.o\x1b[0m\n'}
+[1.334852] (body_tracker_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/body_tracker_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/body_tracker_msgs/msg/detail/skeleton__type_support.cpp.o\x1b[0m\n'}
+[1.401541] (-) TimerEvent: {}
+[1.474546] (body_tracker_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target body_tracker_msgs__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[1.492237] (body_tracker_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/body_tracker_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/body_tracker_msgs/msg/detail/hip_coordinates__type_support.c.o\x1b[0m\n'}
+[1.500086] (body_tracker_msgs) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding C object CMakeFiles/body_tracker_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/body_tracker_msgs/msg/detail/skeleton__type_support.c.o\x1b[0m\n'}
+[1.501625] (-) TimerEvent: {}
+[1.533147] (body_tracker_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target body_tracker_msgs__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[1.548259] (body_tracker_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking C shared library libbody_tracker_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[1.549308] (body_tracker_msgs) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/body_tracker_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/body_tracker_msgs/msg/detail/dds_fastrtps/hip_coordinates__type_support.cpp.o\x1b[0m\n'}
+[1.551983] (body_tracker_msgs) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/body_tracker_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/body_tracker_msgs/msg/detail/dds_fastrtps/skeleton__type_support.cpp.o\x1b[0m\n'}
+[1.574062] (body_tracker_msgs) StdoutLine: {'line': b'[ 65%] Built target body_tracker_msgs__rosidl_typesupport_introspection_c\n'}
+[1.575036] (body_tracker_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target body_tracker_msgs__rosidl_typesupport_c\x1b[0m\n'}
+[1.584325] (body_tracker_msgs) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/body_tracker_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/body_tracker_msgs/msg/hip_coordinates__type_support.cpp.o\x1b[0m\n'}
+[1.586088] (body_tracker_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/body_tracker_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/body_tracker_msgs/msg/skeleton__type_support.cpp.o\x1b[0m\n'}
+[1.601762] (-) TimerEvent: {}
+[1.607594] (body_tracker_msgs) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX shared library libbody_tracker_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[1.608588] (body_tracker_msgs) StdoutLine: {'line': b'[ 79%] \x1b[32m\x1b[1mLinking CXX shared library libbody_tracker_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[1.621164] (body_tracker_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32m\x1b[1mLinking CXX shared library libbody_tracker_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[1.635691] (body_tracker_msgs) StdoutLine: {'line': b'[ 82%] Built target body_tracker_msgs__rosidl_typesupport_c\n'}
+[1.635933] (body_tracker_msgs) StdoutLine: {'line': b'[ 82%] Built target body_tracker_msgs__rosidl_typesupport_cpp\n'}
+[1.662860] (body_tracker_msgs) StdoutLine: {'line': b'[ 82%] Built target body_tracker_msgs__rosidl_typesupport_introspection_cpp\n'}
+[1.701872] (-) TimerEvent: {}
+[1.802235] (-) TimerEvent: {}
+[1.837437] (body_tracker_msgs) StdoutLine: {'line': b'[ 86%] \x1b[32m\x1b[1mLinking CXX shared library libbody_tracker_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[1.893258] (body_tracker_msgs) StdoutLine: {'line': b'[ 86%] Built target body_tracker_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[1.900300] (body_tracker_msgs) StdoutLine: {'line': b'[ 89%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.902298] (-) TimerEvent: {}
+[2.002526] (-) TimerEvent: {}
+[2.102859] (-) TimerEvent: {}
+[2.159982] (body_tracker_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target body_tracker_msgs__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[2.173138] (body_tracker_msgs) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding CXX object CMakeFiles/body_tracker_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/body_tracker_msgs/msg/detail/hip_coordinates__type_support_c.cpp.o\x1b[0m\n'}
+[2.173354] (body_tracker_msgs) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding CXX object CMakeFiles/body_tracker_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/body_tracker_msgs/msg/detail/skeleton__type_support_c.cpp.o\x1b[0m\n'}
+[2.203066] (-) TimerEvent: {}
+[2.303414] (-) TimerEvent: {}
+[2.380372] (body_tracker_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libbody_tracker_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[2.403601] (-) TimerEvent: {}
+[2.434369] (body_tracker_msgs) StdoutLine: {'line': b'[100%] Built target body_tracker_msgs__rosidl_typesupport_fastrtps_c\n'}
+[2.440863] (body_tracker_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target body_tracker_msgs\x1b[0m\n'}
+[2.447604] (body_tracker_msgs) StdoutLine: {'line': b'[100%] Built target body_tracker_msgs\n'}
+[2.454956] (body_tracker_msgs) JobEnded: {'identifier': 'body_tracker_msgs', 'rc': 'SIGINT'}
+[2.465568] (-) EventReactorShutdown: {}

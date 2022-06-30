@@ -1,0 +1,29 @@
+[0.015s] Invoking command in '/home/robogait/catkin_ws/build/test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/nav2_ws/install/nav2_gazebo_spawner:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/catkin_ws/build/test -- -j8 -l8
+[0.066s] [100%] Built target tf2_broadcaster
+[0.067s] [100%] Built target publisher_subscriber
+[0.075s] Invoked command in '/home/robogait/catkin_ws/build/test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/nav2_ws/install/nav2_gazebo_spawner:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy /usr/bin/cmake --build /home/robogait/catkin_ws/build/test -- -j8 -l8
+[0.116s] Invoking command in '/home/robogait/catkin_ws/build/test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/nav2_ws/install/nav2_gazebo_spawner:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy /usr/bin/cmake --install /home/robogait/catkin_ws/build/test
+[0.125s] -- Install configuration: ""
+[0.125s] -- Execute custom install script
+[0.125s] -- Up-to-date symlink: /home/robogait/catkin_ws/install/test/lib/test/publisher_subscriber
+[0.125s] -- Up-to-date symlink: /home/robogait/catkin_ws/install/test/lib/test/tf2_broadcaster
+[0.125s] -- Up-to-date symlink: /home/robogait/catkin_ws/install/test/share/test/launch/__pycache__/turtlesim_mimic_launch.cpython-38.pyc
+[0.125s] -- Up-to-date symlink: /home/robogait/catkin_ws/install/test/share/test/launch/tutorials_launch.py
+[0.126s] -- Up-to-date symlink: /home/robogait/catkin_ws/install/test/share/test/launch/__pycache__/turtlesim_mimic_launch.cpython-38.pyc
+[0.126s] -- Up-to-date symlink: /home/robogait/catkin_ws/install/test/share/test/launch/tutorials_launch.py
+[0.126s] -- Up-to-date symlink: /home/robogait/catkin_ws/install/test/share/ament_index/resource_index/package_run_dependencies/test
+[0.126s] -- Up-to-date symlink: /home/robogait/catkin_ws/install/test/share/ament_index/resource_index/parent_prefix_path/test
+[0.126s] -- Up-to-date symlink: /home/robogait/catkin_ws/install/test/share/test/environment/ament_prefix_path.sh
+[0.126s] -- Up-to-date symlink: /home/robogait/catkin_ws/install/test/share/test/environment/ament_prefix_path.dsv
+[0.126s] -- Up-to-date symlink: /home/robogait/catkin_ws/install/test/share/test/environment/path.sh
+[0.127s] -- Up-to-date symlink: /home/robogait/catkin_ws/install/test/share/test/environment/path.dsv
+[0.127s] -- Up-to-date symlink: /home/robogait/catkin_ws/install/test/share/test/local_setup.bash
+[0.127s] -- Up-to-date symlink: /home/robogait/catkin_ws/install/test/share/test/local_setup.sh
+[0.127s] -- Up-to-date symlink: /home/robogait/catkin_ws/install/test/share/test/local_setup.zsh
+[0.127s] -- Up-to-date symlink: /home/robogait/catkin_ws/install/test/share/test/local_setup.dsv
+[0.127s] -- Symlinking: /home/robogait/catkin_ws/install/test/share/test/package.dsv
+[0.135s] -- Up-to-date symlink: /home/robogait/catkin_ws/install/test/share/ament_index/resource_index/packages/test
+[0.135s] -- Up-to-date symlink: /home/robogait/catkin_ws/install/test/share/test/cmake/testConfig.cmake
+[0.135s] -- Up-to-date symlink: /home/robogait/catkin_ws/install/test/share/test/cmake/testConfig-version.cmake
+[0.136s] -- Up-to-date symlink: /home/robogait/catkin_ws/install/test/share/test/package.xml
+[0.137s] Invoked command in '/home/robogait/catkin_ws/build/test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robogait/nav2_ws/install/nav2_gazebo_spawner:/home/robogait/ros2_serial/install/ourbotmanager:/opt/ros/foxy /usr/bin/cmake --install /home/robogait/catkin_ws/build/test
